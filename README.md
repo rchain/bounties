@@ -7,8 +7,12 @@ This repository is meant for all organizational matters, like:
 - etc.
 
 A manual process for becoming a member:
-[Registration form](https://docs.google.com/open?id=1BohlW_z9HgMbAaFaAZcwno7mbIB3KgFCsAzpqZbZf04)<br>
-[Registered members](https://docs.google.com/open?id=1FU9SIwocJk2EXPqsx8x7vlORqul2WDnNs-nG0w3vbV8)<br>
-[Declaration form](https://drive.google.com/open?id=1LpXu_Nl8LajffKbSRnqMi_GTbZ6HiqlnZ3eWQ4cm4no)<br>
-[Declarations](https://drive.google.com/open?id=19Y5aEZelHa2JISCXB6jViTiRx9H0cCmha8arYz7vbg0)<br>
-[Invoice pdf](https://drive.google.com/open?id=0BwX0krsxHncTbk5pRmZBWDBsZm8)<br>
+- [Registration form](https://docs.google.com/open?id=1BohlW_z9HgMbAaFaAZcwno7mbIB3KgFCsAzpqZbZf04)
+- [Registered members](https://docs.google.com/open?id=1FU9SIwocJk2EXPqsx8x7vlORqul2WDnNs-nG0w3vbV8)
+- [Declaration form](https://drive.google.com/open?id=1LpXu_Nl8LajffKbSRnqMi_GTbZ6HiqlnZ3eWQ4cm4no)
+- [Declarations](https://drive.google.com/open?id=19Y5aEZelHa2JISCXB6jViTiRx9H0cCmha8arYz7vbg0)
+- [Invoice pdf](https://drive.google.com/open?id=0BwX0krsxHncTbk5pRmZBWDBsZm8)
+
+Tax calculator for WA:
+- [Payroll calculator](http://payrollwashington.com/PayrollCheckCalculator.aspx)
+- [Employee or Contractor](http://www.payroll-taxes.com/articles/employee-or-independent-contractor)
