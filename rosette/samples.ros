@@ -1,0 +1,40 @@
+;;; test Bank acount actor example
+
+(defOprn withdraw) 
+(defOprn deposit) 
+(defActor BankAccount (slots& balance 0) 
+(method (withdraw amount) 
+(cond ((<= amount balance) 
+(update balance (- balance amount)) 
+[withdrew amount]) 
+((> amount balance) 
+(update) 
+[overdraft (- amount balance)]))) 
+(method (deposit amount) 
+(update balance (+ balance amount)) 
+[deposited amount]
+)
+)
+
+::: add a method to an existing actor
+
+(defOprn balance)
+(defMethod BankAccount (balance) balance)
+
+;; DEBUG
+
+(defOprn assets)
+(defActor JimScarver (slots& bankaccount (new BankAccount 1000.00))  
+(method (assets)
+[bankaccount (bankaccount balance)]
+)
+) 
+
+;; factorial using continuations
+(defProc (kfact n k) (if (< n 2) (k 1) (kfact (- n 1) (proc [x] (k (* n x))))))
+
+(kfact 2 print)  (kfact 1 (proc[2] (print (* 1 2)))))
+(kfact 3 print)  ((kfact 2 (proc[3] (print (* (* 1 2) 3)))))
+
+;;; program as data, extend JimScarver actor; hello method;  realestate asset.
+
