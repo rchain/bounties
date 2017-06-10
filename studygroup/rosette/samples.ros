@@ -38,3 +38,14 @@
 
 ;;; program as data, extend JimScarver actor; hello method;  realestate asset.
 
+;;; This is the Rosette source that was produced from Kent's helloWorld contract in Rholang
+
+(defOprn HelloWorld)
+(defActor HelloWorldContract
+	(method (HelloWorld world1 world2)
+		(let[[[[[dd66c1eab1eb_binding] 8419030e6f88]] (consume t world1 'msg)]]
+			((proc [dd66c1eab1eb] (produce t world2 'msg dd66c1eab1eb)) 8419030e6f88))))
+      
+;;; as of June 10, 2017, "consume" and "produce" hadn't been defined in the Rosette code.  
+
+
