@@ -20,7 +20,7 @@ ini_set('display_errors', 1);
     echo $input."\n\n";
     $event = $json->event;
 
-// get the user name from user object id
+// get the username from user object id
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL,"https://slack.com/api/users.info");
 curl_setopt($ch, CURLOPT_POST, 1);
@@ -31,8 +31,8 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $server_output = curl_exec ($ch);
 curl_close ($ch);
 echo $server_output."\n\n";
-$name = json_decode($server_output)->user->name;
-echo "user=$user\n\n";
+$username = json_decode($server_output)->user->name;
+echo "username=$username\n\n";
 
 // get the channel name from channel object id
 $ch = curl_init();
@@ -62,10 +62,10 @@ switch ($channel) {
         $end="Nice to see you joined #general again. More info is available at <http://rchain.coop|our website>...";
         break;
     case "identity":
-        $end="Hi {$user}, we detected that you joined the #{$channel} channel. Maybe you want to check out the <https://docs.google.com/document/d/1y0uoduAO3qMs9cJ7hmO8jmlvlPDBLm8es85b_wKDB2Q/edit|BYOID (Bring Your Own Identity) Project>. Also there's a weekly meeting, every saturday at 11am New York time, in this <https://zoom.us/j/6853551826|Zoom room>. You can contact @kitblake if you have questions.";
+        $end="Hi {$username}, we detected that you joined the #{$channel} channel. Maybe you want to check out the <https://docs.google.com/document/d/1y0uoduAO3qMs9cJ7hmO8jmlvlPDBLm8es85b_wKDB2Q/edit|BYOID (Bring Your Own Identity) Project>. Also there's a weekly meeting, every saturday at 11am New York time, in this <https://zoom.us/j/6853551826|Zoom room>. You can contact @kitblake if you have questions.";
         break;
     case "rholang":
-        $end="Hi {$user}, we detected that you joined the #{$channel} channel. If you're new to Rholang and/or Pi Calculus maybe you want to check out the paper <http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/|Mobile process calculi for programming the blockchain>. In any case you can contact @jimscarver if you have questions.";
+        $end="Hi {$username}, we detected that you joined the #{$channel} channel. If you're new to Rholang and/or Pi Calculus maybe you want to check out the paper <http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/|Mobile process calculi for programming the blockchain>. In any case you can contact @jimscarver if you have questions.";
         break;
 default:
         // in the future this should be 'do nothing' but we keep it for testing
