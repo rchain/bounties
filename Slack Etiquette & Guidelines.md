@@ -1,13 +1,13 @@
-#RChain Slack - Etiquette & Guidelines
+# RChain Slack - Etiquette & Guidelines
 
 
-##Overview  
+## Overview  
 
 The RChain slack channel (ourchain.slack.com) is a tool to enable real-time cooperation and collaboration that will further the progression of the RChain platform and ecosystem. 
 
 It’s important to us that the individuals who are driving results for the RChain community feel comfortable engaging with the community regularly. Therefore:
 
-**Some things that wegreatly appreciate are:**
+**Some things that we greatly appreciate are:**
  
 - personal introductions in #general 
 - channel specific conversations (rholang in #rholang, governance in #community-governance) 
