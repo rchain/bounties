@@ -7,13 +7,13 @@ The RChain slack channel (ourchain.slack.com) is a tool to enable real-time coop
 
 It’s important to us that the individuals who are driving results for the RChain community feel comfortable engaging with the community regularly. Therefore:
 
-**Some things that we greatly appreciate are:**
+## **Some things that we greatly appreciate are:**
  
 - personal introductions in #general 
 - channel specific conversations (rholang in #rholang, governance in #community-governance) 
 - citing of sources of information and reference 
   
-**Some things we strongly encourage are:**
+## **Some things we strongly encourage are:**
 
 - ideation with community members for the RChain platform and dApps 
 - due diligence of [RChain platform documentation](https://github.com/rchain/reference) 
@@ -21,7 +21,7 @@ It’s important to us that the individuals who are driving results for the RCha
 - formal proposals for solutions to community problems  
 - the transformation of conversations, into hangouts, into proposals, into teams and into solutions  
   
-**Some things that a moderator will warn against:**
+## **Some things that a moderator will warn against:**
 
 - repeating claims on an individual’s character and intentions due to lack of information 
 - the repeated spreading of misinformation  
@@ -29,7 +29,7 @@ It’s important to us that the individuals who are driving results for the RCha
 - rude and offensive language 
 - spamming multiple channels with off-topic or offensive content 
   
-**Some things for which we will reluctantly remove accounts are:**
+## **Some things for which we will reluctantly remove accounts are:**
 
 - habitual disregard of guidelines for strongly discouraged activities above becoming disruptive to the community 
 - neglect to abide by these guidelines despite multiple personal requests - public or private - from different active community members 
