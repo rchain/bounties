@@ -61,6 +61,9 @@ switch ($channel) {
     case "general":
         $end="Nice to see you joined #general again. More info is available at <http://rchain.coop|our website>...";
         break;
+    case "community":
+        $end="Hi {$username}, we detected that you joined the #{$channel} channel. If you'd like to get more involved with RChain there is a group of Activists who are collaborating on epics to shape and organize the Cooperative. Their activities are organized using <https://github.com/rchain/Members|Github tools>. Have a look. If you'd like to join in please sign up by filling out this <https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform?fbzx=-4415397049662474000|Activist Registration form>. You can contact @lapin7 if you have any questions.";
+        break;
     case "identity":
         $end="Hi {$username}, we detected that you joined the #{$channel} channel. Maybe you want to check out the <https://docs.google.com/document/d/1y0uoduAO3qMs9cJ7hmO8jmlvlPDBLm8es85b_wKDB2Q/edit|BYOID (Bring Your Own Identity) Project>. Also there's a weekly meeting, every saturday at 11am New York time, in this <https://zoom.us/j/6853551826|Zoom room>. You can contact @kitblake if you have questions.";
         break;
