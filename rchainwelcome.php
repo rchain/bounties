@@ -61,12 +61,12 @@ echo "channel=$channel\n\n";
         $server_output = curl_exec ($ch);
         curl_close ($ch);
         echo $server_output."\n\n";
-        $name = json_decode($server_output)->user->inviter;
+        $inviter = json_decode($server_output)->user->inviter;
         echo "inviter=$inviter\n\n";
         // start message
-        $start="Hi {$name} and welcome. We detected that </team/{$inviter}|@{$inviter}> invited you to the </archives/{$event->channel}|#{$channel}> channel.";
+        $start="Hi {$name} and welcome. We detected that <https://rchain-ai.slack.com/team/{$inviter}|@{$inviter}> invited you to the <https://rchain-ai.slack.com/archives/{$event->channel}|#{$channel}> channel.";
     } else {
-        $start="Hi {$name} and welcome. We detected that you joined the </archives/{$event->channel}|#{$channel}> channel.";
+        $start="Hi {$name} and welcome. We detected that you joined the <https://rchain-ai.slack.com/archives/{$event->channel}|#{$channel}> channel.";
 }
 // set channel specific message
 switch ($channel) {
@@ -76,13 +76,13 @@ switch ($channel) {
         $end="If you're seeing this message then something's funky. Could you please inform admin? Thanks.";
         break;
     case "community":
-        $end="If you'd like to get more involved with RChain there is a group of Activists who are collaborating on epics to shape and organize the Cooperative. Their activities are organized using <https://github.com/rchain/Members|Github tools>. Maybe have a look. If you'd like to participate please sign up by filling out this <https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform?fbzx=-4415397049662474000|Activist Registration form>. You can contact </team/lapin7|@lapin7> if you have any questions.";
+        $end="If you'd like to get more involved with RChain there is a group of Activists who are collaborating on epics to shape and organize the Cooperative. Their activities are organized using <https://github.com/rchain/Members|Github tools>. Maybe have a look. If you'd like to participate please sign up by filling out this <https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform?fbzx=-4415397049662474000|Activist Registration form>. You can contact <https://rchain-ai.slack.com/team/lapin7|@lapin7> if you have any questions.";
         break;
     case "identity":
-        $end="Maybe you want to check out the <https://docs.google.com/document/d/1y0uoduAO3qMs9cJ7hmO8jmlvlPDBLm8es85b_wKDB2Q/edit|BYOID (Bring Your Own Identity) Project>. Also there's a weekly meeting, every saturday at 11am New York time, in this <https://zoom.us/j/6853551826|Zoom room>. You can contact </team/kitblake|@kitblake> if you have questions.";
+        $end="Maybe you want to check out the <https://docs.google.com/document/d/1y0uoduAO3qMs9cJ7hmO8jmlvlPDBLm8es85b_wKDB2Q/edit|BYOID (Bring Your Own Identity) Project>. Also there's a weekly meeting, every saturday at 11am New York time, in this <https://zoom.us/j/6853551826|Zoom room>. You can contact <https://rchain-ai.slack.com/team/kitblake|@kitblake> if you have questions.";
         break;
     case "rholang":
-        $end="If you're new to Rholang and/or Pi Calculus maybe you want to check out the paper <http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/|Mobile process calculi for programming the blockchain>. In any case you can contact </team/jimscarver|@jimscarver> if you have questions.";
+        $end="If you're new to Rholang and/or Pi Calculus maybe you want to check out the paper <http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/|Mobile process calculi for programming the blockchain>. In any case you can contact <https://rchain-ai.slack.com/team/jimscarver|@jimscarver> if you have questions.";
         break;
 default:
         // $end="More info is available at <http://rchain.coop|our website>...";
