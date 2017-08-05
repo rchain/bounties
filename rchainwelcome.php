@@ -48,9 +48,23 @@ echo $server_output."\n\n";
 $channel = json_decode($server_output)->channel->name;
 echo "channel=$channel\n\n";
 
-// see if user was invited by someone, ToDo: retrieve $invitername
+// see if user was invited by someone
     if (isset($event->inviter))   {
-        $start="Hi {$name} and welcome. We detected that @invitername invited you to the </archives/{$event->channel}|#{$channel}> channel.";
+        // get the inviter name from inviter object id
+        $ch = curl_init();
+        curl_setopt($ch, CURLOPT_URL,"https://slack.com/api/users.info");
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
+                'token' =>  $apptoken,
+                'inviter' => $event->inviter)));
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        $server_output = curl_exec ($ch);
+        curl_close ($ch);
+        echo $server_output."\n\n";
+        $name = json_decode($server_output)->user->inviter;
+        echo "inviter=$inviter\n\n";
+        // start message
+        $start="Hi {$name} and welcome. We detected that </team/{$inviter}|@{$inviter}> invited you to the </archives/{$event->channel}|#{$channel}> channel.";
     } else {
         $start="Hi {$name} and welcome. We detected that you joined the </archives/{$event->channel}|#{$channel}> channel.";
 }
