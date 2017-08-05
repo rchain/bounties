@@ -31,8 +31,8 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $server_output = curl_exec ($ch);
 curl_close ($ch);
 echo $server_output."\n\n";
-$username = json_decode($server_output)->user->name;
-echo "username=$username\n\n";
+$name = json_decode($server_output)->user->name;
+echo "name=$name\n\n";
 
 // get the channel name from channel object id
 $ch = curl_init();
@@ -50,9 +50,9 @@ echo "channel=$channel\n\n";
 
 // see if user was invited by someone, ToDo: retrieve $invitername
     if (isset($event->inviter))   {
-        $start="Hi{$username} and welcome. We detected that @invitername invited you to #{$channel}.";
+        $start="Hi {$name} and welcome. We detected that @invitername invited you to the #{$channel} channel.";
     } else {
-        $start="Hi{$username} and welcome. We detected that you joined #{$channel}.";
+        $start="Hi{$name} and welcome. We detected that you joined the #{$channel} channel.";
 }
 // set channel specific message
 switch ($channel) {
