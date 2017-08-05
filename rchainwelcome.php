@@ -8,7 +8,7 @@ ini_set('display_errors', 1);
 //TODO check API token to be sure slack is sending the event
  // Retrieve the request body from slack and parse it as JSON
     $input = @file_get_contents("php://input");
-     file_put_contents("rchainwelcomedata", "this stuff\n".$input);
+     file_put_contents("rchainwelcomedata", $input);
     $json = json_decode($input);
     if (isset($json->challenge)) {
         echo "challenge=".$json->challenge."\n";
@@ -52,7 +52,7 @@ echo "channel=$channel\n\n";
     if (isset($event->inviter))   {
         $start="Hi {$name} and welcome. We detected that @invitername invited you to the #{$channel} channel.";
     } else {
-        $start="Hi{$name} and welcome. We detected that you joined the #{$channel} channel.";
+        $start="Hi {$name} and welcome. We detected that you joined the |{/archives/{$event->channel}|#{$channel}> channel.";
 }
 // set channel specific message
 switch ($channel) {
