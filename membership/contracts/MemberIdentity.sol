@@ -9,12 +9,12 @@ Specific factors to be hashed in identity hash for RChain is TBD. No identity fa
 For rchain membership we will need claimed and verified mappings and may want to use encrypted rather than hashed credentials. 
 
 Use case using hashes: 
-1. a membership request is made off chain by supplying rhain with their identity factors kept off chain. (google form?)
+1. a membership request is made off chain by supplying rhain with their identity factors kept off chain. (google form)
 2. The hashed identity with a random string at the end is emailed to the user verifying email address.
-3. The user requests membership paying 1 eth to become a claimed identity giving the hash of their identity factors they received by email from an ethereum address they own..
-4. Requests are handled manually and then registered on the blockchain
-5. a random key is sent to the user by postal mail offline.
-6. An encrypted value by that key is sent to the contract and set in the code mapping.
+3. The user requests membership paying cost fopr verification (member fee) to become a claimed identity giving the hash of their identity factors they received by email from an ethereum address they own..
+4. Requests are handled manually.
+5. a code (based on member hash) is sent to the user by postal mail offline.
+6. another is sent by email, another by sms
 7. When the user receives the key by mail they invoke a validator method in the contract which attempts to decode the verification string and conditionally adds the ethereum address as a corroboration of the mailing address and email to the verified mapping.
 8. The contract owner (rchain) can revoke a corroboration. Later, in the case of rejection of a membership request, the eth should be returned returned if it can be done safely. Returning the eth offline is safer.
 */
