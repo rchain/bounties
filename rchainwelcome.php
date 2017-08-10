@@ -56,12 +56,12 @@ echo "channel=$channel\n\n";
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
                 'token' =>  $apptoken,
-                'inviter' => $event->inviter)));
+                'user' => $event->inviter)));
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
         $server_output = curl_exec ($ch);
         curl_close ($ch);
         echo $server_output."\n\n";
-        $inviter = json_decode($server_output)->user->inviter;
+        $inviter = json_decode($server_output)->user->name;
         echo "inviter=$inviter\n\n";
         // start message
         $start="Hi {$name} and welcome. We detected that <https://rchain-ai.slack.com/team/{$inviter}|@{$inviter}> invited you to the <https://rchain-ai.slack.com/archives/{$event->channel}|#{$channel}> channel.";
