@@ -1,4 +1,4 @@
-pragma solidity ^0.4.2;
+pragma solidity ^0.4.15;
 /*
 We are starting from a simple identity contract supporting KYC using hashes computed off chain, e.g.
 
@@ -33,14 +33,14 @@ contract MemberIdentityRegistry {
     //   http://solidity.readthedocs.io/en/develop/security-considerations.html
     // TODO test and debug
     address public owner = msg.sender; //TODO add methods to change owner
-    address public wallet; // wallet to hold rhoc rewards and eth commected.
+    address public wallet = msg.sender; // wallet to hold rhoc rewards and eth commected.
     uint256 public price = .001 ether; // prevent spam, cover costs.
     mapping(address => mapping(bytes32 => uint256)) public verified;
-    mapping(address => mapping(bytes32 => bytes32)) public code;
-    mapping(address => mapping(bytes32 => uint256)) claimed;  // TOIDO use data structure for hash and code?
+    mapping(address => mapping(bytes32 => bytes32)) public codes;
+    mapping(address => mapping(bytes32 => uint256)) public claimed;  // TOIDO use data structure for hash and code?
     mapping(address => address) uPortAddress; // future use
     
-    event ClaimedEvent(uint256 hash, bytes32 factor, bytes32 code);
+    event ClaimedEvent(uint256 hash, bytes32 factor, bytes32 codes);
     event VerifiedEvent(uint256 hash);
     
     function setPrice(uint256 value) {
@@ -59,13 +59,18 @@ contract MemberIdentityRegistry {
         claimed[msg.sender]["email"] = hash;
         ClaimedEvent(hash, "email", "");
     }
-    function claimIFactor(bytes32 factor, bytes32 code) payable {
-         uint256 hash = claimed[msg.sender]["email"]
+    function verify(address who, bytes32 factor) { 
+        if(owner != msg.sender) throw;
+        uint256 hash = claimed[msg.sender]["email"];
+        verified[msg.sender][factor] = hash;
+    }
+    function claimIFactor2(bytes32 factor, bytes32 code) payable {
+         uint256 hash = claimed[msg.sender]["email"];
         // receive eth fee
 	    if(msg.value != price) throw;
 	    if ( ! wallet.send(msg.value) ) throw;
         claimed[msg.sender][factor] = hash;
-	code[msg.sender][factor] = code;
+	    codes[msg.sender][factor] = code;
         ClaimedEvent(hash, factor, code);
     }
 
