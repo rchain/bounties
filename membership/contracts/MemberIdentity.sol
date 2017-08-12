@@ -9,17 +9,21 @@ Specific factors to be hashed in identity hash for RChain is TBD. No identity fa
 For rchain membership we will need claimed and verified mappings and may want to use encrypted rather than hashed credentials. 
 
 Use case using hashes: 
-1. a membership request is made off chain by supplying rhain with their identity factors kept off chain. (google form)
-2. The hashed identity with a random string at the end is emailed to the user verifying email address.
-3. The user requests membership paying cost fopr verification (member fee) to become a claimed identity giving the hash of their identity factors they received by email from an ethereum address they own..
-4. Requests are handled manually.
-5. a code (based on member hash) is sent to the user by postal mail offline.
-6. another is sent by email, another by sms
-7. When the user receives the key by mail they invoke a validator method in the contract which attempts to decode the verification string and conditionally adds the ethereum address as a corroboration of the mailing address and email to the verified mapping.
-8. The contract owner (rchain) can revoke a corroboration. Later, in the case of rejection of a membership request, the eth should be returned returned if it can be done safely. Returning the eth offline is safer.
+1. a membership request is made off chain by supplying rhain with their identity factors kept off chain. 
+   Google form triggers email, sms, postcard with codes of 6 charactes of the hash.
+   The hashed identity (form fields) (with a random string at the end?), contract address and code is sent to the user 
+   for verifying a cliam. 
+2. user activates account with ther hash sent by email associating the email addresses with the member hash and ethereum address. 
+   A small amount of eth is charged to prevent spam and cover costs.
+3. Then they they invoke a validator method in the contract which adds the code as a claim 
+   for the member associated with the ethereum address. A small amount of eth is charged to prevent spam and cover costs.
+4. The contract owner (rchain) monitors the log for claims and can add, verify or revoke claims and verifications. 
+   Claim verification may reward the claiment in rhoc.
+5. A member can add or replace an eth address associated with their hash.
+6. Anyone can determin if claims have been berified ny rchain associated with the hash id of an ethereum accopunt.
 */
-// work in progress, starting from a simple solidity example, comment and suggest edits.
-// TODO make Owned?
+// work in progress, simple proof of concept, comment and suggest edits.
+// TODO make Owned? integrate with uPort?
 contract MemberIdentityRegistry {
     // TODO bring up to standards (amp/rhoc/divvy bounties, work claimed in comments)
     //   http://solidity.readthedocs.io/en/develop/layout-of-source-files.html
@@ -29,14 +33,13 @@ contract MemberIdentityRegistry {
     //   http://solidity.readthedocs.io/en/develop/security-considerations.html
     // TODO test and debug
     address public owner = msg.sender;
-    address public wallet; // wallet to receive membership fees
-    uint256 public price = 1 ether;
+    address public wallet; // wallet to hold rhoc rewards and eth commected.
+    uint256 public price = .001 ether; // prevent spam, cover costs.
     mapping(address => mapping(bytes32 => uint256)) public verified;
     mapping(address => mapping(bytes32 => uint256)) claimed;  
-    mapping(address => mapping(bytes32 => uint256)) code;
     mapping(address => address) uPortAddress; // future use
     
-    event Registered(uint256 hash);
+    event ClaimedEvent(uint256 hash, bytes32 factor, bytes32 code);
     event Verified(uint256 hash);
     
     function setPrice(uint256 value) {
@@ -48,45 +51,26 @@ contract MemberIdentityRegistry {
         if(owner != msg.sender) throw;
         wallet = addr;
     }
-        function claimIFactor(bytes32 factor, uint256 hash) payable {
-        // receive eth coop membership fee
-	    // if(msg.value != 1 ether) throw;
+    function activate(uint256 hash) payable { // hash sent to email verifies email
+        // receive eth fee
+	    // if(msg.value != price) throw;
+	    if ( ! wallet.send(msg.value) ) throw;
+        claimed[msg.sender]["email"] = hash;
+        ClaimedEvent(hash, "email", "");
+    }
+    function claimIFactor(bytes32 factor, uint256 hash) payable {
+        // receive eth fee
+	    // if(msg.value != price) throw;
 	    if ( ! wallet.send(msg.value) ) throw;
         claimed[msg.sender][factor] = hash;
-        Registered(hash);
+        ClaimedEvent(hash, factor, code);
     }
 
-    function verifyCode(bytes32 factor, uint256 key) returns (bool) {
-        uint256 encrypted = code[msg.sender][factor];
-        // TODO decode encrypted with key better than product of primes
-        bool decoded = encrypted == (key % 1000000) * (key/1000000);
-        if ( decoded ) {
-            uint256 hash = claimed[msg.sender][factor];
-            verified[msg.sender][factor] = hash;
-            verified[msg.sender]["email"] = hash;
-            Verified(hash);
-            return true;
-        }
-        return false;
-    }
-
-    function setCode(address who, bytes32 factor, uint256 encrypted) {
-        if(owner != msg.sender) throw;
-        code[who][factor] = encrypted;
-    }
-
-    function verifyIdentity(address who, bytes32 factor, uint256 hash) constant returns(bool) {
-        return verified[who][factor] == hash;
-    }
     function bringuPort(address uPortId) {   // for future
-        // TODO verify address belongs to uPortId
-   // corroborate address in uPort ID
+        // TODO verify address belongs to uPortId?
         uPortAddress[msg.sender] = uPortId;
     }
     
-    function getHashID(address who, bytes32 factor) returns (uint256) {
-        return claimed[who][factor];
-    }
     function getVerifiedHashID(address who, bytes32 factor) returns (uint256) {
         return verified[who][factor];
     }
