@@ -93,16 +93,16 @@ default:
 $text = $start." ".$end;
 
 
-// post the message to user on slack
+// post a direct message to user on slack
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL,"https://slack.com/api/chat.postMessage");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
         'token' =>  $apptoken,
+        'channel' => "@".$name,
         'as_user' => false,
         'username' => "Welcome Bot",
         'icon_url' => "http://divvydao.org/rchain/welcomemat.png",
-        'channel' => "@".$name,
         'link_names' => true,
         'text' => $text)));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
