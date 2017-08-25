@@ -82,7 +82,7 @@ switch ($channel) {
         $end="Maybe you want to check out the <https://docs.google.com/document/d/1y0uoduAO3qMs9cJ7hmO8jmlvlPDBLm8es85b_wKDB2Q/edit|BYOID (Bring Your Own Identity) Project>. Also there's a weekly meeting, every saturday at 11am New York time, in this <https://zoom.us/j/6853551826|Zoom room>. You can contact <https://rchain-ai.slack.com/team/kitblake|@kitblake> if you have questions.";
         break;
     case "rholang":
-        $end="If you're new to Rholang and/or Pi Calculus maybe you want to check out the paper <http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/|Mobile process calculi for programming the blockchain>. In any case you can contact <https://rchain-ai.slack.com/team/jimscarver|@jimscarver> if you have questions.";
+        $end="If you're new to Rholang and/or Pi Calculus maybe you want to check out the paper <http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/|Mobile process calculi for programming the blockchain>. In any case you can contact @jimscarver if you have questions.";
         break;
 default:
         // $end="More info is available at <http://rchain.coop|our website>...";
@@ -99,10 +99,11 @@ curl_setopt($ch, CURLOPT_URL,"https://slack.com/api/chat.postMessage");
 curl_setopt($ch, CURLOPT_POST, 1);
 curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
         'token' =>  $apptoken,
-        'as_user' => "false",
+        'as_user' => false,
         'username' => "Welcome Bot",
         'icon_url' => "http://divvydao.org/rchain/welcomemat.png",
         'channel' => "@".$name,
+        'link_names' => true,
         'text' => $text)));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $server_output = curl_exec ($ch);
