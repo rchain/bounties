@@ -1,6 +1,6 @@
 <?php
 # slack integration to welcome members to channels
-require('rchain/initwelcome2.php'); # define apptoken
+require('rchain/initwelcome.php'); # define apptoken
 #set verbose error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
