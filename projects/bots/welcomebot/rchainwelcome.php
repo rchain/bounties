@@ -1,12 +1,11 @@
 <?php
-# slack integration to welcome members to channels
+# Slack integration to welcome members to channels
 require('rchain/initwelcome.php'); # define apptoken
 #set verbose error reporting
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-//TODO check API token to be sure slack is sending the event
- // Retrieve the request body from slack and parse it as JSON
+// retrieve the request body from slack and parse it as JSON
     $input = @file_get_contents("php://input");
      file_put_contents("rchainwelcomedata", $input);
     $json = json_decode($input);
@@ -50,7 +49,7 @@ echo "channel=$channel\n\n";
 
 // see if user was invited by someone
     if (isset($event->inviter))   {
-        // get the inviter name from inviter object id
+        // if so get the inviter name from inviter object id
         $ch = curl_init();
         curl_setopt($ch, CURLOPT_URL,"https://slack.com/api/users.info");
         curl_setopt($ch, CURLOPT_POST, 1);
@@ -85,8 +84,7 @@ switch ($channel) {
         $end="If you're new to Rholang and/or Pi Calculus maybe you want to check out the paper <http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/|Mobile process calculi for programming the blockchain>. In any case you can contact @jimscarver if you have questions.";
         break;
 default:
-        // $end="More info is available at <http://rchain.coop|our website>...";
-        // Do nothing if there is not a case/custom message for the channel
+        // if there is not a case/custom message for the channel do nothing 
         http_response_code(200); // always succeed
         exit();
 }
@@ -102,7 +100,7 @@ curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array(
         'channel' => "@".$name,
         'as_user' => false,
         'username' => "Welcome Bot",
-        'icon_url' => "http://divvydao.org/rchain/welcomematicon.png",
+        'icon_url' => "http://divvydao.org/rchain/welcomeboticon.png",
         'link_names' => true,
         'text' => $text)));
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
