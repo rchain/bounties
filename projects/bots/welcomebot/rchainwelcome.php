@@ -64,7 +64,7 @@ echo "channel=$channel\n\n";
         $inviter = json_decode($server_output)->user->name;
         echo "inviter=$inviter\n\n";
         // start message
-        $start="Hi {$name} and welcome. We detected that <https://rchain-ai.slack.com/team/{$inviter}|@{$inviter}> invited you to the <https://rchain-ai.slack.com/archives/{$event->channel}|#{$channel}> channel.";
+        $start="Hi {$name} and welcome. We detected that @{$inviter} invited you to the #{$channel} channel.";
     } else {
         $start="Hi {$name} and welcome. We detected that you joined the #{$channel} channel.";
 }
