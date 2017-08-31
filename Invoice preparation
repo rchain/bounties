@@ -1,0 +1,18 @@
+Subject: Prepare Invoice for {{Period}} RHOCH reward
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Dear {{Github Name}},</p>
+<p>Thanks for your help in getting a decentralised governance model working for allocation of budgets to Github issues and setting the percentages for rewards in <a href="https://docs.google.com/spreadsheets/d/1wD8DzlvXZCtfycToN0K506Kev4oJm8yvosY0FIHZiYM/edit#gid=2044445250" target="_blank">RChain Activist RHOC Distribution</a>.</p>
+<p>Through the add on "Mail Merge with Attachments" you will see here an overview of your reward for working on issue {{Github issue}}.<br />Your reward for this month is {{$ To Pay}} on issue {{Github issue}} or {{⍴ To Pay}}.<br />This reward is {{AVG work}} of the budget.<br />If this information is not correct then please say so.</p>
+<p><br />The transfer will be done after you've made a declaration through the <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform" target="_blank">Declaration Form</a> with a Gdrive link to your invoice in PDF format. If that doesn't work, then please send the invoice in PDF format to ops@rchain.coop..</p>
+<p>You can use <a href="https://docs.google.com/spreadsheets/d/1v_mdcabsCsRTB4hR4GIHvkZrB2k9Ddp3LQcu8rsL5zU/edit#gid=1989342494" target="_blank">Template Invoice</a> or you can make an invoice yourself, containing the following info:</p>
+<p><br />First name, Last name / Company name, <br />Address, <br />City, <br />Postal code, <br />State, <br />Country, <br />ETH address, <br />Due date, <br />Invoice date, <br />Service description: I've worked for {{AVG work}} on issue {{Github issue}} during the period from August 1, 2017 to August 31, 2017<br />Extra comment is useful for improving this way of working.</p>
+<p>If your payments during this year are above $500, then the Coop needs a <a href="https://www.irs.gov/pub/irs-pdf/fw9.pdf" target="_blank">tax form</a> to be filled out with you.<br />If your work for the Coop is on a regular base, then the Coop needs also a Statement of Work.</p>
+<p>Let's see how this goes and I hope that the first transfers will happen this month.<br />--</p>
+<p>Cheers,<br />HJ</p>
+</body>
+</html>
