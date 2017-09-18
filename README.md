@@ -1,5 +1,7 @@
 # Activists
 
+[![Join the chat at https://gitter.im/rchain/Members](https://badges.gitter.im/rchain/Members.svg)](https://gitter.im/rchain/Members?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 This repository is meant for all organizational matters, like:
 - defining how we work together
 - how to become involved as a activist
