@@ -4,7 +4,7 @@ Find us in Slack [#coop](https://ourchain.slack.com/). We want you working on th
 Not just code: [Marketing - Content Curation, Creation and Outreach][comm] and any other way to
 support the coop is welcome.
 
-[comm]: (https://github.com/rchain/Members/projects/2)
+[comm]: https://github.com/rchain/Members/projects/2
 
 The [issues](https://github.com/rchain/Members/issues) in this
 repository are the basis of an
@@ -15,12 +15,12 @@ emerging [market of RChain Activist work](CONTRIBUTING.md).
 Every Wednesday the team joins in a hangout that streams
 to [RChain’s youtube channel][youtube].
 
-[youtube]: (https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w)
+[youtube]: https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w
 
 We keep an [index of debrief topics][debrief-ix] to help you get up to
 speed.
 
-[debrief-ix]: (https://github.com/rchain/Members/wiki/Weekly-Debrief-Index)
+[debrief-ix]: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
 
 ## About RChain
 
