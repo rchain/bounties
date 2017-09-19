@@ -2,42 +2,28 @@
 
 I'm really glad you're reading this, because we need volunteer developers to help this project come to fruition.
 
-If you haven't already, come find us in Slack [#coop](https://ourchain.slack.com/). We want you working on things you're excited about.
+We're establishing a community process for activists to earn RHOC working for the coop.
 
-Here are some important resources:
+ - Work items are represented by [issues](https://github.com/rchain/Members/issues/)
+   - To make one or join work on one, you need to:
+     1. [ ] get/have a [Github account](https://github.com/rchain/Members)
+     2. [ ] complete [RChain Activist Registration](https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform)
+       - [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members) 
+ - Budgets are allocated to work items by at least three Activists
+   - [ ] suggest a budget through form [Budget allocation and - spending](https://docs.google.com/forms/d/e/1FAIpQLSfz-EGexMGPaw0eHwlBBNssQIR5hQCEOsWOZceVrPCo5mjGUA/viewform)
+   - [ ] key activist will handle this suggestion [Pub Activist Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1168839067)
+ - RHOC are distributed monthly based on invoices
+   - [ ] During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. Through form [Budget allocation and - spending](https://docs.google.com/forms/d/e/1FAIpQLSfz-EGexMGPaw0eHwlBBNssQIR5hQCEOsWOZceVrPCo5mjGUA/viewform)
+   - [ ] At the end of the month an invoice template will be generated and emailed to the collaborator
+   - [ ] Sends an own invoice with that data through form [Declaration]. The invoice has to be stored as a PDF file in a personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE)
+   - [ ] As soon as ops@rchain.coop receives the invoice, the RHOC will transferred to  ETH-addresses. The invoice can also be emailed.
 
-  * [Governance document](.....) tells you where we are,
-  * [Our roadmap](...) is the 10k foot view of where we're going, and
-  * [Tracker](https://github.com/rchain/Members/issues/3#boards?repos=84472896) is our day-to-day project management space. Works only with #Chrome.
-  * Mailing list: Join our [developer list](http://groups.google.com/group/rchain/) >> Has to be set up still
-  * Bugs/Suggestions? [Github](https://github.com/rchain/Members/issues/) is where to report them
-  
-## Testing
-???
-We have a handful of Cucumber features, but most of our testbed consists of RSpec examples. Please write RSpec examples for new code you create.
+The first monthly cycle was Aug 2017. HJH (lapin7) presented this
+process Aug 30
+in
+[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s).
 
-## Submitting changes
 
-Please send a [GitHub Pull Request to Rchain Members](https://github.com/rchain/Members/pull/new/master) with a clear list of what you've done (read more about [pull requests](http://help.github.com/pull-requests/)). When you send a pull request, we will love you forever if you include RSpec examples. We can always use more test coverage. Please follow our coding conventions (below) and make sure all of your commits are atomic (one feature per commit).
-
-Always write a clear log message for your commits. One-line messages are fine for small changes, but bigger changes should look like this:
-
-    $ git commit -m "A brief summary of the commit
-    > 
-    > A paragraph describing what changed and its impact."
-
-## Coding conventions
-
-?????
-Start reading our code and you'll get the hang of it. We optimize for readability:
-
-  * We indent using two spaces (soft tabs)
-  * We use HAML for all views
-  * We avoid logic in views, putting HTML generators into helpers
-  * We ALWAYS put spaces after list items and method parameters (`[1, 2, 3]`, not `[1,2,3]`), around operators (`x += 1`, not `x+=1`), and around hash arrows.
-  * This is open source software. Consider the people who will read your code, and make it look nice for them. It's sort of like driving a car: Perhaps you love doing donuts when you're alone, but with passengers the goal is to make the ride as smooth as possible.
-  * So that we can consistently serve images from the CDN, always use image_path or image_tag when referring to images. Never prepend "/images/" when using image_path or image_tag.
-  * Also for the CDN, always use cwd-relative paths rather than root-relative paths in image URLs in any CSS. So instead of url('/images/blah.gif'), use url('../images/blah.gif').
-
-Thanks,
-HJ (lapin7), Rchain Cooperation
+## Tax calculator for WA
+- [Payroll calculator](http://payrollwashington.com/PayrollCheckCalculator.aspx)
+- [Employee or Contractor](http://www.payroll-taxes.com/articles/employee-or-independent-contractor)
