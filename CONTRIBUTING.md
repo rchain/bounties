@@ -23,8 +23,7 @@ We're establishing a community process for activists to earn RHOC working for th
    - [ ] Finally management reports reports will be generated and presented in Debriefings of RChain.
    
 The first monthly cycle was Aug 2017. HJH (lapin7) presented this process Aug 30, 2017 in
-[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s).
-and an overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) are available.
+[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s) and an overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available.
 
 ## Tax calculator for WA
 - [Payroll calculator](http://payrollwashington.com/PayrollCheckCalculator.aspx)
