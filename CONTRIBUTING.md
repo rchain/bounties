@@ -13,13 +13,13 @@ We're establishing a community process for activists to earn RHOC working for th
    - [ ] Activist suggests a budget through form [Budget allocation and - spending](https://docs.google.com/forms/d/e/1FAIpQLSfz-EGexMGPaw0eHwlBBNssQIR5hQCEOsWOZceVrPCo5mjGUA/viewform)
    - [ ] [Operation manager](ops@rchain.coop), Ops will publish the suggestions through [Pub Activist Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1168839067)
  - RHOC are distributed monthly based on invoices
-   - [ ] During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. Through form [Budget allocation and - spending](https://docs.google.com/forms/d/e/1FAIpQLSfz-EGexMGPaw0eHwlBBNssQIR5hQCEOsWOZceVrPCo5mjGUA/viewform). Again the average of three reward suggestions set the personal reward for each collaborator.
-   - [ ] At the end of the month the situation will be frozen. No changes can be made anymore to neither budgets nor rewards. The payment process starts at the beginning of the month. 
+   - [ ] During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation through form [Budget allocation and - spending](https://docs.google.com/forms/d/e/1FAIpQLSfz-EGexMGPaw0eHwlBBNssQIR5hQCEOsWOZceVrPCo5mjGUA/viewform). The average of three reward suggestions set the personal reward for each collaborator.
+   - [ ] At the end of the month the situation will be frozen. No changes can be made anymore to either budgets or rewards. The payment process starts at the beginning of the month. 
    - [ ] The collaborator receives an email with a pre filled invoice and also the needed data if the collaborator wants to make his/her own invoice. The collaborator stores a PDF version of the pre filled invoice or the own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
    - [ ] The collaborator uses form [Declaration](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) to announce his/her claim and link to the PDF invoice. If that doesn't work then the invoice can also be emailed.
    - [ ] If the rewards are more then $600 per year, then a [Fw9 tax form](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
-   - [ ] As soon as the [Operation manager](ops@rchain.coop) is notified that the invoice PDF and the eventual tax form-Fw9 PDF are in the personal folder, Ops will transfer RHOC to the provide ETH-addresses.
-   - [ ] If a collaborator does regular work per month, then a Statement of Work has to be set up. This process will be available soon.
+   - [ ] As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provide ETH-addresses.
+   - [ ] If an activist does regular work per month, then a Statement of Work has to be set up. This process will be available soon.
    - [ ] Finally management reports reports will be generated and presented in Debriefings of RChain.
    
 The first monthly cycle was Aug 2017. HJH (lapin7) presented this process Aug 30, 2017 in
