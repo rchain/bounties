@@ -5,12 +5,9 @@ Thanks for having gone through the PRE-membership procedure. As you know the ter
 We now invite you to become a Member of the RChain Cooperative, i.e. moving from Activist to Member. It just needs an extra verification of your identity to establish proof of individuality, because we want to be sure that we're dealing with real persons. Please go through the process of [participating in the Private Sale](https://presale.rchain.coop/#/sign-in). Of course you are free to particpate but don't have to participate in the Private Sale. The reason is that it includes the process of becoming a Member.
 
 {{Remark}}
+
 **Process**
 
- - Work items are represented by [issues](https://github.com/rchain/Members/issues/)
-   - To make one or join work on one, you need to:
-     1. [ ] get/have a [Github account](https://github.com/rchain/Members)
-     2. [ ] complete [RChain Activist Registration]
 - Get a [Discord](https://discordapp.com/) account
 - [Sign up](https://presale.rchain.coop/#/sign-up) for the Pre Sale and pay the $20 fee. You will be reimbursed the $20 if you've paid also during the PRE-membership process.
 - Set a conference call time slot with a representative of RChain cooperative. During the conference call the representative tries to accomplish **4 Membership requirements**:
@@ -51,6 +48,7 @@ Activists who have paid $20 to HJ still need to affirm to the [Membership Agreem
 - And of course our [website](https://rchain.coop).
 
 **Collaboration**
+
 Through [Github/Members](https://github.com/rchain/Members/) issues are created by anyone. It's up to us to handle all those issues in an organized manner, based on self organization and decentralisation. We trust on the skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
 
 **Trading**
