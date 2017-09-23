@@ -8,8 +8,9 @@ We're establishing a community process for activists to earn RHOC working for th
  - Work items are represented by [issues](https://github.com/rchain/Members/issues/)
    - To make one or join work on one, you need to:
      1. [ ] get/have a [Github account](https://github.com/rchain/Members)
-     2. [ ] complete [RChain Activist Registration](https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform)
-       - [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members) 
+<!--     2. [ ] complete [RChain Activist Registration](https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform)
+-->
+- [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members) 
  - Budgets are allocated to work items by at least three Activists. The average of three suggestions defines the budget.
    - [ ] Activist suggests a budget to resolve the issue. Either by adding a comment to the issue in Github or through form [Budget allocation and - spending](https://docs.google.com/forms/d/e/1FAIpQLSfz-EGexMGPaw0eHwlBBNssQIR5hQCEOsWOZceVrPCo5mjGUA/viewform)
    - [ ] [Operation manager](ops@rchain.coop), Ops will publish the suggestions through [Pub Activist Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1168839067). By adding comments and email assignments to the cells of the issue in this Gsheet, the allocator will be notified about his/her update.
