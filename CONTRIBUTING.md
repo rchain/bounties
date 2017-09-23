@@ -76,4 +76,4 @@ The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) pre
 
 ## Tax calculator for WA
 - [Payroll calculator](http://payrollwashington.com/PayrollCheckCalculator.aspx)
-- [Employee or Contractor](http://www.payroll-taxes.com/articles/employee-or-independent-contractor)
+- [Employee or Contractor](http://www.payroll-taxes.com/articles/employee-or-independent-contractor) 
