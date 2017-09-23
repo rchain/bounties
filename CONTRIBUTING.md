@@ -5,7 +5,7 @@ I'm really glad you're reading this, because we need active developers to help t
 We're establishing a community process for Members to earn RHOC working for the coop. See video [24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s).
 
 
-** Becoming a Member**
+**Becoming a Member**
 
 **Process**
 
@@ -57,8 +57,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
  - Work items are represented by [issues](https://github.com/rchain/Members/issues/)
    - To make one or join work on one, you need to:
      1. [ ] get/have a [Github account](https://github.com/rchain/Members)
-<!--     2. [ ] complete [RChain Activist Registration](https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform)
--->
+<!--     2. [ ] complete [RChain Activist Registration](https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform) -->
      2. [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members) 
  - Budgets are allocated to work items by at least three Activists. The average of three suggestions defines the budget.
    - [ ] Activist suggests a budget to resolve the issue. Either by adding a comment to the issue in Github or through form [Budget allocation and - spending](https://docs.google.com/forms/d/e/1FAIpQLSfz-EGexMGPaw0eHwlBBNssQIR5hQCEOsWOZceVrPCo5mjGUA/viewform)
