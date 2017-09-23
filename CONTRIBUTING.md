@@ -2,7 +2,8 @@
 
 I'm really glad you're reading this, because we need active developers to help this project come to fruition.
 
-We're establishing a community process for activists to earn RHOC working for the coop.
+We're establishing a community process for activists to earn RHOC working for the coop. See video [24:06 HJ explains Activist Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s).
+
 
  - Work items are represented by [issues](https://github.com/rchain/Members/issues/)
    - To make one or join work on one, you need to:
