@@ -1,10 +1,10 @@
-# RChain Activists
+# RChain Members
 
 [![Join the chat at https://gitter.im/rchain/Members](https://badges.gitter.im/rchain/Members.svg)](https://gitter.im/rchain/Members?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This repository is meant for all organizational matters, like:
 - defining how we work together
-- how to become involved as a activist
+- how to become involved as a Member
 - how to earn RHOC
 - etc.
 
@@ -16,7 +16,7 @@ support the coop is welcome.
 
 The [issues](https://github.com/rchain/Members/issues) in this
 repository are the basis of an
-emerging [market of RChain Activist work](CONTRIBUTING.md).
+emerging [market of RChain Member work](CONTRIBUTING.md).
 
 ## RChain Community Debrief
 
