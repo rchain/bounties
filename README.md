@@ -1,5 +1,13 @@
 # RChain Activists
 
+[![Join the chat at https://gitter.im/rchain/Members](https://badges.gitter.im/rchain/Members.svg)](https://gitter.im/rchain/Members?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
+This repository is meant for all organizational matters, like:
+- defining how we work together
+- how to become involved as a activist
+- how to earn RHOC
+- etc.
+
 Find us in Slack [#coop](https://ourchain.slack.com/). We want you working on things you're excited about.
 Not just code: [Marketing - Content Curation, Creation and Outreach][comm] and any other way to
 support the coop is welcome.
