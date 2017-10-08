@@ -3,9 +3,9 @@
 [![Join the chat at https://gitter.im/rchain/Members](https://badges.gitter.im/rchain/Members.svg)](https://gitter.im/rchain/Members?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 This repository is meant for all organizational matters, like:
-- Defining how we work together
-- How to become a coop Member
-- How to earn RHOC
+- defining how we work together
+- how to become a coop Member
+- how to earn RHOC
 - etc.
 
 Find us on Slack [#coop](https://ourchain.slack.com/). We want you working on things you're excited about.
@@ -31,7 +31,7 @@ speed.
 [debrief-ix]: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
 
 ## About RChain
-* [Official website] (https://rchain.coop) 
+* [Official website](https://rchain.coop) 
 * [FAQ](https://github.com/rchain/reference/blob/master/faq.md)
 * [RChain Architecture (latest)](http://rchain-architecture.readthedocs.io/)
   * [Other reference documents](https://github.com/rchain/reference)
