@@ -14,19 +14,13 @@
 ##  RChain General
 
 #### RChain
-
 RChain is a fundamentally new blockchain platform rooted in a formal model of concurrent and decentralized computation. FMI see the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) and the [website](http://rchain.coop/).
 
 #### RChain Platform
-
 The platform is the entire software infrastructure, slated to be released at the end of 2018...
 
 #### RChain Blockchain
-...
-#### The RChain Cooperative
-...
-#### The RChain Holdings Company
-...
+The RChain blockchain is a graph of blocks. Each block contains a header that points at one or more previous blocks, a list of transactions, and other metadata.
 
 
 ## Formal Methods
@@ -34,8 +28,6 @@ The platform is the entire software infrastructure, slated to be released at the
 #### Formal Methods
 In computer science, specifically software engineering and hardware engineering, formal methods are a particular kind of mathematically based techniques for the specification, development and verification of software and hardware systems.
 Source: [Formal Methods](https://en.wikipedia.org/wiki/Formal_methods) at Wikipedia.
-
-
 
 #### Process Algebra
 An algebra is a mathematical structure with a set of values and a set of operations on the values. These operations enjoy algebraic properties such as commutativity, associativity, idempotency, and distributivity. In a typical process algebra, processes are values and parallel composition is defined to be a commutative and associative operation on processes.
@@ -45,16 +37,16 @@ Source: [Process Algebra](https://en.wikipedia.org/wiki/Process_calculus) at Wik
 In computer science, the process calculi (or process algebras) are a diverse family of related approaches for formally modelling concurrent systems. Process calculi provide a tool for the high-level description of interactions, communications, and synchronizations between a collection of independent agents or processes. They also provide algebraic laws that allow process descriptions to be manipulated and analyzed, and permit formal reasoning about equivalences between processes.
 Source: [Process Calculus](https://en.wikipedia.org/wiki/Process_calculus) at Wikipedia.
 
+#### Lambda Calculus
+Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.
+Source: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) at Wikipedia.
+
 #### Pi Calculus
 In theoretical computer science, the π-calculus (or pi-calculus) is a process calculus. The π-calculus allows channel names to be communicated along the channels themselves, and in this way it is able to describe concurrent computations whose network configuration may change during the computation. The π-calculus is elegantly simple, it has very few terms and so is a very small language, yet is very expressive. Functional programs can be encoded into the π-calculus, and the encoding emphasises the dialogue nature of computation, drawing connections with game semantics.
 
 #### Rho Calculus
 The rho-calculus is a formalism intended to combine the higher-order facilities of lambda calculus with the pattern matching of term rewriting.
 Source: [Rho Calculus](https://en.wikipedia.org/wiki/Rho_calculus) at Wikipedia.
-
-#### Lambda Calculus
-Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.
-Source: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) at Wikipedia.
 
 
 ##  Rho API
@@ -95,7 +87,8 @@ A tuple space is an implementation of the associative memory paradigm for parall
 Source: [Tuple Space](https://en.wikipedia.org/wiki/Tuple_space) at Wikipedia.
 
 #### Actors, Tuples, and Pi
-```Not sure what this is meant to be.... please fill in.````
+
+    Not sure what this is meant to be.... please fill in.
 
 #### RhoVM
 Each instance of the Rho Virtual Machine (RhoVM) maintains an environment that repeatedly applies the low-level rho-calculus reduction rule, expressed in the high-level Rholang contracting language, to the elements of a persistent key-value data store. The “state” of RhoVM is analogous to the state of the blockchain.
@@ -139,7 +132,15 @@ Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/lat
 ## Namespace Logic
 
 #### Composable Namespaces
+A namespace can be thought of as a URI (Uniform Resource Identifier), while the address of a resource can be thought of as a URL (Uniform Resource Locator). The path component of the URL, scheme://a/b/c, for example, may be viewed as equivalent to an RChain address. That is, a series of nested channels that each take messages, with the named channel, a, being the “top” channel. Observe, however, that URL paths do not always compose. Take scheme://a/b/c and scheme://a/b/d. In a traditional URL scheme, the two do not compose to yield a path. However, every flat path is automatically a tree path, and, as trees, these do compose to yield a new tree scheme://a/b/c+d. Therefore, trees afford a composable model for resource addressing.
+Source: [Namespace Logic](http://rchain-architecture.readthedocs.io/en/latest/contracts/namespaces.html#composable-namespaces-resource-addressing) in RChain Architecture.
+
 #### Recursion
+Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems. Most computer programming languages support recursion by allowing a function to call itself within the program text. Some functional programming languages do not define any looping constructs but rely solely on recursion to repeatedly call code. Computability theory proves that these recursive-only languages are Turing complete; they are as computationally powerful as Turing complete imperative languages, meaning they can solve the same kinds of problems as imperative languages even without iterative control structures such as “while” and “for”.
+Source: [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) at Wikipedia.
+
+
+## Agents and Bots
 
 #### Agent
 In computer science, a software agent is a computer program that acts for a user or other program in a relationship of agency, which derives from the Latin - agere (to do): an agreement to act on one's behalf. Such "action on behalf of" implies the authority to decide which, if any, action is appropriate.
@@ -169,13 +170,16 @@ Source: [Cyborg](https://en.wikipedia.org/wiki/Cyborg) at Wikipedia.
 An autonomous, goal-directed entity which observes and acts upon an environment.
 Source: [Intelligent agent](https://en.wikipedia.org/wiki/Intelligent_agent) at Wikipedia.
 
+## RChain Development Milestones
 
-## Applications
-
-## Milestones
 #### Compiler Complete
+The foundational code of the RChain blockchain successfully compiles.
+
 #### Node Complete
+The RChain blockchain integrates with node clients running on remote machines.
+
 #### Mercury Complete
+The full functionality of the Mercury milestone is ready to release.
 
 
 ### Project Double Linking
