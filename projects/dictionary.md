@@ -48,6 +48,23 @@ In theoretical computer science, the π-calculus (or pi-calculus) is a process c
 The rho-calculus is a formalism intended to combine the higher-order facilities of lambda calculus with the pattern matching of term rewriting.
 Source: [Rho Calculus](https://en.wikipedia.org/wiki/Rho_calculus) at Wikipedia.
 
+#### LADL
+LADL stands for Logic as a Distributive Law. Intuitively, it’s about a kind of transformation from one view of the collective to another. The LADL algorithm says that formulae are like an image of the Queen of England made out of lots of smaller scale images of the Queen. The fact, however, that it is possible to do this systematically for every formula gives us the right to treat formulae themselves as providing the means to build collectives that functionally resemble individuals.
+Source: "E Pluribus Unum 2.0" RChain position paper (not yet published).
+
+## Rholang
+
+#### Rholang
+Rholang is a fully featured, general purpose, Turing-complete programming language built from the rho-calculus. It is a behaviorally typed, r-eflective, h-igher o-rder process language and the official smart contracting language of RChain. Its purpose is to concretize fine-grained, programmatic concurrency.
+Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html#rholang-a-concurrent-language) in RChain Architecture.
+
+#### RhoVM
+Each instance of the Rho Virtual Machine (RhoVM) maintains an environment that repeatedly applies the low-level rho-calculus reduction rule, expressed in the high-level Rholang contracting language, to the elements of a persistent key-value data store. The “state” of RhoVM is analogous to the state of the blockchain.
+Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
+
+#### Rosette
+The RhoVM “Execution Environment” will later be introduced as the “Rosette VM”. The choice to use Rosette VM hinged on two factors. First, the Rosette system has been in commercial production for over 20 years. Second, Rosette VM’s memory model, model of computation, and runtime systems provide the support for concurrency that RhoVM requires. RChain has pledged to perform a modernized re-implementation of Rosette VM, in Scala, to serve as the initial RhoVM execution environment.
+Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
 
 ##  Rho API
 
@@ -58,45 +75,17 @@ Source: [Language Binding](https://en.wikipedia.org/wiki/Language_binding) at Wi
 #### Rho Language Bindings
 The Rho API has bindings for Java, Scala, and some others but not Python....
 
+## Computer Science Terms
 
-##  Rho-Calculus
+#### Actors, Tuples, and Pi
 
-#### Reflection
-In mathematics, a reflection formula or reflection relation for a function f is a relationship between f(a − x) and f(x). It is a special case of a functional equation, and it is very common in the literature to use the term "functional equation" when "reflection formula" is meant.
-Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
+    Not sure what this is meant to be.... please fill in.
 
 #### Behavioral Types
 <!-- Substitutability is a principle in object-oriented programming stating that, in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S (i.e. an object of type T may be substituted with any object of a subtype S) without altering any of the desirable properties of T (correctness, task performed, etc.). More formally, the Liskov substitution principle (LSP) is a particular definition of a subtyping relation, called (strong) behavioral subtyping. It is a semantic rather than merely syntactic relation because it intends to guarantee semantic interoperability of types in a hierarchy, object types in particular.
 Source: [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) at Wikipedia. -->
 A behavioral type is a property of an object that binds it to a discrete range of action patterns. Behavioral types constrain not only the structure of input and output, but the permitted order of inputs and outputs among communicating and (possibly) concurrent processes under varying conditions.
 Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
-
-#### LADL
-LADL stands for Logic as a Distributive Law. Intuitively, it’s about a kind of transformation from one view of the collective to another. The LADL algorithm says that formulae are like an image of the Queen of England made out of lots of smaller scale images of the Queen. The fact, however, that it is possible to do this systematically for every formula gives us the right to treat formulae themselves as providing the means to build collectives that functionally resemble individuals.
-Source: "E Pluribus Unum 2.0" RChain position paper (not yet published).
-
-
-## Rholang
-
-#### Rholang
-Rholang is a fully featured, general purpose, Turing-complete programming language built from the rho-calculus. It is a behaviorally typed, r-eflective, h-igher o-rder process language and the official smart contracting language of RChain. Its purpose is to concretize fine-grained, programmatic concurrency.
-Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html#rholang-a-concurrent-language) in RChain Architecture.
-
-#### Tuple Space
-A tuple space is an implementation of the associative memory paradigm for parallel/distributed computing. It provides a repository of tuples that can be accessed concurrently. As an illustrative example, consider that there are a group of processors that produce pieces of data and a group of processors that use the data. Producers post their data as tuples in the space, and the consumers then retrieve data from the space that match a certain pattern. This is also known as the blackboard metaphor. Tuple space may be thought as a form of distributed shared memory.
-Source: [Tuple Space](https://en.wikipedia.org/wiki/Tuple_space) at Wikipedia.
-
-#### Actors, Tuples, and Pi
-
-    Not sure what this is meant to be.... please fill in.
-
-#### RhoVM
-Each instance of the Rho Virtual Machine (RhoVM) maintains an environment that repeatedly applies the low-level rho-calculus reduction rule, expressed in the high-level Rholang contracting language, to the elements of a persistent key-value data store. The “state” of RhoVM is analogous to the state of the blockchain.
-Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
-
-#### Rosette
-The RhoVM “Execution Environment” will later be introduced as the “Rosette VM”. The choice to use Rosette VM hinged on two factors. First, the Rosette system has been in commercial production for over 20 years. Second, Rosette VM’s memory model, model of computation, and runtime systems provide the support for concurrency that RhoVM requires. RChain has pledged to perform a modernized re-implementation of Rosette VM, in Scala, to serve as the initial RhoVM execution environment.
-Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
 
 #### Concurrency
 In computer science, concurrency is the decomposability property of a program, algorithm, or problem into order-independent or partially-ordered components or units.[1] This means that even if the concurrent units of the program, algorithm, or problem are executed out-of-order or in partial order, the final outcome will remain the same. This allows for parallel execution of the concurrent units, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
@@ -106,6 +95,25 @@ Source: [Concurrency (computer science)](https://en.wikipedia.org/wiki/Concurren
 It is important to understand the implications of concurrent execution. When we say, “concurrency”, we are not referring to the simultaneous execution of multiple processes. That is parallelism. Concurrency is a structural property which allows independent processes to compose into complex processes. Processes are considered independent if they do not compete for resources.
 Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html?highlight=Concurrency) in RChain Architecture.
 
+#### Extensional
+An extensional definition of a concept or term formulates its meaning by specifying its extension, that is, every object that falls under the definition of the concept or term in question. Extensional definitions are used when listing examples would give more applicable information than other types of definition, and where listing the members of a set tells the questioner enough about the nature of that set.
+Source: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+
+#### Intensional
+In logic and mathematics, an intensional definition gives the meaning of a term by specifying necessary and sufficient conditions for when the term should be used. In the case of nouns, this is equivalent to specifying the properties that an object needs to have in order to be counted as a referent of the term. Intensional definitions are best used when something has a clearly defined set of properties, and they work well for terms that have too many referents to list in an extensional definition.
+Source: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+
+#### Recursion
+Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems. Most computer programming languages support recursion by allowing a function to call itself within the program text. Some functional programming languages do not define any looping constructs but rely solely on recursion to repeatedly call code. Computability theory proves that these recursive-only languages are Turing complete; they are as computationally powerful as Turing complete imperative languages, meaning they can solve the same kinds of problems as imperative languages even without iterative control structures such as “while” and “for”.
+Source: [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) at Wikipedia.
+
+#### Reflection
+In mathematics, a reflection formula or reflection relation for a function f is a relationship between f(a − x) and f(x). It is a special case of a functional equation, and it is very common in the literature to use the term "functional equation" when "reflection formula" is meant.
+Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
+
+#### Tuple Space
+A tuple space is an implementation of the associative memory paradigm for parallel/distributed computing. It provides a repository of tuples that can be accessed concurrently. As an illustrative example, consider that there are a group of processors that produce pieces of data and a group of processors that use the data. Producers post their data as tuples in the space, and the consumers then retrieve data from the space that match a certain pattern. This is also known as the blackboard metaphor. Tuple space may be thought as a form of distributed shared memory.
+Source: [Tuple Space](https://en.wikipedia.org/wiki/Tuple_space) at Wikipedia.
 
 ##  Tokens
 
@@ -118,7 +126,7 @@ Casper is a security-deposit based economic consensus protocol. This means that 
 Source: [How does the Casper proof of stake algorithm work?](https://ethereum.stackexchange.com/questions/102/how-does-the-casper-proof-of-stake-algorithm-work) on StackExchange.
 
 #### Staking Tokens
-Staking tokens are those required to run consensus, including the RChain Rev token. A staking token is required to pay for node resources. Phlogiston is RChain’s measure of the cost of resources (similar to gas in Ethereum), and it is multi-dimensional and depends on usage of compute (depending on instruction), storage (depending on size and duration), and bandwidth (quality-of-service and throughput) resources.
+Staking tokens are those required to run consensus, including the RChain Rev token. A staking token is required to pay for node resources.
 Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
 
 #### Application Tokens
@@ -128,16 +136,25 @@ Application tokens are optional and may be required to run certain dApps. New ap
 Consensus (Casper Proof-of-Stake validation/consensus Protocol) assures node consensus on the state of each blockchain.
 Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
 
+#### Phlogiston
+Phlogiston is RChain’s measure of the cost of resources (similar to gas in Ethereum), and it is multi-dimensional and depends on usage of compute (depending on instruction), storage (depending on size and duration), and bandwidth (quality-of-service and throughput) resources.
+Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
+
 
 ## Namespace Logic
+
+#### Namespace
+A namespace is just a collection of names. All blockchain addresses are names. A collection can be described in a few ways. One of them is extensionally by explicitly spelling out each item in the collection. Another way is intensionally by providing a rule or program that either generates the collection or recognizes when an item is in the collection or out of the collection. The more interesting namespaces are the intensionally specified ones. The next step is to relate those to users, contracts, and nodes. Both users and contracts interact with each other via names.
+Source: Forum discussion with @leithaus in [Discord #proof-of-stake](https://discordapp.com/).
+
+#### Node
+Nodes verify transactions in given namespaces, and transactions are i/o events across names (which are used as channels). Any transaction that involves two separate namespaces must be served by a collection of nodes that handles those namespaces. If there are no nodes that handle transactions that combine the namespaces, then the transaction cannot happen. If there are nodes that combine the namespaces, then the consensus algorithm guarantees that all the nodes agree on the transactions. More specifically, they agree on the winners of every race.
+Thus, there can never be double spend. The biggest threat is to find composite namespaces that served by few validators. Fortunately, you can see the validator power behind a namespace and decide whether to trust that namespace.
+Source: Forum discussion with @leithaus in [Discord #proof-of-stake](https://discordapp.com/).
 
 #### Composable Namespaces
 A namespace can be thought of as a URI (Uniform Resource Identifier), while the address of a resource can be thought of as a URL (Uniform Resource Locator). The path component of the URL, scheme://a/b/c, for example, may be viewed as equivalent to an RChain address. That is, a series of nested channels that each take messages, with the named channel, a, being the “top” channel. Observe, however, that URL paths do not always compose. Take scheme://a/b/c and scheme://a/b/d. In a traditional URL scheme, the two do not compose to yield a path. However, every flat path is automatically a tree path, and, as trees, these do compose to yield a new tree scheme://a/b/c+d. Therefore, trees afford a composable model for resource addressing.
 Source: [Namespace Logic](http://rchain-architecture.readthedocs.io/en/latest/contracts/namespaces.html#composable-namespaces-resource-addressing) in RChain Architecture.
-
-#### Recursion
-Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems. Most computer programming languages support recursion by allowing a function to call itself within the program text. Some functional programming languages do not define any looping constructs but rely solely on recursion to repeatedly call code. Computability theory proves that these recursive-only languages are Turing complete; they are as computationally powerful as Turing complete imperative languages, meaning they can solve the same kinds of problems as imperative languages even without iterative control structures such as “while” and “for”.
-Source: [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) at Wikipedia.
 
 
 ## Agents and Bots
