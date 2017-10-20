@@ -5,11 +5,14 @@
 
     Syntax for editors:
     - Sections get a level 2 heading (##) and subsections (if needed) level 3.
-    - Words to be defined should be marked up as a level 4 heading (####).
-      This basically makes the text bold but also URL-linkable as well as
-      parsable for a future bot.
-    - The definition that follows a word is a normal paragraph.
+    - Terms to be defined get a level 4 heading (####). This basically makes the
+      text bold but also URL-linkable as well as parsable for a future bot.
+    - The definition that follows a term is a normal paragraph.
 
+**Linking to Definitions**  
+Link to a term by using the term in an anchor, e.g. for Rholang, link to:
+https://github.com/rchain/Members/blob/master/projects/dictionary.md#rholang.
+Or copy the link icon that Github displays when you hover over a heading.
 
 ##  RChain General
 
@@ -17,10 +20,10 @@
 RChain is a fundamentally new blockchain platform rooted in a formal model of concurrent and decentralized computation. FMI see the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) and the [website](http://rchain.coop/).
 
 #### RChain Platform
-The platform is the entire software infrastructure, slated to be released at the end of 2018...
+The platform is the entire software infrastructure, slated to be released at the end of 2018. The heart of an RChain is the Rho Virtual Machine (RhoVM) Execution Environment, which runs multiple RhoVMs that are each executing a smart contract. These execute concurrently and are multi-threaded.
 
 #### RChain Blockchain
-The RChain blockchain is a graph of blocks. Each block contains a header that points at one or more previous blocks, a list of transactions, and other metadata.
+The RChain blockchain is a graph of blocks. Each block contains a header that points at one or more previous blocks, a list of transactions, and other metadata. Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
 
 
 ## Formal Methods
@@ -202,5 +205,3 @@ The full functionality of the Mercury milestone is ready to release.
 ### Project Double Linking
 [This document is being referenced and curated by the VPG](https://chat.divvydao.net/video-team/channels/web-production-group). Your help and suggestions are most appreciated.
 [Join us at Mattermost for the Social Ledger experment](https://chat.divvydao.net/signup_user_complete/?id=au57xr9fxbb65bmssnpz9xsy7h).
-
-
