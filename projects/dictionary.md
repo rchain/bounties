@@ -10,8 +10,8 @@
     - The definition that follows a term is a normal paragraph.
 
 **Linking to Definitions**  
-Link to a term by using the term in an anchor, e.g. for Rholang, link to:
-https://github.com/rchain/Members/blob/master/projects/dictionary.md#rholang.
+Link to a term by using the term in an anchor, e.g. for Rholang, link to:  
+https://github.com/rchain/Members/blob/master/projects/dictionary.md#rholang.  
 Or copy the link icon that Github displays when you hover over a heading.
 
 ##  RChain General
