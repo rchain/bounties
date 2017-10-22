@@ -17,7 +17,7 @@ Or copy the link icon that Github displays when you hover over a heading.
 ##  RChain General
 
 #### RChain
-RChain is a fundamentally new blockchain platform rooted in a formal model of concurrent and decentralized computation. FMI see the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) and the [website](http://rchain.coop/).
+RChain is a decentralized, economically sustainable public compute infrastructure. Its execution model is derived from the syntax and semantics of rho-calculus, where “Rho” stands for reflective, higher-order. The rho-calculus is a framework for analyzing concurrent processes that communicate like biological cells or different namespaces on a blockchain. FMI see the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) and the [website](http://rchain.coop/).
 
 #### RChain Platform
 The platform is the entire software infrastructure, slated to be released at the end of 2018. The heart of an RChain is the Rho Virtual Machine (RhoVM) Execution Environment, which runs multiple RhoVMs that are each executing a smart contract. These execute concurrently and are multi-threaded.
