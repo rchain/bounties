@@ -18,6 +18,12 @@ The [issues](https://github.com/rchain/Members/issues) in this
 repository are the basis of an
 emerging [market of RChain Member work](CONTRIBUTING.md).
 
+## Annual Meeting Oct 24, 2017
+
+For details, see [Annual meeting planning][116] issue.
+
+[116]: https://github.com/rchain/Members/issues/116
+
 ## RChain Community Debrief
 
 Every Wednesday the team joins in a hangout that streams
