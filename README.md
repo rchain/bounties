@@ -48,7 +48,7 @@ speed.
 
 * [GitHub Issues](https://github.com/rchain/Members/issues)
   * Open an issue if you are having problems with this project. Suggestions are also welcome.
-* [Email Support](mailto:lapin7@gmail.com)
+* [Email Support](mailto:ops@rchain.coop)
 
 ## License
 
