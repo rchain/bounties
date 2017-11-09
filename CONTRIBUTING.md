@@ -41,7 +41,7 @@ When the 4 Membership Requirements are completed and recorded, a Discord Moderat
 Through [Github/Members](https://github.com/rchain/Members/) issues are created by anyone. It's up to us to handle all those issues in an organized manner, based on self organization and decentralisation. We trust on the skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
 
  - Work items are represented by [issues](https://github.com/rchain/Members/issues/)
-   - To make one or join work on one, you need to:
+ - To make one or join work on one, you need to:
      1. [ ] get/have a RChain Member [Discord account](https://member.rchain.coop/#/sign-up)
      <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="Drawing" width="200" />
      
@@ -52,39 +52,40 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 
 **Decentralised Member Budget Allocation**
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
-   - [ ] Members suggest a budget to resolve the issue. 
-   - Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
-     ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
-   - Find an issue that you want to allocate a budget to, like #115 "Community Co-Operators"
-   - Type your Github-name in the yellow column, for example AR66 gets lapin7
-   - Type your suggested budget, like $5000.00. The current budget becomes then $5000.00 (in K66). It's added to the budget of the previous month.
+- Members suggest a budget to resolve the issue. 
+- Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
+![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
+- Find an issue that you want to allocate a budget to, like #115 "Community Co-Operators"
+- Type your Github-name in the yellow column, for example AR66 gets lapin7
+- Type your suggested budget, like $5000.00. The current budget becomes then $5000.00 (in K66). It's added to the budget of the previous month.
 ![image](https://user-images.githubusercontent.com/1913335/32597751-ed21061e-c537-11e7-9a0b-c9cccc48bc86.png)
-   - [ ] [Operation manager](ops@rchain.coop), Ops can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting budgets.
+- [Operation manager](ops@rchain.coop), Ops can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting budgets.
 
 **Decentralised Member Reward Allocation**
 - RHOC are distributed monthly based on invoices
-   - [ ] During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions, set the personal reward for each collaborator.
-   - Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards 201711"
-     ![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
-   - In column Q and R you see respectively the percentage distribution and the github name of the member, who gave the score according to his/her insight about the work being done by him/her self and the other ones who have done work on the issue
-   - In column M you can type your github name. Your name appears then in column Q for example.
-   - In column R you can set then the percentages for your self and the other collaborators
-   - [ ] [Operation manager](ops@rchain.coop), Ops can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting rewards.
+- During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions, set the personal reward for each collaborator.
+- Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards 201711"
+![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
+- In column Q and R you see respectively the percentage distribution and the github name of the member, who gave the score according to his/her insight about the work being done by him/her self and the other ones who have done work on the issue
+- In column M you can type your github name. Your name appears then in column Q for example.
+- In column R you can set then the percentages for your self and the other collaborators
+- [Operation manager](ops@rchain.coop), Ops can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting rewards.
    
 **Centralised Payment process**   
-   - [ ] At the end of the month the situation will be frozen. No changes can be made anymore to either budgets or rewards. The payment process starts at the beginning of the month. 
-   - [ ] The collaborator receives an email with a pre filled invoice and also the needed data if the collaborator wants to make his/her own invoice. The collaborator stores a PDF version of the pre filled invoice or the own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
-   - [ ] The collaborator uses form [Declaration](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) to announce his/her claim and link to the PDF invoice. If that doesn't work then the invoice can also be emailed.
-   - [ ] If a member does regular work per month, then a Statement of Work has to be set up. This process will be available soon.
+- At the end of the month the situation will be frozen. No changes can be made anymore to either budgets or rewards. The payment process starts at the beginning of the month. 
+- The collaborator receives an email with a pre filled invoice and also the needed data if the collaborator wants to make his/her own invoice. The collaborator stores a PDF version of the pre filled invoice or the own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
+- The collaborator uses form [Declaration](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) to announce his/her claim and link to the PDF invoice. If that doesn't work then the invoice can also be emailed.
+- If a member does regular work per month, then a Statement of Work has to be set up. This process will be available soon.
+- If the process works well, then of course it will be decentralised further to work areas or regions.
 
 **Tax**
-   - [ ] RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to members, with the amounts through form 1099.
-   - [ ] If the rewards are more then $600 per year, then a [Fw9 tax form](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
-   - [ ] For US aliens living outside of the USA, a form [Fw4 tax form](https://www.irs.gov/pub/irs-pdf/fw4.pdf) has to be filled out.
-   - [ ] As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provide ETH-addresses.
+- RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to members, with the amounts through form 1099.
+- If the rewards are more then $600 per year, then a [Fw9 tax form](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
+- For US aliens living outside of the USA, a form [Fw4 tax form](https://www.irs.gov/pub/irs-pdf/fw4.pdf) has to be filled out.
+- As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provide ETH-addresses.
    
 **Reporting**
-   - [ ] Finally management reports reports will be generated and presented in Debriefings of RChain.
+- Finally management reports reports will be generated and presented in Debriefings of RChain.
    
 The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) presented this process Aug 30 in
 [RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). An overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available.
