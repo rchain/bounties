@@ -1,7 +1,6 @@
 # How to contribute
 
 I'm really glad you're reading this, because we need active developers to help this project come to fruition.
-
 We're establishing a community process for Members to earn RHOC working for the coop. See video [24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s).
 
 
@@ -44,7 +43,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
  - Work items are represented by [issues](https://github.com/rchain/Members/issues/)
    - To make one or join work on one, you need to:
      1. [ ] get/have a RChain Member [Discord account](https://member.rchain.coop/#/sign-up)
-     ![image](https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png)
+     <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="Drawing" width="200" />
      2. [ ] get/have a [Github account](https://github.com/rchain/Members)
      3. [ ] ask in Discord channel #bounties for Github Member collacoration to get an invite
      ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png)
