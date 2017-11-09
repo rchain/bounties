@@ -44,6 +44,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
    - To make one or join work on one, you need to:
      1. [ ] get/have a RChain Member [Discord account](https://member.rchain.coop/#/sign-up)
      <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="Drawing" width="200" />
+     
      2. [ ] get/have a [Github account](https://github.com/rchain/Members)
      3. [ ] ask in Discord channel #bounties for Github Member collacoration to get an invite
      ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png)
