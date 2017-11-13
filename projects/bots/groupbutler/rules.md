@@ -12,4 +12,6 @@
 4. Trying to scam people, or DMing group users, or promoting anything will result in a ban.
 5. Keep the conversation civil. We want this to be a constructive chat for collective benefit.
 
+This is an officially sanctioned group but the admins are not official representatives of RChain Cooperative. They're community members and don't speak for the Cooperative.
+
 Thanks and welcome on board!
