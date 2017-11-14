@@ -31,7 +31,7 @@ When the 4 Membership Requirements are completed and recorded, a Discord Moderat
 - The different environments are bridged together. So you would see messages from for example Discord in Mattermost or Gitter.
 - We've [Google groups](https://groups.google.com/forum/#!forum/rchain) for interaction through email and getting access to the RChain Google drive and documents.
 - There's a small [Facebook](https://www.facebook.com/search/top/?q=rchain%20cooperative) presentation and we're also on [Twitter](https://twitter.com/rchain_coop)
-- We're on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1747033.0) and a channel on [Reddit](https://www.reddit.com/r/RChain/)
+- We're on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1747033.0) and a channel on [Reddit](https://www.reddit.com/r/RChain_Official/)
 - There are weekly conference calls with unedited archives on [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w)
 - There is a weekly [Member zoom meeting](https://zoom.us/s/197490909) on Wednesdays, 05:00 PM UTC (Amsterdam +2, New York -4, Seattle -7), where we discuss the issues that need to be worked upon.
 - And of course our [website](https://rchain.coop).
