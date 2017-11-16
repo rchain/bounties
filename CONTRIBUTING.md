@@ -24,14 +24,14 @@ When the 4 Membership Requirements are completed and recorded, a Discord Moderat
 
 **Communication**
 
-[Rchain](https://rchain.coop) has several channels to make easy communication possible within the growing community.
+[Rchain](https://rchain.coop) has multiple channels to make easy communication possible within the growing community.
 - We work together and keep each other updated through [Github/RChain/Members](https://github.com/rchain/Members)
 - We've moved from [Slack](https://ourchain.slack.com/messages?) to [Discord](https://discordapp.com/channels/349667445566472202/357561188676009986). Discord has several channels to discuss about all kind of things. The goal is to create actionable issues in [Github/Members](https://github.com/rchain/Members/) that are handled by the member-community.
 - We're experimenting with [Mattermost](https://rchain.divvydao.net/community/channels/town-square) and [Gitter](https://gitter.im/rchain/Rholang) to create insight in who does what when and why.
 - The different environments are bridged together. So you would see messages from for example Discord in Mattermost or Gitter.
-- Telegram [Rchain Coop Chat Group](https://t.me/Rchain_Official_Chat), Telegram [Rchain Coop Announcements Channel] Telegram [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN)
+- Telegram [RChain Coop chat group](https://t.me/rchain_coop), Telegram [RChain Coop Official Announcements channel](https://t.me/rchain_official), Telegram [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN)
 - QQ International on channel #RChain...
-- We've [Google groups](https://groups.google.com/forum/#!forum/rchain) for interaction through email and getting access to the RChain Google drive and documents.
+- We've [Google Groups](https://groups.google.com/forum/#!forum/rchain) for interaction through email and getting access to the RChain Google drive and documents.
 - There's a small [Facebook](https://www.facebook.com/search/top/?q=rchain%20cooperative) presentation and we're also on [Twitter](https://twitter.com/rchain_coop)
 - We're on [BitcoinTalk](https://bitcointalk.org/index.php?topic=1747033.0) and a channel on [Reddit](https://www.reddit.com/r/RChain_Official/)
 - There are weekly conference calls with unedited archives on [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w)
