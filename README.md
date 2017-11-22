@@ -8,7 +8,7 @@ This repository is meant for all organizational matters, like:
 - how to earn RHOC
 - etc.
 
-Get in touch! [Join our public Discord](https://discord.gg/fvY8qhx). We want you working on things you're excited about.
+[Join our public Discord](https://discord.gg/fvY8qhx)! We want you working on things you're excited about.
 Not just code: [Marketing - Content Curation, Creation and Outreach][comm] and any other ways to
 support the coop is welcome.
 
