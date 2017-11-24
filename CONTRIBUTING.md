@@ -1,7 +1,7 @@
 # How to contribute
 
 I'm really glad you're reading this, because we need active developers to help this project come to fruition.
-We're establishing a community process for Members to earn RHOC working for the coop. See video [24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s).
+We're establishing a community process for Members to earn RHOC working for the coop. See video [24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s) and video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA).
 
 
 **Becoming a Member**
@@ -55,7 +55,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 
 **Decentralised Member Budget Allocation**
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
-- Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=Yz-9j4gC9-Q)
+- Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
 - Members suggest a budget to resolve the issue. 
 - Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
 ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
