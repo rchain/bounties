@@ -55,6 +55,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 
 **Decentralised Member Budget Allocation**
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
+- Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=Yz-9j4gC9-Q)
 - Members suggest a budget to resolve the issue. 
 - Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
 ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
