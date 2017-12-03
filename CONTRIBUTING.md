@@ -35,7 +35,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
     This is the #bounties channel in Discord:  \
     <img src="https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png" alt="conversation" />
 
-**Decentralized Budget Allocation**
+#### Decentralized Budget Allocation
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
 - Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
 - Members suggest a budget to resolve the issue.
@@ -65,7 +65,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 - If the process works well, then of course it will be decentralized further to work areas or regions.
 
 #### Tax
-- RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to members, with the amounts, through form 1099.
+- RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
 - If a contributor's rewards are more then $600 per year, then a [Fw9 tax form](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
 - For US aliens living outside of the USA, a form [Fw4 tax form](https://www.irs.gov/pub/irs-pdf/fw4.pdf) has to be filled out.
 - As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provided ETH-addresses.
