@@ -8,21 +8,16 @@ This repository is meant for all organizational matters, like:
 - how to earn RHOC
 - etc.
 
-[Join our public Discord](https://discord.gg/fvY8qhx)! We want you working on things you're excited about.
-Not just code: [Marketing - Content Curation, Creation and Outreach][comm] and any other ways to
-support the coop is welcome.
+The [issues](https://github.com/rchain/Members/issues) in this repository 
+are the basis of an emerging [market of RChain contributor work](CONTRIBUTING.md).
+Not just code: [Marketing - Content Curation, Creation and Outreach][comm] 
+and any other ways to support the coop are welcome.
+
+[Join our public Discord](https://discord.gg/fvY8qhx) or
+[become a Member](https://member.rchain.coop/#/sign-up)! 
+We want you working on things you're excited about. 
 
 [comm]: https://github.com/rchain/Members/projects/2
-
-The [issues](https://github.com/rchain/Members/issues) in this
-repository are the basis of an
-emerging [market of RChain Member work](CONTRIBUTING.md).
-
-## Annual Meeting Oct 24, 2017
-
-For details, see [Annual meeting planning][116] issue.
-
-[116]: https://github.com/rchain/Members/issues/116
 
 ## RChain Community Debrief
 
