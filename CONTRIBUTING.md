@@ -26,14 +26,14 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 - Work items are represented by [issues](https://github.com/rchain/Members/issues/).
 - To make one or join work on one, you need to:
 
-   1. [ ] get/have a [Github account](https://github.com/rchain/Members)
-   2. [ ] request a Github collaborator role in one of the comm channels to get an invite
-   3. [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members)
-   4. [ ] It's not mandatory but it really helps to become a RChain Member and get a Discord account. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
-   5. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
+  1. [ ] get/have a [Github account](https://github.com/rchain/Members)
+  2. [ ] request a Github collaborator role from @lapin7 in one of the comm channels, or mail [ops@rchain.coop](ops@rchain.coop), to get an invite
+  3. [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members)
 
-    This is the #bounties channel in Discord:  \
-    <img src="https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png" alt="conversation" />
+- It's not mandatory but it really helps to become a RChain Member and get a Discord account. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
+  1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
+  2. [ ] This is the #bounties channel in Discord:
+  ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png)
 
 #### Decentralized Budget Allocation
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
@@ -77,6 +77,8 @@ The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) pre
 [RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). An overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available.
 
 ## Becoming a Member
+
+By joining the Cooperative you will participate in the lively conversation of the RChain community. Members can access the private Discord channel (no trolls or scammers) with direct access to the developers and governance decision making.
 
 ### Process
 
