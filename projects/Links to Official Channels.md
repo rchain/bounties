@@ -1,26 +1,37 @@
 Official Website: https://www.rchain.coop/
+
 RChain Architecture Doc : http://rchain-architecture.readthedocs.io/
+
 Comparison of Blockchains : http://rchain-architecture.readthedocs.io/en/latest/introduction/comparison-of-blockchains.html
+
 Roadmap : https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/Roadmap
+
 FAQ : https://github.com/rchain/reference/blob/master/faq.md
 
-Contributing to the RChain Coop
+**Contributing to the RChain Coop**
+
 You can help contribute to the RChain project through Github/Members: 
 https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
-Buy RHOC : 
+**Buy RHOC :**
 https://etherdelta.com/#RHOC-ETH
 
-RHOC Token Details : 
-To see RHOC in MEW/Metamask add custom token address: 0x168296bb09e24a88805cb9c33356536b980d3fc5
+**RHOC Token Details :**
+
+To see RHOC in MEW/Metamask add custom token address: 
+
+0x168296bb09e24a88805cb9c33356536b980d3fc5
+
 8 decimal places
 
-Official RChain Coop Channels: 
+**Official RChain Coop Channels:**
 
 Telegram RChain Official Chat Group: @rchain_coop
+
 Telegram Chat Invite Link: https://t.me/rchain_coop
 
 Telegram RChain Official Announcements Channel : @RChain_Official
+
 Telegram Announcement Channel Link: https://t.me/RChain_Official
 
 Twitter: https://twitter.com/rchain_coop
@@ -37,9 +48,7 @@ Medium: https://medium.com/rchain-cooperative
 
 Slack: https://ourchain.slack.com/ (To be phased out and replaced by Private Discord)
 
-Discord (Private) : Requires Membership - Co-op members, leadership and developers share a PRIVATE Discord server that requires a $20 membership and KYC to join.
-
-Register for membership and Private Discord access here: https://member.rchain.coop/
+Discord (Private) : Requires Membership - Co-op members, leadership and developers share a PRIVATE Discord server that requires a $20 membership and KYC to join. Register for membership and Private Discord access here: https://member.rchain.coop/
 
 Discord (Public): https://discord.gg/fvY8qhx
 
