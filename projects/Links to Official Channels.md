@@ -13,9 +13,6 @@ FAQ : https://github.com/rchain/reference/blob/master/faq.md
 You can help contribute to the RChain project through Github/Members: 
 https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
-**Buy RHOC :**
-https://etherdelta.com/#RHOC-ETH
-
 **RHOC Token Details :**
 
 To see RHOC in MEW/Metamask add custom token address: 
