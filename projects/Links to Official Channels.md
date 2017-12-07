@@ -40,7 +40,7 @@ Facebook Page: https://www.facebook.com/rchaincooperative/
 
 Youtube: https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w
 
-Reddit : https://www.reddit.com/r/RChain_Official/ and https://www.reddit.com/r/RChain/
+Reddit : https://www.reddit.com/r/RChain/
 
 Bitcointalk: https://bitcointalk.org/index.php?topic=2494040
 
