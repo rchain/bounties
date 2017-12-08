@@ -8,9 +8,10 @@
 
 1. This group focuses on RChain Cooperative activities, the RHOC token, and related initiatives.
 2. A bit of off-topic isn't bad, but within reason.
-3. Shilling other tokens, ICOs, or Pump&Dump actions will get you banned with no warning.
-4. DMing group users, trying to scam people, or promoting anything will result in a ban.
-5. Let's keep the conversation civil. We want this to be a constructive chat for collective benefit.
+3. Please don't post referral links. 
+4. Shilling other tokens, ICOs, or Pump&Dump actions will get you banned with no warning.
+5. DMing group users, trying to scam people, or promoting anything will result in a ban.
+6. Let's keep the conversation civil. We want this to be a constructive chat for collective benefit.
 
 This is an officially sanctioned group but the admins are not official representatives of RChain Cooperative. The admins are community members with their own opinions and interpretations.
 
