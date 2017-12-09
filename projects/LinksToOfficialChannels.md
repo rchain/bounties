@@ -1,3 +1,5 @@
+**RChain Cooperative Official Channel Links**
+
 Official Website: https://rchain.coop/
 
 RChain Architecture Doc: http://rchain-architecture.readthedocs.io/
@@ -13,7 +15,7 @@ FAQ: https://github.com/rchain/reference/blob/master/faq.md
 You can help contribute to the RChain project through Github/Members: 
 https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
-**RHOC Token Details:**
+**RHOC Token Details**
 
 To see RHOC in MEW/Metamask add custom token address: 
 
@@ -21,7 +23,7 @@ To see RHOC in MEW/Metamask add custom token address:
 
 8 decimal places
 
-**Official RChain Coop Channels:**
+**Official RChain Coop Channels**
 
 Telegram RChain Official Chat Group: @rchain_coop
 
