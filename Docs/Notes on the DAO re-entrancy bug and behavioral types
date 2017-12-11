@@ -1,424 +1,21 @@
-Notes on the DAO re-entrancy bug and behavioral types
-
+ Notes on the DAO re-entrancy bug and behavioral types
 Jack Pettersson
-
 Lucius Gregory Meredith (@leithaus on OurChain Slack Channel)
-
-We decided to look at the DAO bug from the point of view of a concurrency-oriented contracting language that incorporates behavioral typing, to see if this bug would have been caught by the behavioral types, and hence never deployed. As it turns out, a novel defensive programming strategy against this sort of exploit can be deployed using behavioral types[1]. To understand this technique, you must first understand that the Rholang contracting language makes a commitment to fine-grained concurrency inside of contracts. In this setting, the problem of re-entrancy typically manifests as a race between a recursive call to continue the contract&#39;s behavior and updates to the contract state that should be sequentially handled before the recursive call.
-
+We decided to look at the DAO bug from the point of view of a concurrency-oriented contracting language that incorporates behavioral typing, to see if this bug would have been caught by the behavioral types, and hence never deployed. As it turns out, a novel defensive programming strategy against this sort of exploit can be deployed using behavioral types[1]. To understand this technique, you must first understand that the Rholang contracting language makes a commitment to fine-grained concurrency inside of contracts. In this setting, the problem of re-entrancy typically manifests as a race between a recursive call to continue the contract’s behavior and updates to the contract state that should be sequentially handled before the recursive call.
 The first author of this note has provided a toy version of a contract that exhibits the bug[2] (in multiple places, actually). We discuss this below and propose a type-level solution.
-
 A taste of Rholang
-
-Before diving into the toy DAO contract, let&#39;s look at a really basic building block: a cell. A cell contains a value and offers clients the ability to get and set the value. This is the basic construct underlying wallets and many other kinds of contracts.
-
+Before diving into the toy DAO contract, let’s look at a really basic building block: a cell. A cell contains a value and offers clients the ability to get and set the value. This is the basic construct underlying wallets and many other kinds of contracts.
 contract Cell( get, set, state ) = {
-
   select {
-
-      case rtn &lt;- get; v &lt;- state =&gt; {
-
+      case rtn <- get; v <- state => {
        rtn!( v ) | state!( v ) | Cell( get, set, state )
-
       }
-
-      case newValue &lt;- set; v &lt;- state =&gt; {
-
+      case newValue <- set; v <- state => {
         state!( newValue ) | Cell( get, set, state )
-
       }
-
-  }
-
-}
-
-Here&#39;s how to read this code: the Cell contract is parametric on 3 channels, the get channel, the set channel and the state channel. The state channel is where the cell will keep its value, while the get and set channels are where the cell will receive client requests to get and set that value. The select statement ( familiar to those familiar with Scala) says that it will run just one of the case branches. The case conditions are described by message arrival patterns, sometimes called join patterns.
-
-In the first case the message arrival pattern,
-
-case rtn &lt;- get; v &lt;- state
-
-describes the situation in which the cell simultaneously receives a message on the get channel and the state channel. Intuitively, if the state channel is a private channel, we can think of this message arrival pattern as indicating the arrival of a client request to get the value stored in the cell while simultaneously fetching the value, v, waiting at the private state channel. The message it receives on the get channel is a return channel, rtn, where the contract will return the value, v, it receives from the state channel. When both of those message patterns are witnessed, the protocol will, in parallel, send the value v to the rtn channel, put the value v back into the state channel and invoke the Cell contract recursively to continue handling client requests for the cell.
-
-In the second case the message arrival pattern,
-
-case newValue &lt;- set; v &lt;- state
-
-simultaneously receives a message on the set channel and the state channel. The message on the set channel contains the new value, newValue, to store in the state channel. When it sees this pattern of messages it will, in parallel, store newValue in the state channel and recursively invoke the Cell contract to continue handling client requests.
-
-This simple example begins to show some of the powerful abstractions of this approach to programming. The channel abstraction can be thought of as a place to send and receive messages, such as the get and set channels, but it can also be thought of as a place to store and retrieve values, such as the state channel. In Rholang these concepts are unified and given a single compact syntax.[3]
-
-An example of a behavioral type
-
-As mentioned above, behavioral types constitute a new development in programming language type systems where more information about the behavior as well as the structure of the program is captured at the type level. In this context we can look at a simple behavioral type for the Cell contract.
-
-CT( get, set ) = &lt;get( rtn )&gt;?( &lt;rtn&gt;! | CT( get, set ) ) + &lt;set( nv )&gt;?( CT( get, set ) )
-
-This recursive type demands of programs that satisfy it that they will either be willing to receive a message on the get channel or the set channel. In the first case the successful candidate must output on the rtn channel while forking off a program that satisfies CT again. In the second case it must simply recursively invoke a program that satisfies CT.
-
-In the interest of simplicity, we have avoided discussions of the correctness of the state updates in order to expose how the behavioral type captures message ordering information. Notice that it also captures something else. A program that satisfies this type must always be responsive. There is no exit clause for this type. Thus, already we are seeing a weak form of a liveness property, in the form of responsiveness, showing up in this type.
-
-We can ask the compiler to check that Cell satisfies CT merely by declaring
-
-contract Cell( get, set, state ) : CT( get, set ) = …
-
-At compile time this will call a model checker similar to Caires&#39; spatial logic model checker to check that the code does indeed satisfy the type.
-
-The race to empty example
-
-Hopefully, equipped with the example above it will be easier to read a somewhat more realistic contract.
-
-/\*
-
-The &quot;race to empty&quot; bug implemented in Rholang. As described in http://vessenes.com/more-ethereum-attacks-race-to-empty-is-the-real-deal/
-
-This is a simple token issuance contract. For simplicity, it assumes that tokens are bought and sold 1-1 with a native token, even though we hope to avoid native tokens completely in our final execution model.
-
-\*/
-
-// We identify users by the channel with which we can reach them.
-
-type ID = Ch
-
-// Users can take two actions:
-
-// 1) Request that their funds are sent to a channel they provide.
-
-// 2) Send tokens to another user.
-
-data Action = Withdraw ID
-
-           | Send (Int, ID)
-
-// Each user has a balance and a channel with which they communicate
-
-// with the token issuance contract.
-
-struct User {
-
- balance : Int,
-
- action  : Ch Action
-
-}
-
-// The contract has a mapping from user IDs to users, a channel with
-
-// which anyone can query the balance of a specific ID, and a channel
-
-// with which to deposit native tokens in exchange for tokens that
-
-// this contract issues.
-
-contract TokenBankContr(users : ID =&gt; User, getBalance : Ch (ID, Ch Int), deposit : Ch ID) = {
-
-  // We select exactly one channel to receive on (first come, first serve).
-
- select {
-
-    // In the case that we receive a query for the balance of an ID,
-
-    // we check its value in the map and send back its associated
-
-    // balance, if it exists. Otherwise we return 0. We also recurse,
-
-    // to continue listening for new requests.
-
-   case (user, rtn) &lt;- getBalance =&gt; {
-
-       match users[user] with
-
-         Just (balance, \_) =&gt; { rtn!(balance) }
-
-         Nothing           =&gt; { rtn!(0) }
-
-       | TokenBankContr( users, getBalance, deposit )
-
-   }
-
-    // In the case that we receive a request to deposit native tokens
-
-    // in exchange for issued tokens, we simply insert the ID in the
-
-    // map. (And recurse to continue listening.)
-
-   case user &lt;- deposit =&gt; {
-
-       users.insertsWith!( (+) , user, \_.balance, msg.value ) |
-
-       TokenBankContr( users, getBalance, deposit )
-
-   }
-
-    // For each registered user, we listen on its private channel for
-
-    // requests to withdraw their native tokens. If we receive one, we
-
-    // check that we are able to send native tokens to the requested
-
-    // receiving channel, zero their balance and recurse.
-
-case user &lt;- users.keys; Withdraw to &lt;- users[user].action;
-
-     if to.send(users[user].balance) =&gt; {
-
-       users.inserts!(user, \_.balance, 0) |
-
-       TokenBankContr( users, getBalance, deposit )
-
-   }
-
-    // For each registered user, we listen on its private channel for
-
-    // requests to send issued tokens to another user. If we receive one,
-
-    // we check that the requested amount is greater than the sender&#39;s
-
-    // balance, reduce the balance of the sender, increase the balance
-
-    // of the receiver and recurse.
-
-    case user &lt;- users.keys; Send (amount,receiver) &lt;- users[user].action;
-
-     if amount &lt;= users[user].balance =&gt; {
-
-       users.insertsWith!( (-) , user, \_.balance, amount ) |
-
-       users.insertsWith!( (+) , receiver, \_.balance, amount ) |
-
-       TokenBankContr( users&#39;, getBalance, deposit )
-
-   }
-
- }
-
-}
-
-We show an example below of how the above code can be exploited by a malicious owner of issued tokens.
-
-// The owner interacts with the token issuance contract through three
-
-// channels: one for querying balances, one for depositing funds and one
-
-// private channel, used to take actions related to its own issued tokens.
-
-struct TokenBank {
-
- getBalance : Ch (ID, Ch Int),
-
- deposit    : Ch ID,
-
- priv       : Ch Action
-
-}
-
-contract MaliciousOwner( tokenBank : TokenBank ) = {
-
-  // The owner creates a new channel with which it wishes to withdraw its
-
-  // native tokens.
-
- new id in
-
-  // It sends a request to the token issuance contract to withdraw its funds
-
-  // to the newly created channel.
-
- tokenBank.priv!(Withdraw id) |
-
-  // It continuously listens for any native tokens that are sent to this
-
-  // channel, and each time it sends a new withdrawal request to the same
-
-  // channel.
-
- for( !id.receive ) {
-
-   tokenBank.priv!(Withdraw id)
-
- }
-
-}
-
-Each of the cases in this process definition exhibit a race condition because the recursive call to TokenBankContr (which is the Rholang equivalent of re-entrancy) is not properly guarded. Take this case, for example,
-
-case user &lt;- users.keys; Withdraw to &lt;- users[user].action;
-
- if to.send(users[user].balance) =&gt; {
-
-    users.inserts!(user, \_.balance, 0) |
-
-   TokenBankContr( users, getBalance, deposit )
-
-}
-
-There is a race between the balance update and the recursive call to TokenBankContr. This is the way the re-entrancy bug is manifest in a Rholang contract. The way to catch this particular case is to demand that the recursive call can only happen after the balance update. In the asynchronous setting, where the users.inserts!(user, \_.balance, 0) message is sent asynchronously to the behavior handling the users.inserts this requires an explicit acknowledgement from the balance update that the update has happened. Thus, correct code would read
-
-case user &lt;- users.keys; Withdraw to &lt;- users[user].action;
-
- if to.send(users[user].balance) =&gt; {
-
-    new ack in
-
-   users.inserts!( user, \_.balance, 0, ackUpdate[a] ) |
-
-   ackUpdate?()TokenBankContr( users, getBalance, deposit )[b]
-
-}
-
-Behavioral types that would prevent the bug
-
-This gives us all the clues we need to provide a type for this case. Assuming we have the type TB, for TokenBankContr, then we have &lt;updateAck&gt;?TB for this case. The incorrect code cannot type this way because there is no updateAck guard for the recursive call hence there is a message exchange that happens in the type that cannot happen in the incorrect code, while the correct code does type this way.
-
-A similar problem and fix occur in this case:
-
-case user &lt;- users.keys; Send (amount,receiver) &lt;- users[user].action;
-
- if amount &lt;= users[user].balance =&gt; {
-
-   users.insertsWith!( (-) , user, \_.balance, amount ) |
-
-   users.insertsWith!( (+) , receiver, \_.balance, amount ) |
-
-   TokenBank( users&#39;, getBalance, deposit )
-
-}
-
-Essentially, the problem is knowing when multitasking is ok and when it results in a lack of focus and inattention that allows requests to sneak in before other requests have been properly handled.
-
-To work out the type of the TB we simply disjoin the types of each case
-
-type TB
-
- =
-
-&lt;getBalance&gt;?( &lt;rtn&gt;[c][d]! | TB )
-
-+ &lt;deposit&gt;?( &lt;ackDeposit&gt;?TB )
-
-+ &lt;users.keys&gt;( &lt;ackWithdraw&gt;?TB + &lt;ackSend&gt;?TB )
-
-This recursive type shows that it is ok to have parallelism in the balance query, but not ok to have parallelism in the side-effecting cases, i.e deposit, withdrawal and send. By asserting the typing:
-
-contract TokenBankContr( users : ID =&gt; User, getBalance : Ch (ID, Ch Int), deposit : Ch ID ) : TB
-
-The incorrect code will not type and as a result will not compile and as a result would never be deployed!
-
-To see examples of how this type check is made you can look at the spatial logic model checker for an OCaml implementation together with even more elaborate examples. The Rholang contracting language&#39;s behavioral type checker is under construction, but essentially follows the algorithm outlined here.
-
-Behavioral types are not a panacea
-
-While this typing would absolutely catch and prevent the bug at compile time, there are types against which the buggy code does indeed type check. If the need for sequential ordering of the recursive call with respect to the contract state updates were not reflected in the type, due to an erroneous understanding of the requirements, the behavioral types would not have been much help. It&#39;s one thing to catch the bug with types in retrospect, but quite another to see the requirements clearly. This suggests several methodological safeguards.
-
-Firstly, we suggest that the communication of contract requirements and contract design be conducted in terms of behavioral types. This is essentially an extension of the fairly well established design-by-type methodology that has grown up side-by-side with strong and expressive type disciplines such as those found in modern functional languages like Scala, Haskell, F#, OCaml, etc. Adopting a design-by-type discipline in this case would bring more attention to the essential issue. As we can see, the type abstracts away much of the details of the contract and focuses on where concurrency and non-determinism is allowed, and where it must be prevented.
-
-Secondly, we suggest that contracts are and will for the foreseeable future be written by human agency for human agency. As such, both contracts and types need both scrutiny and governance by human processes that include provenance and reputation. Using an algorithm conceived by Donald Knuth and peer-reviewed by the reviewers of a respected computer science journal is not a guarantee of correctness or safety, any more than type checking against an erroneously conceived behavioral type is, but it is one of the many tools we can bring to bear so that mission critical code receives the kind of quality assurance it deserves; and there is a long history of these kinds of processes yielding higher quality results over time.
-
-We can also anticipate a time when contracts are not just for humans anymore, but play a significant role in the organization of many different kinds of autonomous agency on the Internet, including autonomous devices, contracts and services (recursively made of contracts and services), etc. In this case the design-by-contract methodology evolves to become both a contract and service discovery mechanism as well as a means for the just-in-time assembly of contracts and services to fulfill a type description from contracts and services that fulfill components of the type description. While this is well out of the scope of this particular note, the important point to take away here is what happens when the technology succeeds and works at scale. In the case of behavioral types, the use cases just keep getting better.
-
-Bibliography
-
-Samson Abramsky: Domain Theory in Logical Form. Ann. Pure Appl. Logic 51(1-2): 1-77 (1991)
-
-Samson Abramsky: Proofs as Processes. Theor. Comput. Sci. 135(1): 5-9 (1994)
-
-Luís Caires: Logical Semantics of Types for Concurrency. CALCO 2007: 16-35
-
-Luís Caires: Behavioral and Spatial Observations in a Logic for the pi-Calculus. FoSSaCS 2004: 72-89
-
-Martín Abadi, Ricardo Corin, Cédric Fournet: Computational Secrecy by Typing for the Pi Calculus. APLAS 2006: 253-269
-
-Martín Abadi, Bruno Blanchet, Cédric Fournet: Just Fast Keying in the Pi Calculus. ESOP 2004: 340-354
-
-Jesper Bengtson, Karthikeyan Bhargavan, Cédric Fournet, Andrew D. Gordon, Sergio Maffeis:Refinement types for secure implementations. ACM Trans. Program. Lang. Syst. 33(2): 8 (2011)
-
-Andrew D. Gordon: Provable Implementations of Security Protocols. LICS 2006: 345-346
-
-Andrew D. Gordon: Types for Cryptographic Protocols. CONCUR 2002: 99-100
-
-L. Gregory Meredith, Matthias Radestock: Namespace Logic: A Logic for a Reflective Higher-Order Calculus. TGC 2005: 353-369
-
-Greg Meredith, Steve Bjorg: Contracts and types. Commun. ACM 46(10): 41-47 (2003)
-
-Robin Milner: Functions as Processes. Mathematical Structures in Computer Science 2(2) :119-141 (1992)
-
-Robin Milner: The Polyadic Pi-calculus (Abstract). CONCUR 1992: 1
-
-Philip Wadler: Propositions as sessions. ICFP 2012: 273-286
-
-James Cheney, Sam Lindley, Philip Wadler: A practical theory of language-integrated query.ICFP 2013: 403-416
-
-Tom Schrijvers, Peter J. Stuckey, Philip Wadler: Monadic constraint programming. J. Funct. Program. 19(6): 663-697 (2009)
-
-Philip Wadler: Monads and Composable Continuations. Lisp and Symbolic Computation 7(1): 39-56 (1994)
-
-Philip Wadler: Comprehending Monads. Mathematical Structures in Computer Science 2(4): 461-493 (1992)
-
-Appendix: Behavioral types for the proletariat[e][f][g][h][i]
-
-As mentioned before behavioral types constitute a new development in programming language type systems where more information about the behavior as well as the structure of the program is captured at the type level. To get a real sense of context, it is important to understand the historical scope of this work. Much of this work traces back to Abramsky&#39;s domain theory in logical form, and likewise Abramsky&#39;s revisioning of the propositions-as-type paradigm in the proofs as processes research programme. This became much more concrete with Caíres and Cardelli&#39;s spatial logic and Wadler&#39;s work on linear logic based interpretation of session types. The second author also provided a significant step in this with namespace logic. A similar independent development happened in the language integrated security research programme that ultimately converged on the behavioral types approach. Thus, we also see type systems for security properties expressed as behavioral types.
-
-Arguably, though, this all traces back to an observation made in 1980 by Howard, regarding the relationship between propositions in a logic called intuitionistic logic and types for a model of computation called the simply typed lambda calculus. This correspondence between types and proposition, proofs and programs, and even proof transformation and program execution has come under the rubric the Curry-Howard isomorphism. The upshot is that this work is the result of over 30 years of research into type-based formal verification of programs, and in particular, programs made for autonomous execution in a setting where the communication topology is dynamic. In short, it was tailor-made for smart contracts executing on the Internet. It should be noted that this world was anticipated by the web services and orchestration developments some 15 years prior to the blockchain and Ethereum. In point of fact, Microsoft&#39;s BizTalk Process Orchestration product kicked off the entire market and was developed in terms of these models of computation; and the role of behavioral types in this setting was anticipated at that time. See, for example, the second author&#39;s paper: Types and Contracts, published in ACM Communications in 2003.
-
-What kind of information can be captured by type systems? This is governed largely by what kind of information is made explicit in the programming language&#39;s syntax and semantics, and in the relationship between syntax and semantics. If the programming language doesn&#39;t say much about concurrent execution, for example, it&#39;s hard to type check it for concurrency properties, including safety and liveness. Likewise, even if the programming language does allow description of concurrent execution, if a great deal of the semantics of the concurrent execution is hidden below the surface of the language, then again, it is hard to type check for concurrency properties.
-
-It should be stressed that just because we are using concurrency properties as an example does not mean that behavioral types capture only concurrency properties. They have been quite successful in tracking object lifetimes (at the type level!), detecting when secrets are leaked from a higher level of security to a lower level, and identifying structural properties of programs such as how many components are involved and how they are linked by communication topology.
-
-The important takeaway is that there are strong links between what the programming language allows the programmer to say about execution, and how those statements are related to the actual execution semantics. The more straightforward, transparent, or if you like, wysiwyg the language, the more the type system can say about the programs it checks. It&#39;s worth looking at this in just a little detail. If you consider the core of every functional programming language, from Scala and Haskell, to OCaml, ML, Clojure, F#, and many others, what you find is the lambda calculus. In some sense, this is what makes a programming language &#39;functional&#39;, it&#39;s built around a kernel language that is isomorphic to the lambda calculus.
-
-If you look at the lambda calculus, you see that it is completely transparent. Every lambda term comes with everything you need to evaluate it. This is quite different from modern languages like Java or even C/C++. In those languages a program text without knowledge of the state of the stack or the heap is just not enough to understand how to execute the program. So, a lot of popular languages are not very transparent, and as such are harder to reason about without access to the hidden information, and thus are much harder to provide verification for via types.
-
-It&#39;s also useful to compare different models of computation when we think about what we can usefully say with types. Returning to the lambda calculus we can say, with mathematical certainty, that it&#39;s not about concurrency. Berry&#39;s theorem tells us that the lambda calculus is sequential. So, if you&#39;re expecting this model, which again, sits at the heart of the modern explosion of functional languages to be particularly well suited to domains like smart contracts which are explicitly acknowledged to execute autonomously and concurrently, then you ought to adjust your expectations. Likewise, you ought not to expect a type system to have much to say about the concurrency properties of the lambda calculus -- though it still might say something about the security properties of model.
-
-These observations more or less beg the question as to whether there are models of computation that speak transparently about concurrency. That&#39;s where the mobile process calculi come in. They are the first models of computation to have this property. In fact Robin Milner&#39;s stated goal in developing the π-calculus (the paradigmatic example of a mobile process calculus) was to find a model of concurrent computation that was to concurrent programming as lambda calculus was to functional programming. Thus, terms in the π-calculus have everything they need to be evaluated, and they speak explicitly about concurrency, and thus types systems for the π-calculus can say a great deal about concurrency properties such as safety and liveness. This has been the focus of intense research for the past decade.
-
-[1] Behavioral types are a new development in programming language type systems where more information about the behavior as well as the structure of the program is captured at the type level. This provides a method for formally verifying various aspects of program execution using a methodology that fits well with modern development methodology, namely letting the compiler type-check behavioral qualities of the code before sending it to be deployment on the Internet.
-
-[2]
-
-[3] In point of fact, Rholang unifies a number of features in an extremely compact computational model. For example, it is provably smallest mobile process calculus exhibiting higher order capabilities, meaning that processes are first class and thus can be passed as messages and taken as parameters. It is also the first reflective mobile process calculus, and the first typed reflective process calculus. All of these features fit in a specification that is smaller than the π-calculus.
-
-[a]changes to updateAck below
-
-[b]should &#39;new ack&#39; be &#39;new ackUpdate&#39;?
-
-[c]rtn is unbound. Fix this.
-
-[d]Below is a few ideas for how this could be solved syntactically.
-
-[e]http://s2.quickmeme.com/img/cf/cf65083b33089710b170e45bb9be4bec4c90756d77bf57fa313738ebe4ade3c5.jpg
-
-[f]:-)))
-
-[g]pretentious - moi?
-
-[h]This particular prole looks forward to this greatly.  Or has it already been covered by the above?
-
-[i]Being a prole and a plebe i&#39;m also looking forward to writing it!
-Rendered
-Notes on the DAO re-entrancy bug and behavioral types
-Jack Pettersson
-Lucius Gregory Meredith (@leithaus on OurChain Slack Channel)
-We decided to look at the DAO bug from the point of view of a concurrency-oriented contracting language that incorporates behavioral typing, to see if this bug would have been caught by the behavioral types, and hence never deployed. As it turns out, a novel defensive programming strategy against this sort of exploit can be deployed using behavioral types[1]. To understand this technique, you must first understand that the Rholang contracting language makes a commitment to fine-grained concurrency inside of contracts. In this setting, the problem of re-entrancy typically manifests as a race between a recursive call to continue the contract's behavior and updates to the contract state that should be sequentially handled before the recursive call.
-The first author of this note has provided a toy version of a contract that exhibits the bug2. We discuss this below and propose a type-level solution.
-A taste of Rholang
-Before diving into the toy DAO contract, let's look at a really basic building block: a cell. A cell contains a value and offers clients the ability to get and set the value. This is the basic construct underlying wallets and many other kinds of contracts.
-contract Cell( get, set, state ) = {
-select {
-  case rtn &lt;- get; v &lt;- state =&gt; {
-
-   rtn!( v ) | state!( v ) | Cell( get, set, state )
-
-  }
-
-  case newValue &lt;- set; v &lt;- state =&gt; {
-
-    state!( newValue ) | Cell( get, set, state )
-
   }
 }
-}
-Here's how to read this code: the Cell contract is parametric on 3 channels, the get channel, the set channel and the state channel. The state channel is where the cell will keep its value, while the get and set channels are where the cell will receive client requests to get and set that value. The select statement ( familiar to those familiar with Scala) says that it will run just one of the case branches. The case conditions are described by message arrival patterns, sometimes called join patterns.
+Here’s how to read this code: the Cell contract is parametric on 3 channels, the get channel, the set channel and the state channel. The state channel is where the cell will keep its value, while the get and set channels are where the cell will receive client requests to get and set that value. The select statement ( familiar to those familiar with Scala) says that it will run just one of the case branches. The case conditions are described by message arrival patterns, sometimes called join patterns. 
 In the first case the message arrival pattern,
 case rtn <- get; v <- state
 describes the situation in which the cell simultaneously receives a message on the get channel and the state channel. Intuitively, if the state channel is a private channel, we can think of this message arrival pattern as indicating the arrival of a client request to get the value stored in the cell while simultaneously fetching the value, v, waiting at the private state channel. The message it receives on the get channel is a return channel, rtn, where the contract will return the value, v, it receives from the state channel. When both of those message patterns are witnessed, the protocol will, in parallel, send the value v to the rtn channel, put the value v back into the state channel and invoke the Cell contract recursively to continue handling client requests for the cell.
@@ -433,7 +30,7 @@ This recursive type demands of programs that satisfy it that they will either be
 In the interest of simplicity, we have avoided discussions of the correctness of the state updates in order to expose how the behavioral type captures message ordering information. Notice that it also captures something else. A program that satisfies this type must always be responsive. There is no exit clause for this type. Thus, already we are seeing a weak form of a liveness property, in the form of responsiveness, showing up in this type.
 We can ask the compiler to check that Cell satisfies CT merely by declaring
 contract Cell( get, set, state ) : CT( get, set ) = …
-At compile time this will call a model checker similar to Caires' spatial logic model checker to check that the code does indeed satisfy the type.
+At compile time this will call a model checker similar to Caires’ spatial logic model checker to check that the code does indeed satisfy the type.
 The race to empty example
 Hopefully, equipped with the example above it will be easier to read a somewhat more realistic contract.
 /*
@@ -445,144 +42,133 @@ type ID = Ch
 // Users can take two actions:
 // 1) Request that their funds are sent to a channel they provide.
 // 2) Send tokens to another user.
+
 data Action = Withdraw ID
-       | Send (Int, ID)
+           | Send (Int, ID)
 // Each user has a balance and a channel with which they communicate
 // with the token issuance contract.
+
 struct User {
-balance : Int,
-action : Ch Action
+ balance : Int,
+ action  : Ch Action
 }
 // The contract has a mapping from user IDs to users, a channel with
 // which anyone can query the balance of a specific ID, and a channel
 // with which to deposit native tokens in exchange for tokens that
 // this contract issues.
+
 contract TokenBankContr(users : ID => User, getBalance : Ch (ID, Ch Int), deposit : Ch ID) = {
-// We select exactly one channel to receive on (first come, first serve).
-select {
-// In the case that we receive a query for the balance of an ID,
+  // We select exactly one channel to receive on (first come, first serve).
+ select {
+    // In the case that we receive a query for the balance of an ID,
+    // we check its value in the map and send back its associated
+    // balance, if it exists. Otherwise we return 0. We also recurse,
+    // to continue listening for new requests.
+   case (user, rtn) <- getBalance => {
+       match users[user] with
+         Just (balance, _) => { rtn!(balance) }
+         Nothing           => { rtn!(0) }
+       
+       | TokenBankContr( users, getBalance, deposit )
+   }
+   
+    // In the case that we receive a request to deposit native tokens
+    // in exchange for issued tokens, we simply insert the ID in the
+    // map. (And recurse to continue listening.)
 
-// we check its value in the map and send back its associated
-
-// balance, if it exists. Otherwise we return 0. We also recurse,
-
-// to continue listening for new requests.
-case (user, rtn) <- getBalance => {
-   match users[user] with
-
-     Just (balance, \_) =&gt; { rtn!(balance) }
-
-     Nothing           =&gt; { rtn!(0) }
-
-   | TokenBankContr( users, getBalance, deposit )
-}
-// In the case that we receive a request to deposit native tokens
-
-// in exchange for issued tokens, we simply insert the ID in the
-
-// map. (And recurse to continue listening.)
-case user <- deposit => {
-   users.insertsWith!( (+) , user, \_.balance, msg.value ) |
-
-   TokenBankContr( users, getBalance, deposit )
-}
-// For each registered user, we listen on its private channel for
-
-// requests to withdraw their native tokens. If we receive one, we
-
-// check that we are able to send native tokens to the requested
-
-// receiving channel, zero their balance and recurse.
+   case user <- deposit => {
+       users.insertsWith!( (+) , user, _.balance, msg.value ) |
+       TokenBankContr( users, getBalance, deposit )
+   } 
+    // For each registered user, we listen on its private channel for
+    // requests to withdraw their native tokens. If we receive one, we
+    // check that we are able to send native tokens to the requested
+    // receiving channel, zero their balance and recurse.
 case user <- users.keys; Withdraw to <- users[user].action;
- if to.send(users[user].balance) =&gt; {
-
-   users.inserts!(user, \_.balance, 0) |
-
-   TokenBankContr( users, getBalance, deposit )
-}
-// For each registered user, we listen on its private channel for
-
-// requests to send issued tokens to another user. If we receive one,
-
-// we check that the requested amount is greater than the sender&#39;s
-
-// balance, reduce the balance of the sender, increase the balance
-
-// of the receiver and recurse.
-
-case user &lt;- users.keys; Send (amount,receiver) &lt;- users[user].action;
-
- if amount &lt;= users[user].balance =&gt; {
-
-   users.insertsWith!( (-) , user, \_.balance, amount ) |
-
-   users.insertsWith!( (+) , receiver, \_.balance, amount ) |
-
-   TokenBankContr( users&#39;, getBalance, deposit )
-}
-}
+     if to.send(users[user].balance) => {
+       users.inserts!(user, _.balance, 0) |
+       TokenBankContr( users, getBalance, deposit )
+   }
+    // For each registered user, we listen on its private channel for
+    // requests to send issued tokens to another user. If we receive one,
+    // we check that the requested amount is greater than the sender’s
+    // balance, reduce the balance of the sender, increase the balance
+    // of the receiver and recurse.
+    case user <- users.keys; Send (amount,receiver) <- users[user].action;
+     if amount <= users[user].balance => {
+       users.insertsWith!( (-) , user, _.balance, amount ) |
+       users.insertsWith!( (+) , receiver, _.balance, amount ) |
+       TokenBankContr( users', getBalance, deposit )
+   }
+ }
 }
 We show an example below of how the above code can be exploited by a malicious owner of issued tokens.
 // The owner interacts with the token issuance contract through three
 // channels: one for querying balances, one for depositing funds and one
 // private channel, used to take actions related to its own issued tokens.
+
 struct TokenBank {
-getBalance : Ch (ID, Ch Int),
-deposit : Ch ID,
-priv : Ch Action
+ getBalance : Ch (ID, Ch Int),
+ deposit    : Ch ID,
+ priv       : Ch Action
 }
+
 contract MaliciousOwner( tokenBank : TokenBank ) = {
-// The owner creates a new channel with which it wishes to withdraw its
-// native tokens.
-new id in
-// It sends a request to the token issuance contract to withdraw its funds
-// to the newly created channel.
-tokenBank.priv!(Withdraw id) |
-// It continuously listens for any native tokens that are sent to this
-// channel, and each time it sends a new withdrawal request to the same
-// channel.
-for( !id.receive ) {
-tokenBank.priv!(Withdraw id)
-}
+  // The owner creates a new channel with which it wishes to withdraw its
+  // native tokens.
+ new id in
+ 
+  // It sends a request to the token issuance contract to withdraw its funds
+  // to the newly created channel.
+ tokenBank.priv!(Withdraw id) |
+  // It continuously listens for any native tokens that are sent to this
+  // channel, and each time it sends a new withdrawal request to the same
+  // channel.
+ for( !id.receive ) {
+   tokenBank.priv!(Withdraw id)
+ }
 }
 Each of the cases in this process definition exhibit a race condition because the recursive call to TokenBankContr (which is the Rholang equivalent of re-entrancy) is not properly guarded. Take this case, for example,
 case user <- users.keys; Withdraw to <- users[user].action;
-if to.send(users[user].balance) => {
-users.inserts!(user, \_.balance, 0) |
-TokenBankContr( users, getBalance, deposit )
+ if to.send(users[user].balance) => {
+    users.inserts!(user, _.balance, 0) |
+   TokenBankContr( users, getBalance, deposit )
 }
 There is a race between the balance update and the recursive call to TokenBankContr. This is the way the re-entrancy bug is manifest in a Rholang contract. The way to catch this particular case is to demand that the recursive call can only happen after the balance update. In the asynchronous setting, where the users.inserts!(user, _.balance, 0) message is sent asynchronously to the behavior handling the users.inserts this requires an explicit acknowledgement from the balance update that the update has happened. Thus, correct code would read
 case user <- users.keys; Withdraw to <- users[user].action;
-if to.send(users[user].balance) => {
-new ack in
-users.inserts!( user, _.balance, 0, ackUpdate[a] ) |
-ackUpdate?()TokenBankContr( users, getBalance, deposit )[b]
+ if to.send(users[user].balance) => {
+    new ack in
+   users.inserts!( user, _.balance, 0, ackUpdate[a] ) |
+   ackUpdate?()TokenBankContr( users, getBalance, deposit )[b]
 }
+
 Behavioral types that would prevent the bug
 This gives us all the clues we need to provide a type for this case. Assuming we have the type TB, for TokenBankContr, then we have <updateAck>?TB for this case. The incorrect code cannot type this way because there is no updateAck guard for the recursive call hence there is a message exchange that happens in the type that cannot happen in the incorrect code, while the correct code does type this way.
 A similar problem and fix occur in this case:
 case user <- users.keys; Send (amount,receiver) <- users[user].action;
-if amount <= users[user].balance => {
-users.insertsWith!( (-) , user, _.balance, amount ) |
-users.insertsWith!( (+) , receiver, _.balance, amount ) |
-TokenBank( users', getBalance, deposit )
+ if amount <= users[user].balance => {
+   users.insertsWith!( (-) , user, _.balance, amount ) |
+   users.insertsWith!( (+) , receiver, _.balance, amount ) |
+   TokenBank( users', getBalance, deposit )
 }
 Essentially, the problem is knowing when multitasking is ok and when it results in a lack of focus and inattention that allows requests to sneak in before other requests have been properly handled.
 To work out the type of the TB we simply disjoin the types of each case
-type TB
-=
+type TB 
+ =
 <getBalance>?( <rtn>[c][d]! | TB )
-<deposit>?( <ackDeposit>?TB )
-<users.keys>( <ackWithdraw>?TB + <ackSend>?TB )
++ <deposit>?( <ackDeposit>?TB )
++ <users.keys>( <ackWithdraw>?TB + <ackSend>?TB )
 This recursive type shows that it is ok to have parallelism in the balance query, but not ok to have parallelism in the side-effecting cases, i.e deposit, withdrawal and send. By asserting the typing:
 contract TokenBankContr( users : ID => User, getBalance : Ch (ID, Ch Int), deposit : Ch ID ) : TB
 The incorrect code will not type and as a result will not compile and as a result would never be deployed!
-To see examples of how this type check is made you can look at the spatial logic model checker for an OCaml implementation together with even more elaborate examples. The Rholang contracting language's behavioral type checker is under construction, but essentially follows the algorithm outlined here.
+To see examples of how this type check is made you can look at the spatial logic model checker for an OCaml implementation together with even more elaborate examples. The Rholang contracting language’s behavioral type checker is under construction, but essentially follows the algorithm outlined here.
+
 Behavioral types are not a panacea
-While this typing would absolutely catch and prevent the bug at compile time, there are types against which the buggy code does indeed type check. If the need for sequential ordering of the recursive call with respect to the contract state updates were not reflected in the type, due to an erroneous understanding of the requirements, the behavioral types would not have been much help. It's one thing to catch the bug with types in retrospect, but quite another to see the requirements clearly. This suggests several methodological safeguards.
+While this typing would absolutely catch and prevent the bug at compile time, there are types against which the buggy code does indeed type check. If the need for sequential ordering of the recursive call with respect to the contract state updates were not reflected in the type, due to an erroneous understanding of the requirements, the behavioral types would not have been much help. It’s one thing to catch the bug with types in retrospect, but quite another to see the requirements clearly. This suggests several methodological safeguards.
 Firstly, we suggest that the communication of contract requirements and contract design be conducted in terms of behavioral types. This is essentially an extension of the fairly well established design-by-type methodology that has grown up side-by-side with strong and expressive type disciplines such as those found in modern functional languages like Scala, Haskell, F#, OCaml, etc. Adopting a design-by-type discipline in this case would bring more attention to the essential issue. As we can see, the type abstracts away much of the details of the contract and focuses on where concurrency and non-determinism is allowed, and where it must be prevented.
 Secondly, we suggest that contracts are and will for the foreseeable future be written by human agency for human agency. As such, both contracts and types need both scrutiny and governance by human processes that include provenance and reputation. Using an algorithm conceived by Donald Knuth and peer-reviewed by the reviewers of a respected computer science journal is not a guarantee of correctness or safety, any more than type checking against an erroneously conceived behavioral type is, but it is one of the many tools we can bring to bear so that mission critical code receives the kind of quality assurance it deserves; and there is a long history of these kinds of processes yielding higher quality results over time.
 We can also anticipate a time when contracts are not just for humans anymore, but play a significant role in the organization of many different kinds of autonomous agency on the Internet, including autonomous devices, contracts and services (recursively made of contracts and services), etc. In this case the design-by-contract methodology evolves to become both a contract and service discovery mechanism as well as a means for the just-in-time assembly of contracts and services to fulfill a type description from contracts and services that fulfill components of the type description. While this is well out of the scope of this particular note, the important point to take away here is what happens when the technology succeeds and works at scale. In the case of behavioral types, the use cases just keep getting better.
+
 Bibliography
 Samson Abramsky: Domain Theory in Logical Form. Ann. Pure Appl. Logic 51(1-2): 1-77 (1991)
 Samson Abramsky: Proofs as Processes. Theor. Comput. Sci. 135(1): 5-9 (1994)
@@ -602,15 +188,17 @@ James Cheney, Sam Lindley, Philip Wadler: A practical theory of language-integra
 Tom Schrijvers, Peter J. Stuckey, Philip Wadler: Monadic constraint programming. J. Funct. Program. 19(6): 663-697 (2009)
 Philip Wadler: Monads and Composable Continuations. Lisp and Symbolic Computation 7(1): 39-56 (1994)
 Philip Wadler: Comprehending Monads. Mathematical Structures in Computer Science 2(4): 461-493 (1992)
-Appendix: Behavioral types for the proletariate[g][h][i]
-As mentioned before behavioral types constitute a new development in programming language type systems where more information about the behavior as well as the structure of the program is captured at the type level. To get a real sense of context, it is important to understand the historical scope of this work. Much of this work traces back to Abramsky's domain theory in logical form, and likewise Abramsky's revisioning of the propositions-as-type paradigm in the proofs as processes research programme. This became much more concrete with Caíres and Cardelli's spatial logic and Wadler's work on linear logic based interpretation of session types. The second author also provided a significant step in this with namespace logic. A similar independent development happened in the language integrated security research programme that ultimately converged on the behavioral types approach. Thus, we also see type systems for security properties expressed as behavioral types.
-Arguably, though, this all traces back to an observation made in 1980 by Howard, regarding the relationship between propositions in a logic called intuitionistic logic and types for a model of computation called the simply typed lambda calculus. This correspondence between types and proposition, proofs and programs, and even proof transformation and program execution has come under the rubric the Curry-Howard isomorphism. The upshot is that this work is the result of over 30 years of research into type-based formal verification of programs, and in particular, programs made for autonomous execution in a setting where the communication topology is dynamic. In short, it was tailor-made for smart contracts executing on the Internet. It should be noted that this world was anticipated by the web services and orchestration developments some 15 years prior to the blockchain and Ethereum. In point of fact, Microsoft's BizTalk Process Orchestration product kicked off the entire market and was developed in terms of these models of computation; and the role of behavioral types in this setting was anticipated at that time. See, for example, the second author's paper: Types and Contracts, published in ACM Communications in 2003.
-What kind of information can be captured by type systems? This is governed largely by what kind of information is made explicit in the programming language's syntax and semantics, and in the relationship between syntax and semantics. If the programming language doesn't say much about concurrent execution, for example, it's hard to type check it for concurrency properties, including safety and liveness. Likewise, even if the programming language does allow description of concurrent execution, if a great deal of the semantics of the concurrent execution is hidden below the surface of the language, then again, it is hard to type check for concurrency properties.
+
+Appendix: Behavioral types for the proletariat[e][f][g][h][i]
+As mentioned before behavioral types constitute a new development in programming language type systems where more information about the behavior as well as the structure of the program is captured at the type level. To get a real sense of context, it is important to understand the historical scope of this work. Much of this work traces back to Abramsky’s domain theory in logical form, and likewise Abramsky’s revisioning of the propositions-as-type paradigm in the proofs as processes research programme. This became much more concrete with Caíres and Cardelli’s spatial logic and Wadler’s work on linear logic based interpretation of session types. The second author also provided a significant step in this with namespace logic. A similar independent development happened in the language integrated security research programme that ultimately converged on the behavioral types approach. Thus, we also see type systems for security properties expressed as behavioral types.
+Arguably, though, this all traces back to an observation made in 1980 by Howard, regarding the relationship between propositions in a logic called intuitionistic logic and types for a model of computation called the simply typed lambda calculus. This correspondence between types and proposition, proofs and programs, and even proof transformation and program execution has come under the rubric the Curry-Howard isomorphism. The upshot is that this work is the result of over 30 years of research into type-based formal verification of programs, and in particular, programs made for autonomous execution in a setting where the communication topology is dynamic. In short, it was tailor-made for smart contracts executing on the Internet. It should be noted that this world was anticipated by the web services and orchestration developments some 15 years prior to the blockchain and Ethereum. In point of fact, Microsoft’s BizTalk Process Orchestration product kicked off the entire market and was developed in terms of these models of computation; and the role of behavioral types in this setting was anticipated at that time. See, for example, the second author’s paper: Types and Contracts, published in ACM Communications in 2003.
+What kind of information can be captured by type systems? This is governed largely by what kind of information is made explicit in the programming language’s syntax and semantics, and in the relationship between syntax and semantics. If the programming language doesn’t say much about concurrent execution, for example, it’s hard to type check it for concurrency properties, including safety and liveness. Likewise, even if the programming language does allow description of concurrent execution, if a great deal of the semantics of the concurrent execution is hidden below the surface of the language, then again, it is hard to type check for concurrency properties.
 It should be stressed that just because we are using concurrency properties as an example does not mean that behavioral types capture only concurrency properties. They have been quite successful in tracking object lifetimes (at the type level!), detecting when secrets are leaked from a higher level of security to a lower level, and identifying structural properties of programs such as how many components are involved and how they are linked by communication topology.
-The important takeaway is that there are strong links between what the programming language allows the programmer to say about execution, and how those statements are related to the actual execution semantics. The more straightforward, transparent, or if you like, wysiwyg the language, the more the type system can say about the programs it checks. It's worth looking at this in just a little detail. If you consider the core of every functional programming language, from Scala and Haskell, to OCaml, ML, Clojure, F#, and many others, what you find is the lambda calculus. In some sense, this is what makes a programming language 'functional', it's built around a kernel language that is isomorphic to the lambda calculus.
+The important takeaway is that there are strong links between what the programming language allows the programmer to say about execution, and how those statements are related to the actual execution semantics. The more straightforward, transparent, or if you like, wysiwyg the language, the more the type system can say about the programs it checks. It’s worth looking at this in just a little detail. If you consider the core of every functional programming language, from Scala and Haskell, to OCaml, ML, Clojure, F#, and many others, what you find is the lambda calculus. In some sense, this is what makes a programming language ‘functional’, it’s built around a kernel language that is isomorphic to the lambda calculus.
 If you look at the lambda calculus, you see that it is completely transparent. Every lambda term comes with everything you need to evaluate it. This is quite different from modern languages like Java or even C/C++. In those languages a program text without knowledge of the state of the stack or the heap is just not enough to understand how to execute the program. So, a lot of popular languages are not very transparent, and as such are harder to reason about without access to the hidden information, and thus are much harder to provide verification for via types.
-It's also useful to compare different models of computation when we think about what we can usefully say with types. Returning to the lambda calculus we can say, with mathematical certainty, that it's not about concurrency. Berry's theorem tells us that the lambda calculus is sequential. So, if you're expecting this model, which again, sits at the heart of the modern explosion of functional languages to be particularly well suited to domains like smart contracts which are explicitly acknowledged to execute autonomously and concurrently, then you ought to adjust your expectations. Likewise, you ought not to expect a type system to have much to say about the concurrency properties of the lambda calculus -- though it still might say something about the security properties of model.
-These observations more or less beg the question as to whether there are models of computation that speak transparently about concurrency. That's where the mobile process calculi come in. They are the first models of computation to have this property. In fact Robin Milner's stated goal in developing the π-calculus (the paradigmatic example of a mobile process calculus) was to find a model of concurrent computation that was to concurrent programming as lambda calculus was to functional programming. Thus, terms in the π-calculus have everything they need to be evaluated, and they speak explicitly about concurrency, and thus types systems for the π-calculus can say a great deal about concurrency properties such as safety and liveness. This has been the focus of intense research for the past decade.
+It’s also useful to compare different models of computation when we think about what we can usefully say with types. Returning to the lambda calculus we can say, with mathematical certainty, that it’s not about concurrency. Berry’s theorem tells us that the lambda calculus is sequential. So, if you’re expecting this model, which again, sits at the heart of the modern explosion of functional languages to be particularly well suited to domains like smart contracts which are explicitly acknowledged to execute autonomously and concurrently, then you ought to adjust your expectations. Likewise, you ought not to expect a type system to have much to say about the concurrency properties of the lambda calculus -- though it still might say something about the security properties of model.
+These observations more or less beg the question as to whether there are models of computation that speak transparently about concurrency. That’s where the mobile process calculi come in. They are the first models of computation to have this property. In fact Robin Milner’s stated goal in developing the π-calculus (the paradigmatic example of a mobile process calculus) was to find a model of concurrent computation that was to concurrent programming as lambda calculus was to functional programming. Thus, terms in the π-calculus have everything they need to be evaluated, and they speak explicitly about concurrency, and thus types systems for the π-calculus can say a great deal about concurrency properties such as safety and liveness. This has been the focus of intense research for the past decade.
+
 [1] Behavioral types are a new development in programming language type systems where more information about the behavior as well as the structure of the program is captured at the type level. This provides a method for formally verifying various aspects of program execution using a methodology that fits well with modern development methodology, namely letting the compiler type-check behavioral qualities of the code before sending it to be deployment on the Internet.
 [2]
 [3] In point of fact, Rholang unifies a number of features in an extremely compact computational model. For example, it is provably smallest mobile process calculus exhibiting higher order capabilities, meaning that processes are first class and thus can be passed as messages and taken as parameters. It is also the first reflective mobile process calculus, and the first typed reflective process calculus. All of these features fit in a specification that is smaller than the π-calculus.
@@ -619,9 +207,7 @@ These observations more or less beg the question as to whether there are models 
 [c]rtn is unbound. Fix this.
 [d]Below is a few ideas for how this could be solved syntactically.
 [e]http://s2.quickmeme.com/img/cf/cf65083b33089710b170e45bb9be4bec4c90756d77bf57fa313738ebe4ade3c5.jpg
+[f]:-)))
 [g]pretentious - moi?
-[h]This particular prole looks forward to this greatly. Or has it already been covered by the above?
+[h]This particular prole looks forward to this greatly.  Or has it already been covered by the above?
 [i]Being a prole and a plebe i'm also looking forward to writing it!
-Copy to clipboard
-Want to convert another document?
-@benbalter | source | feedback
