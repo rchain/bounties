@@ -10,6 +10,8 @@ Roadmap: https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/Roadmap
 
 FAQ: https://github.com/rchain/reference/blob/master/faq.md
 
+Weekly Debrief Index: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
+
 **Contributing to the RChain Coop**
 
 You can help contribute to the RChain project through Github/Members: 
@@ -49,6 +51,6 @@ Slack: https://ourchain.slack.com/ (To be phased out and replaced by Private Dis
 
 Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 
-Discord (Private): Requires Membership - Co-op members, leadership and developers share a PRIVATE Discord server that requires a $20 membership and KYC to join. Register for membership and Private Discord access here: https://member.rchain.coop/
+Co-op Membership : Co-op members, leadership and developers work together in the Discord Member Channels that requires a $20 membership and KYC to join. Register for membership and Discord access here: https://member.rchain.coop/
 
 Discord (Public): https://discord.gg/fvY8qhx
