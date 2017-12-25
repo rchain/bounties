@@ -19,10 +19,8 @@ https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
 **RHOC Token Details**
 
-To see RHOC in MEW/Metamask add custom token address: 
-
-0x168296bb09e24a88805cb9c33356536b980d3fc5
-
+To see RHOC in MEW/Metamask add custom token address:  \
+0x168296bb09e24a88805cb9c33356536b980d3fc5.  \
 8 decimal places
 
 **Official RChain Coop Channels**
@@ -47,10 +45,10 @@ Bitcointalk: https://bitcointalk.org/index.php?topic=2494040
 
 Medium: https://medium.com/rchain-cooperative
 
-Slack: https://ourchain.slack.com/ (To be phased out and replaced by Private Discord)
+Slack: https://ourchain.slack.com/ (Being phased out and replaced by Discord)
 
 Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 
-Co-op Membership : Co-op members, leadership and developers work together in the Discord Member Channels that requires a $20 membership and KYC to join. Register for membership and Discord access here: https://member.rchain.coop/
+Co-op Membership: Co-op members, leadership and developers work together in the Discord Member Channels that require a $20 membership and KYC to join. Register for membership here: https://member.rchain.coop/
 
 Discord (Public): https://discord.gg/fvY8qhx
