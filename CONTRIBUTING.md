@@ -11,7 +11,7 @@ Everyone is welcome to participate. Contributing doesn’t just mean coding; the
 - We work together and keep each other updated through [Github/RChain/Members](https://github.com/rchain/Members).
 - We're experimenting with [Mattermost](https://rchain.divvydao.net/community/channels/town-square) and [Gitter](https://gitter.im/rchain/Rholang) to create insight in who does what when and why.
 - The Telegram [RChain Coop](https://t.me/rchain_coop) chat group is for chat, while the [RChain Coop Official Announcements](https://t.me/rchain_official) channel carries official announcements. For Chinese speakers there is a [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN) group. There is also a QQ group for RChain: 530718666.
-- We've moved from [Slack](https://ourchain.slack.com/messages?) to a private [Discord](https://discordapp.com/channels/349667445566472202/357561188676009986) server. Discord has several channels to discuss about all kind of things (to join see [Becoming a Member](#becoming-a-member) below). The goal is to create actionable issues in [Github/Members](https://github.com/rchain/Members/) that are handled by the community.
+- We've moved from [Slack](https://ourchain.slack.com/messages?) to a [Discord](https://discord.gg/fvY8qhx) server. Discord has several channels to discuss about all kind of things (to join see [Becoming a Member](#becoming-a-member) below). The goal is to create actionable issues in [Github/Members](https://github.com/rchain/Members/) that are handled by the community.
 - The different environments are bridged together. So you would see messages from for example Discord in Mattermost, Telegram, or Gitter.
 - We use [Google Groups](https://groups.google.com/forum/#!forum/rchain) for interaction through email and getting access to the RChain Google drive and documents.
 - There are weekly conference calls with unedited archives on [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
@@ -29,10 +29,10 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
   2. [ ] request a Github collaborator role from @lapin7 in one of the comm channels, or mail [ops@rchain.coop](ops@rchain.coop), to get an invite
   3. [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members)
 
-- It's not mandatory but it really helps to become a RChain Member and get a Discord account. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
+- It's not mandatory but it really helps to become a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
-  2. [ ] This is the #bounties channel in Discord:
-  ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png)
+  <!-- 2. [ ] This is the #bounties channel in Discord:
+  ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
 
 #### Decentralized Budget Allocation
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
@@ -66,7 +66,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 #### Tax
 - RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
 - If a contributor's rewards are more then $600 per year, then a [Fw9 tax form](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
-- For US aliens living outside of the USA, a form [Fw4 tax form](https://www.irs.gov/pub/irs-pdf/fw4.pdf) has to be filled out.
+- For US aliens living outside of the USA, the [Fw4 tax form](https://www.irs.gov/pub/irs-pdf/fw4.pdf) has to be filled out (only lines 1, 2, 3, 4, and 7).
 - As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provided ETH-addresses.
 
 #### Reporting
@@ -77,14 +77,18 @@ The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) pre
 
 ## Becoming a Member
 
-By joining the Cooperative you will participate in the lively conversation of the RChain community. Members can access the private Discord channel (no trolls or scammers) with direct access to the developers and governance decision making.
+By joining the Cooperative you will participate in the lively conversation of the RChain community. Members can access the Discord server (no trolls or scammers) with direct access to the developers and governance decision making.
 
 ### Process
 
 - [Sign up](https://member.rchain.coop/#/sign-up) for RChain membership, upload your id document, and pay the $20 membership fee.
 - You will receive an invite link to the RChain Discord.
 - Create a [Discord](https://discordapp.com/) account if you don't have one.
-- On Discord, go to the #verification channel and request verification. A 'verifier' will contact you (depending on the time of day this might not be immediate).
+  - On Discord, you can send a message to the @verify bot:
+  ```/verify```
+  - The bot responds by querying for the code that was emailed.
+  - On success, a 'verifier' will contact you (depending on the time of day this might not be immediate).
+  - After passing the verification, your role will be updated to Member.
 
 #### 4 Membership requirements
 
