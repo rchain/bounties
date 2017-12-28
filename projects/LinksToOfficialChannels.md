@@ -14,13 +14,13 @@ Weekly Debrief Index: https://github.com/rchain/Members/wiki/Weekly-Debrief-Inde
 
 **Contributing to the RChain Coop**
 
-You can help contribute to the RChain project through Github/Members: 
+You can help contribute to the RChain project through Github/rchain/Members: 
 https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
 **RHOC Token Details**
 
 To see RHOC in MEW/Metamask add custom token address:  \
-0x168296bb09e24a88805cb9c33356536b980d3fc5.  \
+0x168296bb09e24a88805cb9c33356536b980d3fc5  \
 8 decimal places
 
 **Official RChain Coop Channels**
@@ -35,7 +35,7 @@ Telegram Announcement Channel Link: https://t.me/RChain_Official
 
 Twitter: https://twitter.com/rchain_coop
 
-Facebook Page: https://www.facebook.com/rchaincooperative/
+Facebook: https://www.facebook.com/rchaincooperative/
 
 Youtube: https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w
 
@@ -49,6 +49,6 @@ Slack: https://ourchain.slack.com/ (Being phased out and replaced by Discord)
 
 Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 
-Co-op Membership: Co-op members, leadership and developers work together in the Discord Member Channels that require a $20 membership and KYC to join. Register for membership here: https://member.rchain.coop/
+Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
 
-Discord (Public): https://discord.gg/fvY8qhx
+Co-op Membership: Discord Member Channels require a $20 membership fee and KYC to join. Register for membership at: https://member.rchain.coop/ 
