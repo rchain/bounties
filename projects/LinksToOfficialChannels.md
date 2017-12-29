@@ -1,3 +1,9 @@
+SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale and airdrop for RChain. 
+
+DO NOTE THAT THERE IS NO CROWDSALE OR AIRDROP. PLEASE DO NOT SEND ETH OR FILL UP ANY FORMS RELATED TO RHOC AIRDROPS.
+
+Please help us to report the phishing scam here: http://bit.ly/2klgwe4
+
 **RChain Cooperative Official Channel Links**
 
 Official Website: https://rchain.coop/
@@ -29,9 +35,9 @@ Telegram RChain Official Chat Group: @rchain_coop
 
 Telegram Chat Invite Link: https://t.me/rchain_coop
 
-Telegram RChain Official Announcements Channel: @RChain_Official
+Telegram RChain Official Announcements Channel: @rchain_official
 
-Telegram Announcement Channel Link: https://t.me/RChain_Official
+Telegram Announcement Channel Link: https://t.me/rchain_official
 
 Twitter: https://twitter.com/rchain_coop
 
@@ -45,9 +51,9 @@ Bitcointalk: https://bitcointalk.org/index.php?topic=2494040
 
 Medium: https://medium.com/rchain-cooperative
 
-Slack: https://ourchain.slack.com/ (Being phased out and replaced by Discord)
-
 Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
+
+Slack: https://ourchain.slack.com/ (Being phased out and replaced by Discord)
 
 Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
 
