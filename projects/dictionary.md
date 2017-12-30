@@ -2,6 +2,7 @@
 
     Goal for this document: create a list of RChain words, their definition
     and linked content in markdown as a github page.
+    Current state: needs fleshing out by technical contributors.
 
     Syntax for editors:
     - Sections get a level 2 heading (##) and subsections (if needed) level 3.
@@ -12,7 +13,7 @@
 **Linking to Definitions**  
 Link to a term by using the term in an anchor, e.g. for Rholang, link to:  
 https://github.com/rchain/Members/blob/master/projects/dictionary.md#rholang.  
-Or copy the link icon that Github displays when you hover over a heading.
+Or copy from the link icon that Github displays when you hover over a heading.
 
 ##  RChain General
 
