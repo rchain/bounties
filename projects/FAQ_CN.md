@@ -132,11 +132,11 @@ RChain还没有认可RHOC交易，由于私下出售的仍未成熟，但其可�
 
 **5、关于开发人员**
 
-**什么是PI演算? **
+**什么是PI演算?**
 
 在理论计算科学领域，π演算是一种过程演算。π演算允许命名空间在通道中进行传递，这样，使得在计算中导致网络配置变化的并行计算通过这种演算成为可能。 (Ref.:  [https://en.wikipedia.org/wiki/Pi-calculus](https://en.wikipedia.org/wiki/Pi-calculus)). 需要更好的理解π演算在RChain发展中的应用方法，可参加这篇文献  [Mobile process calculi for programming the blockchain](http://mobile-process-calculi-for-programming-the-new-blockchain.readthedocs.io/en/latest/).
 
-**参与RChain开发需要具备哪些技能? **
+**参与RChain开发需要具备哪些技能?**
 
 在目前阶段，团队的开发重心集中在核心平台上。VM、存储以及网络层级架构采用Scala进行编写。在开发的下几个阶段，将进行Casper、REV钱包以及Rholang中的一些内容。如您是一名具有丰富经验的Scala开发者，请与我们联系。在开发的过程中，我们将需要具有更多不同技能的开发者， Web开发人员，设计师，Javascript专家，系统管理员，beta测试员以及质量保证人员均在我们的人员需求范围中。如您有意愿加入我们，请点击  [join as a Member](https://member.rchain.coop/) 加入我们的人才池。
 
@@ -144,7 +144,7 @@ RChain还没有认可RHOC交易，由于私下出售的仍未成熟，但其可�
 
 对π演算的熟练掌握将帮助您的学习过程. 加入  [RChain&#39;s Discord](https://discord.gg/fvY8qhx)了解更多
 
-**RChain 组件具有哪些许可? **
+**RChain 组件具有哪些许可?**
 
 RChain组件均为开源且具有免费软件许可. Apache v2在我们的选择范围中。 Rholang 是唯一加入 MIT license的组件。
 
