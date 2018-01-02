@@ -68,7 +68,7 @@ RChain合作组织是一个成员驱动的组织，目前被选举的董事会�
 
 要查看过去的视频摘要和周报可以访问这个 [索引目录](https://github.com/rchain/Members/wiki/Weekly-Debrief-Index)。
 
-Reddit : https://www.reddit.com/r/RChain\_Official/ and https://www.reddit.com/r/RChain/
+Reddit : https://www.reddit.com/r/RChain_Official/ and https://www.reddit.com/r/RChain/
 
 Bitcointalk: https://bitcointalk.org/index.php?topic=2494040
 
