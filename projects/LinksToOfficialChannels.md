@@ -29,6 +29,8 @@ To see RHOC in MEW/Metamask add custom token address:  \
 0x168296bb09e24a88805cb9c33356536b980d3fc5  \
 8 decimal places
 
+RHOC Distribution and Circulation: https://github.com/rchain/reference/blob/master/finance/rhoc.md
+
 **Official RChain Coop Channels**
 
 Telegram RChain Official Chat Group: @rchain_coop
