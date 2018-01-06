@@ -1,4 +1,4 @@
-SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale and airdrop for RChain. 
+SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale and airdrop for RChain.
 
 DO NOTE THAT THERE IS NO CROWDSALE OR AIRDROP. PLEASE DO NOT SEND ETH OR FILL UP ANY FORMS RELATED TO RHOC AIRDROPS.
 
@@ -8,24 +8,24 @@ Please help us to report the phishing scam here: http://bit.ly/2klgwe4
 
 Official Website: https://rchain.coop/
 
-RChain Architecture Doc: http://rchain-architecture.readthedocs.io/
-
-Comparison of Blockchains: http://rchain-architecture.readthedocs.io/en/latest/introduction/comparison-of-blockchains.html
+FAQ: https://github.com/rchain/reference/blob/master/faq.md
 
 Roadmap: https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/Roadmap
 
-FAQ: https://github.com/rchain/reference/blob/master/faq.md
+RChain Architecture Doc: http://rchain-architecture.readthedocs.io/
+
+Comparison of Blockchains: http://rchain-architecture.readthedocs.io/en/latest/introduction/comparison-of-blockchains.html
 
 Weekly Debrief Index: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
 
 **Contributing to the RChain Coop**
 
-You can help contribute to the RChain project through Github/rchain/Members: 
+You can help contribute to the RChain project through Github/rchain/Members:
 https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
 **RHOC Token Details**
 
-To see RHOC in MEW/Metamask add custom token address:  \
+To see RHOC in MEW/Metamask "Add Custom Token" with address:  \
 0x168296bb09e24a88805cb9c33356536b980d3fc5  \
 8 decimal places
 
@@ -55,8 +55,8 @@ Medium: https://medium.com/rchain-cooperative
 
 Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 
-Slack: https://ourchain.slack.com/ (Being phased out and replaced by Discord)
+Slack: https://ourchain.slack.com/ (being phased out and replaced by Discord)
 
 Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
 
-Co-op Membership: Discord Member Channels require a $20 membership fee and KYC to join. Register for membership at: https://member.rchain.coop/ 
+Co-op Membership: Discord Member Channels require a $20 membership fee and KYC to join. Register for membership at: https://member.rchain.coop/
