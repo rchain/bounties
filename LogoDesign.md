@@ -37,6 +37,4 @@ Outstanding Considerations.
 
 Contributors:
 
-@kitblake, @ab, @AyAyRon_P, @barry_cynamon, @ian, @mythocurrency,
-
-@✨dachshundwizard✨, @Jonathanks, @phillip, @nicoalayev, @tet, @Navneet, @Mrinal Manohar, @kirkwood, @crys, @chrisb, @amir, , @abdul rehman,, @Ed, @phluid, @oscarpif:, @Hamish, @42erinlee, @lamouette, @ddayan
+@kitblake, @ab, @AyAyRon_P, @barry_cynamon, @ian, @mythocurrency, @✨dachshundwizard✨, @Jonathanks, @phillip, @nicoalayev, @tet, @Navneet, @Mrinal Manohar, @kirkwood, @crys, @chrisb, @amir, , @abdul rehman,, @Ed, @phluid, @oscarpif:, @Hamish, @42erinlee, @lamouette, @ddayan
