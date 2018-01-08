@@ -25,7 +25,7 @@ It is the most considerate of the member feedback.
 
 -   Hollow center to represent "genesis block"
 
--   Represents consensus in a distributed network
+-   Represents consensus in a distributed network, with the "R" for "RChain" as the connections
 
 -   Works well in shrunken sizes
 
