@@ -2,7 +2,7 @@ SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale 
 
 DO NOTE THAT THERE IS NO CROWDSALE OR AIRDROP. PLEASE DO NOT SEND ETH OR FILL UP ANY FORMS RELATED TO RHOC AIRDROPS.
 
-Please help us to report the phishing scam here: http://bit.ly/2klgwe4
+<!--Please help us to report the phishing scam here: http://bit.ly/2klgwe4-->
 
 **RChain Cooperative Official Channel Links**
 
