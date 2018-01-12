@@ -14,8 +14,7 @@ Summary
 [Runner Up](https://drive.google.com/file/d/1HH5ClD_t7fGAaQ2LO-I52SDclS_hABJk/view)
 
 
-2018-01-08: 
-The Drivers for the logo design concluded on a final design(now the "runner up"). Based on the points below. 
+2018-01-08: The Drivers for the logo design concluded on a final design(now the "runner up"). Based on the points below. 
 
 -   2 Tone Color Palette (red and black)
 
@@ -27,13 +26,13 @@ The Drivers for the logo design concluded on a final design(now the "runner up")
 
 -   Works well on printouts
 
-After announcing it in #logo-design on the public discord, multiple contriburors had a specific request to eliminate the hollow center that represents the genesis block. 
+After announcing it in #logo-design on the public discord, multiple contributors had a specific request to eliminate the hollow center that represents the genesis block. 
 
-A Board member suggestion creating a poll within the #polling-station on the public discord in order to vote on the final two options, the one with the hollow center, and the one without. 
+A Board member suggested to create a poll within the #polling-station on the public discord in order to vote on the final two options; the option with the hollow center, and the option without. 
 
 The poll was created and described on that Wednesdays debrief - [video link here](https://youtu.be/Zeh2S1cW_hE?t=21m36s)
 
-Roughly 40 people voted between the two options and the poll was clsoed on the end of Wednesday. 
+2018-01-10 Roughly 40 people voted between the two options and the poll was closed. 
 
 
 Outstanding Considerations.
