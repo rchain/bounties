@@ -1,10 +1,8 @@
-SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale and airdrop for RChain.
+:warning: SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale and airdrop for RChain.
 
 DO NOTE THAT THERE IS NO CROWDSALE OR AIRDROP. PLEASE DO NOT SEND ETH OR FILL UP ANY FORMS RELATED TO RHOC AIRDROPS.
 
-<!--Please help us to report the phishing scam here: http://bit.ly/2klgwe4-->
-
-**RChain Cooperative Official Channel Links**
+**RChain Cooperative Official Links**
 
 Official Website: https://rchain.coop/
 
@@ -31,7 +29,7 @@ To see RHOC in MEW/Metamask "Add Custom Token" with address:  \
 
 RHOC Distribution and Circulation: https://github.com/rchain/reference/blob/master/finance/rhoc.md
 
-**Official RChain Coop Channels**
+**Official RChain Coop Media Channels**
 
 Telegram RChain Official Chat Group: @rchain_coop
 
@@ -60,3 +58,7 @@ Slack: https://ourchain.slack.com/ (being phased out and replaced by Discord)
 Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
 
 Co-op Membership: Discord Member Channels require a $20 membership fee and KYC to join. Register for membership at: https://member.rchain.coop/
+
+**For Your Security**
+
+:no_entry_sign: Legit admins do not PM.
