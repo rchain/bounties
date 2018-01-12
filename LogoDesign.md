@@ -1,4 +1,4 @@
-## Logo Design
+## Logo Design update. 
 Summary of member driven iniative to reinvent the rchain cooperative logo. 
 
 Github issue - [Issue #148](https://github.com/rchain/Members/issues/148)
