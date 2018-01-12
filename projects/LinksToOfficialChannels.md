@@ -61,4 +61,4 @@ Co-op Membership: Discord Member Channels require a $20 membership fee and KYC t
 
 **For Your Security**
 
-:no_entry_sign: Legit admins do not PM.
+:no_entry_sign: Legit admins will never send you a PM.
