@@ -13,6 +13,8 @@ Summary
 
 [Runner Up](https://drive.google.com/file/d/1HH5ClD_t7fGAaQ2LO-I52SDclS_hABJk/view)
 
+After weeks of collaboration on the github issue, the drivers moved for final feedback into #logo-design on the public discord, where many members contributed thoughtfully and multiple varations and iterations where created and shared to the group. 
+
 
 2018-01-08: The Drivers for the logo design concluded on a final design(now the "runner up"). Based on the points below. 
 
