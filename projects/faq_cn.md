@@ -74,6 +74,9 @@ RHOC是以太坊ERC 20代币，于2017年早些时候由RChain合作组织发行
 
 报告如下：[https://docs.google.com/document/d/1lCVeO63E-WVosOnBIA2hH416Hs-Z0e1Av9eJWq-L20o/edit?usp=sharing](https://docs.google.com/document/d/1lCVeO63E-WVosOnBIA2hH416Hs-Z0e1Av9eJWq-L20o/edit?usp=sharing)
 
+**What is the plan for supply of RHOCs, REVs, and potential other staking tokens?**  \
+This is a somewhat outdated [financial summary, distribution, and other information](https://docs.google.com/document/d/1lCVeO63E-WVosOnBIA2hH416Hs-Z0e1Av9eJWq-L20o/edit?usp=sharing). This is the [current distribution](https://github.com/rchain/reference/blob/master/finance/rhoc.md).
+
 2017年11月的第一次成员会议决议提出&quot;合作组织不可将超过200,000,000的代币进入流通（包括任何人持有的代币，除合作组织自身持有及下个财政年中焚毁的代币外）&quot;。该决议的全文见 [https://medium.com/rchain-cooperative/annual-meeting-summary-3827a82a2e33](https://medium.com/rchain-cooperative/annual-meeting-summary-3827a82a2e33)
 
 **如何在 myetherwallet.com中显示代币 and Metamask**
