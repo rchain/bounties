@@ -53,7 +53,7 @@ RChain合作组织是一个成员驱动的组织，目前被选举的董事会�
 - 合作组织中的成员、领导者和开发者共享一个 [公共服务器](https://discord.gg/fvY8qhx)。若需获取服务器中各项纪录通道的授权， [请通过如下链接成为会员](https://member.rchain.coop/)。公开渠道如下： [https://ourchain.slack.com/](https://ourchain.slack.com/)。
 - [Github](https://github.com/rchain/): 被用来进行代码和工程的协调沟通。
 - [Twitter](https://twitter.com/rchain_coop/): 提供新闻和公告的发布和更新。
-- On Telegram there is a [RChain chat group](https://t.me/rchain_coop) and official [Announcements channel](https://t.me/rchain_official).
+- 在Telegram上有[RChain交流群](https://t.me/rchain_coop) 和官方[公告频道](https://t.me/rchain_official).
 - 中国QQ群 ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 - [Medium](https://medium.com/rchain-cooperative): 记载了更久远的博客公告。
 - [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w): 中包含更新、直播和各项会议的记录。
