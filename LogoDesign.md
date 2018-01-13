@@ -11,7 +11,7 @@ Summary:
 
 [Final Design](https://drive.google.com/file/d/1PgWzDl0VBc1I_hGT5VQNIkqtmmiNElJs/view)
 
-[Runner Up](https://drive.google.com/file/d/1HH5ClD_t7fGAaQ2LO-I52SDclS_hABJk/view)
+[Runner-Up](https://drive.google.com/file/d/1HH5ClD_t7fGAaQ2LO-I52SDclS_hABJk/view)
 
 After weeks of collaboration on the github issue, the drivers moved for final feedback into #logo-design on the public discord, where many members contributed thoughtfully and multiple varations and iterations where created and shared to the group. 
 
