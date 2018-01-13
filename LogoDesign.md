@@ -33,7 +33,7 @@ A Board member suggested to create a poll within the #polling-station on the pub
 
 The poll was created and described on that Wednesdays debrief - [video link here](https://youtu.be/Zeh2S1cW_hE?t=21m36s)
 
-2018-01-10: Roughly 40 people voted between the two options and the poll was closed. 
+2018-01-10: Roughly 40 people voted between the two options and the poll was closed. Resulting in the final design linked above. 
 
 
 Outstanding Considerations.
