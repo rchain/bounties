@@ -40,7 +40,7 @@ Outstanding Considerations.
 
 -   Only 40 people voted in total, which is considerable for "active" members, but not representative of the total membership(almost 600 at the time of this)
 
--   The last minute decision to poll was good intentioned, but members expressed that, moving forward, these types of process' should be laid out in advanced, presented with adquetate time in advance for members to know, and followed through the deadline with no exceptions as as to keep things on track. 
+-   The last minute decision to poll was good intentioned, but members expressed that, moving forward, these types of process' should be laid out in advanced, presented with adquetate time for members to be made aware, and followed through the deadline with no exceptions in order to cultivate discipline. 
 
 -   Integration with [.coop branding](http://www.domains.coop/media/21841/marque_guidelines_en.pdf) is still a consideration when thinking of new layouts. 
 
