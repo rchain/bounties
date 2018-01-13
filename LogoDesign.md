@@ -1,5 +1,5 @@
 ## Logo Design update. 
-Summary of member driven iniative to reinvent the rchain cooperative logo. 
+Summary of member driven iniative to reinvent the Rchain Cooperative logo. 
 
 Github issue - [Issue #148](https://github.com/rchain/Members/issues/148)
 
