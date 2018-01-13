@@ -54,7 +54,7 @@ RChain合作组织是一个成员驱动的组织，目前被选举的董事会�
 - [Github](https://github.com/rchain/): 被用来进行代码和工程的协调沟通。
 - [Twitter](https://twitter.com/rchain_coop/): 提供新闻和公告的发布和更新。
 - On Telegram there is a [RChain chat group](https://t.me/rchain_coop) and official [Announcements channel](https://t.me/rchain_official).
-- Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
+- 中国QQ群 ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 - [Medium](https://medium.com/rchain-cooperative): 记载了更久远的博客公告。
 - [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w): 中包含更新、直播和各项会议的记录。
 - [Facebook](https://www.facebook.com/rchaincooperative/): 和 [LinkedIn](https://www.linkedin.com/company/24997313/): 账户，欢迎加入！
@@ -72,10 +72,7 @@ RHOC是以太坊ERC 20代币，于2017年早些时候由RChain合作组织发行
 
 **RHOC,REV和其他原生代币的未来供应计划是什么？**
 
-报告如下：[https://docs.google.com/document/d/1lCVeO63E-WVosOnBIA2hH416Hs-Z0e1Av9eJWq-L20o/edit?usp=sharing](https://docs.google.com/document/d/1lCVeO63E-WVosOnBIA2hH416Hs-Z0e1Av9eJWq-L20o/edit?usp=sharing)
-
-**What is the plan for supply of RHOCs, REVs, and potential other staking tokens?**  \
-This is a somewhat outdated [financial summary, distribution, and other information](https://docs.google.com/document/d/1lCVeO63E-WVosOnBIA2hH416Hs-Z0e1Av9eJWq-L20o/edit?usp=sharing). This is the [current distribution](https://github.com/rchain/reference/blob/master/finance/rhoc.md).
+这是一份已经过期的文件 [财务摘要, 分配方案, 和其他信息](https://docs.google.com/document/d/1lCVeO63E-WVosOnBIA2hH416Hs-Z0e1Av9eJWq-L20o/edit?usp=sharing). 这个是 [目前的分配方案](https://github.com/rchain/reference/blob/master/finance/rhoc.md).
 
 2017年11月的第一次成员会议决议提出&quot;合作组织不可将超过200,000,000的代币进入流通（包括任何人持有的代币，除合作组织自身持有及下个财政年中焚毁的代币外）&quot;。该决议的全文见 [https://medium.com/rchain-cooperative/annual-meeting-summary-3827a82a2e33](https://medium.com/rchain-cooperative/annual-meeting-summary-3827a82a2e33)
 
