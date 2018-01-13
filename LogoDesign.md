@@ -42,7 +42,7 @@ Outstanding Considerations.
 
 -   The last minute decision to poll was good intentioned, but members expressed that, moving forward, these types of process' should be laid out in advanced, presented with adquetate time for members to be made aware, and followed through the deadline with no exceptions in order to cultivate discipline. 
 
--   Integration with [.coop branding](http://www.domains.coop/media/21841/marque_guidelines_en.pdf) is still a consideration when thinking of new layouts. 
+-   Integration with [.coop branding](http://www.domains.coop/media/21841/marque_guidelines_en.pdf) is still a meaningful consideration that will need to be revisited. 
 
 
 
