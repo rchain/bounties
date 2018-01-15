@@ -1,3 +1,4 @@
+From another rchain member:
 # A Shadow Coder
 
 Once upon a time there was a developer who was really into it. S-he was tapped into the zeitgeist and standing at the thrilling threshold where hobby can become vocation. There was only one problem: s-he was an Anarchanon. S-he damn well intended to practice what s-he preached.
