@@ -19,8 +19,7 @@ Indice de débriefing hebdomadaire: https://github.com/rchain/Members/wiki/Weekl
 
 **Contribuer á la RChain Coop**
 
-You can help contribute to the RChain project through Github/rchain/Members:
-https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
+Vous pouvez contribuer au projet RChain grâce à Github/rchain/Members: https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
 **RHOC Token Details**
 
