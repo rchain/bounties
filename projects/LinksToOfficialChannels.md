@@ -59,6 +59,17 @@ Co-op members, leadership and developers work together in a public Discord serve
 
 Co-op Membership: Discord Member Channels require a $20 membership fee and KYC to join. Register for membership at: https://member.rchain.coop/
 
-**For Your Security**
+**For Your Safety**
 
-:no_entry_sign: Legit admins will never send you a PM.
+:no_entry_sign: Legit admins will never send you a PM. You can PM an admin, but an admin will never start a conversation. If it happens forward the message to the group immediately.
+
+Bona fide managing admins:
+@itlake
+@Mcry89
+@ojimadu
+@Keaycee
+@lapin7
+
+
+
+
