@@ -21,7 +21,7 @@ Indice de débriefing hebdomadaire: https://github.com/rchain/Members/wiki/Weekl
 
 Vous pouvez contribuer au projet RChain grâce à Github/rchain/Members: https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
-**RHOC Token Details**
+**RHOC -Détails du jeton**
 
 To see RHOC in MEW/Metamask "Add Custom Token" with address:  \
 0x168296bb09e24a88805cb9c33356536b980d3fc5  \
