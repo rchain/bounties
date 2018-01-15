@@ -4,19 +4,20 @@ A NOTER QU'IL N'Y A PAS DE CROWDSALE OU D'AIRDROP. S'IL VOUS PLAÎT NE PAS ENVOY
 
 **RChain Coopérative Liens officiels**
 
-Official Website: https://rchain.coop/
+Site Officel: https://rchain.coop/
 
 FAQ: https://github.com/rchain/reference/blob/master/faq.md
 
-Roadmap: https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/Roadmap
+Carte routiere: https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/Roadmap
 
-RChain Architecture Doc: http://rchain-architecture.readthedocs.io/
+Document d'architecture Rchain: http://rchain-architecture.readthedocs.io/
 
-Comparison of Blockchains: http://rchain-architecture.readthedocs.io/en/latest/introduction/comparison-of-blockchains.html
+Comparaisons des Blockchains: http://rchain-architecture.readthedocs.io/en/latest/introduction/comparison-of-blockchains.html
 
-Weekly Debrief Index: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
 
-**Contributing to the RChain Coop**
+Indice de débriefing hebdomadaire: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
+
+**Contribuer á la RChain Coop**
 
 You can help contribute to the RChain project through Github/rchain/Members:
 https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
