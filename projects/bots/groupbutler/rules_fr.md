@@ -8,6 +8,6 @@
 6. Privé message utilisateurs du groupe, en essayant d'escroquer les gens, ou de promouvoir quoi que ce soit se traduira par un instaban
 7. Laissez-nous la conversation civile. Nous voulons que ce soit un dialogue constructif pour un bénéfice collectif
 
-C'est un groupe officiellement sanctionné mais les admins ne sont pas des représentants officiels de RChain Cooperative. Les admins sont des membres de la communauté avec leurs propres opinions et interprétations. Les identifiants admin de Legit sont listés dans le message épinglé 
+C'est un groupe officiellement sanctionné mais les admins ne sont pas des représentants officiels de RChain Cooperative. Les admins sont des membres de la communauté avec leurs propres opinions et interprétations. Les identités des administrateurs légitimes sont enrigistrés dans le message épinglé.
 
 Merci et bienvenue à bord!
