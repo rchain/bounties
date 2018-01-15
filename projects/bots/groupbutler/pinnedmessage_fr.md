@@ -1,8 +1,8 @@
-:warning: SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale and airdrop for RChain.
+:warning: ALERTE SCAM: Il y a un google doc circulant sur Twitter annonçant un crowdsale et un largage pour RChain.
 
-DO NOTE THAT THERE IS NO CROWDSALE OR AIRDROP. PLEASE DO NOT SEND ETH OR FILL UP ANY FORMS RELATED TO RHOC AIRDROPS.
+A NOTER QU'IL N'Y A PAS DE CROWDSALE OU D'AIRDROP. S'IL VOUS PLAÎT NE PAS ENVOYER ETH ORFILLER TOUTE FORME RELIÉE À RHOC AIRDROPS
 
-**RChain Cooperative Official Links**
+**RChain Coopérative Liens officiels**
 
 Official Website: https://rchain.coop/
 
