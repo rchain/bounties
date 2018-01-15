@@ -61,11 +61,11 @@ Co-op Membership: Discord Member Channels require a $20 membership fee and KYC t
 
 **For Your Safety**
 
-:no_entry_sign: Legit admins will never send you a PM. You're welcome to PM an admin, but an admin will never start a conversation. If it happens forward the message to the group immediately with @admin.
+:no_entry_sign: Legit admins will never send you a PM. You're welcome to PM an admin, but an admin will never start a conversation. If it happens forward the message to the group immediately and mention @admin.
 
-Bona fide active admins:
+Bona fide active admins:  
 @itlake  
 @Mcry89  
-@ojimadu  
+@ojimadu? or maybe not?  
 @Keaycee  
 @lapin7
