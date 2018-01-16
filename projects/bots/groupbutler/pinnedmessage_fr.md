@@ -23,7 +23,7 @@ Vous pouvez contribuer au projet RChain grâce à Github/rchain/Members: https:/
 
 **RHOC -Détails du jeton**
 
-To see RHOC in MEW/Metamask "Add Custom Token" with address:  \
+Pour voir lé RHOC dans MEW/Metamask "Ajouter un jeton personnalisé" with address:  \
 0x168296bb09e24a88805cb9c33356536b980d3fc5  \
 8 decimal places
 
