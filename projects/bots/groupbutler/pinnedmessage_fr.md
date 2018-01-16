@@ -55,9 +55,9 @@ Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 5307186
 
 Slack: https://ourchain.slack.com/ (being phased out and replaced by Discord)
 
-Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
+ Les membres de la coopérative, le leadership et les développeurs travaillent ensemble dans un serveur Discord public: https://discord.gg/fvY8qhx
 
-Co-op Membership: Discord Member Channels require a $20 membership fee and KYC to join. Register for membership at: https://member.rchain.coop/
+Adhésion Coop: Discord Member Channels nécessite des frais d'adhésion de 20 $ et KYC de se joindre. Inscrivez-vous pour devenir membre à:: https://member.rchain.coop/
 
 **Pour votre sécurité**
 
