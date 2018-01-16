@@ -66,6 +66,6 @@ Co-op Membership: Discord Member Channels require a $20 membership fee and KYC t
 Bona fide active admins:  
 @itlake  
 @Mcry89  
-@ojimadu? or maybe not?  
+@OjimaduChidindu
 @Keaycee  
 @lapin7
