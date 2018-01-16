@@ -10,7 +10,7 @@ FAQ: https://github.com/rchain/reference/blob/master/faq.md
 
 Carte routiere: https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/Roadmap
 
-Document d'architecture Rchain: http://rchain-architecture.readthedocs.io/
+Document d'architecture RChain: http://rchain-architecture.readthedocs.io/
 
 Comparaisons des Blockchains: http://rchain-architecture.readthedocs.io/en/latest/introduction/comparison-of-blockchains.html
 
