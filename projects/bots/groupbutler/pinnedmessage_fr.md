@@ -29,7 +29,7 @@ Pour voir lé RHOC dans MEW/Metamask "Ajouter un jeton personnalisé" with addre
 
 Distribution et circulation du RHOC: https://github.com/rchain/reference/blob/master/finance/rhoc.md
 
-**Canal médiatique officiel de rchain Coop**
+**Canal médiatique officiel de RChain Coop**
 
 Telegram RChain Official Chat Group: @rchain_coop
 
