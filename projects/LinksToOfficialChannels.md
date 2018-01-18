@@ -1,4 +1,4 @@
-:warning: SCAM ALERT: There is a google doc circulating on Twitter announcing a crowdsale and airdrop for RChain.
+:warning: SCAM ALERT: There is a google form circulating on Twitter announcing a crowdsale and airdrop for RChain.
 
 DO NOTE THAT THERE IS NO CROWDSALE OR AIRDROP. PLEASE DO NOT SEND ETH OR FILL UP ANY FORMS RELATED TO RHOC AIRDROPS.
 
@@ -23,8 +23,8 @@ https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
 
 **RHOC Token Details**
 
-To see RHOC in MEW/Metamask "Add Custom Token" with address:  \
-0x168296bb09e24a88805cb9c33356536b980d3fc5  \
+To see RHOC in MEW/Metamask "Add Custom Token" with address:  
+0x168296bb09e24a88805cb9c33356536b980d3fc5  
 8 decimal places
 
 RHOC Distribution and Circulation: https://github.com/rchain/reference/blob/master/finance/rhoc.md
@@ -38,6 +38,14 @@ Telegram Chat Invite Link: https://t.me/rchain_coop
 Telegram RChain Official Announcements Channel: @rchain_official
 
 Telegram Announcement Channel Link: https://t.me/rchain_official
+
+Telegram RChain Africa Chat: @rchain_africa
+
+Telegram RChain China Chat: @rchain_cn
+
+Telegram RChain France Chat: @rchain_fr
+
+Telegram RChain Nederland Chat: @rchain_nl
 
 Twitter: https://twitter.com/rchain_coop
 
@@ -63,9 +71,10 @@ Co-op Membership: Discord Member Channels require a $20 membership fee and KYC t
 
 :no_entry_sign: Legit admins will never send you a PM. You're welcome to PM an admin, but an admin will never start a conversation. If it happens forward the message to the group immediately and mention @admin.
 
-Bona fide active admins:  
+Bona fide active admins:
 @itlake  
+@Keaycee  
+@lapin7  
 @Mcry89  
 @OjimaduChidindu  
-@Keaycee  
-@lapin7
+.
