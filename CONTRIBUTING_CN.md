@@ -6,11 +6,11 @@
 
 读者可以观看[24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s)以及[RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)这两个视频来进一步了解这个工作流程。
 
-我们热烈欢迎每一位贡献者参与我们的工作。 贡献的形式不单单只有提交， 还有很多不同的方式，包括社区活动，市场营销，业务发展，设计和治理。
+我们热烈欢迎每一位贡献者参与我们的工作。 贡献的形式不单单只有提交代码， 还有很多不同的方式，包括社区活动，市场营销，业务发展，设计和治理。
 
 ### 社区交流
 
-[RChain](https://rchain.coop) 拥有多个交流渠道，使得不断成长的社区内的成员可以轻松地进行沟通。[FAQ](https://github.com/rchain/reference/blob/master/faq.md)中有完整的通讯频道列表，但这些都是协作频道：
+[RChain](https://rchain.coop) 拥有多个交流渠道，使得不断成长的社区内的成员可以轻松地进行沟通。[FAQ](https://github.com/rchain/reference/blob/master/faq.md)中有完整的通讯频道列表，而这些都是协作频道：
 
 - 我们通过 [Github/RChain/Members](https://github.com/rchain/Members)项目进行工作协作以及状态更新。
 - 我们正在尝试使用 [Mattermost](https://rchain.divvydao.net/community/channels/town-square) 和[Gitter](https://gitter.im/rchain/Rholang)来追溯有关谁在什么时间出于什么原因正在进行什么工作。
