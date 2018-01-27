@@ -4,7 +4,7 @@
     The bot does many other things useful for administrators. It supports Markdown so we can work out
     the rules of the rchain_coop channel here. 
 
-**RChain Coop Chat Rules**
+/setrules **RChain Coop Chat Rules**
 
 1. This group focuses on RChain Cooperative technology, activities, and related initiatives.
 2. It is not a trading group. Please keep RHOC market pricing discussion to a minimum.
@@ -14,6 +14,6 @@
 6. PMing group users, trying to scam people, or promoting anything will result in an instaban.
 7. Let's keep the conversation civil. We want this to be a constructive chat for collective benefit.
 
-This is an officially sanctioned group but the admins are not official representatives of RChain Cooperative. The admins are community members with their own opinions and interpretations. Legit admin ids are listed in the pinned message. 
+The group admins are not official representatives of RChain Cooperative. Admins are community members with their own opinions and interpretations. The ids of legit admins are listed in the pinned message. 
 
 Thanks and welcome on board!
