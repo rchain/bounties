@@ -6,7 +6,7 @@
 
 ### Επικοινωνία
 
-Το [[RChain](https://rchain.coop) διαθέτει πολλαπλά κανάλια για την εύκολη επικοινωνία μέσα στην αναπτυσσόμενη κοινότητα. Υπάρχει μια πλήρης λίστα με κανάλια επικοινωνίας στη [FAQ](https://github.com/rchain/reference/blob/master/faq.md) αλλά αυτά είναι τα κανάλια συνεργασίας:
+Το [RChain](https://rchain.coop) διαθέτει πολλαπλά κανάλια για την εύκολη επικοινωνία μέσα στην αναπτυσσόμενη κοινότητα. Υπάρχει μια πλήρης λίστα με κανάλια επικοινωνίας στη [FAQ](https://github.com/rchain/reference/blob/master/faq.md) αλλά αυτά είναι τα κανάλια συνεργασίας:
 - Συνεργαζόμαστε και ενημερωνόμαστε ο ένας με τον άλλο μέσω του [Github/RChain/Members](https://github.com/rchain/Members).
 - Θα πειραματιστούμε με το [Mattermost](https://rchain.divvydao.net/community/channels/town-square) και το [Gitter](https://gitter.im/rchain/Rholang) για να δημιουργήσουμε μια εικόνα ως το ποιος κάνει τι και πότε και γιατί.
 - Η ομάδα συνομιλίας στο Telegram [RChain Coop](https://t.me/rchain_coop) είναι για συνομιλία, ενώ το κανάλι [RChain Coop Official Announcements](https://t.me/rchain_official) μεταφέρει επίσημες ανακοινώσεις. Για τους Κινέζους ομιλητές υπάρχει μια ομάδα [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN). Υπάρχει επίσης μια ομάδα QQ για RChain: 530718666.
