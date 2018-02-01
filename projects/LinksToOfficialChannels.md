@@ -6,6 +6,8 @@ DO NOTE THAT THERE IS NO CROWDSALE OR AIRDROP. PLEASE DO NOT SEND ETH OR FILL UP
 
 Official Website: https://rchain.coop/
 
+Official Developer Website: https://developer.rchain.coop/
+
 FAQ: https://github.com/rchain/reference/blob/master/faq.md
 
 Roadmap: https://rchain.atlassian.net/wiki/spaces/CORE/pages/105709609/Roadmap
