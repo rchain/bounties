@@ -59,7 +59,8 @@ RHOC is not yet on exchanges like Bittrex or Poloniex. However it has attention 
 
 **Values**
 
-The cooperative attracts members that share the mission and the values of the cooperative: 
+The RChain Activist Members way of working works well when we keep certain values in mind:
+
 - We make decisions. Decisions have to be supported at least three members.
 - We are courageous. We are allowed to do the wrong thing, because otherwise, we can never do the right thing either.
 - We share profits according to SMART participation in results.
