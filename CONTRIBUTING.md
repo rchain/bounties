@@ -66,8 +66,10 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 
 #### Tax
 - RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
-- If a contributor's rewards are more then $600 per year, then a [Fw9 tax form](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
-- For US aliens living outside of the USA, the [Fw4 tax form](https://www.irs.gov/pub/irs-pdf/fw4.pdf) has to be filled out (only lines 1, 2, 3, 4, and 7).
+- If a contributor's rewards are more then $600 per year, then a [Fw9 tax form (For US citizens and residents)](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw9/index.html) and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
+- For US aliens living outside of the USA, the [W-8BEN tax form](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw8ben).
+
+     NB: only lines 1, 2, 3, 4, and 7 are to be filled.
 - As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provided ETH-addresses.
 
 #### Reporting
