@@ -1,0 +1,77 @@
+#### Hiasan berbentuk mawar
+RhoVM "Execution Environment" nantinya akan diperkenalkan sebagai "Rosette VM". Pilihan untuk menggunakan Rosette VM bergantung pada dua faktor. Pertama, sistem Rosette telah diproduksi secara komersial selama lebih dari 20 tahun. Kedua, model memori Rosette VM, model perhitungan, dan sistem runtime memberikan dukungan untuk konkurensi yang dibutuhkan RhoVM. RChain telah berjanji untuk melakukan implementasi ulang Rosette VM yang dimodernisasi, di Scala, untuk melayani sebagai lingkungan eksekusi RhoVM awal.
+Sumber: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
+
+##  Rho API
+
+#### Bahasa mengikat
+Dalam komputasi, pengikatan dari bahasa pemrograman ke perpustakaan atau layanan sistem operasi adalah antarmuka pemrograman aplikasi (API) yang menyediakan kode lem untuk menggunakan perpustakaan atau layanan tersebut dalam bahasa pemrograman tertentu.
+Sumber: [Language Binding](https://en.wikipedia.org/wiki/Language_binding) at Wikipedia.
+
+#### Bimbingan Rho Language
+API Rho memiliki binding untuk Java, Scala, dan beberapa lainnya tapi bukan Python....
+
+## Persyaratan Ilmu Komputer
+
+#### Aktor, Tupel, dan Pi
+
+    Tidak yakin apa maksudnya .... tolong isi.
+
+#### Jenis Perilaku
+<!-- Substitutabilitas adalah prinsip dalam pemrograman berorientasi objek yang menyatakan bahwa, dalam program komputer, jika S adalah subtipe T, maka objek tipe T dapat diganti dengan objek tipe S (yaitu objek tipe T dapat diganti dengan objek subtipe S) tanpa mengubah sifat yang diinginkan dari T (kebenaran, tugas yang dilakukan, dll.). Secara lebih formal, prinsip substitusi Liskov (LSP) adalah definisi tertentu dari hubungan subtyping, yang disebut (kuat) subtipe perilaku. Ini adalah hubungan semantik dan bukan sekedar sintaksis karena ia bermaksud untuk menjamin interoperabilitas semantik tipe dalam hierarki, jenis objek pada khususnya.
+Sumber: [prinsip substitusi Liskov] (https://en.wikipedia.org/wiki/Liskov_substitution_principle) di Wikipedia. -->
+Jenis perilaku adalah properti dari objek yang mengikatnya pada berbagai jenis pola aksi. Tipe perilaku tidak hanya membatasi struktur input dan output, namun urutan input dan keluaran yang diizinkan antara proses berkomunikasi dan (mungkin) bersamaan dalam kondisi yang bervariasi.
+Sumber: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
+
+#### Concurrency
+Dalam ilmu komputer, konkurensi adalah sifat dekomposibilitas suatu program, algoritma, atau masalah ke dalam komponen atau unit yang dipesan secara independen atau sebagian. [1] Ini berarti bahwa bahkan jika unit bersamaan dari program, algoritma, atau masalah dieksekusi tanpa urutan atau dalam urutan parsial, hasil akhirnya akan tetap sama. Hal ini memungkinkan eksekusi paralel unit bersamaan, yang secara signifikan dapat meningkatkan kecepatan eksekusi secara keseluruhan dalam sistem multi-prosesor dan multi-core.
+Sumber: [Concurrency (computer science)](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) at Wikipedia.
+
+#### Concurrency vs Parallelism
+Penting untuk memahami implikasi eksekusi bersamaan. Ketika kita mengatakan, "concurrency", kita tidak mengacu pada eksekusi simultan beberapa proses. Itu adalah paralelisme. Concurrency adalah properti struktural yang memungkinkan proses independen untuk disusun menjadi proses yang kompleks. Proses dianggap independen jika tidak bersaing untuk mendapatkan sumber daya.
+Sumber: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html?highlight = Concurrency) di RChain Architecture.
+
+#### Ekstensi
+Definisi ekstensional konsep atau istilah merumuskan maknanya dengan menentukan perluasannya, yaitu setiap objek yang berada di bawah definisi konsep atau istilah yang dimaksud. Definisi ekstensional digunakan saat daftar contoh akan memberikan informasi yang lebih sesuai daripada jenis definisi lainnya, dan di mana daftar anggota himpunan memberi tahu cukup banyak kuisioner tentang sifat dari himpunan tersebut.
+Sumber: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+
+#### Intensional
+Dalam logika dan matematika, definisi intensional memberi arti sebuah istilah dengan menentukan kondisi yang diperlukan dan cukup untuk kapan istilah tersebut harus digunakan. Dalam kasus kata benda, ini setara dengan menentukan sifat yang harus dimiliki suatu objek agar dihitung sebagai rujukan istilah tersebut. Definisi intensi paling baik digunakan bila ada sesuatu yang memiliki seperangkat properti yang jelas, dan mereka bekerja dengan baik untuk istilah yang memiliki daftar referensi terlalu banyak dalam definisi ekstensional.
+Sumber: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+
+#### Rekursi
+Rekursi dalam ilmu komputer adalah metode di mana solusi untuk masalah bergantung pada solusi untuk kasus yang lebih kecil dari masalah yang sama (berlawanan dengan iterasi). Pendekatannya bisa diterapkan pada banyak jenis masalah. Sebagian besar bahasa pemrograman komputer mendukung rekursi dengan membiarkan sebuah fungsi memanggil dirinya sendiri dalam teks program. Beberapa bahasa pemrograman fungsional tidak mendefinisikan konstruksi perulangan tapi hanya mengandalkan rekursi berulang kali untuk memanggil kode. Teori komputabilitas membuktikan bahwa bahasa rekursif saja adalah Turing yang lengkap; Mereka sama komputasionalnya dengan bahasa Turing yang lengkap, yang berarti mereka dapat memecahkan masalah yang sama seperti bahasa imperatif bahkan tanpa struktur kontrol berulang seperti "while" dan "for".
+Sumber: [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) at Wikipedia.
+
+#### Refleksi
+Dalam matematika, sebuah rumus refleksi atau relasi refleksi untuk fungsi f adalah hubungan antara f (a - x) dan f (x). Ini adalah kasus khusus dari sebuah persamaan fungsional, dan sangat umum dalam literatur untuk menggunakan istilah "persamaan fungsional" ketika "rumus refleksi" dimaksudkan.
+Sumber: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
+
+#### Ruang Tuple
+Ruang tuple adalah implementasi dari paradigma memori asosiatif untuk komputasi paralel / terdistribusi. Ini menyediakan repositori tupel yang dapat diakses secara bersamaan. Sebagai contoh ilustrasi, perhatikan bahwa ada sekelompok prosesor yang menghasilkan potongan data dan sekelompok prosesor yang menggunakan datanya. Produser memposting data mereka sebagai tupel di ruang angkasa, dan konsumen kemudian mengambil data dari ruang yang sesuai dengan pola tertentu. Ini juga dikenal sebagai metafora papan tulis. Ruang Tuple dapat dianggap sebagai bentuk memori bersama yang didistribusikan.
+Sumber: [Tuple Space](https://en.wikipedia.org/wiki/Tuple_space) at Wikipedia.
+
+##  Token
+
+#### Bukti Kepemilikan
+PoS adalah jenis algoritma dimana jaringan blockchain kriptourrurrency bertujuan untuk mencapai konsensus terdistribusi. Tidak seperti kripto pengaman berbasis bukti (PoW) (seperti bitcoin), di mana algoritma memberi penghargaan kepada peserta yang memecahkan teka-teki kriptografi yang rumit untuk memvalidasi transaksi dan menciptakan blok baru (yaitu pertambangan), dalam kripto yang berbasis PoS pencipta Blok berikutnya dipilih melalui berbagai kombinasi seleksi acak dan kekayaan atau umur (yaitu saham).
+Sumber: [Proof-of-stake](https://en.wikipedia.org/wiki/Proof-of-stake) at Wikipedia.
+
+#### Casper Proof of Stake
+Casper adalah protokol konsensus ekonomi berbasis keamanan. Ini berarti bahwa node, yang disebut sebagai validator berikat, harus menempatkan uang jaminan, sebuah tindakan yang disebut bonding, untuk melayani konsensus dengan menghasilkan blok. Dengan bukti Casper yang bisa dipertanggungjawabkan dalam produksi blok dengan memasang obligasi. Setelah memasang obligasi Anda memiliki kesempatan untuk bertaruh di blok mana yang akan disertakan selanjutnya. Insentif adalah sedemikian rupa sehingga Anda menghasilkan uang dengan bertaruh dengan konsensus dan kehilangan uang dengan bertaruh melawan konsensus tersebut. Setiap kesalahan kognitif yang dapat dibuktikan secara grafis menghasilkan kehilangan ikatan.
+Sumber: [How does the Casper proof of stake algorithm work?](https://ethereum.stackexchange.com/questions/102/how-does-the-casper-proof-of-stake-algorithm-work) on StackExchange.
+
+#### Memegang Token
+Bukti pengejaran adalah yang dibutuhkan untuk menjalankan konsensus, termasuk token RChain Rev. Sebuah tolok ukur diperlukan untuk membayar sumber daya simpul.
+Sumber: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
+
+#### Token Aplikasi
+Token aplikasi bersifat opsional dan mungkin diperlukan untuk menjalankan dApps tertentu. Token aplikasi baru dapat diperkenalkan setiap saat oleh pengembang dApp, dan serupa dengan token ERC20 Ethereum.
+
+#### Konsensus
+Konsensus (Protokol validasi / konsensus Casper Proof-of-Stake) memastikan konsensus tentang keadaan masing-masing blockchain.
+Sumber: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
+
+#### Phlogiston
+Phlogiston adalah ukuran biaya sumber daya RChain (mirip dengan gas di Ethereal), dan bersifat multi dimensi dan bergantung pada penggunaan komputasi (tergantung pada instruksi), penyimpanan (tergantung ukuran dan durasi), dan bandwidth (kualitas-dari -service and throughput) sumber daya.
+Sumber: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
