@@ -1,50 +1,50 @@
-# Mga Miyembro ng RChain
+# RChain Members
 
-[![Sumali sa chat sa https://gitter.im/rchain/Members](https://badges.gitter.im/rchain/Members.svg)](https://gitter.im/rchain/Members?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/rchain/Members](https://badges.gitter.im/rchain/Members.svg)](https://gitter.im/rchain/Members?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-Ang repositoring ito ay para sa lahat ng usaping pang-organisasyon, katulad ng:
-- paglalarawan kung paano tayo nagtutulungan
-- paano maging Miyembro ng coop
-- paano kumita ng RHOC
-- atbp.
+This repository is meant for all organizational matters, like:
+- defining how we work together
+- how to become a coop Member
+- how to earn RHOC
+- etc.
 
-Ang [mga isyu](https://github.com/rchain/Members/issues) sa repositoring ito 
-ay ang basehan ng bumubulusong na [merkado ng trabahong pag-ambag sa RChain](CONTRIBUTING_TL.md).
-Hindi lang code: [Marketing - Content Curation, Creation and Outreach][comm] 
-at ibang mga paraan sa pagsuporta sa coop ay malugod naming tinatanggap.
+The [issues](https://github.com/rchain/Members/issues) in this repository 
+are the basis of an emerging [market of RChain contributor work](CONTRIBUTING.md).
+Not just code: [Marketing - Content Curation, Creation and Outreach][comm] 
+and any other ways to support the coop are welcome.
 
-[Sumali sa aming pampublikong Discord](https://discord.gg/fvY8qhx) o
-[maging isang Miyembro](https://member.rchain.coop/#/sign-up)! 
-Gusto naming magtrabaho sa mga bagay na kinapananabikan ninyo. 
+[Join our public Discord](https://discord.gg/fvY8qhx) or
+[become a Member](https://member.rchain.coop/#/sign-up)! 
+We want you working on things you're excited about. 
 
 [comm]: https://github.com/rchain/Members/projects/2
 
-## Pag-debrief ng Komunidad tungkol sa RChain
+## RChain Community Debrief
 
-Kada Miyerkules sumasali ang pangkat sa isang hangout na nagpapalabas
-sa [Youtube na tsanel ng RChain][youtube].
+Every Wednesday the team joins in a hangout that streams
+to [RChain’s youtube channel][youtube].
 
 [youtube]: https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w
 
-Nag-iipon kami ng isang [index ng pang-debrief na mga paksa][debrief-ix] upang tulungan kayong bumangon sa
-bilis.
+We keep an [index of debrief topics][debrief-ix] to help you get up to
+speed.
 
 [debrief-ix]: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
 
-## Tungkol sa RChain
-* [Opisyal na websayt](https://rchain.coop) 
+## About RChain
+* [Official website](https://rchain.coop) 
 * [FAQ](https://github.com/rchain/reference/blob/master/faq.md)
-* [Arkitektura ng (pinakabago)](http://rchain-architecture.readthedocs.io/)
-  * [Ibang mga batayang dokumento](https://github.com/rchain/reference)
-* [Mga Artikulo ng Inkorporasyon, Mga Bylaw, at mga tala ng Board](https://github.com/rchain/board)
-  * [Ibang mga legal na dokumento](https://github.com/rchain/legaldocs)
+* [RChain Architecture (latest)](http://rchain-architecture.readthedocs.io/)
+  * [Other reference documents](https://github.com/rchain/reference)
+* [Articles of Incorporation, Bylaws, and board minutes](https://github.com/rchain/board)
+  * [Other legal documents](https://github.com/rchain/legaldocs)
 
-## Suporta
+## Support
 
-* [Mga Isyu sa GitHub](https://github.com/rchain/Members/issues)
-  * Magbukas ng isyu kung may problema ka sa proyektong ito. Ang mga mungkahi ay tinatanggap din.
-* [Suporta sa Email](mailto:ops@rchain.coop)
+* [GitHub Issues](https://github.com/rchain/Members/issues)
+  * Open an issue if you are having problems with this project. Suggestions are also welcome.
+* [Email Support](mailto:ops@rchain.coop)
 
-## Lisensya
+## License
 
 MIT.
