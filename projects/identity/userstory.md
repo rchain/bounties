@@ -1,52 +1,52 @@
 From another rchain member:
-# A Shadow Coder
+# Sebuah Coder Bayangan
 
-Once upon a time there was a developer who was really into it. S-he was tapped into the zeitgeist and standing at the thrilling threshold where hobby can become vocation. There was only one problem: s-he was an Anarchanon. S-he damn well intended to practice what s-he preached.
+Dahulu kala ada pengembang yang benar-benar masuk ke dalamnya. S-dia disadap ke zeitgeist dan berdiri di ambang yang mendebarkan dimana hobi bisa menjadi panggilan. Hanya ada satu masalah: s-dia adalah seorang Anarchanon. S-dia sangat bermaksud mempraktikkan apa yang dia khotbahkan.
 
-(Editor: We're not even sure about the consciousness, it-s-he could be an AI.)
+(Editor: Kami bahkan tidak yakin dengan kesadaran itu, dia bisa jadi AI).
 
-The Anarchanon had lots of ideas about identity and really wanted to put those concepts into play. Problem was, contributing to code bases while remaining fully anonymous was just not done. Fucking Luddites.
+Anarchanon memiliki banyak gagasan tentang identitas dan sangat ingin menerapkan konsep tersebut. Masalahnya, berkontribusi pada basis kode sementara tetap anonim sama sekali tidak dilakukan. Fucking Luddites
 
-Then she came across an initiative which had neoteric new technology. Named RChain, it was a coop and it had impressive goals, benefits, and rewards, yet maintained the autonomy and anonymy of the individual. She wanted in.
+Kemudian dia menemukan sebuah inisiatif yang memiliki teknologi baru yang baru. Bernama RChain, itu adalah kandang dan memiliki tujuan, keuntungan, dan penghargaan yang mengesankan, namun mempertahankan otonomi dan anonymy individu. Dia ingin masuk
 
 ### Handshaking
 
-First step was to create an account in the RChain infrastructure. She accessed RChain's Handshaker app and decided to verify her identity on one service for now. She chose Twitter because she was sure the social network had no public identity information on her, but she had a track record of several years of activity with a decent amount of followers and friends. So when the Handshaker vetted her account she'd end up with a passable vet rank. It wouldn't be a 10 like the accounts of famous people who are "Verified by Twitter™" but it would get her past the RChain doorman and into the club.
+Langkah pertama adalah membuat akun di infrastruktur RChain. Dia mengakses aplikasi Handshaker RChain dan memutuskan untuk memverifikasi identitasnya pada satu layanan untuk saat ini. Dia memilih Twitter karena dia yakin jaringan sosial tersebut tidak memiliki informasi identitas publik mengenai dirinya, namun dia memiliki rekam jejak beberapa tahun aktivitas dengan jumlah pengikut dan teman yang layak. Jadi ketika Handshaker memeriksa akunnya, dia akan mendapatkan peringkat dokter hewan yang lumayan. Ini tidak akan menjadi 10 seperti akun orang terkenal yang "Diverifikasi oleh Twitter ™" tapi itu akan membuatnya melewati penjaga pintu RChain dan masuk ke klub.
 
-The Handshaker app UI is a lot like a crypto wallet. It works in a browser and there's also a version for smartphones. The Anarchanon pressed “Verify Identity” and selected Twitter as the authority. The browser took her to a Twitter page where the server asked:
+UI aplikasi Handshaker sangat mirip dompet kripto. Ia bekerja di browser dan ada juga versi untuk smartphone. Anarchanon menekan "Verify Identity" dan memilih Twitter sebagai otoritas. Browser membawanya ke halaman Twitter dimana server bertanya:
 
-"Authorize RChain Handshake Authenticator to use your account?"
+"Otorisasi RChain Handshake Authenticator untuk menggunakan akun Anda?"
 
-She clicked the "Authorize app" button, the browser briefly showed a "You signed in to RChain Handshake Authenticator" message and redirected back to the Handshaker app. As if she had added a new crypto-currency, Twitter's icon and name stood in the verified identities listing. Also she was logged in to the Handshaker. That was easy-peasy. So far RChain is doing it right.
+Dia mengeklik tombol "Otorisasi apl", peramban sebentar menunjukkan pesan "Anda masuk ke RChain Handshake Authenticator" dan diarahkan kembali ke aplikasi Handshaker. Seolah-olah dia telah menambahkan kripto-mata uang baru, ikon dan nama Twitter berdiri di daftar identitas terverifikasi. Juga dia masuk ke Handshaker. Itu mudah-peasy. Sejauh ini RChain melakukannya dengan benar.
 
-The Handshaker suggested that, if she was done adding identities, she should create a seed and make a backup of her wallet. She did so, saving it onto a USB stick with a long generated password.
+Handshaker menyarankan bahwa, jika dia menambahkan identitas, dia harus menciptakan benih dan membuat cadangan dompetnya. Dia melakukannya, menyimpannya ke USB stick dengan password yang panjang.
 
 ### Blockchaining
 
-She could see that the Handshaker interacted with a blockchain to store identity info because the transaction had a link to a blockchain explorer. She browsed the tx to inspect the data and looked at the message content. Only hashes were stored. Good, as it should be. RChain follows best practice and her identity was secure.
+Dia bisa melihat bahwa Handshaker berinteraksi dengan blockchain untuk menyimpan info identitas karena transaksi tersebut memiliki tautan ke penjelajah blokir. Dia melihat-lihat tx untuk memeriksa data dan melihat isi pesan. Hanya hash yang disimpan. Bagus, sebagaimana mestinya. RChain mengikuti praktik terbaik dan identitasnya aman.
 
-Then she checked the Twitter account attributes stored in her wallet: @username, name, profile image url, and email address. She noted that the Handshaker had given her a vet ranking of 3 on Twitter. Good enough. Other identities could be added later when she needed to increase her weight.
+Kemudian dia memeriksa atribut akun Twitter yang tersimpan di dompetnya: @username, name, profile image url, dan alamat email. Dia mencatat bahwa Handshaker telah memberinya peringkat dokter hewan 3 di Twitter. Cukup baik. Identitas lain bisa ditambahkan nanti saat dia perlu menambah berat badannya.
 
-So now there was proof she existed in cyberspace and later she’d prove she inhabited the real world. Somewhere. Could be anywhere, in some godforsaken hinterland or an inner city sanctuary. Didn't matter. Nobody would ever know. Haha.
+Jadi sekarang ada bukti bahwa dia ada di dunia maya dan kemudian dia membuktikan bahwa dia mendiami dunia nyata. Di suatu tempat Bisa di mana saja, di pedalaman terkutuk atau tempat suci kota. Tidak masalah Tidak ada yang tahu. Ha ha.
 
-### Dealing with the Doorman
+### Berurusan dengan Doorman
 
-She went to sign in to the RChain Slack. Slack asked her to "Enter your email address and password" but below was a "Login with a Handshake" link. She clicked it and got a welcome screen with "Hi, who are you?". Under that was a blockchain address and a QR code. She copied the address, switched tabs to her identity wallet and went to its "Send data" screen. She pasted the address into the destination field and clicked the checkbox next to Twitter. Since she didn't want to use her Twitter username or profile image she left all the account attributes unchecked so they wouldn't be sent. She then pressed the "Send" button.
+Dia pergi untuk masuk ke RChain Slack. Slack memintanya untuk "Masukkan alamat email dan kata sandi Anda" tapi di bawah adalah link "Masuk dengan Handshake". Dia mengkliknya dan menerima layar selamat datang dengan "Hai, siapa Anda?" Di bawah itu adalah alamat blokir dan kode QR. Dia menyalin alamatnya, beralih ke dompet identitasnya dan masuk ke layar "Kirim data". Dia menempelkan alamat itu ke kolom tujuan dan mengklik kotak centang di sebelah Twitter. Karena dia tidak ingin menggunakan nama pengguna Twitter atau gambar profilnya, dia membiarkan semua atribut akun tidak dicentang sehingga tidak terkirim. Dia kemudian menekan tombol "Kirim".
 
-Upon receiving the new user submission Slack’s Doorman plugin inspected the data: a Twitter user with an account name of #hash# and a vet rank of 3. The Doorman sent a query to the Handshaker:
+Setelah menerima pengajuan pengguna baru, plugin Slack's Doorman memeriksa data: pengguna Twitter dengan nama akun # hash # dan peringkat dokter hewan 3. Doorman mengirim kueri ke Handshaker:
 
-"Does this user #hash# exist and have a vet rank of 3?"
+"Apakah pengguna ini # hash # ada dan memiliki peringkat dokter hewan 3?"
 
-The Handshaker searched for the hash, matched it to an account, and found a vet rank of 3. It replied with:
+Handshaker mencari hash, mencocokkannya ke akun, dan menemukan peringkat dokter hewan 3. Ini membalas dengan:
 
-"Yes and yes, good to go."
+"Ya dan ya, bagus untuk pergi."
 
-She switched back to the Slack login tab and pressed the "Check confirmation" button. A page loaded with the message:
+Dia kembali ke tab masuk Slack dan menekan tombol "Periksa konfirmasi". Sebuah halaman berisi pesan:
 
-"Welcome, you've been verified. If this page doesn't redirect in a few seconds, click this link."
+"Selamat datang, Anda telah diverifikasi Jika laman ini tidak mengalihkan dalam beberapa detik, klik tautan ini."
 
-The page redirected and the Anarchanon found herself looking at the RChain Slack. She filled in a cryptic username, uploaded a stock profile image, and started collaborating.
+Halaman itu dialihkan dan Anarchanon mendapati dirinya melihat RChain Slack. Dia mengisi nama pengguna samar, mengupload gambar profil stok, dan mulai berkolaborasi.
 
-# Part II
+# Bagian II
 
-In which the Anarchanon deftly fends off the evil Identifiers and contributes code.
+Di mana Anarchanon dengan cekatan menangkis Pengenal jahat dan memberi kode.
