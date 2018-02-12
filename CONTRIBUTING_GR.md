@@ -16,7 +16,7 @@ https://github.com/rchain/Members/blob/master/CONTRIBUTING_GR.md#%CE%93%CE%AF%CE
 - Χρησιμοποιούμε τα [Google Groups](https://groups.google.com/forum/#!forum/rchain) για επικοινωνία μέσω ηλεκτρονικού ταχυδρομείου και για να αποκτήσετε πρόσβαση στα έγγραφα του RChain μέσω του Google Drive.
 - Υπάρχουν εβδομαδιαίες κλήσεις μη επεξεργαζμένων συνδιασκέψεων στο [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
 - Υπάρχει μια εβδομαδιαία σύσκεψη [Member zoom meeting](https://zoom.us/s/197490909) τις Τετάρτες, στις 18:00 UTC (Άμστερνταμ +1, Νέα Υόρκη -5, Σιάτλ -8, Πεκίνο +8), όπου συζητάμε τα ζητήματα που πρέπει να επιλυθούν.
-- Και φυσικά η [Ιστοσελίδα](https://rchain.coop) μας.
+- Και φυσικά η [ιστοσελίδα](https://rchain.coop) μας.
 
 ### Συνεργασία
 
