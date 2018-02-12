@@ -19,7 +19,7 @@ Queremos que trabajes en cosas que te emocionen.
 
 [comm]: https://github.com/rchain/Members/projects/2
 
-## RChain Community Debrief
+## Debrief de la Comunidad de RChain
 
 Todos los miércoles, el equipo se une a un hangout que transmite
 al [canal de youtube de RChain][youtube].
@@ -30,7 +30,7 @@ Mantenemos un [índice de temas de debrief][debrief-ix] para ayudarte a ponerte 
 
 [debrief-ix]: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
 
-## About RChain
+## Acerca de RChain
 * [Sitio web oficial](https://rchain.coop) 
 * [Preguntas Frecuentes](https://github.com/rchain/reference/blob/master/faq.md)
 * [Arquitectura de RChain (última)](http://rchain-architecture.readthedocs.io/)
