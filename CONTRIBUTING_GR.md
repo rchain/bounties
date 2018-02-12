@@ -25,7 +25,7 @@ https://github.com/rchain/Members/blob/master/CONTRIBUTING_GR.md#%CE%93%CE%AF%CE
 - Τα αντικείμενα εργασίας αντιπροσωπεύονται από τα [issues](https://github.com/rchain/Members/issues/).
 - Για να δημιουργήσετε ή να συμμετάσχετε σε ένα ζήτημα, θα πρέπει να:
 
-  1. [ ] δημηουργήσετε / έχετε ήδη έναν [λογαριασμό GitHub](https://github.com/rchain/Members)
+  1. [ ] δημηουργήσετε/έχετε ήδη έναν [λογαριασμό GitHub](https://github.com/rchain/Members)
   2. [ ] ζητήστε έναν ρόλο συνεργάτη του Github από τον @lapin7 σε ένα από τα κανάλια επικοινωνίας, η μέσω ηλεκτρονικού ταχυδρομείου [ops@rchain.coop](ops@rchain.coop) για να λάβετε μια πρόσκληση
   3. [ ] και στη συνέχεια επιβεβαιώστε την [πρόσκληση συνεργασίας](https://github.com/rchain/Members/invitations) για το αποθετήριο [rchain/Members](https://github.com/rchain/Members)
   4. [ ] Γίνετε [μέλος](https://groups.google.com/forum/#!pendingmember/rchain/join) του rchain@googlegroups.com για να έχετε πρόσβαση στα έγγραφά μας
