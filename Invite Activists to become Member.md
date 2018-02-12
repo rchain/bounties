@@ -55,7 +55,6 @@ Ang RHOC wala pa sa mga pagbayloay sama sa Bittrex o Poloniex. Apan kini adunay 
 - [Etherdelta](https://etherdelta.com/#RHOC-ETH) 
 - [OasisDex](https://oasisdex.com/#trade/RHOC/W-ETH) 
 
-
 **Mga bili**
 
 Ang RChain Activist Ang mga miyembro sa paagi sa pagtrabaho magtrabaho pag-ayo kon atong ibutang sa hunahuna ang pihong mga mithi: 
