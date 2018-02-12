@@ -1,0 +1,39 @@
+# RChain: The real scalable blockchain
+
+Very few people have heard about Rchain but I think a lot of people will hear about it soon.
+
+But let’s first look at why other well-known blockchains will not manage to scale:
+
+– Ethereum: Ethereum will certainly improve when it comes to scaling thanks to sharding, however it’s limited by a lot of legacy design choices:
+
+Solidity for example was not initially designed to achieve massive scale, but it’s not like Ethereum can abandon the support for the language since it is now live since many years
+
+– IOTA: They claim that their chain can scale infinitely, however there are a lot of issues which I have outlined in previous articles. The main issue is that there is just no way that every node can store such a large amount of IoT data (potentially infinite because of lack of fees) forever.
+
+So what is the real solution that everyone has been missing so far and that RChain has? The solution is concurrency. It basically means that you can operate in parallel.
+
+The most technical of my readers who have some background in development can understand the idea of concurrency as in developing an application that instead of operating with multithreading operates with a single tread by exclusively using non-blocking operations.
+
+To make it simple for people that are less technical let’s imagine that you have a road. Without concurrency you can have only one lane. You can increase the speed at which the vehicles run, but still each vehicle is going to be behind the previous one. With concurrency you can have multiple lanes, meaning that the vehicles don’t need to be one behind the other in a serial order.
+
+The only other chain which I believe can scale effectively even if it’s a different model is Polka. Polka uses a different model which is called parachains, basically it allows different applications to create their own chain running on the Polka consensus mechanism in parallel.
+
+If we want to push the metaphor forward it could look like this:
+– Ethereum/IOTA: Single threaded operations
+– Polka: Multithreaded operations
+– Rchain: Nonblocking operations (Concurreny)
+
+Multithreading is basically like having several single-threaded operations in parallel to avoid the bottleneck of a single thread.
+
+Concurrency instead is not having the bottleneck at all.
+
+RChain is born from day one with concurrency in mind, that’s something that Ethereum cannot do as it’s extremely difficult to maintain compatibility with legacy code. For the people of my generation you probably remember how hard it was to manage more than 640kb of RAM before Windows 95
+
+The lead developer has been working with Vlad Zamfir (the person behind PoS and sharding for ETH) for years developing technologies to create a scalable blockchain:
+
+RChain is currently trading with the symbol RHOC on the exchange KuCoin
+
+A full analysis and comparison between BTC, ETH and Rchain can be seen here:
+
+source :
+https://medium.com/@giottodf/rchain-the-real-scalable-blockchain-4be5a43b722b
