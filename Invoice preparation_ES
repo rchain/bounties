@@ -1,0 +1,18 @@
+Asunto: Prepare la Factura para {{Period}} la recompensa de RHOCH
+
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<p>Querido {{Github name}},</p>
+<p>Gracias por su ayuda para obtener un modelo de gobierno descentralizado que trabaja para la asignación de presupuestos a los problemas de Github y establecer los porcentajes de las recompensas en <a href="https://docs.google.com/spreadsheets/d/1wD8DzlvXZCtfycToN0K506Kev4oJm8yvosY0FIHZiYM/edit#gid=2044445250" target="_blank">RChain Activist RHOC Distribution</a>.</p>
+<p>A través del complemento "Combinar Correos con Archivos Adjuntos", verá aquí una descripción general de su recompensa por trabajar en la Issue {{Github issue}}. <br />Su recompensa por este mes es {{$ por pagar}} en la Issue { {Github issue}} o {{⍴ Por Pagar}}. <br />Esta recompensa es {{AVG work}} del presupuesto. <br />Si esta información no es correcta, por favor dígalo.</p>
+<p><br />La transferencia se realizará después de que haya hecho una declaración a través del <a href="https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform" target="_blank">Formulario de Declaración</a> con un enlace de Gdrive a su factura en formato PDF. Si eso no funciona, envíe la factura en formato PDF a ops@rchain.coop.</p>
+<p>Puede usar la <a href="https://docs.google.com/spreadsheets/d/1v_mdcabsCsRTB4hR4GIHvkZrB2k9Ddp3LQcu8rsL5zU/edit#gid=1989342494" target="_blank">Factura de la Plantilla</a> o puede hacer una factura usted mismo, que contienga la siguiente información:</p>
+<p><br />Primer nombre, Apellido / Nombre de la compañía, <br />Dirección, <br />Ciudad, <br />Código postal, <br />Estado, <br />País, <br />Dirección ETH, <br />Fecha de vencimiento, <br />Fecha de la factura, <br />Descripción del servicio: trabajé para {{AVG work}} en el número {{Github issue}} durante el período comprendido entre el 1ero de Agosto de 2017 y el 31 de Agosto de 2017. <br /> El comentario adicional es útil para mejorar esta forma de trabajar.</p>
+<p>Si sus pagos durante este año son superiores a $500, entonces la Cooperativa necesita un <a href="https://www.irs.gov/pub/irs-pdf/fw9.pdf" target="_blank">formulario de impuestos</a> para ser llenado con usted<br />Si su trabajo para la Coop es una base regular, entonces la Coop también necesita una Declaración de Trabajo.</p>
+<p>Veamos cómo va esto y espero que las primeras transferencias sucedan este mes.<br />--</p>
+<p>Gracias,<br />HJ</p>
+</body>
+</html>
