@@ -7,14 +7,14 @@
 
 ### Επικοινωνία
 
-Το [RChain](https://rchain.coop) διαθέτει πολλαπλά κανάλια για να κάνει εύκολη την επικοινωνία μέσα στην αναπτυσσόμενη κοινότητα. Υπάρχει μια πλήρης λίστα με τα κανάλια επικοινωνίας στο [FAQ](https://github.com/rchain/reference/blob/master/faq.md) αλλά μπορετε να τα δετε και παρακάτω:
-- Συνεργαζόμαστε και ενημερόνουμε ο ένας τον άλλο μέσω του [Github/RChain/Members](https://github.com/rchain/Members).
+Το [RChain](https://rchain.coop) διαθέτει πολλαπλά κανάλια για να κάνει εύκολη την επικοινωνία μέσα στην αναπτυσσόμενη κοινότητα. Υπάρχει μια πλήρης λίστα με τα κανάλια επικοινωνίας στο [FAQ](https://github.com/rchain/reference/blob/master/faq.md) αλλά μπορετέ να τα δείτε και παρακάτω:
+- Συνεργαζόμαστε και ενημερώνουμε ο ένας τον άλλο μέσω του [Github/RChain/Members](https://github.com/rchain/Members).
 - Πειραματιστούμε με το [Mattermost](https://rchain.divvydao.net/community/channels/town-square) και το [Gitter](https://gitter.im/rchain/Rholang) για να δημιουργήσουμε μια εικόνα ως το ποιος κάνει τι, πότε και γιατί.
 - Η ομάδα συνομιλίας στο Telegram [RChain Coop](https://t.me/rchain_coop) είναι για συνομιλία, ενώ το κανάλι [RChain Coop Official Announcements](https://t.me/rchain_official) μεταφέρει επίσημες ανακοινώσεις. Για τους Κινέζους ομιλητές υπάρχει η ομάδα [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN). Υπάρχει επίσης μια ομάδα QQ για το RChain: 530718666.
-- Μετακινηθήκαμε από το [Slack](https://ourchain.slack.com/messages?) σε ένα διακομιστή [Discord](https://discord.gg/fvY8qhx). Το Discord έχει αρκετά κανάλια για να συζητήσετε για όλα τα είδη των πραγμάτων (για να γiνεται μέλος δείτε το [Γίνεται Μέλος](#%CE%93%CE%AF%CE%BD%CE%B5%CF%84%CE%B1%CE%B9-%CE%9C%CE%AD%CE%BB%CE%BF%CF%82) παρακάτω). Ο στόχος είναι να δημιουργηθούν ζητήματα που μπορούν να υποβληθούν σε ενέργεια στο [Github/Members](https://github.com/rchain/Members/) τα οποία χειρίζεται η κοινότητα.
+- Μετακινηθήκαμε από το [Slack](https://ourchain.slack.com/messages?) σε ένα διακομιστή [Discord](https://discord.gg/fvY8qhx). Το Discord έχει αρκετά κανάλια για να συζητήσετε για όλα τα είδη των πραγμάτων (για να γίνεται μέλος δείτε το [Γίνεται Μέλος](#%CE%93%CE%AF%CE%BD%CE%B5%CF%84%CE%B1%CE%B9-%CE%9C%CE%AD%CE%BB%CE%BF%CF%82) παρακάτω). Ο στόχος είναι να δημιουργηθούν ζητήματα που μπορούν να υποβληθούν σε ενέργεια στο [Github/Members](https://github.com/rchain/Members/) τα οποία χειρίζεται η κοινότητα.
 - Τα διαφορετικά κανάλια γεφυρώνονται μεταξύ τους. Έτσι, θα δείτε μηνύματα από, για παράδειγμα, το Discord στο Mattermost, το Telegram ή το Gitter.
 - Χρησιμοποιούμε τα [Google Groups](https://groups.google.com/forum/#!forum/rchain) για επικοινωνία μέσω ηλεκτρονικού ταχυδρομείου και για να αποκτήσετε πρόσβαση στα έγγραφα του RChain μέσω του Google Drive.
-- Υπάρχουν εβδομαδιαίες κλήσεις μη επεξεργαζμένων συνδιασκέψεων στο [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
+- Υπάρχουν εβδομαδιαίες κλήσεις μη επεξεργασμένων συνδιασκέψεων στο [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
 - Υπάρχει μια εβδομαδιαία σύσκεψη [Member zoom meeting](https://zoom.us/s/197490909) τις Τετάρτες, στις 18:00 UTC (Άμστερνταμ +1, Νέα Υόρκη -5, Σιάτλ -8, Πεκίνο +8), όπου συζητάμε τα ζητήματα που πρέπει να επιλυθούν.
 - Και φυσικά η [ιστοσελίδα](https://rchain.coop) μας.
 
@@ -25,19 +25,19 @@
 - Τα αντικείμενα εργασίας αντιπροσωπεύονται από τα [issues](https://github.com/rchain/Members/issues/).
 - Για να δημιουργήσετε ή να συμμετάσχετε σε ένα ζήτημα, θα πρέπει να:
 
-  1. [ ] δημηουργήσετε/έχετε ήδη έναν [λογαριασμό GitHub](https://github.com/rchain/Members)
+  1. [ ] δημιουργήσετε/έχετε ήδη έναν [λογαριασμό GitHub](https://github.com/rchain/Members)
   2. [ ] ζητήστε έναν ρόλο συνεργάτη του Github από τον @lapin7 σε ένα από τα κανάλια επικοινωνίας, η μέσω ηλεκτρονικού ταχυδρομείου στο [ops@rchain.coop](ops@rchain.coop) για να λάβετε μια πρόσκληση
   3. [ ] και στη συνέχεια επιβεβαιώστε την [πρόσκληση συνεργασίας](https://github.com/rchain/Members/invitations) για το αποθετήριο [rchain/Members](https://github.com/rchain/Members)
   4. [ ] Γίνετε [μέλος](https://groups.google.com/forum/#!pendingmember/rchain/join) του rchain@googlegroups.com για να έχετε πρόσβαση στα έγγραφά μας
 
-- Δεν είναι υποχρεωτικό, αλλά πραγματικά βοηθάει το να γίνετε μέλος στο RChain και να εγκριθείτε στο Discord. Αυτό απαιτεί συνδρομή ύψους $20 και KYC (Να Γνωρίζεις τον Πελάτη Σου). Δείτε το [Γίνεται Μέλος](#%CE%93%CE%AF%CE%BD%CE%B5%CF%84%CE%B1%CE%B9-%CE%9C%CE%AD%CE%BB%CE%BF%CF%82) παρακάτω.
+- Δεν είναι υποχρεωτικό, αλλά πραγματικά βοηθάει το να γίνετε μέλος στο RChain και να εγκριθεί τε στο Discord. Αυτό απαιτεί συνδρομή ύψους $20 και KYC (Να Γνωρίζεις τον Πελάτη Σου). Δείτε το [Γίνεται Μέλος](#%CE%93%CE%AF%CE%BD%CE%B5%CF%84%CE%B1%CE%B9-%CE%9C%CE%AD%CE%BB%CE%BF%CF%82) παρακάτω.
   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
   <!-- 2. [ ] Αυτό είναι το #bounties κανάλι στο Discord:
   ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
 
 #### Αποκεντρωμένη Κατανομή του Προϋπολογισμού
-- Οι προϋπολογισμοί κατανέμονται σε αντικείμενα εργασίας απο τουλάχιστον τρία Μέλη. Ο μέσος όρος τριών προτάσεων ορίζει τον προϋπολογισμό.
-- Ο Ops (@lapin7, HJ) το εξηγεί στο βίντεο [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
+- Οι προϋπολογισμοί κατανέμονται σε αντικείμενα εργασίας από τουλάχιστον τρία Μέλη. Ο μέσος όρος τριών προτάσεων ορίζει τον προϋπολογισμό.
+- Ο διαχειριστής (@lapin7, HJ) το εξηγεί στο βίντεο [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
 - Τα Μέλη προτείνουν έναν προϋπολογισμό για την επίλυση του ζητήματος.
 - Μεταβείτε στο λογιστικό φύλλο [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) στην ΚΑΡΤΕΛΑ "Budget 201711"
 ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
@@ -57,7 +57,7 @@
 - Στη στήλη R μπορείτε να ορίσετε τα ποσοστά για τον εαυτό σας και τους άλλους συνεργάτες.
 - Ο λογαριασμός [Ops](ops@rchain.coop) μπορεί επίσης να προσθέσει σχόλια με αναθέσεις ηλεκτρονικού ταχυδρομείου στα κελιά του ζητήματος σε αυτό το Gsheet, προκειμένου να τονώσει τον καθορισμό των ανταμοιβών.
 
-#### Κεντρική Διαδικασία Πληρωμής
+#### Κεντροποιημένη Διαδικασία Πληρωμής
 - Στο τέλος του μήνα η κατάσταση θα παγώσει. Δεν μπορούν πλέον να γίνουν αλλαγές ούτε στους προϋπολογισμούς ούτε στις ανταμοιβές. Η διαδικασία πληρωμής αρχίζει στις αρχές του μήνα.
 - Ο συνεργάτης λαμβάνει ένα μήνυμα ηλεκτρονικού ταχυδρομείου με ένα προ γεμισμένο τιμολόγιο και επίσης τα απαραίτητα δεδομένα εάν ο συνεργάτης θέλει να φτιάξει το δικό του τιμολόγιο. Ο συνεργάτης αποθηκεύει μια PDF έκδοση του προ γεμισμένου τιμολογίου ή του δικού του τιμολογίου στα προσωπικά του [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) τιμολόγια.
 - Ο συνεργάτης στη συνέχεια αποστέλλει email μέσω ηλεκτρονικού ταχυδρομείου στο [invoices@rchain.coop](invoices@rchain.coop) με σύνδεσμο προς το τιμολόγιο PDF.
@@ -68,12 +68,12 @@
 - Η RChain Coop πρέπει να συμμορφώνεται με τους φορολογικούς κανόνες της IRS. Αυτό σημαίνει ότι στο τέλος του έτους η RChain πρέπει να παράσχει έναν κατάλογο πληρωμών προς τους συνεισφέροντες, με τα ποσά, μέσω του εντύπου 1099.
 - Εάν οι ανταμοιβές ενός συνεισφέροντος υπερβαίνουν τα $600 δολάρια ετησίως, τότε πρέπει να συμπληρωθεί η φόρμα [Fw9 tax form](https://www.irs.gov/pub/irs-pdf/fw9.pdf) και να αποθηκευτεί στον φορολογικό [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE).
 - Για τους αλλοδαπούς των ΗΠΑ που ζουν εκτός ΗΠΑ, πρέπει να συμπληρωθεί η φόρμα φόρου [Fw4 tax form](https://www.irs.gov/pub/irs-pdf/fw4.pdf) (μόνο οι γραμμές 1, 2, 3, 4 και 7).
-- Μόλις ειδοποιηθεί ο διαχειριστής [Operation manager](ops@rchain.coop), οι Ops θα μεταφέρουν τα RHOC στις παρεχόμενες διευθύνσεις ETH.
+- Μόλις ειδοποιηθεί ο [διαχειριστής](ops@rchain.coop), οι διαχειριστές θα μεταφέρουν τα RHOC στις παρεχόμενες διευθύνσεις ETH.
 
 #### Υποβολή Εκθέσεων
 - Τέλος, εκθέσεις διαχείρισης θα δημιουργηθούν και θα παρουσιαστούν στα ενημερωτικά δελτία του RChain.
 
-Ο πρώτος μηνιαίος κύκλος ήταν ο Αύγουστος του 2017. Οι [Ops](ops@rchain.coop), (HJ ή lapin7) παρουσίασαν αυτή τη διαδικασία στις 30 Αυγούστου στο [RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). Μια ανασκόπηση του [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) είναι διαθέσιμη.
+Ο πρώτος μηνιαίος κύκλος ήταν ο Αύγουστος του 2017. Οι [διαχειριστές](ops@rchain.coop), (HJ ή lapin7) παρουσίασαν αυτή τη διαδικασία στις 30 Αυγούστου στο [RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). Μια ανασκόπηση του [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) είναι διαθέσιμη.
 
 ## Γίνεται Μέλος
 
@@ -83,7 +83,7 @@
 
 - [Εγγραφείτε](https://member.rchain.coop/#/sign-up) για την ιδιότητα μέλους στο RChain, μεταφορτώστε την αστυνομική σας ταυτότητα, το διαβατήριο ή το δίπλωμα οδήγησης σας και πληρώστε $20 για την συνδρομή μέλους.
 - Θα λάβετε έναν σύνδεσμο πρόσκλησης στο RChain Discord.
-- Αν δεν έχετε λογαριασμό, δημιουργήστε έναν, στο [Discord](https://discordapp.com/).
+- Αν δεν έχετε ήδη λογαριασμό, δημιουργήστε έναν, στο [Discord](https://discordapp.com/).
   - Στο Discord, μπορείτε να στείλετε ένα μήνυμα στο bot @verify:
   ```/verify```
   - Το bot απαντά ζητώντας τον κωδικό που στάλθηκε με μήνυμα ηλεκτρονικού ταχυδρομείου.
