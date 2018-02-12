@@ -1,4 +1,4 @@
-https://github.com/rchain/Members/blob/master/CONTRIBUTING_GR.md#%CE%93%CE%AF%CE%BD%CE%B5%CF%84%CE%B1%CE%B9-%CE%9C%CE%AD%CE%BB%CE%BF%CF%82# Πώς να συνεισφέρετε
+# Πώς να συνεισφέρετε
 
 Είμαι πολύ χαρούμενος που διαβάζετε αυτό το κείμενο, γιατί χρειαζόμαστε ενεργούς προγραμματιστές ώστε να βοηθήσουν αυτό το έργο να καρποφορήσει.
 Θέτουμε μια κοινοτική διαδικασία ώστε οι συνεισφέροντες που εργάζονται για τον συνεταιρισμό να κερδίζουν RHOC. Δείτε το βίντεο [24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s) και το βίντεο [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA).
@@ -30,7 +30,7 @@ https://github.com/rchain/Members/blob/master/CONTRIBUTING_GR.md#%CE%93%CE%AF%CE
   3. [ ] και στη συνέχεια επιβεβαιώστε την [πρόσκληση συνεργασίας](https://github.com/rchain/Members/invitations) για το αποθετήριο [rchain/Members](https://github.com/rchain/Members)
   4. [ ] Γίνετε [μέλος](https://groups.google.com/forum/#!pendingmember/rchain/join) του rchain@googlegroups.com για να έχετε πρόσβαση στα έγγραφά μας
 
-- Δεν είναι υποχρεωτικό, αλλά πραγματικά βοηθάει το να γίνετε μέλος στο RChain και να εγκριθείτε στο Discord. Αυτό απαιτεί συνδρομή ύψους $20 και KYC (Να Γνωρίζεις τον Πελάτη Σου). Δείτε το [Becoming a Member](#becoming-a-member) παρακάτω.
+- Δεν είναι υποχρεωτικό, αλλά πραγματικά βοηθάει το να γίνετε μέλος στο RChain και να εγκριθείτε στο Discord. Αυτό απαιτεί συνδρομή ύψους $20 και KYC (Να Γνωρίζεις τον Πελάτη Σου). Δείτε το [Γίνεται Μέλος](#%CE%93%CE%AF%CE%BD%CE%B5%CF%84%CE%B1%CE%B9-%CE%9C%CE%AD%CE%BB%CE%BF%CF%82) παρακάτω.
   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
   <!-- 2. [ ] Αυτό είναι το #bounties κανάλι στο Discord:
   ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
