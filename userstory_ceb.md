@@ -1,52 +1,52 @@
-From another rchain member:
-# A Shadow Coder
+Gikan sa laing miyembro sa rchain:
+# Usa ka Shadow Coder
 
-Once upon a time there was a developer who was really into it. S-he was tapped into the zeitgeist and standing at the thrilling threshold where hobby can become vocation. There was only one problem: s-he was an Anarchanon. S-he damn well intended to practice what s-he preached.
+Sa usa ka panahon adunay usa ka debeloper nga anaa gayud niini. S-siya gipangita sa zeitgeist ug nagbarug sa makapaukyab nga sukaranan diin ang kalingawan mahimong usa ka bokasyon. Adunay usa lamang ka problema: s-siya kay usa ka Anarkanon. S-iyang gipahamtang nga maayo ang pagpraktis kung unsa ang gisangyaw niya.
 
-(Editor: We're not even sure about the consciousness, it-s-he could be an AI.)
+(Editor: Dili kita sigurado mahitungod sa kahimatngon, kini-s-siya mahimong usa ka AI.)
 
-The Anarchanon had lots of ideas about identity and really wanted to put those concepts into play. Problem was, contributing to code bases while remaining fully anonymous was just not done. Fucking Luddites.
+Ang mga Anarkanon adunay daghan nga mga ideya mahitungod sa pagkatawo ug gusto gayud nga ibutang ang mga konsepto nga magdula. Ang problema mao, ang pag-amot sa mga code nga basehan samtang nagpabilin nga wala'y kahulogan ang wala'y gibuhat. Fucking Luddites.
 
-Then she came across an initiative which had neoteric new technology. Named RChain, it was a coop and it had impressive goals, benefits, and rewards, yet maintained the autonomy and anonymy of the individual. She wanted in.
+Dayon nakit-an niya ang inisyatibo nga adunay neoteric nga bag-ong teknolohiya. Ginganlan nga RChain, usa kini ka coop ug kini dunay mga tumong, mga benepisyo, ug mga ganti, apan nagpabilin ang awtonomiya ug anonymy sa indibidwal. Gusto niya.
 
-### Handshaking
+### Paglamano
 
-First step was to create an account in the RChain infrastructure. She accessed RChain's Handshaker app and decided to verify her identity on one service for now. She chose Twitter because she was sure the social network had no public identity information on her, but she had a track record of several years of activity with a decent amount of followers and friends. So when the Handshaker vetted her account she'd end up with a passable vet rank. It wouldn't be a 10 like the accounts of famous people who are "Verified by Twitter™" but it would get her past the RChain doorman and into the club.
+Ang unang lakang mao ang paghimo sa usa ka account sa imprastraktura sa RChain. Naka-access siya sa RChain's Handshaker app ug nakahukom sa pag-verify sa iyang pagkatawo sa usa ka serbisyo alang sa karon. Gipili niya ang Twitter tungod kay segurado siya nga ang social network walay impormasyon sa pagkakilala sa publiko kaniya, apan adunay track record sa pipila ka mga tuig nga kalihokan uban sa usa ka desente nga mga sumusunod ug mga higala. Busa sa diha nga ang Handshaker vetted sa iyang account nga siya matapos sa usa ka passable vet ranggo. Dili kini usa ka 10 sama sa mga account sa mga bantog nga mga tawo nga "Verified by Twitter ™" apan kini makapahimo kaniya nga milabay sa RChain doorman ug ngadto sa club.
 
-The Handshaker app UI is a lot like a crypto wallet. It works in a browser and there's also a version for smartphones. The Anarchanon pressed “Verify Identity” and selected Twitter as the authority. The browser took her to a Twitter page where the server asked:
+Ang UI sa Handshaker app kay pareha sa crypto wallet. Kini nagtrabaho sa usa ka browser ug adunay usab usa ka bersyon alang sa smartphones. Ang Anarchanon nagpadayon sa "Pagsusi sa Identity" ug gipili nga Twitter isip awtoridad. Gidala siya sa browser ngadto sa Twitter page diin ang server nangutana:
 
-"Authorize RChain Handshake Authenticator to use your account?"
+"Pahibalo sa RChain Handshake Authenticator nga gamiton ang imong account?"
 
-She clicked the "Authorize app" button, the browser briefly showed a "You signed in to RChain Handshake Authenticator" message and redirected back to the Handshaker app. As if she had added a new crypto-currency, Twitter's icon and name stood in the verified identities listing. Also she was logged in to the Handshaker. That was easy-peasy. So far RChain is doing it right.
+Gipindot niya ang "Authorize app" nga pislitanan, ang browser sa kadali nagpakita sa usa ka "Ikaw naka-sign in sa RChain Handshake Authenticator" nga mensahe ug gibalhin pagbalik sa Handshaker app. Daw nagdugang siya og usa ka bag-ong crypto-currency, ang icon ug pangalan sa Twitter nagbarug sa gipamatud-an nga identidad nga listahan. Gidala usab siya ngadto sa Handshaker. Dali ra kana. Sa pagkakaron ang RChain naghimo niini sa husto.
 
-The Handshaker suggested that, if she was done adding identities, she should create a seed and make a backup of her wallet. She did so, saving it onto a USB stick with a long generated password.
+Ang Handshaker nagsugyot nga, kon nahuman na niya ang pagdugang sa mga identidad, kinahanglan nga siya maghimo og usa ka binhi ug mag-andam sa iyang pitaka. Gihimo niya kini, gitipigan kini sa usa ka USB stick nga dunay dugay nga namugna nga password.
 
-### Blockchaining
+### Ang Pag-blockchain
 
-She could see that the Handshaker interacted with a blockchain to store identity info because the transaction had a link to a blockchain explorer. She browsed the tx to inspect the data and looked at the message content. Only hashes were stored. Good, as it should be. RChain follows best practice and her identity was secure.
+Nakita niya nga ang Handshaker nakigkomunikar sa usa ka blockchain sa pagtipig sa impormasyon sa identidad tungod kay ang transaksyon adunay usa ka sumpay sa usa ka blockchain explorer. Iyang gitan-aw ang tx aron pagsusi sa datos ug mitan-aw sa sulod sa mensahe. Ang mga hash lamang ang gitipigan. Maayo, ingon nga kini kinahanglan. Ang RChain nagsunod sa pinakamaayo nga praktis ug ang iyang pagkatawo sigurado.
 
-Then she checked the Twitter account attributes stored in her wallet: @username, name, profile image url, and email address. She noted that the Handshaker had given her a vet ranking of 3 on Twitter. Good enough. Other identities could be added later when she needed to increase her weight.
+Unya iyang gisusi ang mga hiyas sa Twitter account nga gitipigan sa iyang pitaka: @username, name, profile image url, ug email address. Namatikdan niya nga ang Handshaker naghatag kaniya og ranggo nga gamayng hayop sa 3 sa Twitter. Maayong igo. Ang ubang mga identidad mahimong idugang sa ulahi kung kinahanglan niya nga pauswagon ang iyang timbang.
 
-So now there was proof she existed in cyberspace and later she’d prove she inhabited the real world. Somewhere. Could be anywhere, in some godforsaken hinterland or an inner city sanctuary. Didn't matter. Nobody would ever know. Haha.
+Busa karon adunay pamatuod nga naglungtad siya sa cyberspace ug sa ulahi iyang gipamatud-an nga siya nagpuyo sa tinuod nga kalibutan. Sa usa ka dapit. Mahimo bisan asa, sa pipila nga gipanamastamasan nga lugar o usa ka santuwaryo sa siyudad. Dili hinungdanon. Walay makahibalo. Haha.
 
-### Dealing with the Doorman
+### Pag-sabot sa Doorman
 
-She went to sign in to the RChain Slack. Slack asked her to "Enter your email address and password" but below was a "Login with a Handshake" link. She clicked it and got a welcome screen with "Hi, who are you?". Under that was a blockchain address and a QR code. She copied the address, switched tabs to her identity wallet and went to its "Send data" screen. She pasted the address into the destination field and clicked the checkbox next to Twitter. Since she didn't want to use her Twitter username or profile image she left all the account attributes unchecked so they wouldn't be sent. She then pressed the "Send" button.
+Miadto siya aron mopirma sa RChain Slack. Gipangutana siya ni Slack nga "Ipasok ang imong email address ug password" apan sa ubos usa ka "Login with a Handshake" link. Gikuha niya kini og usa ka welcome screen uban sa "Hi, kinsa ka?". Ubos niana usa ka address nga blockchain ug usa ka QR code. Gikopya niya ang address, gibalhin ang mga tab sa iyang pitaka nga identidad ug miadto sa "Send data" screen. Gipapilit niya ang adres ngadto sa destinasyon nga nataran ug gikuha ang checkbox sunod sa Twitter. Tungod kay dili niya gusto nga gamiton ang iyang Twitter username o profile image gibiyaan niya ang tanan nga mga attribute account nga wala matino aron dili kini ipadala. Dayon gipugos niya ang "Send" button.
 
-Upon receiving the new user submission Slack’s Doorman plugin inspected the data: a Twitter user with an account name of #hash# and a vet rank of 3. The Doorman sent a query to the Handshaker:
+Sa pagdawat sa bag-ong user submission nga Slack's Doorman plugin gisusi ang data: usa ka user sa Twitter nga adunay ngalan sa # hash # ug usa ka ranggo sa vet sa 3. Ang Doorman nagpadala sa usa ka pangutana sa Handshaker:
 
-"Does this user #hash# exist and have a vet rank of 3?"
+"Kini ba nga user # hash exist ug adunay usa ka ranggo sa botika nga 3?"
 
-The Handshaker searched for the hash, matched it to an account, and found a vet rank of 3. It replied with:
+Gipangita sa Handshaker ang hash, giparis kini sa usa ka asoy, ug nakit-an ang usa ka ranggo nga botante sa 3. Kini mitubag sa:
 
-"Yes and yes, good to go."
+"Oo ug oo, maayo ang pag-adto."
 
-She switched back to the Slack login tab and pressed the "Check confirmation" button. A page loaded with the message:
+Siya mibalik balik sa Slack login tab ug gipilit ang "Check confirmation" button. Usa ka panid nga puno sa mensahe:
 
-"Welcome, you've been verified. If this page doesn't redirect in a few seconds, click this link."
+"Pag-abut, napamatud-an ka na kung kini nga panid wala ibalhin sa pipila ka mga segundo, i-klik kini nga link."
 
-The page redirected and the Anarchanon found herself looking at the RChain Slack. She filled in a cryptic username, uploaded a stock profile image, and started collaborating.
+Ang panid gibalhin ug ang Anarchanon nahimutang nga nagtan-aw sa RChain Slack. Gipuno niya ang usa ka misteryosong username, gi-upload ang imahe sa profile sa stock, ug nagsugod sa pagtinabangay.
 
-# Part II
+# Ikaduhan nga Parte
 
-In which the Anarchanon deftly fends off the evil Identifiers and contributes code.
+Sa diin ang Anarchanon hugot nga nagpalayo sa daotan nga mga Tigpaila ug nakaamot sa code.
