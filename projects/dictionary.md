@@ -194,7 +194,6 @@ Ang RChain blockchain gilangkuban sa mga kliyente sa node nga nagdagan sa mga re
 #### Mercury Complete
 Ang hingpit nga kagamitan sa Mercury milestone andam nga buhian.
 
-
 ### Project Double Linking
 [This document is being referenced and curated by the VPG](https://chat.divvydao.net/video-team/channels/web-production-group). Your help and suggestions are most appreciated.
 [Join us at Mattermost for the Social Ledger experment](https://chat.divvydao.net/signup_user_complete/?id=au57xr9fxbb65bmssnpz9xsy7h).
