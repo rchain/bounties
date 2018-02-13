@@ -1,108 +1,108 @@
-# How to contribute
+# Unsaon sa pag-amot
 
-I'm really glad you're reading this, because we need active developers to help this project come to fruition.
-We're establishing a community process for contributors to earn RHOC working for the coop. See video [24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s) and video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA).
+Nalipay kaayu ko nga gibasa nimo kini, tungod kay nagkinahanglan kami og mga aktibo nga tigpalambo aron matabangan ang kining proyektoha nga malampuson.
+Nagtukod kami og usa ka proseso sa komunidad alang sa mga kontribyutor aron makaangkon sa RHOC nga nagtrabaho alang sa kooperatiba. Tan-awa ang video [24:06 HJ Gipatin-aw sa mga Miyembro ang Desentralisadong Pagbadyet](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s) og ang video nga [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA).
 
-Everyone is welcome to participate. Contributing doesn’t just mean coding; there are many different ways for you to get involved, including community activism, marketing, business development, design, and governance.
+Ang tanan kay welcome sa pag-apil. Ang pag-amot wala lang nagpasabot nga coding; adunay daghan nga mga nagkalainlain nga mga pamaagi aron makaapil ka, lakip na ang aktibismo sa komunidad, marketing, pagpalambo sa negosyo, disenyo, ug pagdumala.
 
-### Communication
+### Komunikasyon
 
-[RChain](https://rchain.coop) has multiple channels to make easy communication possible within the growing community. There is a full list of comm channels in the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) but these are the collaborative channels:
-- We work together and keep each other updated through [Github/RChain/Members](https://github.com/rchain/Members).
-- We're experimenting with [Mattermost](https://rchain.divvydao.net/community/channels/town-square) and [Gitter](https://gitter.im/rchain/Rholang) to create insight in who does what when and why.
-- The Telegram [RChain Coop](https://t.me/rchain_coop) chat group is for chat, while the [RChain Coop Official Announcements](https://t.me/rchain_official) channel carries official announcements. For Chinese speakers there is a [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN) group. There is also a QQ group for RChain: 530718666.
-- We've moved from [Slack](https://ourchain.slack.com/messages?) to a [Discord](https://discord.gg/fvY8qhx) server. Discord has several channels to discuss about all kind of things (to join see [Becoming a Member](#becoming-a-member) below). The goal is to create actionable issues in [Github/Members](https://github.com/rchain/Members/) that are handled by the community.
-- The different environments are bridged together. So you would see messages from for example Discord in Mattermost, Telegram, or Gitter.
-- We use [Google Groups](https://groups.google.com/forum/#!forum/rchain) for interaction through email and getting access to the RChain Google drive and documents.
-- There are weekly conference calls with unedited archives on [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
-- There is a weekly [Member zoom meeting](https://zoom.us/s/197490909) on Wednesdays, 06:00 PM UTC (Amsterdam +1, New York -5, Seattle -8, Beijing +8), where we discuss the issues that need to be worked upon.
-- And of course our [website](https://rchain.coop).
+[RChain](https://rchain.coop) adunay daghang mga channel aron mahimo ang sayon nga komunikasyon nga posible sulod sa nagtubo nga komunidad. Adunay usa ka bug-os nga listahan sa mga channel sa komunidad sa [FAQ](https://github.com/rchain/reference/blob/master/faq.md) apan kini ang mga kolaborasyon nga mga channel:
+- Nagtrabaho kami sa usag-usa ug nagpadayon sa usag-usa pinaagi sa [Github/RChain/Members](https://github.com/rchain/Members).
+- Nag-eksperimento kami sa [Mattermost](https://rchain.divvydao.net/community/channels/town-square) ug [Gitter](https://gitter.im/rchain/Rholang) aron sa paghimo og pagsabut sa kinsa ang unsa kanus-a ug ngano.
+- Ang Telegram [RChain Coop](https://t.me/rchain_coop) chat nga grupo kay alang sa chat, samtang ang [RChain Coop Official Announcements](https://t.me/rchain_official) na channel adunay mga opisyal nga pahibalo. Alang sa mga mamumulong sa Chinese adunay grupo nga [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN). Adunay usa usab nga grupo sa QQ alang sa RChain: 530718666.
+- Kami mibalhin gikan sa [Slack](https://ourchain.slack.com/messages?) Sa usa ka [Discord](https://discord.gg/fvY8qhx) server. Ang Discord adunay ubay-ubay nga mga agianan aron paghisgot mahitungod sa tanan nga matang sa mga butang (sa pag-apil sa pagkakita sa [Pagkahimo nga usa ka Miyembro](#nahimong-usa-ka-miyembro) sa ubos). Ang tumong mao ang paghimo sa mga isyu sa aksyon sa [Github/Members](https://github.com/rchain/Members/) nga ginadumala sa komunidad.
+- Ang nagkalainlain nga mga kalikupan gihugpong. Busa imong makita ang mga mensahe gikan sa pananglitan sa Discord sa Mattermost, Telegram, o Gitter.
+- Gigamit namon ang [Google Groups](https://groups.google.com/forum/#!forum/rchain) para sa interaksyon pinaagi sa email ug pagkuha sa access sa RChain Google drive ug mga dokumento.
+- Adunay matag-semana nga mga tawag sa komperensya nga walay mga arsip nga wala ma-edukar sa [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
+- Adunay usa ka senemana nga [Meeting sa pag-zoom sa Member](https://zoom.us/s/197490909) sa Miyerkules, 06:00 PM UTC (Amsterdam +1, New York -5, Seattle -8, Beijing +8), diin atong hisgutan ang mga isyu nga kinahanglan nga pagabuhaton.
+- Ug siyempre ang among [website](https://rchain.coop).
 
-### Collaboration
+### Kolaborasyon
 
-Through [Github/Members](https://github.com/rchain/Members/) issues are created by anyone. It's up to us to handle all those issues in an organized manner, based on self organization and decentralization. We trust in skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
+Pinaagi sa [Github / Members](https://github.com/rchain/Members/) nga mga isyu gihimo sa bisan kinsa. Anaa ra kanato ang pagdumala sa tanan nga mga isyu sa usa ka organisadong pamaagi, base sa kaugalingong organisasyon ug desentralisasyon. Nagasalig kami sa mga kahanas ug pagsabot aron masulbad ang mga isyu ug makadawat og ganti sa usa ka makatarunganon nga paagi sa RHOC.
 
-- Work items are represented by [issues](https://github.com/rchain/Members/issues/).
-- To make one or join work on one, you need to:
+- Ang trabaho nga mga butang girepresentar sa [mga isyu](https://github.com/rchain/Members/issues/).
+- Sa paghimo sa usa o pag-apil sa usa ka trabaho, kinahanglan nimo:
 
-  1. [ ] get/have a [Github account](https://github.com/rchain/Members)
-  2. [ ] request a Github collaborator role from @lapin7 in one of the comm channels, or mail [ops@rchain.coop](ops@rchain.coop), to get an invite
-  3. [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members)
-  4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
-
-- It's not mandatory but it really helps to become a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
-   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
+  1. [ ] pagkuha/adunay usa ka [account sa Github](https://github.com/rchain/Members)
+  2. [ ] pangayo ug usa ka Github collaborator role gikan sa @lapin7 sa usa sa comm channels, o mail [ops@rchain.coop](ops@rchain.coop), aron makakuha og usa ka imbitasyon
+  3. [ ] dayon pakumpirma ang [collaboration invite](https://github.com/rchain/Members/invitations) alang sa repository [rchain/Members](https://github.com/rchain/Members)
+  4. [ ] mahimong usa ka [miyembro](https://groups.google.com/forum/#!pendingmember/rchain/join) sa rchain@googlegroups.com alang sa pagkuha sa atong mga dokumento
+  
+- Dili kini mandatory pero makatabang kini nga mamahimong usa ka RChain Member ug mapamatud-an sa Discord. Nagkinahanglan kini og $20 membership fee ug KYC. Tan-awa [Mahimong usa ka Miyembro](# nahimong usa ka sakop) sa ubos.
+  1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
   <!-- 2. [ ] This is the #bounties channel in Discord:
   ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
 
-#### Decentralized Budget Allocation
-- Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
-- Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
-- Members suggest a budget to resolve the issue.
-- Go to the spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
+### Desentralisado nga Alokasyon sa Badyet
+- Ang mga badyet gigahin sa pagtrabaho sa mga butang pinaagi sa labing menos tulo ka mga miyembro. Ang average sa tulo ka suhestion naghubit sa badyet.
+- Ang Ops (@ lapin7, HJ) nagpatin-aw niini sa video [RChain, Desentralized nga pagbadyet ug paggasto](https://www.youtube.com/watch?v=m6xiTWbEdpA)
+- Ang mga miyembro nagsugyot og usa ka badyet aron masulbad ang isyu.
+- Lakaw ngadto sa spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
 ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
-- Find an issue that you want to allocate a budget to, like #115 "Community Co-Operators"
-- Type your Github-name in the yellow column, for example AR66 gets lapin7
-- Type your suggested budget, like $5000.00. The current budget becomes then $5000.00 (in K66). It's added to the budget of the previous month.
+- Pangita og usa ka isyu nga gusto nimong mogahin og badyet sa, sama sa # 115 "Community Co-Operators"
+- Isulat ang ngalan sa Github sa yellow nga kolum, pananglitan ang AR66 mag-lapin7
+- Isulat ang imong gisugyot nga badyet, sama sa $5000.00. Ang kasamtangang badyet mahimong $5000.00 (sa K66). Gidugang kini sa badyet sa miaging bulan.
 ![image](https://user-images.githubusercontent.com/1913335/32597751-ed21061e-c537-11e7-9a0b-c9cccc48bc86.png)
-- The Operation manager ([ops@rchain.coop](ops@rchain.coop)) can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting budgets.
+- Ang Operation manager ([ops@rchain.coop](ops@rchain.coop) mahimo usab nga makadugang sa mga komentaryo sa mga assignment sa email ngadto sa mga selula sa isyu niini nga Gsheet aron mapadasig ang pag-set up nga mga badyet.
 
-#### Decentralized Reward Allocation
-- RHOC are distributed monthly based on invoices.
-- During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions sets the personal reward for each collaborator.
-- Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards 201711"
+### Gipresentar nga Desentralized Reward Allocation
+- Ang RHOC gipang-apod-apod kada bulan base sa mga invoices.
+- Atol sa bulan ang matag kolaborator mohukom kung giunsa nga ang budget sa RHOC gipanghatag sa mga kolaborator isip ganti alang sa pag-apil. Ang aberids nga tulo ka sugyot nga gantihan naghatag sa personal nga ganti alang sa matag kolaborator.
+- Lakaw ngadto sa spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Gantimpala 201711"
 ![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
-- In column Q and R you see respectively the percentage distribution and the github name of the member, who gave the score according to his/her insight about the work being done by him/her self and the other ones who have done work on the issue.
-- In column M you can type your github name. Your name appears then in column Q for example.
-- In column R you can set then the percentages for yourself and the other collaborators.
-- [Ops](ops@rchain.coop) can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting rewards.
+- Sa kolum Q ug R imong makita ang matag usa nga gibahin nga bahin ug ang ngalan sa github sa miyembro, kinsa naghatag sa score sumala sa iyang panan-aw mahitungod sa trabaho nga gibuhat niya/sa iyang kaugalingon ug sa uban pa nga nakahimo sa pagtrabaho sa isyu.
+- Sa kolum M mahimo nimo i-type ang imong pangalan nga github. Ang imong ngalan makita dayon sa kolum Q pananglitan.
+- Sa kolum R mahimo nimong ibutang dayon ang mga porsyento alang sa imong kaugalingon ug sa ubang mga kauban.
+- [Ops](ops@rchain.coop) mahimo usab nga makadugang sa mga komentaryo sa mga assignment sa email ngadto sa mga selula sa isyu niini nga Gsheet aron mapadasig ang pagtakda sa mga ganti.
 
-#### Centralized Payment process
-- At the end of the month the situation will be frozen. No changes can be made anymore to either budgets or rewards. The payment process starts at the beginning of the month.
-- The collaborator receives an email with a pre-filled invoice and also the needed data if the collaborator wants to make his/her own invoice. The collaborator stores a PDF version of the pre-filled invoice or their own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
-- The collaborator then emails [invoices@rchain.coop](invoices@rchain.coop) with a link to the PDF invoice.
-- If a member does regular work per month, then a Statement of Work can be set up. This process will be available soon.
-- If the process works well, then of course it will be decentralized further to work areas or regions.
+### Ang sentralisadong proseso sa pagbayad
+- Sa katapusan sa bulan ang kahimtang mahimong frozen. Walay mga pagbag-o nga mahimong mahimo sa mga badyet o mga ganti. Ang proseso sa pagbayad magsugod sa pagsugod sa bulan.
+- Ang nakigtambayayong nakadawat sa usa ka email nga adunay pre-filled invoice ug usab ang gikinahanglan nga datos kon ang kolaborador gusto nga maghimo sa iyang kaugalingong invoice. Ang kolaborador nag-store sa usa ka PDF nga bersyon sa pre-filled invoice o ilang kaugalingong invoice sa iyang personal nga [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
+- Ang kolaborador dayon mag-email [invoices@rchain.coop](invoices@rchain.coop) nga may usa ka link sa PDF nga invoice. 
+- Kon ang usa ka miyembro adunay regular nga trabaho matag bulan, unya ang usa ka Pamahayag sa Trabaho mahimo nga matukod. Kini nga proseso mahimong magamit sa dili madugay.
+- Kon ang proseso maayo nga buhat, nan siyempre kini dunay dugang nga desentralisado sa mga lugar o lugar nga pagtrabaho.
 
-#### Tax
-- RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
-- If a contributor's rewards are more then $600 per year, then a [Fw9 tax form (For US citizens and residents)](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw9/index.html) and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
-- For US aliens living outside of the USA, the [W-8BEN tax form](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw8ben).
+### Buhis
+- Ang RChain Coop kinahanglang mosunod sa mga lagda sa buhis sa IRS. Kana nagpasabot nga sa katapusan sa tuig ang RChain kinahanglan nga mohatag usa ka lista sa mga payout ngadto sa mga kontribyutor, nga ang kantidad, pinaagi sa porma nga 1099.
+- Kung ang usa ka kontribusyon nga mga ganti mas dugang $600 matag tuig, unya usa ka [Fw9 nga porma sa buhis (Alang sa US nga mga lungsuranon ug mga residente)](https://www.irs.gov/pub/irs-pdf/fw9.pdf) kinahanglan mapuno gikan sa [pagsunod sa mga panudlo dinhi](https://www.irs.gov/instructions/iw9/index.html) ug gitipigan sa [personal nga polder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE ) Buwis.
+- Alang sa US nga mga langyaw nga nagpuyo gawas sa USA, ang [W-8BEN nga porma sa buhis](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) kinahanglan nga mapun-an [pagsunod sa mga instruksyon dinhi]( https://www.irs.gov/instructions/iw8ben).
 
-     NB: only lines 1, 2, 3, 4, and 7 are to be filled.
-- As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provided ETH-addresses.
+    NB: ang mga linya lamang 1, 2, 3, 4, ug 7 ang mapuno.
+- Sa diha nga ang [Operation manager](ops@rchain.coop) gipahibalo sa deklarasyon, ang mga Ops mobalhin sa RHOC ngadto sa gihatag nga ETH-addresses. 
 
-#### Reporting
-- Finally management reports will be generated and presented in Debriefings of RChain.
+### Ang Pagreport
+- Sa kataposan ang mga taho sa pagdumala pagahimoon ug ipresentar sa Debriefings sa RChain.
 
-The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) presented this process Aug 30 in
-[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). An overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available
+Ang unang binulan nga pagbalik-balik mao ang Agosto 2017. [Ops] (ops@rchain.coop), (HJ o lapin7) gipresentar kini nga proseso Aug 30 sa
+[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). Ang usa ka kinatibuk-ang panglantaw sa [mga badyet ug mga ganti](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) anaa
 
-## Becoming a Member
+## Ang Pagkahimong usa ka Miyembro
 
-By joining the Cooperative you will participate in the lively conversation of the RChain community. Members can access the Discord server (no trolls or scammers) with direct access to the developers and governance decision making.
+Pinaagi sa pagkuyog sa Cooperative ikaw makaapil sa buhi nga panag-istoryahanay sa komunidad sa RChain. Ang mga miyembro maka-access sa Discord server (walay trolls o scammers) nga may direktang access sa mga developers ug pagdesisyon sa pagdumala sa pagdumala.
 
-### Process
+### Ang Pagproseso
 
-- [Sign up](https://member.rchain.coop/#/sign-up) for RChain membership, upload your id document, and pay the $20 membership fee.
-- You will receive an invite link to the RChain Discord.
-- Create a [Discord](https://discordapp.com/) account if you don't have one.
-  - On Discord, you can send a message to the @verify bot:
+- [Sign up](https://member.rchain.coop/#/sign-up) para sa RChain membership, i-upload ang imong id dokumento, ug ibayad ang $ 20 nga membership fee.
+- Makadawat ka ug usa ka link sa pagdapit sa RChain Discord.
+- Paghimo sa usa ka [Discord](https://discordapp.com/) account kon wala ka.
+  - Sa Discord, mahimo ka magpadala sa mensahe sa @verify bot:
    ```/verify```
-     - The bot responds by querying for the code that was emailed.
-     - On success, a 'verifier' will contact you (depending on the time of day this might not be immediate).
-     - After passing the verification, your role will be updated to Member.
+    - Ang bot mitubag pinaagi sa pagpangutana alang sa code nga gi-email.
+    - Sa kalampusan, ang usa ka 'tigpamatuod' makigkita kanimo (depende sa oras sa adlaw nga kini dili dayon).
+    - Human ipasa ang pag-verify, ang imong papel pag-update sa Member.
+    
+#### 4 Nga mga kinahanglanon sa membership
 
-#### 4 Membership requirements
+Susihon sa representante sa RChain ang mosunod:
+1. [Kasabutan sa membership](https://github.com/rchain/legaldocs/blob/master/Coop%20Membership%20Agreement.pdf) gipamatud-an
+2. Tan-awa ang litrato sa govt issued nga ID
+3. Susiha ang pagbayad sa membership fee
+4. Tinoa ang nawong sa live video
 
-The RChain representative will check the following:
-1. [Membership agreement](https://github.com/rchain/legaldocs/blob/master/Coop%20Membership%20Agreement.pdf) affirmed
-2. Check the photo of govt issued ID
-3. Verify payment of membership fee
-4. Verify face on live video
+#### Pag-uswag sa MIYEMBRO
 
-#### Promotion to MEMBER
+Kon ang upat ka mga kinahanglanon sa pagkasakop matuman ug ma-rekord, ang Discord admin mopasiugda sa user sa ROLE = MIYEMBRO ug idugang ang ':' sa Discord alias sa membro alang sa pamatuod sa individuality.
 
-When the four membership requirements are met and recorded, a Discord admin will promote the user to ROLE=MEMBER and append a ':' to the member's Discord alias for proof of individuality.
-
-Welcome to the club!
+Welcome sa club!
