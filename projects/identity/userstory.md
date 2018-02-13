@@ -1,52 +1,52 @@
-From another rchain member:
-# A Shadow Coder
+De otro miembro de rchain:
+# Codificador de sombras
 
-Once upon a time there was a developer who was really into it. S-he was tapped into the zeitgeist and standing at the thrilling threshold where hobby can become vocation. There was only one problem: s-he was an Anarchanon. S-he damn well intended to practice what s-he preached.
+Había una vez un desarrollador que estaba realmente interesado.  El(la) fue aprovechado en el espíritu de la época y parado en el umbral emocionante donde el hobby puede convertirse en vocación. Solo había un problema: el(la) era un Anarchanon. El(la) malditamente tenía la intención de practicar lo que él predicaba.
 
-(Editor: We're not even sure about the consciousness, it-s-he could be an AI.)
+(Editor: Ni siquiera estamos seguros sobre su conciencia, el(la) podría ser una IA).
 
-The Anarchanon had lots of ideas about identity and really wanted to put those concepts into play. Problem was, contributing to code bases while remaining fully anonymous was just not done. Fucking Luddites.
+Anarchanon tenía muchas ideas sobre la identidad y realmente quería poner esos conceptos en juego. El problema era que contribuir a las bases del código mientras permanecía completamente anónimo simplemente no estaba hecho para ello. Malditos luditas.
 
-Then she came across an initiative which had neoteric new technology. Named RChain, it was a coop and it had impressive goals, benefits, and rewards, yet maintained the autonomy and anonymy of the individual. She wanted in.
+Luego se encontró con una iniciativa que tenía una nueva tecnología neotérica. Nombrado RChain, era una cooperativa y tenía objetivos, beneficios y recompensas impresionantes, pero mantenía la autonomía y la anonimia del individuo. Ella queiso entrar.
 
 ### Handshaking
+El primer paso fue crear una cuenta en la infraestructura RChain. Ella accedió a la aplicación RChain's Handshaker y decidió verificar su identidad en un servicio por el momento. Ella eligió Twitter porque estaba segura de que la red social no tenía información de identidad pública sobre ella, pero tenía una trayectoria de varios años de actividad con una cantidad decente de seguidores y amigos. Entonces, cuando Handshaker revisó su cuenta, terminaría con un rango de investigador aceptable. No sería un 10 como las cuentas de personas famosas que son "Verificadas por Twitter ™", pero le haría pasar al portero RChain y la haría entrar en el club.
 
-First step was to create an account in the RChain infrastructure. She accessed RChain's Handshaker app and decided to verify her identity on one service for now. She chose Twitter because she was sure the social network had no public identity information on her, but she had a track record of several years of activity with a decent amount of followers and friends. So when the Handshaker vetted her account she'd end up with a passable vet rank. It wouldn't be a 10 like the accounts of famous people who are "Verified by Twitter™" but it would get her past the RChain doorman and into the club.
 
-The Handshaker app UI is a lot like a crypto wallet. It works in a browser and there's also a version for smartphones. The Anarchanon pressed “Verify Identity” and selected Twitter as the authority. The browser took her to a Twitter page where the server asked:
+La interfaz de usuario de la aplicación Handshaker es muy parecida a una billetera criptográfica. Funciona en un navegador y también hay una versión para teléfonos inteligentes. El Anarchanon presionó "Verificar identidad" y seleccionó a Twitter como la autoridad. El navegador la llevó a una página de Twitter donde el servidor preguntó:
 
-"Authorize RChain Handshake Authenticator to use your account?"
+"¿Autorizar a RChain Handshake Authenticator para usar su cuenta? "
 
-She clicked the "Authorize app" button, the browser briefly showed a "You signed in to RChain Handshake Authenticator" message and redirected back to the Handshaker app. As if she had added a new crypto-currency, Twitter's icon and name stood in the verified identities listing. Also she was logged in to the Handshaker. That was easy-peasy. So far RChain is doing it right.
+Hizo clic en el botón "Autorizar aplicación", el navegador mostró brevemente el mensaje "Usted inició sesión en RChain Handshake Authenticator" y lo redirigió a la aplicación Handshaker. Como si hubiera agregado una nueva moneda criptográfica, el icono y el nombre de Twitter estaban en la lista de identidades verificadas. También ella se conectó al Handshaker. Eso fue demasiado fácil. Hasta ahora, RChain lo estaba haciendo bien.
 
-The Handshaker suggested that, if she was done adding identities, she should create a seed and make a backup of her wallet. She did so, saving it onto a USB stick with a long generated password.
+El Handshaker sugirió que, si había terminado de agregar identidades, debería crear una semilla y hacer una copia de seguridad de su billetera. Ella lo hizo, guardándolo en una memoria USB con una gran contraseña autogenerada.
 
 ### Blockchaining
 
-She could see that the Handshaker interacted with a blockchain to store identity info because the transaction had a link to a blockchain explorer. She browsed the tx to inspect the data and looked at the message content. Only hashes were stored. Good, as it should be. RChain follows best practice and her identity was secure.
+Pudo ver que el Handshaker interactuaba con un blockchain para almacenar información de identidad porque la transacción tenía un enlace a un explorador de blockchain. Buscó el txt para inspeccionar los datos y miró el contenido del mensaje. Solo hashes fueron almacenados. Bueno, como debería ser. RChain sigue las mejores prácticas y su identidad fue asegurada.
 
-Then she checked the Twitter account attributes stored in her wallet: @username, name, profile image url, and email address. She noted that the Handshaker had given her a vet ranking of 3 on Twitter. Good enough. Other identities could be added later when she needed to increase her weight.
+Luego revisó los atributos de la cuenta de Twitter almacenados en su billetera: @nombre de usuario, nombre, URL de imagen de perfil y dirección de correo electrónico. Ella notó que el Handshaker le había otorgado un ranking de 3 en investigador en Twitter. Suficientemente bueno. Se podrían agregar otras identidades más tarde cuando necesite aumentar su peso en la cuenta.
 
-So now there was proof she existed in cyberspace and later she’d prove she inhabited the real world. Somewhere. Could be anywhere, in some godforsaken hinterland or an inner city sanctuary. Didn't matter. Nobody would ever know. Haha.
+Entonces ahora había pruebas de que ella existía en el ciberespacio y más tarde probaría que habitaba en el mundo real. Algun lado. Podría estar en cualquier lugar, en algún lugar olvidado de la mano de Dios o en un santuario de la ciudad interior. No importaba Nadie lo sabría nunca. Jaja.
 
-### Dealing with the Doorman
+### Tratando con el portero
 
-She went to sign in to the RChain Slack. Slack asked her to "Enter your email address and password" but below was a "Login with a Handshake" link. She clicked it and got a welcome screen with "Hi, who are you?". Under that was a blockchain address and a QR code. She copied the address, switched tabs to her identity wallet and went to its "Send data" screen. She pasted the address into the destination field and clicked the checkbox next to Twitter. Since she didn't want to use her Twitter username or profile image she left all the account attributes unchecked so they wouldn't be sent. She then pressed the "Send" button.
+Fue a registrarse con RChain Slack. Slack le pidió que "Ingrese su dirección de correo electrónico y contraseña", pero a continuación se mostró el enlace "Iniciar sesión con handshake". Ella hizo clic y obtuvo una pantalla de bienvenida con "Hola, ¿quién eres?". Debajo había una dirección de blockchain y un código QR. Copió la dirección, cambió las pestañas a su billetera de identidad y fue a su pantalla "Enviar datos". Pegó la dirección en el campo de destino y hizo clic en la casilla de verificación junto a Twitter. Como no quería utilizar su nombre de usuario o imagen de perfil de Twitter, dejó todos los atributos de la cuenta sin marcar para que no se los enviaran. Luego presionó el botón de "Enviar".
 
-Upon receiving the new user submission Slack’s Doorman plugin inspected the data: a Twitter user with an account name of #hash# and a vet rank of 3. The Doorman sent a query to the Handshaker:
+Al recibir el nuevo envío del usuario, el plugin de Slack's Doorman inspeccionó los datos: un usuario de Twitter con un nombre de cuenta de # hash # y un rango de investigador de 3. El portero envió una consulta al Handshaker:
 
-"Does this user #hash# exist and have a vet rank of 3?"
+"¿Este usuario # hash # existe y tiene un rango de investigador de 3?"
 
-The Handshaker searched for the hash, matched it to an account, and found a vet rank of 3. It replied with:
+El Handshaker buscó el hash, lo combinó con una cuenta y encontró un rango de investigador de 3. Respondió con:
 
-"Yes and yes, good to go."
+"Sí y sí, bueno para empezar".
 
-She switched back to the Slack login tab and pressed the "Check confirmation" button. A page loaded with the message:
+Volvió a la pestaña de inicio de sesión de Slack y presionó el botón "Verificar confirmación". Una página cargada con el mensaje:
 
-"Welcome, you've been verified. If this page doesn't redirect in a few seconds, click this link."
+"Bienvenido, ha sido verificado. Si esta página no se redirige en unos segundos, haga clic en este enlace".
 
-The page redirected and the Anarchanon found herself looking at the RChain Slack. She filled in a cryptic username, uploaded a stock profile image, and started collaborating.
+La página la redirigió y Anarchanon se encontró mirando a RChain Slack. Ella ingresó un nombre de usuario críptico, cargó una imagen de perfil de stock y comenzó a colaborar.
 
-# Part II
+# Parte II
 
-In which the Anarchanon deftly fends off the evil Identifiers and contributes code.
+En el cual el Anarchanon defiende hábilmente a los malvados Identificadores y contribuye con el código.
