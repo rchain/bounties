@@ -1,0 +1,84 @@
+Koperasi Strategis RChain Cooperative & Pyrofex Corporation
+24 Januari 2018 - Koperasi RChain dan Pyrofex Corporation mengumumkan kontrak layanan penting secara strategis dan investasi ekuitas yang dimaksudkan untuk memberikan beberapa solusi blockchain yang saling menguntungkan.
+
+Latar Belakang
+Greg Meredith (chief executive RChain Co-op dan Chief Architect) dan Dr. Mike Stay (pendiri Pyrofex) adalah kolega dan kolaborator lama yang upaya penelitian bersama membentuk yayasan matematis teknologi RChain. Dasar-dasar ini merupakan diferensiasi kunci RChain dibandingkan dengan solusi komputasi terdistribusi lainnya. Untuk mempelajari lebih lanjut tentang dasar teknologi dan rho-kalkulus lihat contoh-contoh ini.
+
+Intro to RChain | Coinfund
+Perhitungan proses mobile untuk pemrograman blockchain
+Arsitektur RChain
+Contoh lain dari karya yang dikerjakan oleh Greg dan Dr. Stay adalah bekerja pada algoritma LADL (Logic as Distributed Law). Anda bisa menyaksikan Dr. Stay menyajikan penelitian terbaru dari RChain Developers retreat.
+
+Awal tahun ini, sementara RChain baru terbentuk dan menjalani tipuan teknologi startup yang khas (dan tidak begitu khas), Dr. Stay dan Pyrofex Co-founder Nash Foster menunjukkan kepercayaan mereka pada platform dan komitmen organisasi terhadap tata kelola yang kooperatif. dengan mengetuk jaringan dalam mereka untuk membentuk tim inti inti RChain awal.
+
+Pyrofex dan tim pengembang harus akrab dengan mereka yang mengikuti Koperasi RChain. CEO Nash Foster dan Lead Project Manager Medha Parlikar telah membantu mengembangkan tim pengembang RChain ke 20+ Core yang mengesankan dengan rencana dua kali lipat pada pertengahan 2018. Tim ini sekarang mencakup beberapa PhD, mantan karyawan Google, bersama dengan bakat kelas kata lainnya.
+
+Setiap hari Rabu, Anda akan menemukan Medha dalam debat kami untuk memperbarui komunitas dengan perkembangan terakhir di RChain. Berlangganan ke saluran youtube untuk tetap update dan mengajukan pertanyaan langsung ke tim, yang dikhususkan untuk mengembangkan koperasi platform yang transparan dan inklusif.
+
+Hubungan kerja antara Koperasi RChain dan Pyrofex telah berjalan dengan baik sehingga Dewan Direksi dan masyarakat telah mendukung usulan Pyrofex untuk mengembangkan Cryptofex, toolkit pengembang yang sangat dibutuhkan untuk dunia yang terdesentralisasi.
+
+"Saat kita roket menuju Merkurius dan seterusnya, kita bisa menggunakan alat yang lebih baik. "
+
+— Tim RChain Co-op.
+
+Dengarkan pengumuman dari Greg Meredith dan juga Tanya Jawab singkat dengan CEO Pyrofex Nash Foster, dari sebuah ceramah komunitas baru-baru ini.
+
+Berikut ini adalah kutipan dari Cryptofex Whitepaper yang akan segera dirilis.
+
+Masalahnya: Software Menulis Keras, Kompilasi itu Harder
+Pada tahun 1983, Bordland Software Corporation mengakuisisi kompilator kecil yang disebut Compas Pascal dan merilisnya di Amerika Serikat sebagai Turbo Pascal. Ini adalah produk pertama yang mengintegrasikan kompilator dan editor tempat perangkat lunak ditulis dan hampir satu dekade produk Borland mendefinisikan pasar untuk lingkungan pengembangan terpadu (IDE).
+
+Tahun setelah Borland merilis TurboPascal, Ken Thompson mengamati bahaya yang berbeda dan unik yang terkait dengan teknologi kompilator. Dalam pidato penerimaan Turing Award yang terkenal, Thompson menggambarkan sebuah mekanisme dimana virus dapat disuntikkan ke dalam kompilator sehingga setiap biner yang dikompilasi dengan kompiler tersebut akan meniru virus tersebut.
+
+"Dalam menunjukkan kemungkinan serangan semacam ini, saya memilih kompiler C. Saya bisa memilih program program penanganan seperti assembler, loader, atau bahkan microcode perangkat keras. Seiring tingkat program semakin rendah, bug ini akan semakin sulit dideteksi. Sebuah bug microcode terinstal dengan baik akan hampir tidak mungkin untuk dideteksi. "- Ken Thompson
+Sayangnya, banyak pengembang saat ini tetap terjebak di dunia yang dibangun pada awal tahun 1980an. IDE pada dasarnya tetap sama, hanya bisa memecahkan masalah yang sesuai dengan CPU Intel single laptop mereka. Namun, hampir sebulan yang lalu, pada 22 November 2017, Intel Corporation merilis update firmware penting ke Intel Management Engine dan pada minggu-minggu berikutnya, masyarakat luas telah menyadari adanya bug "Meltdown". Komponen IME dan komponen lainnya adalah jenis aplikasi microcode tingkat rendah yang Thompson ingatkan. Intel telah menunjukkan dengan sempurna bahwa dalam 33 tahun terakhir, kita telah belajar sedikit dan tidak kesana.
+
+Ironisnya, kita memiliki solusi parsial untuk masalah ini selama hampir satu dekade. Pada tahun 2009, David A. Wheeler menerbitkan disertasi PhD-nya, di mana dia mengusulkan sebuah mekanisme dimana beberapa kompiler dapat digunakan untuk memverifikasi kebenaran keluaran kompilator. Mekanisme semacam itu ternyata dibuat khusus untuk lingkungan blokir yang terdesentralisasi. Menggabungkan mekanisme Wheeler dengan serangkaian insentif ekonomi untuk peternakan kompilasi untuk mengirimkan hasil yang benar memberi kita kesempatan yang sangat nyata untuk memperbaiki masalah yang telah mengganggu kita selama lebih dari 30 tahun.
+
+Solusi: Toolchain Terdistribusi dan Terdesentralisasi
+Jika kita membuka lingkungan pengembangan di perusahaan seperti Google dan Amazon, banyak dari kita akan terkejut saat mengetahui bahwa hanya sedikit program yang dikumpulkan pada satu mesin saja. Sudah, organisasi yang paling canggih di dunia telah pindah ke lingkungan pengembangan terdistribusi. Hal ini memungkinkan mereka memanfaatkan awan, membawa komputasi terdistribusi berkinerja tinggi untuk menghasilkan pengembangan perangkat lunak itu sendiri. Di Google, ribuan mesin memutar kode kompilasi, memeriksa kebenaran, dan menyimpan benda untuk digunakan kembali nanti. Dengan menggunakan caching dan "hermetis" yang cerdik, Google membuat perkembangannya lebih cepat dan lebih efisien secara komputasi daripada yang mungkin dilakukan pada masing-masing pengembang workstation. Sayangnya, kebanyakan dari kita tidak mampu mendedikasikan ribuan mesin untuk kompilasi.
+
+Komunitas open-source mungkin bisa membangun lingkungan kompilasi bersama berskala besar di Internet, namun Ken Thompson menjelaskan kepada kami mengapa kami tidak dapat mempercayai lingkungan bersama untuk beban kerja ini. Namun, di era blockchain, sekarang mungkin untuk membangun lingkungan pengembangan yang memanfaatkan kekuatan komputasi berskala besar untuk mengkompilasi dan memeriksa program melawan maksud programmer. Aman, murah, dan cepat - kita bisa ketiganya.
+
+CryptoFex sama seperti Decentralized Integrated Development Environment (DIDE) yang memungkinkan insinyur perangkat lunak untuk menulis, menguji, mengkompilasi, dan secara statis memeriksa kode mereka untuk memastikannya aman, efisien, dan terukur.
+
+Garis Besar Persyaratan
+Penempatan Swasta Efek Bersifat Ekuitas - Koperasi RChain akan mengakuisisi saham biasa Pyrofex senilai $ 2 juta dan kursi dewan sebesar $ 1,75 / saham.
+Layanan Dukungan Pengembangan Perangkat Lunak dan Konferensi - Pyrofex akan menerima pembaharuan kontrak pengembangan inti untuk 2 tahun ke depan serta kontrak untuk memberikan layanan pendukung konferensi selama 5 tahun ke depan. Sebagai pertimbangan, Pyrofex akan mentransfer ke koin RChain senilai $ 5 juta Spark token, yang akan dikonversi menjadi token PYRO saat peluncuran Cryptofex.
+Alat Pengembangan Perangkat Lunak Cryptofex - Pyrofex juga akan mengembangkan seperangkat alat pengembangan perangkat lunak untuk platform RChain, yang disebut Cryptofex DIDE, yang memungkinkan pengembang membuat kontrak cerdas yang dioptimalkan untuk platform RChain dan dapat memanfaatkan fitur spesifik RChain. Dengan pertimbangan, RChain akan mentransfer senilai $ 5 juta RHOC ke Pyrofex.
+Sketsa Roadmap
+Pyrofex telah mengusulkan roadmap tingkat tinggi berikut, sesuai revisi seiring kemajuan proyek.
+
+2018-1.0 Peralatan inti:
+
+Cryptofex Maker - IDE Blockchain berbasis Eclipse.
+Cryptofex MakerStore - Blockchain "App Store" dimonetisasi melalui PYRO
+Cryptofex ToolKit - Kumpulan alat bantu baris perintah OSS.
+2019-2.0 Penambahan:
+
+API Membangun Crytpofex - Alat Bangun Terpadu
+Penguji Kriptofeks - Alat Verifikasi Program Terpadu
+2020-3.0 Penambahan:
+
+Bahasa Dasar Cryptofex
+Cryptofex Secure Compiler
+Komentar di Berita
+"Kami sangat senang memiliki kesempatan untuk memperkuat hubungan kami dengan Koperasi RChain pada tahun 2018. Komitmen mereka terhadap pengembangan sumber terbuka mencerminkan nilai-nilai perusahaan kita sendiri. Senang memiliki hubungan dekat dengan komunitas sumber terbuka yang dinamis. Saya jarang melihat jenis kegembiraan yang dimiliki anggota Coop dan kami berharap dapat memberikan beberapa teknologi baru yang hebat tahun ini. "- Nash E. Foster, Cofounder & CEO, Pyrofex Corp.
+
+"Alat pengembangan intuitif penting bagi kita dan ekosistem blockchain secara keseluruhan; Kami sangat senang Pyrofex bermaksud untuk meluncurkan alat mereka di RChain terlebih dahulu. Tapi, Ethereum telah menjadi pendukung besar RChain dan kami senang PyOMex juga bermaksud mendukung para pengembang Solidity. Memiliki alat yang memungkinkan pengembang memigrasikan kontrak cerdas antara pemberontak akan menciptakan kemungkinan yang luar biasa. "
+
+- Lucius Greg Meredith, Presiden, Koperasi RChain
+
+Tonton wawancara terakhir dengan dua pemain utama dalam pengembangan ekosistem RChain, Lawerence Lerner (CEO RChain Holdings) dan Nash Foster (CEO Pyrofex Corp.)
+
+
+Untuk informasi lebih lanjut tentang RChain kunjungi rchain.coop.
+
+Kontak
+Permintaan untuk rchain dapat dikirim ke info@rchain.coop
+
+Pertanyaan untuk Pyrofex dapat dikirim ke press@pyrofex.net.
+
+sumber:
+
+https://medium.com/rchain-cooperative/the-rchain-cooperative-pyrofex-corporation-ink-strategic-partnership-67a72004150a
