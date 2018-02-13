@@ -1,84 +1,86 @@
-The RChain Cooperative & Pyrofex Corporation ink Strategic Partnership
-24 January 2018 — The RChain Cooperative and Pyrofex Corporation announced strategically important service contracts and an equity investment intended to deliver several mutually beneficial blockchain solutions.
-
+Ang tala ng RChain Cooperative & Pyrofex Corporation na Maparaang Partnership
+Enero 24, 2018 - Ang RChain Cooperative at Pyrofex Corporation ay inihayag ang mga mahahalagang mahalagang kontrata sa serbisyo at isang pamumuhunan sa equity na inilaan upang makapaghatid ng maraming kapwa mga kapaki-pakinabang na solusyon sa blockchain.
 Background
-Greg Meredith (RChain Co-op president and Chief Architect) and Dr. Mike Stay (Pyrofex Co-founder) are long-time colleagues and collaborators whose mutual research efforts form the mathematical foundations of RChain’s technology. These foundations are a key differentiation of RChain compared to other distributed computing solutions. To learn more about the technology and rho-calculus underpinnings see these examples.
 
-Intro to RChain | Coinfund
-Mobile process calculi for programming the blockchain
+Ang Greg Meredith (Pangulo ng RChain Co-op at Chief Architect) at si Dr. Mike Stay (Pyrofex Co-founder) ay mga mahabang panahon na kasamahan at mga tumutulong na ang pagsisikap ng pananaliksik sa isa't isa ay bumubuo ng mga mathematical pundasyon ng teknolohiya ng RChain. Ang mga pundasyong ito ay isang pangunahing pagkita ng RChain kung ikukumpara sa iba pang mga solusyon sa ibinahagi sa computing. Upang matuto nang higit pa tungkol sa teknolohiya at rho-calculus underpinnings tingnan ang mga halimbawang ito.
+
+Intro sa RChain | Coinfund
+Proseso ng calculi para sa programming ang blockchain
 RChain Architecture
-Another example of the work that Greg and Dr. Stay have collaborated on is the work on the LADL (Logic as Distributed Law) algorithm. You can watch Dr. Stay present the latest research from the RChain Developers retreat.
+Ang isa pang halimbawa ng gawain na pinagtulungan ni Greg at Dr Stay ay ang gawain sa algorithm ng LADL (Logic bilang Distributed Law). Maaari mong panoorin ang Dr. Stay ipakita ang pinakahuling pananaliksik mula sa pag-urong ng RChain Developers.
 
 
-Early in the year, while RChain was newly formed and undergoing the typical(and not so typical) growing pains of a tech startup, Dr. Stay and Pyrofex Co-founder Nash Foster demonstrated their faith in the platform and the organizations commitment to cooperative governance by tapping their deep networks to form the early RChain core dev team.
+Maaga na taon, samantalang ang RChain ay bagong nabuo at sumasailalim sa tipikal na (at hindi karaniwan) na lumalagong mga pasakit ng isang tech startup, ang Dr. Stay at Pyrofex Co-founder na si Nash Foster ay nagpakita ng kanilang pananampalataya sa platform at ang mga samahan ng pangako sa kooperatibong pamamahala sa pamamagitan ng pag-tap sa kanilang mga malalim na network upang bumuo ng maagang RChain core dev team.
 
-Pyrofex and the development team should be familiar to those who follow the RChain Cooperative. CEO Nash Foster and Lead Project Manager Medha Parlikar have helped grow RChain’s development team to an impressive 20+ Core devs with plans on doubling by mid 2018. The team now includes multiple PhDs, ex-Googlers, along with other word class talents.
+Ang Pyrofex at ang pangkat ng pag-unlad ay dapat na pamilyar sa mga sumusunod sa RChain Cooperative. Ang CEO Nash Foster at Lead Project Manager na si Medha Parlikar ay nakatulong sa paglaki ng koponan ng pag-unlad ng RChain sa isang kahanga-hangang 20+ Core devs na may mga plano sa pagdodoble ng kalagitnaan ng 2018. Kasama na ngayon ng koponan ang maraming PhD, ex-Googler, kasama ang iba pang mga talento ng klase ng salita.
 
-Every Wednesday, you will find Medha on our debrief updating the community with the latest developments in RChain. Subscribe to the youtube channel to stay updated and ask questions directly to the team, who is devoted to developing a transparent and inclusive platform cooperative.
+Tuwing Miyerkules, makikita mo ang Medha sa aming debrief pag-update ng komunidad sa mga pinakabagong pagpapaunlad sa RChain. Mag-subscribe sa channel ng youtube upang manatiling na-update at magtanong nang direkta sa koponan, na nakatuon sa pagbuo ng isang transparent at inclusive kooperatiba platform.
 
-The working relationship between the RChain Cooperative and Pyrofex has gone so well that the Board of Directors and the community have supported Pyrofex’s proposal to develop Cryptofex, the much needed developer tool kit for the decentralized world.
+Ang pakikipagtulungan sa pagitan ng RChain Cooperative at Pyrofex ay napakasama na ang Lupon ng mga Direktor at ang komunidad ay sumuporta sa panukala ni Pyrofex na bumuo ng Cryptofex, ang kinakailangang kasangkapan sa pag-develop ng tool para sa desentralisadong mundo.
 
-“As we rocket towards Mercury and beyond, we could use better tools. “
+"Bilang rocket namin patungo sa Mercury at higit pa, maaari naming gamitin ang mas mahusay na mga tool. "
 
-— The RChain Co-op Team.
+— Ang RChain Co-op Team.
 
-Listen to the announcement from Greg Meredith as well as a short Q&A with Pyrofex CEO Nash Foster, from a recent community debrief.
+Makinig sa patalastas mula sa Greg Meredith pati na rin ang isang maikling Q & A sa Pyrofex CEO Nash Foster, mula sa isang kamakailan-lamang na komunidad debrief.
 
-The following is an excerpt from the soon to be released Cryptofex Whitepaper.
+Ang sumusunod ay isang sipi mula sa lalong madaling panahon na inilabas Cryptofex Whitepaper.
 
-The Problem: Writing Software is Hard, Compiling is Harder
-In 1983, Bordland Software Corporation acquired a small compiler called Compas Pascal and released it in the United States as Turbo Pascal. It was the first product to integrate a compiler and the editor in which software was written and for nearly a decade Borland’s products defined the market for integrated development environments (IDEs).
+Ang Problema: Ang Pagsusulat ng Software ay Mahirap, Ang Pag-compile ay Mas Mahirap
+Noong 1983, nakuha ng Bordland Software Corporation ang isang maliit na tagatala na tinatawag na Compas Pascal at inilabas ito sa Estados Unidos bilang Turbo Pascal. Ito ang unang produkto upang isama ang isang tagatala at ang editor kung saan ang software ay isinulat at para sa halos isang dekada ang mga produkto ng Borland ay tinukoy ang merkado para sa pinagsama-samang mga kapaligiran sa pag-unlad (IDEs).
 
-The year after Borland released TurboPascal, Ken Thompson observed the distinct and unique dangers associated with compiler technologies. In his famous Turing Award acceptance speech, Thompson described a mechanism by which a virus can be injected into a compiler such that every binary compiled with that compiler will replicate the virus.
+Ang taon pagkatapos na inilabas ni Borland ang TurboPascal, naobserbahan ni Ken Thompson ang mga natatanging at natatanging mga panganib na nauugnay sa mga teknolohiya ng compiler. Sa kanyang tanyag na pagtanggap sa pagtanggap ng Turing Award, inilarawan ni Thompson ang isang mekanismo kung saan ang isang virus ay maaaring ma-injected sa isang tagatala tulad na ang bawat binary na naipon na tagatala ay magtiklop ng virus.
 
-“In demonstrating the possibility of this kind of attack, I picked on the C compiler. I could have picked on any program-handling program such as an assembler, a loader, or even hardware microcode. As the level of program gets lower, these bugs will be harder and harder to detect. A well installed microcode bug will be almost impossible to detect.” — Ken Thompson
-Unfortunately, many developers today remain stuck in a world constructed in the early 1980’s. IDEs remain essentially the same, able to solve only those problems that neatly fit onto their laptop’s single Intel CPU. But barely a month ago, on 22nd November 2017, the Intel Corporation released a critical firmware update to the Intel Management Engine and in the intervening weeks, the public at large has become aware of the “Meltdown” bug. The IME and other components are exactly the sort of low-level microcode applications that Thompson warned about. Intel has demonstrated perfectly that in the past 33 years, we have learned little and gone nowhere.
+"Sa pagpapakita ng posibilidad ng ganitong uri ng pag-atake, pinili ko ang tagatala ng C. Maaaring makuha ko ang anumang programa sa paghawak ng programa tulad ng isang assembler, isang loader, o kahit hardware microcode. Habang bumababa ang lebel ng programa, ang mga bug na ito ay magiging mas mahirap at mas mahirap na makita. Ang isang mahusay na naka-install microcode bug ay halos imposible upang makita. "- Ken Thompson
+Sa kasamaang palad, maraming mga developer ngayon ay nananatiling natigil sa isang mundo na itinayo noong unang bahagi ng dekada ng 1980. Ang mga IDE ay nananatiling mahalagang pareho, na malulutas lamang ang mga problemang iyon nang maayos na naaangkop sa iisang Intel CPU ng kanilang laptop. Ngunit halos isang buwan na ang nakalilipas, sa Nobyembre 22, 2017, ang Intel Corporation ay naglabas ng isang kritikal na pag-update ng firmware sa Intel Management Engine at sa pagitan ng mga linggo, ang publiko sa malaking nalalaman ang bug na "Meltdown". Ang IME at iba pang mga bahagi ay eksaktong uri ng mababang antas ng mga aplikasyon ng microcode na binabalaan ni Thompson. Ganap na nagpakita ang Intel na sa nakalipas na 33 taon, natutunan namin ang maliit at nawala wala kahit saan.
 
-Ironically, we have had a partial solution to these problems for nearly a decade. In 2009, David A. Wheeler published his PhD dissertation, in which he proposed a mechanism by which multiple compilers can be used to verify the correctness of a compiler output. Such a mechanism turns out to be tailor-made for the decentralized blockchain environment. Combining Wheeler’s mechanism with a set of economic incentives for compile farms to submit correct outputs gives us a very real shot at correcting a problem that has plagued us for more than 30 years.
 
-The Solution: A Distributed and Decentralized Toolchain
-If we crack open the development environments at companies like Google and Amazon, many of us would be surprised to discover that very few programs are compiled on a single machine. Already, the most sophisticated organizations in the world have moved to a distributed development environment. This allows them to leverage the cloud, bringing high-performance distributed computing to bear on software development itself. At Google, many thousands of machines churn away compiling code, checking it for correctness, and storing objects to be re-used later. Through clever use of caching and “hermetic” builds, Google makes its builds faster and more computationally efficient than could possibly be done on individual developer workstations. Unfortunately, most of us cannot afford to dedicate thousands of machines to compilation.
+Sa kabila nito, nagkaroon kami ng isang bahagyang solusyon sa mga problemang ito sa loob ng halos isang dekada. Noong 2009, inilathala ni David A. Wheeler ang kanyang disertasyon sa PhD, kung saan siya ay nagpanukala ng isang mekanismo kung saan ang maraming mga compiler ay maaaring gamitin upang i-verify ang katumpakan ng isang compiler output. Ang ganitong mekanismo ay lumalabas na ginawa para sa desentralisadong kapaligiran ng blockchain. Ang pagsasama-sama ng mekanismo ng Wheeler na may isang hanay ng mga pang-ekonomiyang insentibo para mag-compile ng mga sakahan upang isumite ang tamang mga output ay nagbibigay sa amin ng isang tunay na pagbaril sa pagwawasto ng isang problema na pumasok sa amin ng higit sa 30 taon.
 
-The open-source community might be able to build large scale shared compilation environments on the Internet, but Ken Thompson explained to us why we could not trust a shared environment for these workloads. However, in the age of blockchain, it’s now possible to build development environments that harness the power of large-scale compute to compile and check programs against programmer intent. Secure, cheap, and fast — we can get all three.
+Ang Solusyon: Isang Ipinagkakatiwalaang at Decentralized Toolchain
+Kung susubukan naming buksan ang mga kapaligiran sa pag-unlad sa mga kumpanya tulad ng Google at Amazon, marami sa atin ang mabigla upang matuklasan na ang napakakaunting mga programa ay naipon sa isang solong machine. Na, ang pinaka-sopistikadong mga organisasyon sa mundo ay lumipat sa isang ipinamamahagi na kapaligiran sa pag-unlad. Ito ay nagpapahintulot sa kanila na magamit ang cloud, na nagdadala ng mataas na pagganap na ipinamamahagi computing upang madala sa software development mismo. Sa Google, maraming libu-libong machine ang humihiwalay sa pag-compile ng code, tinitingnan ito para sa pagiging tama, at nag-iimbak ng mga bagay na muling gagamitin sa ibang pagkakataon. Sa pamamagitan ng matalino na paggamit ng caching at "hermetic" builds, ang Google ay gumagawa nito mas mabilis na binuo at mas computationally mahusay kaysa sa posibleng gawin sa mga indibidwal na mga workstation ng developer. Sa kasamaang-palad, ang karamihan sa atin ay hindi kayang ipagkaloob ang libu-libong mga machine sa pagtitipon.
 
-CryptoFex is just such a Decentralized Integrated Development Environment (DIDE) allowing software engineers to author, test, compile, and statically check their code to ensure that it is secure, efficient, and scalable.
 
-Outline of Terms
-Private Placement of Equity Securities — The RChain Cooperative will acquire $2M worth of Pyrofex common stock and a board seat at $1.75/share.
-Software Development and Conference Support Services — Pyrofex will receive a renewal of its core development contract for the next 2 years as well as a contract to provide conference support services over the next 5 years. In consideration, Pyrofex will transfer to the RChain Cooperative $5M worth of Spark tokens, which will convert into PYRO tokens during the launch of Cryptofex.
-Cryptofex Software Development Tools — Pyrofex will also develop a suite of software development tools for the RChain platform, called the Cryptofex DIDE, which will allow developers to create smart contracts optimized for the RChain platform and able to take advantage of RChain’s specific features. In consideration, RChain will transfer $5M worth of RHOC to Pyrofex.
+Ang komunidad ng bukas na pinagmumulan ay maaaring magtayo ng malalaking sukat ng nakabahaging mga compilation environment sa Internet, ngunit ipinaliwanag sa amin ni Ken Thompson kung bakit hindi namin mapagkakatiwalaan ang isang nakabahaging kapaligiran para sa mga workload na ito. Gayunpaman, sa edad na blockchain, posible na ngayon upang bumuo ng mga kapaligiran sa pag-unlad na ginagamit ang lakas ng malakihang compute upang makapagtipon at mag-check ng mga programa laban sa layunin ng programmer. Ligtas, mura, at mabilis - makukuha namin ang lahat ng tatlo.
+
+
+CryptoFex ay tulad lamang ng isang Disentralisadong Integrated Development Environment (DIDE) na nagbibigay-daan sa mga engineer ng software sa may-akda, pagsubok, sumulat ng libro, at statically suriin ang kanilang code upang matiyak na ito ay ligtas, mahusay, at scalable.
+
+Balangkas ng Mga Tuntunin
+Pribadong Placement of Equity Securities - Ang RChain Cooperative ay kukuha ng $ 2M na halaga ng karaniwang stock na Pyrofex at isang upuan ng board sa $ 1.75 / share.
+Software Development and Conference Support Services - Ang Pyrofex ay makakatanggap ng isang pag-renew ng kontrata ng pag-unlad ng core para sa susunod na 2 taon pati na rin ang isang kontrata upang magbigay ng mga serbisyo ng suporta sa pagpupulong sa susunod na 5 taon. Sa pagsasaalang-alang, ang Pyrofex ay maglilipat sa RChain Cooperative na $ 5M na halaga ng mga token ng Spark, na kung saan ay mag-convert sa mga token ng PYRO sa paglulunsad ng Cryptofex.
+Cryptofex Software Development Tools - Ang Pyrofex ay magkakaroon din ng isang suite ng mga tool sa pag-develop ng software para sa platform ng RChain, na tinatawag na Cryptofex DIDE, na magpapahintulot sa mga developer na lumikha ng mga smart contract na na-optimize para sa platform ng RChain at kayang samantalahin ang mga partikular na tampok ng RChain. Sa pagsasaalang-alang, ang RChain ay maglilipat ng $ 5M na halaga ng RHOC sa Pyrofex.
 Roadmap Sketch
-Pyrofex has proposed the following high-level roadmap, subject to revision as the project progresses.
+Iminungkahi ng Pyrofex ang sumusunod na high-level roadmap, na napapailalim sa rebisyon habang ang proyekto ay umuunlad.
 
-2018–1.0 Core tools:
+2018-1.0 Mga tool sa Core:
 
-Cryptofex Maker — A Blockchain IDE based on Eclipse.
-Cryptofex MakerStore — A Blockchain “App Store” monetized through the PYRO
-Cryptofex ToolKit — A collection of OSS command-line dev tools.
-2019–2.0 Additions:
+Cryptofex Maker - Isang Blockchain IDE batay sa Eclipse.
+Cryptofex MakerStore - Ang isang Blockchain "App Store" ay nakuha sa pamamagitan ng PYRO
+Cryptofex ToolKit - Isang koleksyon ng mga tool ng command na linya ng OSS.
+2019-2.0 Mga karagdagan:
 
-Crytpofex Build APIs — Integrated Build Tools
-Cryptofex Verifiers — Integrated Program Verification Tools
-2020–3.0 Additions:
-
+Crytpofex Gumawa ng Mga API - Mga Pinagsamang Mga Tool ng Build
+Cryptofex Verifiers - Mga Tool sa Pag-verify ng Integrated Program
+2020-3.0 Mga karagdagan:
 Cryptofex Base Language
 Cryptofex Secure Compiler
-Comments on the News
-“We’re thrilled to have an opportunity to strengthen our relationship with the RChain Cooperative in 2018. Their commitment to open-source development mirrors our own corporate values. It’s a pleasure to have such a close relationship with a vibrant open-source community. I’ve rarely seen the kind of excitement the Coop’s members share and we look forward to delivering some great new technology this year.” — Nash E. Foster, Cofounder & CEO, Pyrofex Corp.
+Mga komento sa Balita
+"Natutuwa kami na magkaroon ng pagkakataon na palakasin ang aming relasyon sa RChain Cooperative sa 2018. Ang kanilang pangako sa pag-unlad ng bukas na pinagmumulan ay nagmumula sa aming sariling mga corporate values. Ito ay isang kasiyahan na magkaroon ng isang malapit na kaugnayan sa isang makulay na open-source na komunidad. Bihirang nakikita ko ang uri ng kagalakan na ibinahagi ng mga miyembro ng Coop at inaasahan naming naghahatid ng ilang mahusay na bagong teknolohiya sa taong ito. "- Nash E. Foster, Cofounder & CEO, Pyrofex Corp.
 
-“Intuitive development tools are important for us and the blockchain ecosystem as a whole; we’re incredibly glad Pyrofex intends to launch their tools on RChain first. But, Ethereum has been a huge supporter of RChain and we’re pleased that Pyrofex intends to support Solidity developers as well. Having tools that will make it possible for developers to migrate smart contracts between blockchains is going to create tremendous possibilities.”
+"Ang mga intuitive development tools ay mahalaga para sa atin at ang blockchain ecosystem bilang isang buo; kami ay hindi mapaniniwalaan o kapani-paniwala natutuwa Pyrofex nagnanais na ilunsad ang kanilang mga tool sa RChain muna. Ngunit, ang Ethereum ay isang malaking tagataguyod ng RChain at nalulugod kami na ang Pyrofex ay nagnanais na suportahan ang mga developer ng Solidity. Ang pagkakaroon ng mga tool na gagawing posible para sa mga nag-develop na lumipat ng mga smart na kontrata sa pagitan ng mga blockchain ay makakagawa ng napakalaking posibilidad. "
 
-— Lucius Greg Meredith, President, RChain Cooperative
+— Lucius Greg Meredith, Pangulo, RChain Cooperative
 
-Watch the latest interview with two major players in the development of the RChain ecosystem, Lawerence Lerner(CEO of RChain Holdings) and Nash Foster(CEO of Pyrofex Corp.)
+Panoorin ang pinakabagong pakikipanayam sa dalawang pangunahing manlalaro sa pagpapaunlad ng ecosystem ng RChain, Lawerence Lerner (CEO ng RChain Holdings) at Nash Foster (CEO ng Pyrofex Corp.)
 
 
-For more information on RChain visit rchain.coop.
+Para sa karagdagang impormasyon sa RChain bisitahin ang rchain.coop.
 
-Contacts
-Inquires for rchain may be sent to info@rchain.coop
+Mga contact
+Ang mga katanungan para sa rchain ay maaaring ipadala sa info@rchain.coop
 
-Inquiries for Pyrofex may be sent to press@pyrofex.net.
+Ang mga katanungan para sa Pyrofex ay maaaring ipadala sa press@pyrofex.net.
 
 source :
 
