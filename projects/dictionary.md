@@ -1,69 +1,75 @@
 # RChain Nomenclature
 
-    Ang tumong alang niini nga dokumento: paghimo og listahan sa mga pulong sa RChain, ang ilang kahulugan
-    ug nalambigit nga sulod sa markdown isip pahina sa github.
-    Kasamtangan nga kahimtang: gikinahanglan ang pag-uswag pinaagi sa mga tigtabang nga teknikal.
+    Goal for this document: create a list of RChain words, their definition
+    and linked content in markdown as a github page.
+    Current state: needs fleshing out by technical contributors.
 
-    Sintaks alang sa mga editor:
-    - Ang mga seksyon makakuha sa usa ka lebel 2 nga ulohan (##) ug mga subseksyon (kung gikinahanglan) ang lebel 3.
-    - Ang mga kondisyon nga gihubit makakuha og level 4 nga ulohan (####). Kini sa batakan naghimo sa
-      text bold apan usab URL-linkable ingon man usab nga parsable alang sa umaabot nga bot.
-    - Ang kahulugan nga nagasunod sa usa ka pulong usa ka normal nga parapo.
+    Syntax for editors:
+    - Sections get a level 2 heading (##) and subsections (if needed) level 3.
+    - Terms to be defined get a level 4 heading (####). This basically makes the
+      text bold but also URL-linkable as well as parsable for a future bot.
+    - The definition that follows a term is a normal paragraph.
 
-**Pagdugtong sa mga Kahulugan**
-Pag-link sa usa ka termino pinaagi sa paggamit sa termino sa usa ka angkla, e.g. alang sa Rholang, sumpay ngadto sa:https://github.com/rchain/Members/blob/master/projects/dictionary.md#rholang. 
-O kopyaha gikan sa icon nga link nga gipakita sa Github sa dihang nag-hover ka sa usa ka ulohan.
-
-
+**Linking to Definitions**  
+Link to a term by using the term in an anchor, e.g. for Rholang, link to:  
+https://github.com/rchain/Members/blob/master/projects/dictionary.md#rholang.  
+Or copy from the link icon that Github displays when you hover over a heading.
 
 ##  RChain General
 
 #### RChain
-Ang RChain usa ka desentralisado, ekonomikanhon nga malungtarong publiko nga compute nga imprastraktura. Ang modelo sa pagpatay niini gikuha gikan sa syntax ug semantics sa rho-calculus, diin ang "Rho" nagpasabot sa reflective, higher-order. Ang rho-calculus usa ka balangkas alang sa pag-analisar sa dungan nga mga proseso nga nagsulti sama sa biolohikal nga mga selula o lainlaing mga ngalan sa usa ka blockchain. Ang FMI makita ang FAQ ug ang website.(https://github.com/rchain/reference/blob/master/faq.md) and the [website](http://rchain.coop/).
+RChain is a decentralized, economically sustainable public compute infrastructure. Its execution model is derived from the syntax and semantics of rho-calculus, where “Rho” stands for reflective, higher-order. The rho-calculus is a framework for analyzing concurrent processes that communicate like biological cells or different namespaces on a blockchain. FMI see the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) and the [website](http://rchain.coop/).
 
 #### RChain Platform
-Ang plataporma mao ang kinatibuk-ang imprastraktura sa software, nga gipagawas sa katapusan sa 2018. Ang kasingkasing sa usa ka RChain mao ang Rho Virtual Machine (RhoVM) Execution Environment, nga nagpadagan sa daghang RhoVMs nga ang matag usa nagpatuman sa usa ka smart nga kontrata. Kini nga mga pag-execute sa dungan nga panahon ug mga multi-threaded.
+The platform is the entire software infrastructure, slated to be released at the end of 2018. The heart of an RChain is the Rho Virtual Machine (RhoVM) Execution Environment, which runs multiple RhoVMs that are each executing a smart contract. These execute concurrently and are multi-threaded.
 
 #### RChain Blockchain
-Ang RChain blockchain usa ka graph sa mga bloke. Ang matag bloke adunay usa ka header nga nagpunting sa usa o labaw pa nga nangaging mga bloke, lista sa mga transaksyon, ug uban pang metadata. Source: Architecture Overview sa RChain Architecture
+The RChain blockchain is a graph of blocks. Each block contains a header that points at one or more previous blocks, a list of transactions, and other metadata. Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
 
-## Pormal nga mga Pamaagi
 
-#### Pormal nga mga Pamaagi
-Sa siyensiya sa kompyuter, partikular nga software engineering ug hardware engineering, pormal nga mga pamaagi ang usa ka partikular nga matang sa mga pamaagi sa matematika nga pamaagi alang sa paghingalan, pagpalambo ug pagsusi sa software ug hardware nga mga sistema. Source: Formal Methods sa Wikipedia.
+## Formal Methods
+
+#### Formal Methods
+In computer science, specifically software engineering and hardware engineering, formal methods are a particular kind of mathematically based techniques for the specification, development and verification of software and hardware systems.
+Source: [Formal Methods](https://en.wikipedia.org/wiki/Formal_methods) at Wikipedia.
 
 #### Process Algebra
-Ang usa ka algebra usa ka matematika nga istruktura nga adunay usa ka hugpong sa mga bili ug usa ka hugpong sa mga operasyon sa mga bili. Kini nga mga operasyon nakatagamtam sa algebraic properties sama sa commutativity, associativity, idempotency, ug distributivity. Sa usa ka tipikal nga proseso nga algebra, ang mga proseso mao ang mga bili ug ang parallel nga komposisyon gihubit nga usa ka commutative ug associative operation sa proseso. Source:[Process Algebra](https://en.wikipedia.org/wiki/Process_calculus)sa Wikipedia.
+An algebra is a mathematical structure with a set of values and a set of operations on the values. These operations enjoy algebraic properties such as commutativity, associativity, idempotency, and distributivity. In a typical process algebra, processes are values and parallel composition is defined to be a commutative and associative operation on processes.
+Source: [Process Algebra](https://en.wikipedia.org/wiki/Process_calculus) at Wikipedia.
 
-#### Pagproseso Algebra
-Sa siyensiya sa kompyuter, ang proseso nga calculi (o proseso nga mga algebras) usa ka lainlaing pamilya nga may kalabutan nga mga pamaagi alang sa pormal nga pagmugna og dungan nga mga sistema. Ang proseso nga calculi naghatag og usa ka himan alang sa hataas nga lebel nga paghulagway sa mga interaksyon, komunikasyon, ug mga pag-synchronize tali sa usa ka koleksyon sa mga independenteng ahente o proseso. Naghatag usab sila og mga algebraic nga mga balaod nga nagtugot sa mga paghulagway sa proseso sa pagmaniobra ug pag-analisar, ug pagtugot sa pormal nga pangatarungan mahitungod sa pagkaparis sa mga proseso. Source: [Process Calculus](https://en.wikipedia.org/wiki/Process_calculus) sa Wikipedia.
+#### Process Calculus
+In computer science, the process calculi (or process algebras) are a diverse family of related approaches for formally modelling concurrent systems. Process calculi provide a tool for the high-level description of interactions, communications, and synchronizations between a collection of independent agents or processes. They also provide algebraic laws that allow process descriptions to be manipulated and analyzed, and permit formal reasoning about equivalences between processes.
+Source: [Process Calculus](https://en.wikipedia.org/wiki/Process_calculus) at Wikipedia.
 
 #### Lambda Calculus
-Ang Lambda calculus (gisulat usab nga λ-calculus) usa ka pormal nga sistema sa matematika nga lohika alang sa pagpahayag sa pag-ihap pinasukad sa function abstraction ug aplikasyon gamit ang variable binding ug substitution. Source: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) sa Wikipedia.
+Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.
+Source: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) at Wikipedia.
 
 #### Pi Calculus
-Sa teoretikal nga siyensiya sa computer, ang π-calculus (o pi-calculus) usa ka proseso nga calculus. Ang π-calculus nagtugot sa mga ngalan sa channel nga ipaambit sa mga channel mismo, ug niining paagiha kini makahulagway sa dungan nga pag-compute nga ang pag-usab sa network mahimo nga mausab sa panahon sa pag-compute. Ang π-calculus elegante ka simple, kini adunay pipila lamang ka mga pulong ug mao ang usa ka gamay kaayo nga pinulongan, apan kini makapahayag kaayo. Ang mga programa nga pang-obra mahimong ma-encode sa π-calculus, ug ang pag-encode nagpasiugda sa pag-dialogo nga kinaiya sa pag-compute, pagdrowing og koneksyon sa mga semantics sa game.
+In theoretical computer science, the π-calculus (or pi-calculus) is a process calculus. The π-calculus allows channel names to be communicated along the channels themselves, and in this way it is able to describe concurrent computations whose network configuration may change during the computation. The π-calculus is elegantly simple, it has very few terms and so is a very small language, yet is very expressive. Functional programs can be encoded into the π-calculus, and the encoding emphasises the dialogue nature of computation, drawing connections with game semantics.
 
 #### Rho Calculus
-
-Ang rho-calculus usa ka pormalismo nga gitumong aron mahiusa ang mas taas nga pagkasunod nga mga kahimanan sa lambda calculus uban ang sumbanan sa pagsulat sa termino nga pagsulat pag-usab. Source: [Rho Calculus](https://en.wikipedia.org/wiki/Rho_calculus) sa Wikipedia.
+The rho-calculus is a formalism intended to combine the higher-order facilities of lambda calculus with the pattern matching of term rewriting.
+Source: [Rho Calculus](https://en.wikipedia.org/wiki/Rho_calculus) at Wikipedia.
 
 #### LADL
-
-LADL Ang LADL mao ang Logic nga usa ka Distributive Law. Sa tinuud, kini mahitungod sa usa ka matang sa pagbag-o gikan sa usa ka panglantaw sa kolektibo ngadto sa lain. Ang LADL algorithm nag-ingon nga ang mga pormula nahisama sa usa ka larawan sa Rayna sa England nga gihimo gikan sa daghang gagmay nga mga larawan sa Queen. Ang kamatuoran, bisan pa nga posible nga buhaton kini nga sistematiko alang sa matag pormula naghatag kanato sa katungod sa pagtratar sa mga pormula sa ilang mga kaugalingon ingon nga paghatag sa mga pamaagi aron sa pagtukod sa mga kolektibo nga sa matag usa adunay katilingban. Source: "E Pluribus Unum 2.0" RChain posisyon nga papel (wala pa gipatik).
+LADL stands for Logic as a Distributive Law. Intuitively, it’s about a kind of transformation from one view of the collective to another. The LADL algorithm says that formulae are like an image of the Queen of England made out of lots of smaller scale images of the Queen. The fact, however, that it is possible to do this systematically for every formula gives us the right to treat formulae themselves as providing the means to build collectives that functionally resemble individuals.
+Source: "E Pluribus Unum 2.0" RChain position paper (not yet published).
 
 ## Rholang
 
 #### Rholang
-
-Ang Rholang usa ka kompleto nga bahin, kinatibuk-an nga katuyoan, Turing-kompleto nga programming language nga gitukod gikan sa rho-calculus. Kini usa ka kinaiya nga gi-type, r-eflective, h-igher o-rder nga proseso nga pinulongan ug ang opisyal nga pinulongan nga pinulongan sa RChain. Ang katuyoan niini mao ang pag-concretize sa maayong pagkahan-ay, ang pag-concurrency sa programa. Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html#rholang-a-concurrent-language) sa RChain Architecture.
+Rholang is a fully featured, general purpose, Turing-complete programming language built from the rho-calculus. It is a behaviorally typed, r-eflective, h-igher o-rder process language and the official smart contracting language of RChain. Its purpose is to concretize fine-grained, programmatic concurrency.
+Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html#rholang-a-concurrent-language) in RChain Architecture.
 
 #### RhoVM
-
-Ang matag usa nga institusyon sa Rho Virtual Machine (RhoVM) nagmintinar sa usa ka palibot nga kanunayng nagamit sa ubos nga lebel sa rho-calculus reduction rule, nga gipahayag sa taas nga level Rholang nga pinulongan nga pinulongan, ngadto sa mga elemento sa usa ka nagapadayon nga key-value data store. Ang "kahimtang" sa RhoVM susama sa estado sa blockchain. Source:[Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) sa RChain Architecture.
+Each instance of the Rho Virtual Machine (RhoVM) maintains an environment that repeatedly applies the low-level rho-calculus reduction rule, expressed in the high-level Rholang contracting language, to the elements of a persistent key-value data store. The “state” of RhoVM is analogous to the state of the blockchain.
+Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
 
 #### Rosette
-Ang matag usa nga institusyon sa Rho Virtual Machine (RhoVM) nagmintinar sa usa ka palibot nga kanunayng nagamit sa ubos nga lebel sa rho-calculus reduction rule, nga gipahayag sa taas nga level Rholang nga pinulongan nga pinulongan, ngadto sa mga elemento sa usa ka nagapadayon nga key-value data store. Ang "kahimtang" sa RhoVM susama sa estado sa blockchain. Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) sa RChain Architecture.
+The RhoVM “Execution Environment” will later be introduced as the “Rosette VM”. The choice to use Rosette VM hinged on two factors. First, the Rosette system has been in commercial production for over 20 years. Second, Rosette VM’s memory model, model of computation, and runtime systems provide the support for concurrency that RhoVM requires. RChain has pledged to perform a modernized re-implementation of Rosette VM, in Scala, to serve as the initial RhoVM execution environment.
+Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
+
 ##  Rho API
 
 #### Language Binding
