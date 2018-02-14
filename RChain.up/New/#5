@@ -1,0 +1,6 @@
+# RChain Node.Hello (v0.1) Released
+
+The RChain Coop’s developer team is pleased to announce the initial milestone release of our RChain node software — Node.Hello (v0.1). This package marks the first of many pre-production release milestones along our flight to Mercury. This pre-alpha software release demonstrates the RChain network communications system and is available for interested parties to begin helping us test. Node.Hello will discover the RChain bootstrap node, detect other active RChain nodes, and form the RChain peer-to-peer network. The network layer is the lowest level component in the architecture that will eventually support RChain’s large-scale blockchain operations.
+
+Detailed documentation on the release can be found in Github.
+

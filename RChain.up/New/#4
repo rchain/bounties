@@ -1,0 +1,55 @@
+# RChain Developer Retreat Roundup (Part 1 of 4)
+
+The RChain development team is going to have a busy 2018. Attempting to solve major problems plaguing public programmable blockchains today — high transaction fees, low transaction capacity, complexity of smart contract languages, and centralized points of integration between chains — is no small task.
+
+Following the first annual members meeting (RChain is organized as a Cooperative), developers huddled for four days in Salt Lake City to crystallize initial release requirements, improve documentation coverage, and play with the Rholang programming language.
+
+For those new to the project, the “secret sauce” behind RChain is concurrency calculus and type theory — topics the team is pretty familiar with. I hope to get around to writing a primer that should help bring people up to speed fairly soon. Stay tuned.
+
+This is the first post in a series attempting to summarize the retreat sessions. All sessions were recorded and available on the RChain YouTube channel.
+
+Architecture & Rholang Overview
+The retreat was kicked off with a dive into the technology stack that gets RChain to Mercury, the initial release (see below diagram).
+
+
+RChain Architecture to Mercury (initial release)
+A couple of things to highlight:
+
+Rholang + System Level Contracts (libraries) will be what node operators run and will provide the trusted decentralized computation platform.
+Rholang is the language that RChain ‘contracts’ will be written in. It is a language built on concurrency. At its core, Rholang is nothing more than syntactic sugar on top of the Rho Calculus. Rho Calculus is a reflective, higher-order variant of Milner’s asynchronous, Polyadic Pi Calculus.
+Rosette, the language of ATM networks, will serve as an intermediary between the Rholang concurrency model and runnable machine language. Rosette is a language created to run applications built on the Actor Model of concurrency.
+The Rosette VM is written in C++ and is being ported to Scala by the RChain development team.
+Rholang processes can be constructed from a strict, recursive type definition.
+
+
+Composition of a Rholang process
+A Rholang process, P, is parametric in the notion of channel (x). Lines 1–4 are constructions that come from the pi calculus. Lines 5 & 6 are the rho calculus extensions and make equalities like RP = P[RP] possible. In the rho calculus, channels are quoted processes.
+
+P[x] = 0 indicates the stopped process, the process that does nothing.
+A process that is waiting for input. When all the y’s receive input on the specified channels, the process continues.
+A process that is waiting to communicate out on channel x. When this communication happens, the process continues.
+This line is a parallel composition of processes.
+A wrapper from process to channel name. A pointer, reference or quoted process.
+A de-reference — or way to unwrap a process from a channel.
+Blockchain Use Case: Supply Chain
+This session was focused on how blockchain technology could be used to ensure that pharmaceuticals are making it to their endpoints without dilution or mislabeling.
+
+The claim is that small pharmaceutical distribution companies have an incentive to dilute expensive drugs in order to increase profit, and that this can be difficult to detect. In 2001, a US pharmacist was convicted for selling diluted chemotherapy drugs. The World Health Organization identifies counterfeit pharmaceuticals as posing a significant threat, especially to those in developing countries.
+
+By recording and tracking pharmaceuticals as they move through the supply chain with a trusted and decentralized system, insurance companies can cooperate to detect harmful mishandling.
+
+Block format
+When thinking about what information will be in an RChain block and which blocks will need to be stored by nodes, the RChain dev team is looking to keep things as small as possible.
+
+Transactions will be hashed and stored on blocks, and the hash will be recoverable with rules and generating criteria, keeping the size of blocks down. This compression via rules and generating criteria is enabled by the strict types of Rholang processes. The same kind of filtering or case class matching is happening in RChain namespaces. Namespaces are only mentioned briefly in this session, but they are essentially the RChain notion of sharding.
+
+The CBC Casper protocol provides economic finalization which can be harnessed to allow pruning of blocks and remove the need for nodes to store all blocks going back to genesis. Blocks will also need to store data for justifications during the Casper consensus cycle.
+
+Transaction Pricing
+RChain is planning to take a more nuanced approach to transaction costs than other major cryptocurrencies. The transaction cost will be broken up into four resource categories: compute, network, memory, and storage.
+
+Compute, network, and memory resource usage will be calculated when a contract is run and the phlogiston (RChain’s analogue to Ethereum’s gas) consumed will result in a reward for the resource owner at a specified phlogiston/token ratio. Unlike Ethereum where the gas price is always set and payed by the initiator of a transaction, RChain is going to allow contract authors to specify and pay for authorized transactions.
+
+Storage costs are a bit trickier. Compute, network, and memory resources are all consumed immediately at the time a transaction is run. Storage, on the other hand, consumes resources over the course of the storage duration. In order to protect parties from price instability of compensation tokens during the duration of storage, an optional mechanism other than “pricing at transaction time” is proposed. Planning to protect application developers and their users from the volatile prices of cryptocurrencies is a clear indicator that RChain is trying to build something meaningful, and isn’t focused solely on profit.
+
+Personally, in a space rampant with motives for quick profit and ICO hype, I am excited to see a project like RChain — organizing itself as a cooperative, and taking the time to re-imagine blockchain technology with concurrency at its foundation. Stay tuned for more from this team in 2018.
