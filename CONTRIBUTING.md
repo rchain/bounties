@@ -31,7 +31,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
   4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
 
 - It's not mandatory but it really helps to become a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
-  1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
+   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
   <!-- 2. [ ] This is the #bounties channel in Discord:
   ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
 
@@ -76,7 +76,7 @@ Through [Github/Members](https://github.com/rchain/Members/) issues are created 
 - Finally management reports will be generated and presented in Debriefings of RChain.
 
 The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) presented this process Aug 30 in
-[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). An overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available.
+[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). An overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available
 
 ## Becoming a Member
 
@@ -88,10 +88,10 @@ By joining the Cooperative you will participate in the lively conversation of th
 - You will receive an invite link to the RChain Discord.
 - Create a [Discord](https://discordapp.com/) account if you don't have one.
   - On Discord, you can send a message to the @verify bot:
-  ```/verify```
-  - The bot responds by querying for the code that was emailed.
-  - On success, a 'verifier' will contact you (depending on the time of day this might not be immediate).
-  - After passing the verification, your role will be updated to Member.
+   ```/verify```
+     - The bot responds by querying for the code that was emailed.
+     - On success, a 'verifier' will contact you (depending on the time of day this might not be immediate).
+     - After passing the verification, your role will be updated to Member.
 
 #### 4 Membership requirements
 
@@ -106,4 +106,3 @@ The RChain representative will check the following:
 When the four membership requirements are met and recorded, a Discord admin will promote the user to ROLE=MEMBER and append a ':' to the member's Discord alias for proof of individuality.
 
 Welcome to the club!
-
