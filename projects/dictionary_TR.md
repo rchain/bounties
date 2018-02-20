@@ -1,119 +1,117 @@
-# RChain Nomenclature
+# RChain Adlandırması
 
-    Goal for this document: create a list of RChain words, their definition
-    and linked content in markdown as a github page.
-    Current state: needs fleshing out by technical contributors.
+    Bu belge için hedef: RChain kelimelerinin bir listesini, tanımlarını ve bağlantılı içeriğini markdown'da github sayfası olarak oluşturun.
+    Şu anki durum: teknik katkıda bulunanlar tarafından fleshing gerekir.
 
-    Syntax for editors:
-    - Sections get a level 2 heading (##) and subsections (if needed) level 3.
-    - Terms to be defined get a level 4 heading (####). This basically makes the
-      text bold but also URL-linkable as well as parsable for a future bot.
-    - The definition that follows a term is a normal paragraph.
+    Editörler için sözdizimi:
+    - Bölümler, düzey 2 başlık (##) ve alt bölümler (gerekirse) 3. seviye alırlar.
+    - Tanımlanacak terimler, 4. seviye bir başlık (####) alırlar. Bu temel olarak metni cesur ama aynı zamanda URL'ye bağlanabilir hale getirecek ve gelecekteki bir bot için ayrıştırılabilir hale gelecektir.
+    - Bir terimi izleyen tanım normal bir paragrafdır.
 
-**Linking to Definitions**  
-Link to a term by using the term in an anchor, e.g. for Rholang, link to:  
+**Tanımlara Bağlama**  
+Terimi bir çapa kullanarak kullanarak bir terimle bağlantı oluşturun, ör. Rholang için, link: 
 https://github.com/rchain/Members/blob/master/projects/dictionary.md#rholang.  
-Or copy from the link icon that Github displays when you hover over a heading.
+Veya bir başlığın üzerine geldiğinizde Github'un görüntülediği bağlantı simgesinden kopyalayın.
 
-##  RChain General
+##  RChain Genel
 
 #### RChain
-RChain is a decentralized, economically sustainable public compute infrastructure. Its execution model is derived from the syntax and semantics of rho-calculus, where “Rho” stands for reflective, higher-order. The rho-calculus is a framework for analyzing concurrent processes that communicate like biological cells or different namespaces on a blockchain. FMI see the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) and the [website](http://rchain.coop/).
+RChain merkezi olmayan, ekonomik olarak sürdürülebilir bir kamu hesaplama altyapısıdır. Onun yürütme modeli, "Rho" yansıtıcı, yüksek mertebeden anlamına gelen rho-calculus'un sözdizimi ve anlambiliminden türemiştir. Rho-hesabı, bir blok zincir üzerinde biyolojik hücreler veya farklı ad alanları gibi iletişim kuran eşzamanlı süreçleri analiz etmek için bir çerçevedir. FMI [Sık Sorulan Sorular] bölümüne bakın(https://github.com/rchain/reference/blob/master/faq.md) ve aynı zamanda [websitemiz](http://rchain.coop/).
 
 #### RChain Platform
-The platform is the entire software infrastructure, slated to be released at the end of 2018. The heart of an RChain is the Rho Virtual Machine (RhoVM) Execution Environment, which runs multiple RhoVMs that are each executing a smart contract. These execute concurrently and are multi-threaded.
+Platform, 2018 yılı sonunda piyasaya sürülecek olan tüm yazılım altyapısıdır. Bir RChain'in kalbi, akıllı bir sözleşme yürüten birden fazla RhoVM çalıştıran Rho Sanal Makinesi (RhoVM) Uygulama Ortamı'dır. Bunlar aynı anda yürütülür ve çok iş parçacıklıdır.
 
 #### RChain Blockchain
-The RChain blockchain is a graph of blocks. Each block contains a header that points at one or more previous blocks, a list of transactions, and other metadata. Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) in RChain Architecture.
+RChain blok zinciri blokların bir grafiğidir. Her blok bir veya daha fazla önceki blokları işaret eden bir başlık, bir işlem listesi ve diğer meta verileri içerir. Kaynak: [Mimariye Genel Bakış](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html) RChain Mimarisinde.
 
 
-## Formal Methods
+## Resmi Yöntemler
 
-#### Formal Methods
-In computer science, specifically software engineering and hardware engineering, formal methods are a particular kind of mathematically based techniques for the specification, development and verification of software and hardware systems.
-Source: [Formal Methods](https://en.wikipedia.org/wiki/Formal_methods) at Wikipedia.
+#### Resmi Yöntemler
+Bilgisayar bilimlerinde, özellikle yazılım mühendisliği ve donanım mühendisliği, resmi yöntemler, yazılım ve donanım sistemlerinin spesifikasyonu, geliştirilmesi ve doğrulanması için matematiksel olarak belirli teknikler türüdür.
+Kaynak: [Resmi Yöntemler](https://en.wikipedia.org/wiki/Formal_methods) Vikipedi'de.
 
-#### Process Algebra
-An algebra is a mathematical structure with a set of values and a set of operations on the values. These operations enjoy algebraic properties such as commutativity, associativity, idempotency, and distributivity. In a typical process algebra, processes are values and parallel composition is defined to be a commutative and associative operation on processes.
-Source: [Process Algebra](https://en.wikipedia.org/wiki/Process_calculus) at Wikipedia.
+#### İşlem Cebiri
+Bir cebir, değerler kümesine ve değerler üzerinde işlem dizisine sahip bir matematiksel yapıdır. Bu işlemler, değiştirilebilirlik, birleştirici olma, idempoticity ve dağıtıcılık gibi cebirsel özelliklerin keyfini çıkarıyor. Tipik bir işlem cebirinde işlemler değerlerdir ve paralel bileşimler süreçler üzerinde değiştirilebilir ve birleştirici bir işlem olarak tanımlanır.
+Kaynak: [İşlem Cebiri](https://en.wikipedia.org/wiki/Process_calculus) Vikipedi'de.
 
-#### Process Calculus
-In computer science, the process calculi (or process algebras) are a diverse family of related approaches for formally modelling concurrent systems. Process calculi provide a tool for the high-level description of interactions, communications, and synchronizations between a collection of independent agents or processes. They also provide algebraic laws that allow process descriptions to be manipulated and analyzed, and permit formal reasoning about equivalences between processes.
-Source: [Process Calculus](https://en.wikipedia.org/wiki/Process_calculus) at Wikipedia.
+#### İşlem Analizi
+Bilgisayar bilimlerinde süreç hesaplaması (veya süreç cebirleri) eşzamanlı sistemleri resmi olarak modellemek için ilgili yaklaşımların bir ailesidir. İşlem hesaplamaları, bağımsız ajanlar veya işlemler topluluğu arasındaki etkileşimlerin, iletişimlerin ve senkronizasyonların üst düzey açıklaması için bir araç sağlar. Ayrıca, işlem açıklamalarının manipüle edilmesini ve analiz edilmesini sağlayan cebirsel yasaları sağlar ve süreçler arasındaki eşdeğerlikler hakkında resmi mantıksal düşüncelere izin verirler.
+Kaynak: [İşlem Analizi](https://en.wikipedia.org/wiki/Process_calculus) Vikipedi'de.
 
 #### Lambda Calculus
-Lambda calculus (also written as λ-calculus) is a formal system in mathematical logic for expressing computation based on function abstraction and application using variable binding and substitution.
-Source: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) at Wikipedia.
+Lambda calculus (aynı zamanda λ-calculus olarak yazılır), fonksiyon soyutlama ve değişken bağlama ve ikame kullanarak uygulama temel alan hesaplamayı ifade etmek için matematiksel mantıkta resmi bir sistemdir.
+Kaynak: [Lambda Calculus](https://en.wikipedia.org/wiki/Lambda_calculus) Vikipedi'de.
 
 #### Pi Calculus
-In theoretical computer science, the π-calculus (or pi-calculus) is a process calculus. The π-calculus allows channel names to be communicated along the channels themselves, and in this way it is able to describe concurrent computations whose network configuration may change during the computation. The π-calculus is elegantly simple, it has very few terms and so is a very small language, yet is very expressive. Functional programs can be encoded into the π-calculus, and the encoding emphasises the dialogue nature of computation, drawing connections with game semantics.
+Teorik bilgisayar bilimlerinde, π-hesabı (veya pi-hesabı) bir işlem hesabıdır. Π-hesabı kanal adlarının kanallar boyunca kendileri tarafından iletilmesini sağlar ve bu şekilde hesaplama sırasında ağ yapılandırması değişebilir eşzamanlı hesaplamaları tanımlayabilir. Π-hesabı zarifçe basit, çok az terim ve çok küçük bir dil ama çok etkileyicidir. Fonksiyonel programlar π-hesaplamasına kodlanabilir ve kodlama, oyun semantiği ile bağlantıları çizerek hesaplamanın diyalog doğasını vurgular.
 
 #### Rho Calculus
-The rho-calculus is a formalism intended to combine the higher-order facilities of lambda calculus with the pattern matching of term rewriting.
-Source: [Rho Calculus](https://en.wikipedia.org/wiki/Rho_calculus) at Wikipedia.
+Romen hesabı, lambda hesabının üst düzey tesislerini, dönem yeniden yazım desen uyumu ile birleştirmeyi amaçlayan biçimciliktir.
+Kaynak: [Rho Calculus](https://en.wikipedia.org/wiki/Rho_calculus) Vikipedi'de.
 
 #### LADL
-LADL stands for Logic as a Distributive Law. Intuitively, it’s about a kind of transformation from one view of the collective to another. The LADL algorithm says that formulae are like an image of the Queen of England made out of lots of smaller scale images of the Queen. The fact, however, that it is possible to do this systematically for every formula gives us the right to treat formulae themselves as providing the means to build collectives that functionally resemble individuals.
-Source: "E Pluribus Unum 2.0" RChain position paper (not yet published).
+LADL, Distribitör Kanunu olarak Mantık'ı simgelemektedir. Sezgisel olarak, bir kolektifin bir görüşünden diğerine bir çeşit dönüşümle ilgilidir. LADL algoritması, formüllerin Kraliçe'nin daha küçük boyutlu görüntülerinden oluşan İngiltere Kraliçesi görüntüsüne benzediğini söylüyor. Bununla birlikte, bunu her formül için sistematik olarak yapmak mümkündür; formüllere bizzat işlevsel olarak bireylere benzeyen kolektif araçlar üretme olanağı sağlama imkânı verir.
+Kaynak: "E Pluribus Unum 2.0" RChain position paper (henüz yayınlanmadı).
 
 ## Rholang
 
 #### Rholang
-Rholang is a fully featured, general purpose, Turing-complete programming language built from the rho-calculus. It is a behaviorally typed, r-eflective, h-igher o-rder process language and the official smart contracting language of RChain. Its purpose is to concretize fine-grained, programmatic concurrency.
-Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html#rholang-a-concurrent-language) in RChain Architecture.
+Rholang, tam özellikli, genel amaçlı, Turing komple bir programlama dili olup rho-calculus'tan oluşturulmuştur. Bu, davranışsal olarak yazılmış, daha etkili, daha yüksek bir o-rder işlem dili ve RChain'in resmi akıllı sözleşme dili. Amacıyla ince taneli, programlı eşzamanlılığı somutlaştırmaktır.
+Kaynak: [Sözleşme Tasarımı](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html#rholang-a-concurrent-language) RChain Mimarisinde.
 
 #### RhoVM
-Each instance of the Rho Virtual Machine (RhoVM) maintains an environment that repeatedly applies the low-level rho-calculus reduction rule, expressed in the high-level Rholang contracting language, to the elements of a persistent key-value data store. The “state” of RhoVM is analogous to the state of the blockchain.
-Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
+Rho Sanal Makinesi'nin (RhoVM) her örneği, üst düzey Rholang sözleşmeli dilinde ifade edilen düşük düzeyli rho hesabı azaltma kuralını art arda kalıcı bir anahtar / değer veri deposunun öğelerine uygulayan bir ortamı korur. RhoVM'nin "durumu", blok zincirinin durumuna benzemektedir.
+Kaynak: [MOdel Yürütme](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) RChain Mimarisinde.
 
 #### Rosette
-The RhoVM “Execution Environment” will later be introduced as the “Rosette VM”. The choice to use Rosette VM hinged on two factors. First, the Rosette system has been in commercial production for over 20 years. Second, Rosette VM’s memory model, model of computation, and runtime systems provide the support for concurrency that RhoVM requires. RChain has pledged to perform a modernized re-implementation of Rosette VM, in Scala, to serve as the initial RhoVM execution environment.
-Source: [Execution MOdel](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) in RChain Architecture.
+RhoVM "Yürütme Ortamı" daha sonra "Rosette VM" olarak tanıtılacaktır. Rosette VM'yi kullanma seçeneği iki faktöre bağlıydı. İlk olarak, Rosette sistemi 20 yılı aşkın bir süredir ticari üretime geçti. İkinci olarak, Rosette VM'nin bellek modeli, hesaplama modeli ve çalışma zamanı sistemleri, RhoVM'nin gerektirdiği eşzamanlılık için destek sağlar. RChain, başlangıçtaki RhoVM uygulama ortamı olarak hizmet etmek için Scala'da Rosette VM'nin modern bir şekilde yeniden uygulanmasını taahhüt etti.
+Kaynak: [MOdel Yürütme](http://rchain-architecture.readthedocs.io/en/latest/execution_model/rhovm.html) RChain Mimarisinde.
 
 ##  Rho API
 
-#### Language Binding
-In computing, a binding from a programming language to a library or operating system service is an application programming interface (API) providing glue code to use that library or service in a given programming language.
-Source: [Language Binding](https://en.wikipedia.org/wiki/Language_binding) at Wikipedia.
+#### Dil Bağlama
+Hesaplamada, bir programlama dilinden bir kitaplığa veya işletim sistemi hizmetine yapılan bir bağlama, söz konusu kitaplık veya hizmeti belirli bir programlama dilinde kullanmak için tutkal kodu sağlayan bir uygulama programlama arabirimidir (API).
+Kaynak: [Dil Bağlama](https://en.wikipedia.org/wiki/Language_binding) Vikipedi'de.
 
-#### Rho Language Bindings
-The Rho API has bindings for Java, Scala, and some others but not Python....
+#### Rho Dil Bağları
+Rho API'si, Java, Scala ve diğerleri için bağlamalara sahiptir fakat Python'u içermez ....
 
-## Computer Science Terms
+## Bilgisayar Bilimleri Terimleri
 
-#### Actors, Tuples, and Pi
+#### Aktörler, Tüpler ve Pi
 
-    Not sure what this is meant to be.... please fill in.
+   Bunun ne anlama geldiğinden emin değilsin .... lütfen doldurun.
 
-#### Behavioral Types
-<!-- Substitutability is a principle in object-oriented programming stating that, in a computer program, if S is a subtype of T, then objects of type T may be replaced with objects of type S (i.e. an object of type T may be substituted with any object of a subtype S) without altering any of the desirable properties of T (correctness, task performed, etc.). More formally, the Liskov substitution principle (LSP) is a particular definition of a subtyping relation, called (strong) behavioral subtyping. It is a semantic rather than merely syntactic relation because it intends to guarantee semantic interoperability of types in a hierarchy, object types in particular.
-Source: [Liskov substitution principle](https://en.wikipedia.org/wiki/Liskov_substitution_principle) at Wikipedia. -->
-A behavioral type is a property of an object that binds it to a discrete range of action patterns. Behavioral types constrain not only the structure of input and output, but the permitted order of inputs and outputs among communicating and (possibly) concurrent processes under varying conditions.
-Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
+#### Davranış Türleri
+<!-- Yerine getirilebilirlik, bir bilgisayar programında S'nin bir alt türünü belirtirse, T türü nesnelerin S türü nesnelerle değiştirilebileceğini belirten nesne yönelimli programlamada bir ilkedir (yani, T türü bir nesne, herhangi biriyle değiştirilebilir) S'nin bir alt türünün nesnesi) T'nin istenen özelliklerini değiştirmeden (doğruluk, gerçekleştirilen görev vb.). Daha resmi olarak, Liskov ikame ilkesi (LSP), (güçlü) davranış alt türü olarak adlandırılan alt tipleme ilişkisinin belirli bir tanımlamasıdır. Bir sözdizimsel ilişkiden ziyade semantiktir çünkü belirli bir hiyerarşide, özellikle nesne türlerinde semantik birlikte çalışabilirlik temin etmeyi amaçlamaktadır.
+Kaynak: [Liskov ikame ilkesi](https://en.wikipedia.org/wiki/Liskov_substitution_principle) Vikipedi'de. -->
+Davranış türü, nesnenin, eylem kalıpları aralığına bağlayan bir özelliğidir. Davranışsal tipler yalnızca girdi ve çıktı yapısını değil, aynı zamanda, değişen koşullar altında iletişim kuran ve (muhtemelen) eşzamanlı süreçler arasında girdi ve çıktıların izin verilen sırasını sınırlar.
+Kaynak: [Sözleşme Tasarımı](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) RChain Mimarisinde.
 
-#### Concurrency
-In computer science, concurrency is the decomposability property of a program, algorithm, or problem into order-independent or partially-ordered components or units.[1] This means that even if the concurrent units of the program, algorithm, or problem are executed out-of-order or in partial order, the final outcome will remain the same. This allows for parallel execution of the concurrent units, which can significantly improve overall speed of the execution in multi-processor and multi-core systems.
-Source: [Concurrency (computer science)](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) at Wikipedia.
+#### Eşzamanlılık
+Bilgisayar bilimlerinde, eşzamanlılık, bir programın, algoritmanın veya sorunun siparişten bağımsız veya kısmen düzenlenmiş bileşenlere veya birimlerdeki ayrıştırılabilirlik özelliğidir. [1] Bu, programın, algoritmanın veya sorunun eşzamanlı birimleri sıra dışı veya kısmi bir şekilde yürütülsede dahi, nihai sonuç aynı kalır. Bu, eşzamanlı birimlerin paralel yürütülmesine olanak tanır ve bu da çok işlemcili ve çok çekirdekli sistemlerde genel yürütme hızını önemli ölçüde artırabilir.
+Kaynak: [Eşzamanlılık (bilgisayar bilimleri)](https://en.wikipedia.org/wiki/Concurrency_(computer_science)) Vikipedi'de.
 
-#### Concurrency vs Parallelism
-It is important to understand the implications of concurrent execution. When we say, “concurrency”, we are not referring to the simultaneous execution of multiple processes. That is parallelism. Concurrency is a structural property which allows independent processes to compose into complex processes. Processes are considered independent if they do not compete for resources.
-Source: [Architecture Overview](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html?highlight=Concurrency) in RChain Architecture.
+#### Eşzamanlılık ve Parallelizm
+Eşzamanlı yürütmenin etkilerini anlamak önemlidir. "Eşzamanlılık" dediğimizde, birden fazla işlemi aynı anda yürütmekten bahsetmiyoruz. Bu paralellik. Eşzamanlılık, bağımsız süreçlerin karmaşık süreçleri içine almasını sağlayan yapısal bir özelliktir. Süreçler, kaynaklar için rekabet etmedikleri takdirde bağımsız olarak kabul edilir.
+Kaynak: [Mimariye Genel Bakış](http://rchain-architecture.readthedocs.io/en/latest/introduction/architecture-overview.html?highlight=Concurrency) RChain Mimarisinde.
 
 #### Extensional
-An extensional definition of a concept or term formulates its meaning by specifying its extension, that is, every object that falls under the definition of the concept or term in question. Extensional definitions are used when listing examples would give more applicable information than other types of definition, and where listing the members of a set tells the questioner enough about the nature of that set.
-Source: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+Bir kavramın veya terimin genişleyen bir tanımı, uzantısını yani söz konusu kavram veya terimin tanımına giren her nesneyi belirterek anlamını formüle eder. Genişletme tanımları, örnekleri listelemek için diğer tanım türlerinden daha geçerli bilgiler verecek ve bir kümenin üyelerinin listelendiği yerlerde sorguyu bu kümenin doğasını yeterince anlatan kullanılır.
+Kaynak: [Genişletici ve içsel tanımlar](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) Vikipedi'de.
 
 #### Intensional
-In logic and mathematics, an intensional definition gives the meaning of a term by specifying necessary and sufficient conditions for when the term should be used. In the case of nouns, this is equivalent to specifying the properties that an object needs to have in order to be counted as a referent of the term. Intensional definitions are best used when something has a clearly defined set of properties, and they work well for terms that have too many referents to list in an extensional definition.
-Source: [Extensional and intensional definitions](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) at Wikipedia.
+Mantık ve matematikte, içten içe bir tanım, terimin ne zaman kullanılacağı için gerekli ve yeterli koşulları belirterek bir terimin anlamını verir. İsimler sözkonusu olduğunda, bu, bir nesnenin terimin bir yönlendiricisi olarak sayılabilmesi için sahip olması gereken özelliklerin belirlenmesine denktir. İntensional tanımlar, bir şeyin açıkça tanımlanmış bir özellik kümesine sahip olması ve bunların genişleyen bir tanım içinde listelenmesi için çok fazla sayıda yönlendirmeye sahip terimler için iyi çalıştığı zaman en iyi şekilde kullanılır.
+Kaynak: [Genişletici ve içsel tanımlar](https://en.wikipedia.org/wiki/Extensional_and_intensional_definitions) Vikipedi'de.
 
-#### Recursion
-Recursion in computer science is a method where the solution to a problem depends on solutions to smaller instances of the same problem (as opposed to iteration). The approach can be applied to many types of problems. Most computer programming languages support recursion by allowing a function to call itself within the program text. Some functional programming languages do not define any looping constructs but rely solely on recursion to repeatedly call code. Computability theory proves that these recursive-only languages are Turing complete; they are as computationally powerful as Turing complete imperative languages, meaning they can solve the same kinds of problems as imperative languages even without iterative control structures such as “while” and “for”.
-Source: [Recursion (computer science)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) at Wikipedia.
+#### Özyineleme
+Bilgisayar bilimlerinde tekrarlama, bir sorunun çözümünün aynı sorunun küçük örneklerine (yinelemeye karşıt olarak) yönelik çözümlere bağlı olduğu bir yöntemdir. Bu yaklaşım birçok problem türünde uygulanabilir. Çoğu bilgisayar programlama dili, bir fonksiyonun kendisini program metni içinde çağırmasına izin vererek yinelemeyi destekler. Bazı işlevsel programlama dilleri, herhangi bir döngü yapısını tanımlamaz, ancak art arda kodu çağırmak için özyinelemeye güvenir. Hesaplanabilirlik teorisi, bu özyinelemeli dillerin Turing'in tamamlandığını ispatlamaktadır; Komple tamamlayıcı zorunlu dilleri hesaplamak kadar bilgisayar açısından güçlüdürler; yani "while" ve "for" gibi yinelemeli kontrol yapıları olmaksızın emredici diller gibi aynı tür sorunları çözebilirler.
+Kaynak: [Özyineleme (bilgisayar bilimleri)](https://en.wikipedia.org/wiki/Recursion_(computer_science)) Vikipedi'de.
 
-#### Reflection
-In mathematics, a reflection formula or reflection relation for a function f is a relationship between f(a − x) and f(x). It is a special case of a functional equation, and it is very common in the literature to use the term "functional equation" when "reflection formula" is meant.
-Source: [Contract Design](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) in RChain Architecture.
+#### Yansıma
+Matematikte f fonksiyonu için bir yansıma formülü veya yansıma ilişkisi, f (a - x) ve f (x) arasındaki bir ilişkidir. Fonksiyonel bir denklemin özel bir örneğidir ve literatürde "yansıma formülü" kastedildiğinde "fonksiyonel denklem" terimini kullanmak çok yaygındır.
+Kaynak: [Sözleşme Tasarımı](http://rchain-architecture.readthedocs.io/en/latest/contracts/contract-design.html) RChain Mimarisinde.
 
 #### Tuple Space
 A tuple space is an implementation of the associative memory paradigm for parallel/distributed computing. It provides a repository of tuples that can be accessed concurrently. As an illustrative example, consider that there are a group of processors that produce pieces of data and a group of processors that use the data. Producers post their data as tuples in the space, and the consumers then retrieve data from the space that match a certain pattern. This is also known as the blackboard metaphor. Tuple space may be thought as a form of distributed shared memory.
