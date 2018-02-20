@@ -1,4 +1,4 @@
-# Bagaimana Berkontribusi
+# Bagaimana caranya Berkontribusi
 
 Saya sangat gembira anda sedang membaca bagian ini, karena kami membutuhkan pengembang-pengembang yang aktif untuk membantu proyek ini berhasil.
 Kami sedang membangun sebuah proses komunitas untuk para kontributor untuk mendapatkan RHOC ketika bekerja untuk coop. Lihat video [24:06 HJ menjelaskan Desentralisasi Penganggaran Belanja Anggota](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s) dan video [RChain, Desentralisasi penganggaran dan pengeluaran](https://www.youtube.com/watch?v=m6xiTWbEdpA).
