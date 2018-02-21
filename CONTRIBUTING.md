@@ -8,10 +8,10 @@ Everyone is welcome to participate. Contributing doesn’t just mean coding; the
 ### Communication
 
 [RChain](https://rchain.coop) has multiple channels to make easy communication possible within the growing community. There is a full list of comm channels in the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) but these are the collaborative channels:
-- We work together and keep each other updated through [Github/RChain/Members](https://github.com/rchain/Members).
+- We work together and keep each other updated through [Github/RChain/bounties](https://github.com/rchain/bounties).
 - We're experimenting with [Mattermost](https://rchain.divvydao.net/community/channels/town-square) and [Gitter](https://gitter.im/rchain/Rholang) to create insight in who does what when and why.
 - The Telegram [RChain Coop](https://t.me/rchain_coop) chat group is for chat, while the [RChain Coop Official Announcements](https://t.me/rchain_official) channel carries official announcements. For Chinese speakers there is a [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN) group. There is also a QQ group for RChain: 530718666.
-- We've moved from [Slack](https://ourchain.slack.com/messages?) to a [Discord](https://discord.gg/fvY8qhx) server. Discord has several channels to discuss about all kind of things (to join see [Becoming a Member](#becoming-a-member) below). The goal is to create actionable issues in [Github/Members](https://github.com/rchain/Members/) that are handled by the community.
+- We've moved from [Slack](https://ourchain.slack.com/messages?) to a [Discord](https://discord.gg/fvY8qhx) server. Discord has several channels to discuss about all kind of things (to join see [Becoming a Member](#becoming-a-member) below). The goal is to create actionable issues in [Github/bounties](https://github.com/rchain/bounties/) that are handled by the community.
 - The different environments are bridged together. So you would see messages from for example Discord in Mattermost, Telegram, or Gitter.
 - We use [Google Groups](https://groups.google.com/forum/#!forum/rchain) for interaction through email and getting access to the RChain Google drive and documents.
 - There are weekly conference calls with unedited archives on [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
@@ -20,14 +20,14 @@ Everyone is welcome to participate. Contributing doesn’t just mean coding; the
 
 ### Collaboration
 
-Through [Github/Members](https://github.com/rchain/Members/) issues are created by anyone. It's up to us to handle all those issues in an organized manner, based on self organization and decentralization. We trust in skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
+Through [Github/bounties](https://github.com/rchain/bounties/) issues are created by anyone. It's up to us to handle all those issues in an organized manner, based on self organization and decentralization. We trust in skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
 
-- Work items are represented by [issues](https://github.com/rchain/Members/issues/).
+- Work items are represented by [issues](https://github.com/rchain/bounties/issues/).
 - To make one or join work on one, you need to:
 
-  1. [ ] get/have a [Github account](https://github.com/rchain/Members)
+  1. [ ] get/have a [Github account](https://github.com/rchain/bounties)
   2. [ ] request a Github collaborator role from @lapin7 in one of the comm channels, or mail [ops@rchain.coop](ops@rchain.coop), to get an invite
-  3. [ ] then confirm the [collaboration invite](https://github.com/rchain/Members/invitations) for the repository [rchain/Members](https://github.com/rchain/Members)
+  3. [ ] then confirm the [collaboration invite](https://github.com/rchain/bounties/invitations) for the repository [rchain/bounties](https://github.com/rchain/bounties)
   4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
 
 - It's not mandatory but it really helps to become a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
