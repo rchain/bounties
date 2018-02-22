@@ -21,7 +21,7 @@ Thanks for your interest in telling the story of RChain in another language.
     - [ ] at least two of them have high proficiency in (the target language)
     - [ ] at least two of them have high proficiency in English
     - [ ] at least two of them have either
-       - [ ] significant reputation at stake; source: ____
+       - [ ] significant reputation ( (e.g. a diploma) at stake; source: ____
        - [ ] a track record of quality work on rchain bounties: #nn, #nn, ...
   - What about maintenance? (choose one)
     - [ ] the source document is stable; further translation work is not expected
