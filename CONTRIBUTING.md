@@ -39,7 +39,7 @@ Through [Github/bounties](https://github.com/rchain/bounties/) issues are create
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
 - Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
 - Members suggest a budget to resolve the issue.
-- Go to the spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
+- Go to the spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget [current month]"
 ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
 - Find an issue that you want to allocate a budget to, like #115 "Community Co-Operators"
 - Type your Github-name in the yellow column, for example AR66 gets lapin7
@@ -50,7 +50,7 @@ Through [Github/bounties](https://github.com/rchain/bounties/) issues are create
 #### Decentralized Reward Allocation
 - RHOC are distributed monthly based on invoices.
 - During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions sets the personal reward for each collaborator.
-- Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards 201711"
+- Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards [current month]"
 ![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
 - In column Q and R you see respectively the percentage distribution and the github name of the member, who gave the score according to his/her insight about the work being done by him/her self and the other ones who have done work on the issue.
 - In column M you can type your github name. Your name appears then in column Q for example.
