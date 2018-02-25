@@ -7,9 +7,9 @@ Setiap orang bisa ikut berpartisipasi. Kontribusi tidak hanya terbatas pada memb
 
 ### Komunikasi
 
-[RChain](https://rchain.coop) memiliki banyak saluran yang memudahkan komunikasi didalam komunitas yang terus berkembang. Semua daftar saluran komunikasi ada di [FAQ](https://github.com/rchain/reference/blob/master/faq.md) tetapi semua saluran tersebut merupakan saluran untuk bekerjasama:
-- Kita bekerjasama dan saling berbagi perkembangan melalui [Github/RChain/Anggota](https://github.com/rchain/Members).
-- Kami sedang malakukan uji coba dengan [Mattermost](https://rchain.divvydao.net/community/channels/town-square) dan [Gitter](https://gitter.im/rchain/Rholang) untuk berbagi informasi siapa sedang melakukan apa kapan dan kenapa.
+[RChain](https://rchain.coop) memiliki banyak saluran yang memudahkan komunikasi didalam komunitas yang terus berkembang. Semua daftar saluran komunikasi ada di [FAQ](https://github.com/rchain/reference/blob/master/faq.md) tetapi semua saluran tersebut merupakan saluran untuk berkolaborasi:
+- Kami bekerjasama dan saling berbagi perkembangan melalui [Github/RChain/Anggota](https://github.com/rchain/Members).
+- Kami sedang malakukan uji coba dengan [Mattermost](https://rchain.divvydao.net/community/channels/town-square) dan [Gitter](https://gitter.im/rchain/Rholang) untuk berbagi informasi siapa sedang melakukan apa, kapan dan kenapa.
 - Telegram [RChain Coop](https://t.me/rchain_coop) obrolan kelompok disediakan untuk melakukan obrolan, sementara saluran [RChain Coop Official Announcements](https://t.me/rchain_official) menyalurkan pengumuman-pengumuman resmi. Untuk yang menggunakan bahasa Cina terdapat [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN) group. Juga terdapat group QQ untuk RChain: 530718666.
 - Kami telah beralih dari server [Slack](https://ourchain.slack.com/messages?) ke server [Discord](https://discord.gg/fvY8qhx). Discord mempunyai beberapa saluran untuk mendiskusikan tentang semua hal (untuk bergabung silahkan lihat [Menjadi anggota](#becoming-a-member) di bawah ini). Tujuannya dalah untuk membuat isu-isu yang bisa dikerjakan di [Github/Members](https://github.com/rchain/Members/) yang dijalankan oleh komunitas.
 - Media-media yang berbeda dihubungkan bersama. Jadi Anda akan melihat pesan-pesan contohnya dari Discord di Mattermost, Telegram, atau Gitter.
@@ -32,20 +32,20 @@ Melalui [Github/Anggota](https://github.com/rchain/Members/) isu-isu disampaikan
 
 - Hal tersebut bukan suatu kewajiban tetapi akan sangat membantu dengan menjadi anggota Rchain dan mendapat verifikasi di Discord. Untuk proses ini harus membayar $20 untuk biaya anggota dan KYC. Lihat [Menjadi anggota](#becoming-a-member) dibawah.
   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
-  <!-- 2. [ ] This is the #bounties channel in Discord:
+  <!-- 2. [ ] Ini merupakan saluran #bounties di Discord:
   ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
 
-#### Decentralized Budget Allocation
-- Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
-- Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
-- Members suggest a budget to resolve the issue.
-- Go to the spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
+#### Alokasi Anggaran yang terDesentralisasi
+- Anggaran-anggaran dialokasikan untuk setiap item pekerjaan oleh paling sedikit tiga anggota. Angka rata-rata dari tiga masukan menjadi penentu jumlah anggaran.
+- Ops (@lapin7, HJ) menjelaskannya di dalam video berikut [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
+- Para anggota memberi masukan untuk jumlah anggaran penyelesaian sebuah isu.
+- Lihat spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
 ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
-- Find an issue that you want to allocate a budget to, like #115 "Community Co-Operators"
-- Type your Github-name in the yellow column, for example AR66 gets lapin7
-- Type your suggested budget, like $5000.00. The current budget becomes then $5000.00 (in K66). It's added to the budget of the previous month.
+- Carilah isu yang Anda ingin alokasikan anggaran, contohnya #115 "Community Co-Operators"
+- Tulislah nama Github Anda pada kolom warna kuning, sebagai contoh AR66 untuk lapin7
+- Tulislah jumlah anggaran yang Anda usulkan, seperti $5000.00. Anggaran sementara menjadi $5000.00 (di K66). Anggaran tersebut ditambahkan ke anggaran bulan yang lalu.
 ![image](https://user-images.githubusercontent.com/1913335/32597751-ed21061e-c537-11e7-9a0b-c9cccc48bc86.png)
-- The Operation manager ([ops@rchain.coop](ops@rchain.coop)) can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting budgets.
+- Manajer Opersi ([ops@rchain.coop](ops@rchain.coop)) bisa juga menambahkan komentar dengan email penugasan pada baris isu di lembarG ini untuk menstimulasi pengaturan anggaran.
 
 #### Alokasi Upah yang terDesentralisasi
 - RHOC didistribusikan setiap bulan berdasarkan tagihan.
@@ -55,7 +55,7 @@ Melalui [Github/Anggota](https://github.com/rchain/Members/) isu-isu disampaikan
 - Pada kolom Q dan R anda melihat masing-masing persentase distribusi dan nama github anggota, yang memberi nilai sesuai dengan pendapatnya tentang pekerjaan yang dilakukannya dan anggota lain yang juga mengerjakan isu tersebut.
 - Pada kolom M Anda bisa menulis nama github Anda. Kemudian nama Anda akan muncul di kolom Q.
 - Pada kolom R anda bisa mengatur persentase untuk anda sendiri dan kolaborator-kolaborator lainnya.
-- [Ops](ops@rchain.coop) juga bisa menambahkan komentar dengan email tugas ke baris isu pada Gsheet untuk menstimulasi pengaturan penghargaan.
+- [Ops](ops@rchain.coop) juga bisa menambahkan komentar dengan email penugasan ke baris isu pada lembarG untuk menstimulasi pengaturan upah.
 
 #### Proses Pembayaran yang Terpusat
 - Pada akhir bulan keadaannya akan dibekukan. Tidak ada lagi perubahan yang bisa dibuat baik untuk anggaran maupun upah. Proses pembayaran akan dimulai pada awal bulan.
