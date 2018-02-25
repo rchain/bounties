@@ -99,6 +99,71 @@
 
 以月为单位，第一个月是2017年8月。Ops（HJ或lapin7）在8月30日提交了[RChain社区汇报40(24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s)。 在其中可以查到有关[预算和奖励](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908)的信息。
 
+#### Git工作流
+
+在本章中将会对版本管理工具git的基本用法作一个简要的阐述，所有想要为rchain项目提交贡献的贡献者都必须遵循git工作流。
+
+![](../images/workflow.jpeg)
+
+**Fork**
+
+访问[项目链接](https://github.com/rchain/bounties)，点击页面上右方的`fork`按钮，将项目复制到用户个人目录下。
+
+**Clone**
+
+首先通过`mkdir rchain`命令在本地建一个工作目录rchain，然后将项目从远端的git仓库拷贝到本地:
+
+```Shell
+cd rchain && git clone https://github.com/rchain/bounties.git
+```
+
+**Add && Commit**
+
+保证你本地项目一直处于最新状态：
+
+```Shell
+cd  rchain/bounties
+git fetch origin
+git checkout master
+git rebase origin/master
+```
+
+**Branch**
+
+从主分支创建一个新分支用于修改或者开发：
+
+```Shell
+git checkout -b myfeature
+```
+
+然后在`myfeature`分支的基础上进行内容的改动。
+
+**Add && Commit**
+
+加入所有修改过的文件并做提交：
+
+```Shell
+git add xxx.file
+git commit -m "my commit message"
+```
+
+**Push**
+
+当本地的工作已经完成（或者只是将本地的工作内容做一个备份），将你本地的工作推送到`github.com`个人用户的仓库中：
+
+```Shell
+git push ${your_remote_name} myfeature
+```
+
+**Create pull request**
+
+1. 访问`https://github.com/$user/bounties`；
+2. 点击在你`myfeature分支`旁的`Compare & Pull Request`按钮；
+
+**其他**
+
+若需要进一步地了解git的使用方法，请查阅[以下资料](https://rchain.atlassian.net/wiki/spaces/DOC/pages/44007462/Github+Fork-n-Beans+Workflow)
+
 ## 如何成为一个RChain的成员
 
 通过加入RChain组织，您就能够积极参与RChain社区的建设。 RChain成员可以通过Discord聊天组与开发人员直接进行沟通交流，以及共同制定有关社区管理的决定。
