@@ -32,26 +32,26 @@ Through [Github/bounties](https://github.com/rchain/bounties/) issues are create
 
 - It's not mandatory but it really helps to become a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
-  <!-- 2. [ ] This is the #bounties channel in Discord:
-  ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
+    <!-- 2. [ ] This is the #bounties channel in Discord:
+    ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
 
 #### Decentralized Budget Allocation
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
 - Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
 - Members suggest a budget to resolve the issue.
 - Go to the spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Budget 201711"
-![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
+  ![image](https://user-images.githubusercontent.com/1913335/32597438-01a23d84-c537-11e7-916e-c9f12df80480.png)
 - Find an issue that you want to allocate a budget to, like #115 "Community Co-Operators"
 - Type your Github-name in the yellow column, for example AR66 gets lapin7
 - Type your suggested budget, like $5000.00. The current budget becomes then $5000.00 (in K66). It's added to the budget of the previous month.
-![image](https://user-images.githubusercontent.com/1913335/32597751-ed21061e-c537-11e7-9a0b-c9cccc48bc86.png)
+  ![image](https://user-images.githubusercontent.com/1913335/32597751-ed21061e-c537-11e7-9a0b-c9cccc48bc86.png)
 - The Operation manager ([ops@rchain.coop](ops@rchain.coop)) can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting budgets.
 
 #### Decentralized Reward Allocation
 - RHOC are distributed monthly based on invoices.
 - During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions sets the personal reward for each collaborator.
 - Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards 201711"
-![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
+  ![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
 - In column Q and R you see respectively the percentage distribution and the github name of the member, who gave the score according to his/her insight about the work being done by him/her self and the other ones who have done work on the issue.
 - In column M you can type your github name. Your name appears then in column Q for example.
 - In column R you can set then the percentages for yourself and the other collaborators.
@@ -86,20 +86,20 @@ In this chapter is a brief introduction to the basic use of version management t
 
 **Fork**
 
-visit https://github.com/rchain/Member, click `fork` button to fork the project to your own repository.
+visit[https://github.com/rchain/bounties](https://github.com/rchain/bounties), click `fork` button to fork the project to your own repository.
 
 **Clone**
 
 First create a working directory of the rchain project locally `mkdir rchain`, and then create your clone:
 
-`cd rchain && git clone https://github.com/rchain/Members.git`
+`cd rchain && git clone https://github.com/rchain/bounties.git`
 
 **Fetch && rebase**
 
 Get your local master up to date:
 
 ```
-cd  rchain/Member
+cd  rchain/bounties
 git fetch origin
 git checkout master
 git rebase origin/master
@@ -134,7 +134,7 @@ git push ${your_remote_name} myfeature
 
 **create pull request**
 
-1. Visit your fork at <https://github.com/$user/Members>
+1. Visit your fork at <https://github.com/$user/bounties>
 2. Click the `Compare & Pull Request` button next to your `myfeature` branch.
 
 **Reference**
@@ -151,7 +151,7 @@ By joining the Cooperative you will participate in the lively conversation of th
 - You will receive an invite link to the RChain Discord.
 - Create a [Discord](https://discordapp.com/) account if you don't have one.
   - On Discord, you can send a message to the @verify bot:
-  ```/verify```
+    ```/verify```
   - The bot responds by querying for the code that was emailed.
   - On success, a 'verifier' will contact you (depending on the time of day this might not be immediate).
   - After passing the verification, your role will be updated to Member.
