@@ -19,7 +19,7 @@ We're really glad you're here, because we need active contributing members to he
 
 ### Collaboration
 
-Through [Github/bounties](https://github.com/rchain/bounties/) issues are created by anyone. It's up to us to handle all those issues in an organized manner, based on self organization and decentralization. We trust in skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
+Coop membership is required for some parts of the process, but through [Github/bounties](https://github.com/rchain/bounties/) anyone may create an issue. It's up to us to handle all those issues in an organized manner, based on self organization and decentralization. We trust in skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
 
 - Work items are represented by [issues](https://github.com/rchain/bounties/issues/).
 - To make one or join work on one, you need to:
@@ -29,12 +29,14 @@ Through [Github/bounties](https://github.com/rchain/bounties/) issues are create
   3. [ ] then confirm the [collaboration invite](https://github.com/rchain/bounties/invitations) for the repository [rchain/bounties](https://github.com/rchain/bounties)
   4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
 
-- It's not mandatory but it really helps to become a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
+#### Decentralized Budget Allocation
+
+Voting and collecting rewards requires becoming a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
     <!-- 2. [ ] This is the #bounties channel in Discord:
     ![image](https://user-images.githubusercontent.com/1913335/32598502-3f0ddc98-c53a-11e7-85e9-f95fc799dede.png) -->
 
-#### Decentralized Budget Allocation
+
 - Budgets are allocated to work items by at least three Members. The average of three suggestions defines the budget.
 - Ops (@lapin7, HJ) explains it in the video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA)
 - Members suggest a budget to resolve the issue.
@@ -48,7 +50,7 @@ Through [Github/bounties](https://github.com/rchain/bounties/) issues are create
 
 #### Decentralized Reward Allocation
 - RHOC are distributed monthly based on invoices.
-- During the month each collaborator decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions sets the personal reward for each collaborator.
+- During the month each Member decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions sets the personal reward for each collaborator.
 - Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards 201711"
   ![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
 - In column Q and R you see respectively the percentage distribution and the github name of the member, who gave the score according to his/her insight about the work being done by him/her self and the other ones who have done work on the issue.
@@ -58,9 +60,9 @@ Through [Github/bounties](https://github.com/rchain/bounties/) issues are create
 
 #### Centralized Payment process
 - At the end of the month the situation will be frozen. No changes can be made anymore to either budgets or rewards. The payment process starts at the beginning of the month.
-- The collaborator receives an email with a pre-filled invoice and also the needed data if the collaborator wants to make his/her own invoice. The collaborator stores a PDF version of the pre-filled invoice or their own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
-- The collaborator then emails [invoices@rchain.coop](invoices@rchain.coop) with a link to the PDF invoice.
-- If a member does regular work per month, then a Statement of Work can be set up. This process will be available soon.
+- The Member receives an email with a pre-filled invoice and also the needed data if the Member wants to make his/her own invoice. The collaborator stores a PDF version of the pre-filled invoice or their own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
+- The Member then emails [invoices@rchain.coop](invoices@rchain.coop) with a link to the PDF invoice.
+- If a Member does regular work per month, then a Statement of Work can be set up. This process will be available soon.
 - If the process works well, then of course it will be decentralized further to work areas or regions.
 
 #### Tax
@@ -142,7 +144,7 @@ For more detail about the git workflow, you can check the [developer git workflo
 
 ## Becoming a Member
 
-By joining the Cooperative you will participate in the lively conversation of the RChain community. Members can access the Discord server (no trolls or scammers) with direct access to the developers and governance decision making.
+By joining the Cooperative you will participate in the lively conversation of the RChain community, vote on budgets and rewards, and submit invoices. Members can access the Discord server (no trolls or scammers) with direct access to the developers and governance decision making.
 
 ### Process
 
