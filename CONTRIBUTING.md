@@ -1,9 +1,8 @@
 # How to contribute
 
-I'm really glad you're reading this, because we need active developers to help this project come to fruition.
-We're establishing a community process for contributors to earn RHOC working for the coop. See video [24:06 HJ explains Members Decentralized Budgeting](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s) and video [RChain, Decentralized budgeting and spending](https://www.youtube.com/watch?v=m6xiTWbEdpA).
+*New here? Before you go any further, read this: [Welcome to the Bounty Program](https://github.com/rchain/bounties/wiki/Welcome-to-the-Bounty-Program).*
 
-Everyone is welcome to participate. Contributing doesn’t just mean coding; there are many different ways for you to get involved, including community activism, marketing, business development, design, and governance.
+We're really glad you're here, because we need active contributing members to help this project come to fruition. We've established a community process for contributors to earn RHOC working for the coop, and everyone is welcome to participate. Contributing doesn’t just mean coding; there are many different ways for you to get involved, including community activism, marketing, business development, design, and governance.
 
 ### Communication
 
