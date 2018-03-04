@@ -1,8 +1,11 @@
 # Issue
 
-_Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timely._
+Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timely.
 
-**Content:**
+- **Completed**: 0%
+- **Suggested Budget**: $0
+
+## Content
 
 - .
 - ..
@@ -10,9 +13,7 @@ _Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timel
 - ....
 - .....
 
-**Completed:** 0%
-
-**Tasks:**
+## Tasks
 
 - [ ] .
 - [ ] ..
@@ -20,13 +21,11 @@ _Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timel
 - [ ] ....
 - [ ] .....
 
-**Collaborators Work:**
+## Collaborators Work
 
 - @..........
 - @..........
 - @..........
-
-**Suggested Budget:** $0
 
 _See CONTRIBUTING.md for details on budget and reward process._
 
