@@ -1,6 +1,6 @@
 # Issue
 
-Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timely.
+_Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timely._
 
 - **Completed**: 0%
 - **Suggested Budget**: $0
@@ -43,7 +43,7 @@ Thanks for your interest in telling the story of RChain in another language.
 
 - How can people who do not speak this language be assured of the quality of the translation? (_all are required_)
   - [ ] Several reviewers are involved. (_assign the ticket to them_)
-  - [ ] At least two of them have high proficiency in (the target language).
+  - [ ] At least two of them have high proficiency in (_the target language_).
   - [ ] At least two of them have high proficiency in English.
   - At least two of them have either:
     - [ ] significant reputation (e.g. a diploma) at stake; source:
