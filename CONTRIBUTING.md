@@ -21,6 +21,8 @@ We're really glad you're here, because we need active contributing members to he
 
 Coop membership is required for some parts of the process, but through [Github/bounties](https://github.com/rchain/bounties/) anyone may create an issue. It's up to us to handle all those issues in an organized manner, based on self organization and decentralization. We trust in skills and common sense to solve the issues and get rewarded in a reasonable way in RHOC.
 
+The process evolves with experience; stay tuned to [bounty-contract](https://github.com/rchain/bounties/labels/bounty-contract) issues.
+
 - Work items are represented by [issues](https://github.com/rchain/bounties/issues/).
 - To make one or join work on one, you need to:
 
