@@ -12,7 +12,7 @@ _See CONTRIBUTING.md for details on budget and reward process._
 Thanks for your interest in telling the story of RChain in another language.
 
   - Why this document? (mark all that apply)
-    - [ ] it's one of the /rchain/reference documents
+    - [ ] it's one of the /rchain/reference documents that is important to translate
     - [ ] I contacted the author, who agreed it's important to translate
     - [ ] I know a person or audience who would benefit from it: _____
     - [ ] other: ___
