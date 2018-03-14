@@ -12,12 +12,11 @@ _See CONTRIBUTING.md for details on budget and reward process._
 Thanks for your interest in telling the story of RChain in another language.
 
   - Why this document? (mark all that apply)
-    - [ ] it's one of the canonical documents that is important to translate
-      - [ ] _[FAQ](https://github.com/rchain/reference/blob/master/faq.md)_
-      - [ ] _[Dictionary](https://github.com/rchain/Members/blob/master/projects/dictionary.md)_
-      - [ ] _[RChain Architecture (latest)](http://rchain-architecture.readthedocs.io/en/latest/)_
-      - [ ] _[Contributing](https://github.com/rchain/bounties/blob/master/CONTRIBUTING.md)_ 
-      - [ ] _[Invoice Preparation](https://github.com/rchain/bounties/blob/master/Invoice%20preparation)_
+    - [ ] it's one of the canonical documents that is important to translate:
+      - _[FAQ](https://github.com/rchain/reference/blob/master/faq.md)_
+      - _[RChain Architecture (latest)](http://rchain-architecture.readthedocs.io/en/latest/)_
+      - _[Rholang specification](https://developer.rchain.coop/rholang-spec-0.2.pdf)_
+      - _[Contributing](https://github.com/rchain/bounties/blob/master/CONTRIBUTING.md)_ 
     - [ ] I contacted the author, who agreed it's important to translate
     - [ ] I know a person or audience who would benefit from it: _____
     - [ ] other: ___
