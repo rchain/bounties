@@ -66,6 +66,7 @@ Voting and collecting rewards requires becoming a RChain Member and get verified
 - The Member then emails [invoices@rchain.coop](invoices@rchain.coop) with a link to the PDF invoice.
 - If a Member does regular work per month, then a Statement of Work can be set up. This process will be available soon.
 - If the process works well, then of course it will be decentralized further to work areas or regions.
+- The final payment decision is at the discretion of the Operations Manager and Coop Officers.
 
 #### Tax
 - RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
