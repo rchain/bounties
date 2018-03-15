@@ -19,7 +19,7 @@ The process evolves with experience; stay tuned to [bounty-contract](https://git
   3. [ ] then confirm the [collaboration invite](https://github.com/rchain/bounties/invitations) for the repository [rchain/bounties](https://github.com/rchain/bounties)
   4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
 
-#### Decentralized Budget Allocation
+## Decentralized Budget Allocation
 
 Voting and collecting rewards requires becoming a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
   1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
@@ -38,9 +38,9 @@ Voting and collecting rewards requires becoming a RChain Member and get verified
   ![image](https://user-images.githubusercontent.com/1913335/32597751-ed21061e-c537-11e7-9a0b-c9cccc48bc86.png)
 - The Operation manager ([ops@rchain.coop](ops@rchain.coop)) can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting budgets.
 
-#### Decentralized Reward Allocation
 - RHOC are distributed monthly based on invoices.
 - During the month each Member decides how the budget in RHOC is distributed over the collaborators as a reward for the participation. The average of three reward suggestions sets the personal reward for each collaborator.
+## Decentralized Reward Allocation
 - Go to spreadsheet [Pub Member Budget Allocation-Spending](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=634479823) TAB "Rewards 201711"
   ![image](https://user-images.githubusercontent.com/1913335/32599161-f91d53f6-c53b-11e7-9ee8-8b31733b98fb.png)
 - In column Q and R you see respectively the percentage distribution and the github name of the member, who gave the score according to his/her insight about the work being done by him/her self and the other ones who have done work on the issue.
@@ -48,7 +48,9 @@ Voting and collecting rewards requires becoming a RChain Member and get verified
 - In column R you can set then the percentages for yourself and the other collaborators.
 - [Ops](ops@rchain.coop) can also add comments with email assignments to the cells of the issue in this Gsheet in order to stimulate setting rewards.
 
-#### Centralized Payment process
+
+## Centralized Payment process
+
 - At the end of the month the situation will be frozen. No changes can be made anymore to either budgets or rewards. The payment process starts at the beginning of the month.
 - The Member receives an email with a pre-filled invoice and also the needed data if the Member wants to make his/her own invoice. The collaborator stores a PDF version of the pre-filled invoice or their own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
 - The Member then emails [invoices@rchain.coop](invoices@rchain.coop) with a link to the PDF invoice.
@@ -56,7 +58,8 @@ Voting and collecting rewards requires becoming a RChain Member and get verified
 - If the process works well, then of course it will be decentralized further to work areas or regions.
 - The final payment decision is at the discretion of the Operations Manager and Coop Officers.
 
-#### Tax
+### Tax
+
 - RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
 - If a contributor's rewards are more then $600 per year, then a [Fw9 tax form (For US citizens and residents)](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw9/index.html) and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
 - For US aliens living outside of the USA, the [W-8BEN tax form](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw8ben).
@@ -64,7 +67,7 @@ Voting and collecting rewards requires becoming a RChain Member and get verified
      NB: only lines 1, 2, 3, 4, and 7 are to be filled.
 - As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provided ETH-addresses.
 
-#### Reporting
+## Reporting
 - Finally management reports will be generated and presented in Debriefings of RChain.
 
 The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) presented this process Aug 30 in
@@ -94,7 +97,7 @@ By joining the Cooperative you will participate in the lively conversation of th
   - On success, a 'verifier' will contact you (depending on the time of day this might not be immediate).
   - After passing the verification, your role will be updated to Member.
 
-#### 4 Membership requirements
+### 4 Membership requirements
 
 The RChain representative will check the following:
 1. [Membership agreement](https://github.com/rchain/legaldocs/blob/master/Coop%20Membership%20Agreement.pdf) affirmed
@@ -102,7 +105,7 @@ The RChain representative will check the following:
 3. Verify payment of membership fee
 4. Verify face on live video
 
-#### Promotion to MEMBER
+### Promotion to member role
 
 When the four membership requirements are met and recorded, a Discord admin will promote the user to ROLE=MEMBER and append a ':' to the member's Discord alias for proof of individuality.
 
