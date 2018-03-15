@@ -70,68 +70,14 @@ Voting and collecting rewards requires becoming a RChain Member and get verified
 The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) presented this process Aug 30 in
 [RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). An overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available.
 
-#### Git Workflow
+## Git Workflow: Pull Request Reviews Required
 
-In this chapter is a brief introduction to the basic use of version management tool **git**. All contributors who want to contribute to rchain must follow the this git workflow.
+All pull requests in this `rchain/bounties` repository require review
+from collaborators. See GitHub documentation
+[about pull request reviews][PRR].
 
-![](./images/workflow.jpeg)
+[PRR]: https://help.github.com/articles/about-pull-request-reviews/
 
-**Fork**
-
-visit[https://github.com/rchain/bounties](https://github.com/rchain/bounties), click `fork` button to fork the project to your own repository.
-
-**Clone**
-
-First create a working directory of the rchain project locally `mkdir rchain`, and then create your clone:
-
-`cd rchain && git clone https://github.com/rchain/bounties.git`
-
-**Fetch && rebase**
-
-Get your local master up to date:
-
-```
-cd  rchain/bounties
-git fetch origin
-git checkout master
-git rebase origin/master
-```
-
-**Branch**
-
-Branch from the master:
-
-```
-git checkout -b myfeature
-```
-
-Then edit code on the `myfeature` branch.
-
-**Add && Commit**
-
-Add all modified files and make a commit:
-
-```
-git add xxx.file
-git commit -m "my commit message"
-```
-
-**Push**
-
-When ready to review (or just to establish an offsite backup or your work), push your branch to your fork on `github.com`:
-
-```
-git push ${your_remote_name} myfeature
-```
-
-**create pull request**
-
-1. Visit your fork at <https://github.com/$user/bounties>
-2. Click the `Compare & Pull Request` button next to your `myfeature` branch.
-
-**Reference**
-
-For more detail about the git workflow, you can check the [developer git workflow](https://rchain.atlassian.net/wiki/spaces/DOC/pages/44007462/Github+Fork-n-Beans+Workflow).
 
 ## Becoming a Member
 
