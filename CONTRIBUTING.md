@@ -4,18 +4,6 @@
 
 We're really glad you're here, because we need active contributing members to help this project come to fruition. We've established a community process for contributors to earn RHOC working for the coop, and everyone is welcome to participate. Contributing doesn’t just mean coding; there are many different ways for you to get involved, including community activism, marketing, business development, design, and governance.
 
-### Communication
-
-[RChain](https://rchain.coop) has multiple channels to make easy communication possible within the growing community. There is a full list of comm channels in the [FAQ](https://github.com/rchain/reference/blob/master/faq.md) but these are the collaborative channels:
-- We work together and keep each other updated through [Github/RChain/bounties](https://github.com/rchain/bounties).
-- We're experimenting with [Mattermost](https://rchain.divvydao.net/community/channels/town-square) and [Gitter](https://gitter.im/rchain/Rholang) to create insight in who does what when and why.
-- The Telegram [RChain Coop](https://t.me/rchain_coop) chat group is for chat, while the [RChain Coop Official Announcements](https://t.me/rchain_official) channel carries official announcements. For Chinese speakers there is a [RChain_Official_Chat_CN](https://t.me/RChain_Official_Chat_CN) group. There is also a QQ group for RChain: 530718666.
-- We've moved from [Slack](https://ourchain.slack.com/messages?) to a [Discord](https://discord.gg/fvY8qhx) server. Discord has several channels to discuss about all kind of things (to join see [Becoming a Member](#becoming-a-member) below). The goal is to create actionable issues in [Github/bounties](https://github.com/rchain/bounties/) that are handled by the community.
-- The different environments are bridged together. So you would see messages from for example Discord in Mattermost, Telegram, or Gitter.
-- We use [Google Groups](https://groups.google.com/forum/#!forum/rchain) for interaction through email and getting access to the RChain Google drive and documents.
-- There are weekly conference calls with unedited archives on [Youtube](https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w).
-- There is a weekly [Member zoom meeting](https://zoom.us/s/197490909) on Wednesdays, 06:00 PM UTC (Amsterdam +1, New York -5, Seattle -8, Beijing +8), where we discuss the issues that need to be worked upon.
-- And of course our [website](https://rchain.coop).
 
 ### Collaboration
 
