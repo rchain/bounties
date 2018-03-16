@@ -31,6 +31,10 @@ The process evolves with experience; stay tuned to [bounty-contract](https://git
   3. [ ] then confirm the [collaboration invite](https://github.com/rchain/bounties/invitations) for the repository [rchain/bounties](https://github.com/rchain/bounties)
   4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
 
+### Contributing as a developer
+
+At this point the entire development focus is on the core platform. The VM, storage, and networking layers are all written in Scala. There will eventually be code for Casper, the REV wallet, and a few other things in Rholang. If you’re a seasoned developer with Scala skills then please get in touch! Down the road more and varied skills will be needed. Programmers versed in other languages, web developers, designers, Javascript experts, system administrators, beta testers, and quality assurance people will be in demand. If you'd like to participate please join as a Member and put yourself in the Talent Pool. [Issues for development work](https://rchain.atlassian.net/wiki/spaces/CORE/pages/105938971/Bounties+for+Development+work) and instructions for how to claim an issue are published on the developer wiki.
+
 #### Decentralized Budget Allocation
 
 Voting and collecting rewards requires becoming a RChain Member and get verified on Discord. This requires a $20 membership fee and KYC. See [Becoming a Member](#becoming-a-member) below.
