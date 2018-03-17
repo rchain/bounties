@@ -11,11 +11,11 @@ _See CONTRIBUTING.md for details on budget and reward process._
 
 Thanks for your interest in telling the story of RChain in another language.
 
-  - Why this document? (mark all that apply)
-    - [ ] it's one of the /rchain/reference documents
-    - [ ] I contacted the author, who agreed it's important to translate
-    - [ ] I know a person or audience who would benefit from it: _____
-    - [ ] other: ___
+  - Why this document?
+    - It's important to translate because ____
+    - [ ] It's an [RChain blog](https://medium.com/rchain-cooperative) item
+    - [ ] It's on https://developer.rchain.coop/ that has been endorsed
+          for translation by @Jake-Gillberg, @MParlikar, or @KellyAtPyrofex 
   - How can people who do not speak this language be assured of the quality of the translation? (all are required)
     - [ ] several reviewers are involved (_assign the ticket to them_)
     - [ ] at least two of them have high proficiency in (the target language)
