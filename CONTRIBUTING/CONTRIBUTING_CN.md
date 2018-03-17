@@ -90,8 +90,8 @@
 
 #### 税费
 - RChain Coop必须遵守IRS的税收规定，这意味着在年底RChain必须提供对贡献者的支付清单，其数额通过表格1099进行记录。
-- 如果贡献者的年收入超过600美元，则必须填写[Fw9纳税表](https://www.irs.gov/pub/irs-pdf/fw9.pdf)并将其存储在[个人文件夹Tax](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE)中。
-- 对于居住在美国以外的贡献者，必须填写[Fw4税表](https://www.irs.gov/pub/irs-pdf/fw4.pdf)（仅1,2,3,4和7行）。
+- 如果贡献者的年收入超过600美元，则必须[按照要求](https://www.irs.gov/instructions/iw9)填写[Fw9纳税表](https://www.irs.gov/pub/irs-pdf/fw9.pdf)并将其存储在[个人文件夹Tax](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE)中。
+- 对于居住在美国以外的贡献者，必须[按照要求](https://www.irs.gov/instructions/iw8ben)填写[W-8BEN税表](https://www.irs.gov/pub/irs-pdf/fw4.pdf)（仅1,2,3,4和7行）。
 - 一旦[运营经理](ops@rchain.coop)得到通知，Ops将把RHOC转移到贡献者提供的ETH地址中完成支付。
 
 #### 报告
