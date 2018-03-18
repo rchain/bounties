@@ -26,7 +26,7 @@ Ops（@lapin7, HJ）将会管理系统。 管理这个系统需要许多经验�
 
 **每一项任务需要要有至少3位成员的投票才能申请到预算。三位成员的平均预算建议便是该项任务的最终预算值**。
 
-成员可以通过 [RChain Bounty Budget and Rewards](https://rewards.rchain.coop/)的[app](https://rewards.rchain.coop/)进行投票。在[这里][howto]可以查看具体的使用方式。
+成员可以通过 [RChain Bounty Budget and Rewards](https://rewards.rchain.coop/)的[app](https://rewards.rchain.coop/)进行投票。请查阅[如何使用预算奖励应用][howto]来获取更多知道。
 
 [ howto ]: https://github.com/rchain/bounties/wiki/How-To-Use-the-Budget-Rewards-Web-App
 
@@ -68,11 +68,12 @@ Ops（@lapin7, HJ）将会管理系统。 管理这个系统需要许多经验�
 
 ### 流程
 
-- 通过该[链接](https://member.rchain.coop/#/sign-up)申请注册成为RChain的成员，同时需要支付20美刀作为成员会费
+- [申请注册](https://member.rchain.coop/#/sign-up)成为RChain的成员，同时需要支付20美刀作为成员会费
+  1. [ ] <img src="https://user-images.githubusercontent.com/1913335/32598353-e489f158-c539-11e7-9656-4bcbb55718d2.png" alt="registration" width="200" />
 
 - 您会接收到加入RChain Discord聊天组的邀请链接
 
-- 如果您还没有Discord账号，请通过以下[链接](https://discordapp.com/)注册一个Discord账号
+- 如果您还没有[Discord](https://discordapp.com/)账号，请注册一个Discord账号
 
   - 在Discord中，您可以向验证机器人发送验证信息，例如@verify bot:
 
