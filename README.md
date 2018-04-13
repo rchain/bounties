@@ -1,3 +1,9 @@
+<p align="center">
+ <a href="https://www.youtube.com/watch?v=vcIZSZmpO9E&feature=youtu.be">
+	 <img alt="explainer video: 1:17" src="https://img.shields.io/badge/explainer-1%3A17-red.svg" />
+	</a>
+</p>
+
 # RChain Bounty Program
 
 In Aug 2017, the [RChain][] Cooperative president, [Greg Meredith][LGM],
@@ -7,8 +13,6 @@ Members. The rewards are intended to
 
   1. build a thriving open source developer community
   2. involve the creative community in telling the RChain story
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vcIZSZmpO9E?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 We consider it fair if the value you provide towards our goal is
 proportional to the value you receive. All decision making is
