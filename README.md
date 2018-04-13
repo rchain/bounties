@@ -1,10 +1,10 @@
+# RChain Bounty Program
+
 <p align="center">
  <a href="https://www.youtube.com/watch?v=vcIZSZmpO9E&feature=youtu.be">
 	 <img alt="explainer video: 1:17" src="https://img.shields.io/badge/explainer-1%3A17-red.svg" />
 	</a>
 </p>
-
-# RChain Bounty Program
 
 In Aug 2017, the [RChain][] Cooperative president, [Greg Meredith][LGM],
 dedicated funds to a distributed budget and reward system for working
