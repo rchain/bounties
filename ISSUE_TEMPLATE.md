@@ -1,13 +1,17 @@
-# All
+### For all issues
+[Keep italic labels, replace brackets with answer]
 
-_Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timely._
+*Describe how the building and implementation of this task will benefit the RChain Membership or the RChain blockchain:* 
 
-Measure of Completion:  
-Suggested Budget:
+[Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timely.]
 
-_See CONTRIBUTING.md for details on budget and reward process._
+*Estimated Budget of Task:* $[000]  \
+*Estimated Timeline Required to Complete the Task:* [days/weeks]  \
+*Measure of Completion:* [measure]
 
-# Translators
+[See CONTRIBUTING.md for details on budget and reward process.]
+
+### For Translators
 
 Thanks for your interest in telling the story of RChain in another language.
 
@@ -26,3 +30,7 @@ Thanks for your interest in telling the story of RChain in another language.
   - What about maintenance? (choose one)
     - [ ] the source document is stable; further translation work is not expected
     - [ ] our plan to keep the translation up to date is: ____
+
+--  \
+***Legal***  \
+*Task Submitter shall not submit Tasks that will involve RHOC being transacted in any manner that (i) jeopardizes RHOC’s status as a software access token or other relevant and applicable description of the RHOC as an “asset”—not a security— or (2) violates, in any manner, applicable U.S. Securities laws.*
