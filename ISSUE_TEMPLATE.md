@@ -5,15 +5,15 @@
 
 [Please make the issue SMART: Specific, Measurable, Achievable, Realistic, Timely.]
 
-*Estimated Budget of Task:* $[000]  \
-*Estimated Timeline Required to Complete the Task:* [days/weeks]  \
-*Measure of Completion:* [measure]
+*Estimated Budget of Task:* **$[000]**  \
+*Estimated Timeline Required to Complete the Task:* **[days/weeks]**  \
+*Measure of Completion:* **[measure]**
 
 [See CONTRIBUTING.md for details on budget and reward process.]
 
 ### For Translators
 
-Thanks for your interest in telling the story of RChain in another language.
+[Thanks for your interest in telling the story of RChain in another language.]
 
   - Why this document?
     - It's important to translate because ____
