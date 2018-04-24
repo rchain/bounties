@@ -11,6 +11,10 @@
 
 [See CONTRIBUTING.md for details on budget and reward process.]
 
+--  \
+***Legal***  \
+*Task Submitter shall not submit Tasks that will involve RHOC being transacted in any manner that (i) jeopardizes RHOC’s status as a software access token or other relevant and applicable description of the RHOC as an “asset”—not a security— or (2) violates, in any manner, applicable U.S. Securities laws.*
+
 ### For Translators
 
 [Thanks for your interest in telling the story of RChain in another language.]
@@ -31,6 +35,3 @@
     - [ ] the source document is stable; further translation work is not expected
     - [ ] our plan to keep the translation up to date is: ____
 
---  \
-***Legal***  \
-*Task Submitter shall not submit Tasks that will involve RHOC being transacted in any manner that (i) jeopardizes RHOC’s status as a software access token or other relevant and applicable description of the RHOC as an “asset”—not a security— or (2) violates, in any manner, applicable U.S. Securities laws.*
