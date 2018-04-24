@@ -13,7 +13,7 @@ reward system for working together.
 _[README][] is a more general overview; these are the specifics of the
 process._
 
-Ops (@lapin7, HJ) administers the system.
+[Operation Manager](ops@rchain.coop) (ops, @lapin7, HJ) administers the system.
 The process evolves with experience; stay tuned to
 [bounty-contract](https://github.com/rchain/bounties/labels/bounty-contract)
 issues.
@@ -32,47 +32,68 @@ or collaborate on work items represented by
   2. [ ] request a Github collaborator role from @lapin7 in one of the comm channels, or mail [ops@rchain.coop](ops@rchain.coop), to get an invite
   3. [ ] then confirm the [collaboration invite](https://github.com/rchain/bounties/invitations) for the repository [rchain/bounties](https://github.com/rchain/bounties)
   4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
+  5. [ ] fill out form [RChain Active Member Registration](https://docs.google.com/forms/d/1BohlW_z9HgMbAaFaAZcwno7mbIB3KgFCsAzpqZbZf04/edit)
 
 ## Decentralized Budget Allocation
 
-Voting and collecting rewards requires [verified membership in the RChain Coop](#becoming-a-member).
+Voting and collecting rewards by RChain Active Members (RAM), requires [verified membership in the RChain Coop](#becoming-a-member).
 
 RHOC are distributed monthly based on invoices.
 
+The setting of budgets and rewards runs from the 8th of the month to the 8th of the next month. At the 8th of the month the state of budgets and rewards is frozen and the process repeats for the next month. Take the work done in April for example. No changes can be made anymore to either budgets or rewards after the 8th of May. The settings for May start at the 9th of May. 
+
 **Budgets are allocated to work items by at least three Members. The average of three votes defines the budget.**
 
-Use the [RChain Bounty Budget and Rewards](https://rewards.rchain.coop/) app at https://rewards.rchain.coop/ to vote. See [How To Use the Budget Rewards Web app][howto] for illustrated instructions.
+Use the [RChain Bounty Budget and Rewards](https://rewards.rchain.coop/) app to vote. See [How To Use the Budget Rewards Web app][howto] for illustrated instructions.
 
 [howto]: https://github.com/rchain/bounties/wiki/How-To-Use-the-Budget-Rewards-Web-App
 
 
 ## Decentralized Reward Allocation
 
-- During the month each Member may vote on what portion of the budget is distributed to each collaborator as a reward for their participation. **The average of (at least three) votes sets the personal reward for each collaborator.**
+- During the month each RAM may vote on what portion of the budget is distributed to each RAM as a reward for their participation. **The average of (at least three) votes sets the personal reward for each RAM.**
 
 Again, see [How To Use the Budget Rewards Web app][howto] for illustrated instructions.
 
-## Centralized Payment process
+## Invoice preparation
 
-- At the end of the month the situation will be frozen. No changes can be made anymore to either budgets or rewards. The payment process starts at the beginning of the month.
-- The Member receives an email with a pre-filled invoice and also the needed data if the Member wants to make his/her own invoice. The collaborator stores a PDF version of the pre-filled invoice or their own invoice in his/her personal [Gdrive of Rchain](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Invoices.
-- The Member then emails [invoices@rchain.coop](invoices@rchain.coop) with a link to the PDF invoice.
+- Each RAM has a personal folder in RChain/Contracts/Contractors
+- The folder is named like: First and Last Name _ Github Name. The folder contains 2 or 3 subfolders:
+	- Invoices
+	- Tax
+	- Contract
+- In the folder Invoices, you find a spreadsheet called "Your Github Name". That spreadsheet is connected with [RChain's reward system](https://rewards.rchain.coop/) in order to collect the issues and rewards of a RAM.
+- OPS prepares the initial set up of personal folders and documents
+- By changing the payment period from e.g. Mar/2018 to Apr/2018, RAM may create an invoice e.g. for March or for April:
+	- duplicate TAB Temp to TAB "Copy of Temp" and rename the TAB to e.g. 201803
+	- copy All of TAB 201803 and paste it as VALUES, in order to make it fixed.
+	- download 201803 as PDF and upload it to the personal folder "Invoices"
+	- copy the link to the PDF and paste it in form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform)
+- Invoices can be made for each previous month and the form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) can be used anytime as long as the previous month is not just the month before the current month. So when it's for example April then you still can send an invoice for February. 
+- As soon as OPS is notified of the declaration, the RHOC will be transferred to the provided ETH-addresses.
+
+## At the 9th of the month the payment process starts.
+- There are 3 positions involved to approve payments: [CFO](invoices@rchain.coop), [COO](director2@rchain.coop), [OPS](ops@rchain.coop)
+	- OPS checks the whole process
+	- CFO makes every Tuesday a payment register
+	- OPS proposes payments in the [multisig Gnosis wallet](https://wallet.gnosis.pm/#/wallet/0xd35a2d8c651f3eba4f0a044db961b5b0ccf68a2d) based on the payment register
+	- CFO or COO confirms the payment
+	- RAM receives the RHOC
 - The final payment decision is at the discretion of the Operations Manager and Coop Officers.
 
-### Tax
+## Tax
 
 - RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
-- If a contributor's rewards are more then $600 per year, then a [Fw9 tax form (For US citizens and residents)](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw9/index.html) and stored in the [personal folder](https://drive.google.com/drive/folders/0B5I9qM5f_1cfeUZoV01EYjdmOEE) Tax.
+- If a contributor's rewards are more then $600 per year, then a [Fw9 tax form (For US citizens and residents)](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw9/index.html) and stored in the personal folder Tax.
 - For US aliens living outside of the USA, the [W-8BEN tax form](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw8ben).
 
      NB: only lines 1, 2, 3, 4, and 7 are to be filled.
-- As soon as the [Operation manager](ops@rchain.coop) is notified of the declaration, Ops will transfer RHOC to the provided ETH-addresses.
 
 ## Reporting
 - Finally management reports will be generated and presented in Debriefings of RChain.
 
 The first monthly cycle was Aug 2017. [Ops](ops@rchain.coop), (HJ or lapin7) presented this process Aug 30 in
-[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). An overview of the [budgets and rewards](https://docs.google.com/spreadsheets/d/1uxuxx8YN17KCIWcH1cUoGuSm2hAnIya2iAc6wxoaq1o/edit#gid=1751357908) is available.
+[RChain Community Debrief 40 (24:06)](https://www.youtube.com/watch?v=7Li4g4qDF6M&t=1486s). 
 
 ## Git Workflow: Pull Request Reviews Required
 
