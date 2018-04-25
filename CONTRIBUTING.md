@@ -76,7 +76,7 @@ Again, see [How To Use the Budget Rewards Web app][howto] for illustrated instru
 - There are 3 positions involved to approve payments: [CFO](invoices@rchain.coop), [COO](director2@rchain.coop), [OPS](ops@rchain.coop)
 	- OPS checks the whole process
 	- CFO makes every Tuesday a payment register
-	- OPS proposes payments in the [multisig Gnosis wallet](https://wallet.gnosis.pm/#/wallet/0xd35a2d8c651f3eba4f0a044db961b5b0ccf68a2d) based on the payment register
+	- OPS proposes payments in the multisig Gnosis wallet based on the payment register
 	- CFO or COO confirms the payment
 	- RAM receives the RHOC
 - The final payment decision is at the discretion of the Operations Manager and Coop Officers.
