@@ -1,4 +1,4 @@
-# RChain Distributed Budgeting and Rewards Bounty Program
+# RChain Decentralized Bounty Program
 
 <p align="center">
  <a href="https://www.youtube.com/watch?v=vcIZSZmpO9E&feature=youtu.be">
