@@ -1,4 +1,4 @@
-# RChain Decentralized Bounty Program
+# RChain Decentralized Reward System
 
 <p align="center">
  <a href="https://www.youtube.com/watch?v=vcIZSZmpO9E&feature=youtu.be">
