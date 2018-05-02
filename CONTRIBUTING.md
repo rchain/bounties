@@ -72,22 +72,13 @@ Again, see [How To Use the Budget Rewards Web app][howto] for illustrated instru
 - Invoices can be made for each previous month and the form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) can be used anytime as long as the previous month is not just the month before the current month. So when it's for example April then you still can send an invoice for February. 
 - As soon as OPS is notified of the declaration, the RHOC will be transferred to the provided ETH-addresses.
 
-## At the 9th of the month the payment process starts.
-- There are 3 positions involved to approve payments: [CFO](invoices@rchain.coop), [COO](director2@rchain.coop), [OPS](ops@rchain.coop)
-	- OPS checks the whole process
-	- CFO makes every Tuesday a payment register
-	- OPS proposes payments in the multisig Gnosis wallet based on the payment register
-	- CFO or COO confirms the payment
-	- RAM receives the RHOC
-- The final payment decision is at the discretion of the Operations Manager and Coop Officers.
+## Invoicing, payment, and taxes
 
-## Tax
+The final payment decision is at the discretion of the Operations Manager and Coop Officers.
+The RChain Cooperative is subject to the tax rules of the IRS in the United States.
 
-- RChain Coop has to comply with the tax rules of the IRS. That means that at the end of the year RChain has to provide a list of payouts to contributors, with the amounts, through form 1099.
-- If a contributor's rewards are more then $600 per year, then a [Fw9 tax form (For US citizens and residents)](https://www.irs.gov/pub/irs-pdf/fw9.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw9/index.html) and stored in the personal folder Tax.
-- For US aliens living outside of the USA, the [W-8BEN tax form](https://www.irs.gov/pub/irs-pdf/fw8ben.pdf) has to be filled out [following the instructions here](https://www.irs.gov/instructions/iw8ben).
-
-     NB: only lines 1, 2, 3, 4, and 7 are to be filled.
+See [Creating an Invoice](https://github.com/rchain/bounties/wiki/Creating-an-Invoice),
+including documentation for taxes.
 
 ## Reporting
 - Finally management reports will be generated and presented in Debriefings of RChain.
