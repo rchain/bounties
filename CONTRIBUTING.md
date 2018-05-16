@@ -32,7 +32,7 @@ or collaborate on work items represented by
   2. [ ] request a Github collaborator role from @lapin7 in one of the comm channels, or mail [ops@rchain.coop](ops@rchain.coop), to get an invite
   3. [ ] then confirm the [collaboration invite](https://github.com/rchain/bounties/invitations) for the repository [rchain/bounties](https://github.com/rchain/bounties)
   4. [ ] become a [member](https://groups.google.com/forum/#!pendingmember/rchain/join) of rchain@googlegroups.com for getting access to our documents
-  5. [ ] fill out form [RChain Active Member Registration](https://docs.google.com/forms/d/1BohlW_z9HgMbAaFaAZcwno7mbIB3KgFCsAzpqZbZf04/edit)
+  5. [ ] fill out form [RChain Active Member Registration](https://docs.google.com/forms/d/e/1FAIpQLSecwGUVFNx_Xa_Qsw5bxLnaKstPS8kQnfrUGqpuf22rLDteDg/viewform)
 
 ## Decentralized Budget Allocation
 
