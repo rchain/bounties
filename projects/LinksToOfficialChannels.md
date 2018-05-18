@@ -47,7 +47,7 @@ Telegram RChain Nederland Chat: @rchain_nl
 
 Twitter: https://twitter.com/rchain_coop
 
-Facebook: https://www.facebook.com/rchaincooperative/
+Facebook: https://www.facebook.com/rchaincooperative
 
 Youtube: https://www.youtube.com/channel/UCSS3jCffMiz574_q64Ukj_w
 
@@ -57,9 +57,9 @@ Bitcointalk: https://bitcointalk.org/index.php?topic=2494040
 
 Medium: https://medium.com/rchain-cooperative
 
-Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
+Github: https://github.com/rchain
 
-Slack: https://ourchain.slack.com/ (being phased out and replaced by Discord)
+Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 
 Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
 
