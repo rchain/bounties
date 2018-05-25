@@ -7,7 +7,7 @@
 
 _Estimated Budget of Task:_ **$[000]**  \
 _Estimated Timeline Required to Complete the Task:_ **[days/weeks]**  \
-_Measure of Completion:_ **[measure]**
+_How will you measure completion?_ **[measure]**
 
 [See CONTRIBUTING.md for details on budget and reward process.]
 
