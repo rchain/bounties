@@ -65,8 +65,11 @@ Again, see [How To Use the Budget Rewards Web app][howto] for illustrated instru
 - In the folder Invoices, you find a spreadsheet called "Your Github Name". That spreadsheet is connected with [RChain's reward system](https://rewards.rchain.coop/) in order to collect the issues and rewards of a RAM.
 - OPS prepares the initial set up of personal folders and documents
 - By changing the payment period from e.g. Mar/2018 to Apr/2018, RAM may create an invoice e.g. for March or for April:
+	- <a href="https://youtu.be/jzly8XW1loQ"><img alt="explainer video: 3:10" src="https://img.shields.io/badge/explainer-3%3A10-red.svg" /></a>
 	- duplicate TAB Temp to TAB "Copy of Temp" and rename the TAB to e.g. 201803
 	- copy All of TAB 201803 and paste it as VALUES, in order to make it fixed.
+- Submit the invoice
+	- <a href="https://youtu.be/-yDROU93upU"><img alt="explainer video: 2:30" src="https://img.shields.io/badge/explainer-2%3A30-red.svg" /></a>
 	- download 201803 as PDF and upload it to the personal folder "Invoices"
 	- copy the link to the PDF and paste it in form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform)
 - Invoices can be made for each previous month and the form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) can be used anytime as long as the previous month is not just the month before the current month. So when it's for example April then you still can send an invoice for February. 
