@@ -1,6 +1,7 @@
 # RChain Decentralized Reward System
 
-<p align="center">
+## Collaboration and bounty app video.
+<p align="center">	
  <a href="https://www.youtube.com/watch?v=vcIZSZmpO9E&feature=youtu.be">
 	 <img alt="explainer video: 1:17" src="https://img.shields.io/badge/explainer-1%3A17-red.svg" />
 	</a>
@@ -70,7 +71,11 @@ Again, see [How To Use the Budget Rewards Web app][howto] for illustrated instru
 	- download 201803 as PDF and upload it to the personal folder "Invoices"
 	- copy the link to the PDF and paste it in form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform)
 - Invoices can be made for each previous month and the form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) can be used anytime as long as the previous month is not just the month before the current month. So when it's for example April then you still can send an invoice for February. 
-- As soon as OPS is notified of the declaration, the RHOC will be transferred to the provided ETH-addresses.
+- As soon as the form Declarations is submitted, OPS will prepare a "payment register input" for the Finance team.
+- After the Finance team has checked if the invoice is technically correct, a weekly Tuesday Payment Register will be made.
+- The Tuesday Payment Register serves as source for OPS to suggest payments in the Gnosis Multi Sig wallet.
+- A second signature is needed to execute the payment.
+- The whole process takes weeks to complete.
 
 ## Invoicing, payment, and taxes
 
