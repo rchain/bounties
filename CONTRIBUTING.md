@@ -24,7 +24,7 @@ issues.
 [README]: https://github.com/rchain/Members/blob/master/README.md
 
 [Membership in the RChain Cooperative](#becoming-a-member) is required
-for later parts of the process, but to create an issue, all you need
+for later parts of the process (govern issues, set budgets and rewards, access to documents), but to create an issue, all you need
 is a [GitHub account](https://github.com/join) so that you can create
 or collaborate on work items represented by
 [rchain/bounties github issues](https://github.com/rchain/bounties/issues/).
@@ -55,34 +55,15 @@ Use the [RChain Bounty Budget and Rewards](https://rewards.rchain.coop/) app to 
 
 Again, see [How To Use the Budget Rewards Web app][howto] for illustrated instructions.
 
-## Invoice preparation
+## Invoicing, payment, and taxes
 
-- Each RAM has a personal folder in RChain/Contracts/Contractors
-- The folder is named like: First and Last Name _ Github Name. The folder contains 2 or 3 subfolders:
-	- Invoices
-	- Tax
-	- Contract
-- In the folder Invoices, you find a spreadsheet called "Your Github Name". That spreadsheet is connected with [RChain's reward system](https://rewards.rchain.coop/) in order to collect the issues and rewards of a RAM.
-- OPS prepares the initial set up of personal folders and documents
-- By changing the payment period from e.g. Mar/2018 to Apr/2018, RAM may create an invoice e.g. for March or for April:
-	- <a href="https://youtu.be/jzly8XW1loQ"><img alt="explainer video: 3:10" src="https://img.shields.io/badge/explainer-3%3A10-red.svg" /></a>
-	- duplicate TAB Temp to TAB "Copy of Temp" and rename the TAB to e.g. 201803
-	- copy All of TAB 201803 and paste it as VALUES, in order to make it fixed.
-- Submit the invoice
-	- <a href="https://youtu.be/-yDROU93upU"><img alt="explainer video: 2:30" src="https://img.shields.io/badge/explainer-2%3A30-red.svg" /></a>
-	- download 201803 as PDF and upload it to the personal folder "Invoices"
-	- copy the link to the PDF and paste it in form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform)
-- Invoices can be made for each previous month and the form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) can be used anytime as long as the previous month is not just the month before the current month. So when it's for example April then you still can send an invoice for February. 
-- As soon as the form Declarations is submitted, OPS will prepare a "payment register input" for the Finance team.
+The final payment decision is at the discretion of the Operations Manager and Coop Officers.
+The RChain Cooperative is subject to the tax rules of the IRS in the United States. 
+- As soon as the form [Declarations](https://docs.google.com/forms/d/e/1FAIpQLSe3ZxbwVL_yQZ7DTSw9V5VZod1U9XeZxDMZB7jupRCnx79erQ/viewform) is submitted, OPS will prepare a "payment register input" for the Finance team.
 - After the Finance team has checked if the invoice is technically correct, a weekly Tuesday Payment Register will be made.
 - The Tuesday Payment Register serves as source for OPS to suggest payments in the Gnosis Multi Sig wallet.
 - A second signature is needed to execute the payment.
 - The whole process takes weeks to complete.
-
-## Invoicing, payment, and taxes
-
-The final payment decision is at the discretion of the Operations Manager and Coop Officers.
-The RChain Cooperative is subject to the tax rules of the IRS in the United States.
 
 See [Creating an Invoice](https://github.com/rchain/bounties/wiki/Creating-an-Invoice),
 including documentation for taxes.
@@ -104,7 +85,7 @@ from collaborators. See GitHub documentation
 
 ## Becoming a Member
 
-By joining the Cooperative you will participate in the lively conversation of the RChain community, vote on budgets and rewards, and submit invoices. Members can access the Discord server (no trolls or scammers) with direct access to the developers and governance decision making.
+By joining the Cooperative you will participate in the lively conversation of the RChain community. Members can access the Discord server (no trolls or scammers) with direct access to the developers and governance decision making.
 
 ### Process
 
