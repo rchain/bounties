@@ -1,7 +1,6 @@
 # RChain Decentralized Reward System
 
-## Collaboration and bounty app video.
-<p align="center">	
+<p align="center">	<b>Collaboration and bounty app video</b>
  <a href="https://www.youtube.com/watch?v=vcIZSZmpO9E&feature=youtu.be">
 	 <img alt="explainer video: 1:17" src="https://img.shields.io/badge/explainer-1%3A17-red.svg" />
 	</a>
