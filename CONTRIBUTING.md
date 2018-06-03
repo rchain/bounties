@@ -42,7 +42,9 @@ RHOC are distributed monthly based on invoices.
 
 The setting of budgets and rewards runs from the 8th of the month to the 8th of the next month. At the 8th of the month the state of budgets and rewards is frozen and the process repeats for the next month. Take the work done in April for example. No changes can be made anymore to either budgets or rewards after the 8th of May. The settings for May start at the 9th of May. 
 
-**Budgets are allocated to work items by at least three Members. The average of three votes defines the budget.**
+**Budgets are allocated to work items by at least three [trust-certified][tc] Members. The average of three votes defines the budget.**
+
+[tc]: https://github.com/rchain/bounties/wiki/Trust-Ratings
 
 Use the [RChain Bounty Budget and Rewards](https://rewards.rchain.coop/) app to vote. See [How To Use the Budget Rewards Web app][howto] for illustrated instructions.
 
@@ -51,7 +53,8 @@ Use the [RChain Bounty Budget and Rewards](https://rewards.rchain.coop/) app to 
 
 ## Decentralized Reward Allocation
 
-- During the month each RAM may vote on what portion of the budget is distributed to each RAM as a reward for their participation. **The average of (at least three) votes sets the personal reward for each RAM.**
+- During the month each RAM may vote on what portion of the budget is distributed to each RAM as a reward for their participation. **The average of (at least three) votes from [trust-certified][tc] Members sets the personal reward for each RAM.**
+- As a last resort after negotiation over budgets and rewards, **a participant loses their whole month's reward if there is a quorum (10x weight) of slashing votes against him/her on any issue.**
 
 Again, see [How To Use the Budget Rewards Web app][howto] for illustrated instructions.
 
