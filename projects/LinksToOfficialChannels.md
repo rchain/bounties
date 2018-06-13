@@ -1,4 +1,8 @@
-:warning: SCAM ALERT: There is an Rchain telegram group offering "airdrops" if you send them ETH. * THIS IS FAKE * See official accounts below.
+:warning:SCAM ALERT: There is an Rchain telegram group offering "airdrops" if you send them ETH. * THIS IS FAKE * See official accounts below.
+
+Moving forward this will be the single source of offical information regarding the RHOC/REV swap: 
+https://developer.rchain.coop/token-swap 
+Please go ahead and bookmark it to prevent phishing redirects.
 
 **RChain Cooperative Official Links**
 
@@ -71,7 +75,6 @@ Co-op Membership: Discord Member Channels require a $20 membership fee and KYC t
 
 Bona fide active admins:  \
 @itlake  \
-@Keaycee  \
 @Mcry89  \
 @OjimaduChidindu  \
 @ysgjay
