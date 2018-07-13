@@ -40,3 +40,4 @@ _Task Submitter shall not submit Tasks that will involve RHOC being transacted i
     - [ ] the source document is stable; further translation work is not expected
     - [ ] our plan to keep the translation up to date is: ____
 
+_**Word counting and pricing for translations will be done with [The World's Fastest Human Translation Service](https://customer.stepes.com/instant-translation-quote/#)**_
