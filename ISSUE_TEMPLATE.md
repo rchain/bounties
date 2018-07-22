@@ -25,7 +25,8 @@ _Task Submitter shall not submit Tasks that will involve RHOC being transacted i
 
   - Why translate this document?
     - It's important to translate because ____
-    - [ ] It's an [RChain blog](https://medium.com/rchain-cooperative) item
+    - [ ] It's an RChain blog item on [Medium](https://medium.com/rchain-cooperative)
+    - [ ] It's an RChain blog item on https://blog.rchain.coop/
     - [ ] It's a document on https://developer.rchain.coop/ that has been endorsed
           for translation by @Jake-Gillberg, @MParlikar, or @KellyAtPyrofex 
   - How can people who do not speak this language be assured of the quality of the translation? (all are required)
