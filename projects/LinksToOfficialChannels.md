@@ -1,4 +1,4 @@
-:warning:SCAM ALERT: There is an Rchain telegram group offering "airdrops" if you send them ETH. * THIS IS FAKE * See official accounts below.
+:warning:SCAM ALERT: There is a fake Rchain telegram group offering "airdrops" if you send them ETH. * THIS IS A SCAM * See official accounts below.
 
 Moving forward this will be the single source of offical information regarding the RHOC/REV swap: 
 https://developer.rchain.coop/token-swap 
@@ -6,7 +6,9 @@ Please go ahead and bookmark it to prevent phishing redirects.
 
 **RChain Cooperative Official Links**
 
-Official Website: https://rchain.coop/
+Website: https://rchain.coop/
+
+Blog: https://blog.rchain.coop/
 
 FAQ: https://github.com/rchain/reference/blob/master/faq.md
 
