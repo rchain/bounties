@@ -51,6 +51,8 @@ Telegram RChain France Chat: @rchain_fr
 
 Telegram RChain Nederland Chat: @rchain_nl
 
+Telegram RChain Russia Chat: @rchain_ru
+
 Twitter: https://twitter.com/rchain_coop
 
 Facebook: https://www.facebook.com/rchaincooperative
@@ -66,6 +68,8 @@ Medium: https://medium.com/rchain-cooperative
 Github: https://github.com/rchain
 
 Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
+
+Chinese Wechat Fan Group QR code : https://cdn.discordapp.com/attachments/398542119960182785/471152255509331985/unknown.png
 
 Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
 
