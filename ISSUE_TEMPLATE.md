@@ -31,9 +31,9 @@ _Task Submitter shall not submit Tasks that will involve RHOC being transacted i
           for translation by @Jake-Gillberg, @MParlikar, or @KellyAtPyrofex 
   - How can people who do not speak this language be assured of the quality of the translation? (all are required)
     - [ ] several reviewers are involved (_assign the ticket to them_)
-    - [ ] at least two of them have high proficiency in _the target language_
-    - [ ] at least two of them have high proficiency in English
-    - [ ] at least two of them have either
+    - [ ] at least three of them have high proficiency in _the target language_
+    - [ ] at least three of them have high proficiency in English
+    - [ ] at least three of them have either
        - [ ] formal training: degree / certificate: ___ from institution: _____
        - [ ] a track record of quality work on rchain bounties: #nn, #nn, ...
        - [ ] another body of work readily available for community review: _____
