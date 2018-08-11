@@ -30,7 +30,7 @@ _Task Submitter shall not submit Tasks that will involve RHOC being transacted i
     - [ ] It's a document on https://developer.rchain.coop/ that has been endorsed
           for translation by @Jake-Gillberg, @MParlikar, or @KellyAtPyrofex 
   - How can people who do not speak this language be assured of the quality of the translation? (all are required)
-    - [ ] several reviewers are involved (_assign the ticket to them_)
+    - [ ] a minimum of three reviewers are involved (_assign the ticket to them_)
     - [ ] at least two of them have high proficiency in _the target language_
     - [ ] at least two of them have high proficiency in English
     - [ ] at least two of them have either
