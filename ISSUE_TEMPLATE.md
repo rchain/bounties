@@ -1,8 +1,10 @@
+
+_The RChain bounty system is going through a "reboot" process, effective Sep 19, 2018. Only software development tasks are likely to be approved until further notice. See https://github.com/rchain/bounties/wiki/Bounty-Task-Guides for details._
+
 ### Benefit to RChain
 
 *Describe how the building and implementation of this task will benefit the RChain Membership or the RChain blockchain:*
-*Get in touch with a guide (https://github.com/rchain/bounties/wiki/Bounty-Task-Guides ) to align your contribution with goals of the RChain cooperative.*
-*Replace these 3 lines with your answer*
+*Replace these 2 lines with your answer*
 
 
 ### Budget and Objective
