@@ -1,14 +1,14 @@
-:warning:SCAM ALERT: There is a fake Rchain telegram group offering "airdrops" if you send them ETH. * THIS IS A SCAM * See official accounts below.
+⚠️SCAM ALERT: A fake Rchain group is offering "airdrops" if you send them ETH. * THIS IS A SCAM * See official accounts below.
 
 Moving forward this will be the single source of offical information regarding the RHOC/REV swap: 
 https://developer.rchain.coop/token-swap 
 Please go ahead and bookmark it to prevent phishing redirects.
 
-**RChain Cooperative Official Links**
+🔗 RChain Cooperative Official Links
 
 Website: https://rchain.coop/
 
-Blog: https://blog.rchain.coop/
+Blog: https://rchain.coop/blog
 
 FAQ: https://github.com/rchain/reference/blob/master/faq.md
 
@@ -20,12 +20,7 @@ Comparison of Blockchains: http://rchain-architecture.readthedocs.io/en/latest/i
 
 Weekly Debrief Index: https://github.com/rchain/Members/wiki/Weekly-Debrief-Index
 
-**Contributing to the RChain Coop**
-
-You can help contribute to the RChain project through Github/rchain/Members:
-https://github.com/rchain/Members/blob/master/CONTRIBUTING.md
-
-**RHOC Token Details**
+📍 RHOC Token Details
 
 To see RHOC in MEW/Metamask "Add Custom Token" with address:  \
 0x168296bb09e24a88805cb9c33356536b980d3fc5  \
@@ -33,7 +28,7 @@ To see RHOC in MEW/Metamask "Add Custom Token" with address:  \
 
 RHOC Distribution and Circulation: https://github.com/rchain/reference/blob/master/finance/rhoc.md
 
-**Official RChain Coop Media Channels**
+📡 Official RChain Coop Media Channels
 
 Telegram RChain Official Chat Group: @rchain_coop
 
@@ -69,19 +64,26 @@ Github: https://github.com/rchain
 
 Chinese QQ Group ID: 中国朋友欢迎加入RChain粉丝群，QQ群号: 530718666
 
-Chinese Wechat Fan Group QR code : https://cdn.discordapp.com/attachments/398542119960182785/471152255509331985/unknown.png
+Chinese Wechat Fan Group QR code : Ask for an invite in Discord
 
 Co-op members, leadership and developers work together in a public Discord server: https://discord.gg/fvY8qhx
 
 Co-op Membership: Discord Member Channels require a $20 membership fee and KYC to join. Register for membership at: https://member.rchain.coop/
 
-**For Your Safety**
+⚖️ Rules
 
-:no_entry_sign: Legit admins will never send you a PM. You're welcome to PM an admin, but an admin will never start a conversation. If it happens forward the message to the group immediately and mention @admin.
+DISCOURAGED: Off-topic conversation, price or exchange talk discussion.
+
+NOT ALLOWED: Trolling, deliberately spreading misinformation.
+
+INSTANT BAN: Racism, degrading slurs of any kind, impersonating an admin or RChain team member, explicit content including sexual or violent pictures or videos, crude memes, disturbing images such as suicide, promotional links, spam, trading bots, scams.
+
+🚫 For Your Safety
+
+Legit admins will never send you a PM. You're welcome to PM an admin, but an admin will never start a conversation. If it happens forward the message to the group immediately and mention @admin.
 
 Bona fide active admins:  \
-@itlake  \
-@Mcry89  \
 @OjimaduChidindu  \
+@itlake  \
 @ysgjay
 .
